@@ -22,41 +22,31 @@ const Footer = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Email</h5>
             <p>
-              Office :
+              Email :
               <Link href="#">
-                <a className="link">info@wrappixel.com</a>
+                <a className="link">deeprecommend@gmail.com</a>
               </Link>
               <br />
               Site :
-              <Link href="https://www.wrappixel.com">
-                <a className="link">wrappixel.com</a>
+              <Link href="/">
+                <a className="link">deeprecommend.com</a>
               </Link>
             </p>
           </Col>
           <Col lg="3" md="6">
             <h5 className="m-b-20">Social</h5>
             <div className="round-social light">
-              <Link href="#">
-                <a className="link">
-                  <i className="fa fa-facebook"></i>
-                </a>
-              </Link>
-              <Link href="#">
+              <Link href="https://twitter.com/DeepRecommend">
                 <a className="link">
                   <i className="fa fa-twitter"></i>
                 </a>
               </Link>
-              <Link href="#">
-                <a className="link">
-                  <i className="fa fa-google-plus"></i>
-                </a>
-              </Link>
-              <Link href="#">
+              <Link href="https://www.youtube.com/channel/UCwGTL90Osb8lItwP3zFfQ2Q">
                 <a className="link">
                   <i className="fa fa-youtube-play"></i>
                 </a>
               </Link>
-              <Link href="#">
+              <Link href="https://www.instagram.com/deep_recommend/">
                 <a className="link">
                   <i className="fa fa-instagram"></i>
                 </a>

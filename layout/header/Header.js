@@ -59,7 +59,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
               </Nav>
-              <div className="act-buttons">
+              {/* <div className="act-buttons">
                 <NavLink
                   href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
                   className="btn btn-light font-14"
@@ -67,7 +67,7 @@ const Header = () => {
                 >
                   Download Free
                 </NavLink>
-              </div>
+              </div> */}
             </Collapse>
           </Navbar>
         </Container>
