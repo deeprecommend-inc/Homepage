@@ -53,37 +53,34 @@ const HeaderComponent = () => {
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
                 <NavItem className="active">
-                  <NavLink href="#">Home</NavLink>
+                  <NavLink href="#"></NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">About Me</NavLink>
+                  <NavLink href="#">DeepLog</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Work</NavLink>
+                  <NavLink href="#">DeepMuseum</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav>
-                    Services <i className="fa fa-angle-down m-l-5"></i>
+                    Others <i className="fa fa-angle-down m-l-5"></i>
                   </DropdownToggle>
                   <DropdownMenu className="b-none animated fadeInUp">
-                    <DropdownItem>Action</DropdownItem>
-                    <DropdownItem>Another action</DropdownItem>
-                    <DropdownItem>Something else here</DropdownItem>
+                    <DropdownItem>Community</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Something else here</DropdownItem>
-                    <DropdownItem>Separated link</DropdownItem>
+                    <DropdownItem>T-shirt</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>One more separated link</DropdownItem>
+                    <DropdownItem>Twitter</DropdownItem>
+                    <DropdownItem>Instagram</DropdownItem>
+                    <DropdownItem>TikTok</DropdownItem>
+                    <DropdownItem>YouTube</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
-                <NavItem>
-                  <NavLink href="#">Freebies</NavLink>
-                </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <a className="btn btn-outline-info" href="#">
                     Hire Me
                   </a>
-                </NavItem>
+                </NavItem> */}
               </Nav>
             </Collapse>
           </Navbar>

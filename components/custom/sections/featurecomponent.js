@@ -3,6 +3,7 @@ import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Image from "next/image";
 import img1 from "../../../assets/images/features/feature13/img1.jpg";
+import slackImg from "../../../assets/images/features/feature13/slack.png";
 import img2 from "../../../assets/images/features/feature13/img2.jpg";
 import img3 from "../../../assets/images/features/feature13/img3.jpg";
 import img4 from "../../../assets/images/features/feature13/img4.jpg";
@@ -17,9 +18,9 @@ const FeatureComponent = () => {
             <Col md="7" className="text-center">
               <h1 className="title font-bold">Features</h1>
               <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
+                Here you can check how we recommend services
+                &amp; our strength. <br/>
+                You'll find your dream a service in DeepRecommend.
               </h6>
             </Col>
           </Row>
@@ -29,56 +30,52 @@ const FeatureComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <span className="label label-danger label-rounded">
+              <span className="label label-info label-rounded">
                 Feature 1
               </span>
-              <h2 className="title">Awesome with Extra Ordinary Flexibility</h2>
+              <h2 className="title">Development based on a simple rule</h2>
               <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+                Our purpose is making people enrich. <br/>
+                For this purpose, We follow a simple rule.
               </h6>
             </Col>
           </Row>
-          <Row className="m-t-40">
-            <Col md="6" className="wrap-feature4-box">
+          <Row className="m-t-40 justify-content-center">
+            <Col md="6" className="wrap-feature4-box text-center">
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
-                    <i className="fa fa-star"></i>
+                    {/* <i className="fa fa-star"></i> */}
+                    <i className="fa fa-check-circle"></i>
                   </div>
-                  <h5 className="font-medium">Instant Solutions</h5>
+                  <h5 className="font-medium">Highly recommended</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.
+                    We think first "Is this service highly recommended?".
+                    If the answer is "No", we still have room for improvement.
+                    By doing so, we will be able to improve our services.
                   </p>
-                  <a href="#" className="linking text-themecolor">
+                  {/* <a href="#" className="linking text-themecolor">
                     Explore More<i className="ti-arrow-right"></i>
-                  </a>
+                  </a> */}
                 </CardBody>
               </Card>
             </Col>
-            <Col md="6" className="wrap-feature4-box">
+            {/* <Col md="6" className="wrap-feature4-box">
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-check-circle"></i>
                   </div>
-                  <h5 className="font-medium">Powerful Techniques </h5>
+                  <h5 className="font-medium">Be active</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.{" "}
+                    
                   </p>
                   <a className="linking text-themecolor" href="#">
                     Explore More <i className="ti-arrow-right"></i>
                   </a>
                 </CardBody>
               </Card>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>
@@ -87,15 +84,15 @@ const FeatureComponent = () => {
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
               <span className="label label-info label-rounded">Feature 2</span>
-              <h2 className="title">Awesome with Extra Ordinary Flexibility</h2>
+              <h2 className="title">Active relationship</h2>
               <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+                Even if we think it's highly recommended, customers may not think so. <br/>
+                Therefore, we take care of customers' direct opinions.
+                We have own community by Slack.
               </h6>
             </Col>
           </Row>
-          <Row className="wrap-feature-20">
+          <Row className="wrap-feature-20 justify-content-center">
             <Col lg="6">
               <Card>
                 <Row>
@@ -103,29 +100,29 @@ const FeatureComponent = () => {
                     <CardBody className="d-flex no-block">
                       <div className="m-r-20">
                         <Image
-                          src={img1}
+                          src={slackImg}
                           height="70"
-                          width="100"
+                          width="70"
                           className="rounded"
                           alt="img"
                         />
                       </div>
                       <div>
                         <h5 className="font-medium">
-                          Make your website in no-time with us.
+                          Let me know what you think in our community.
                         </h5>
                       </div>
                     </CardBody>
                   </Col>
                   <Col md="4" className="text-center">
                     <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
+                      Lets Join <i className="ti-arrow-right"></i>
                     </a>
                   </Col>
                 </Row>
               </Card>
             </Col>
-            <Col lg="6">
+            {/* <Col lg="6">
               <Card>
                 <Row>
                   <Col md="8">
@@ -211,7 +208,7 @@ const FeatureComponent = () => {
                   </Col>
                 </Row>
               </Card>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>

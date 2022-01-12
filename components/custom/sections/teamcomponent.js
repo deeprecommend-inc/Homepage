@@ -23,7 +23,7 @@ const TeamComponent = () => {
                             <h6 className="subtitle">You can relay on our amazing features list and also our customer services will be great experience for you without doubt and in no-time</h6>
                         </Col>
                     </Row>
-                    <Row className="m-t-30">
+                    <Row className="m-t-30 justify-content-center">
                         <Col lg="3" md="6" className="m-b-30">
                             <Row className="no-gutters">
                                 <Col md="12" className="pro-pic t1">
@@ -45,7 +45,7 @@ const TeamComponent = () => {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col lg="3" md="6" className="m-b-30">
+                        {/* <Col lg="3" md="6" className="m-b-30">
                             <Row className="no-gutters">
                                 <Col md="12" className="col-md-12 pro-pic t2">
                                     <div className="card-img-overlay">
@@ -107,7 +107,7 @@ const TeamComponent = () => {
                                     </div>
                                 </Col>
                             </Row>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </div>
