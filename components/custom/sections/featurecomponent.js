@@ -230,21 +230,20 @@ const FeatureComponent = () => {
                       Feature 3
                     </span>
                     <h3 className="title">
-                      The New way of Making Your Website in mins
+                      Creativity
                     </h3>
                     <p>
-                      You can relay on our amazing features list and also our
-                      customer services will be great experience. You will love
-                      it for sure.
+                      We continue to challenge <br/>
+                      what others do not do, what is new.
                     </p>
-                    <a
+                    {/* <a
                       className="btn btn-danger btn-md btn-arrow m-t-20"
                       href="#"
                     >
                       <span>
                         Explore More <i className="ti-arrow-right"></i>
                       </span>
-                    </a>
+                    </a> */}
                   </div>
                 </CardBody>
               </Card>
