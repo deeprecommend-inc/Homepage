@@ -1,13 +1,20 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
 
+const titleStyle = {
+    color: "#fff",
+    fontWeight: "700",
+    fontSize: "36px",
+    lineHeight: "54px"
+}
+
 const Banner = () => {
   return (
     <div className="static-slider-head">
       <Container>
         <Row className="justify-content-center">
           <Col lg="8" md="6" className="align-self-center text-center">
-            <h1 className="title text-dark">DeepRecommend</h1>
+            <h1 className="text-dark" style={titleStyle}>DeepRecommend</h1>
             <h4 className="subtitle font-light text-dark">
               We recommend services such as web service, community, art.
               <br /> By creativity and objectivity.
