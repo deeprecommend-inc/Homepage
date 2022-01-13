@@ -10,18 +10,20 @@ const Footer = () => {
         <Row>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Address</h5>
-            <p>71 Amsteroum Avenue Cronish Night, NY 35098</p>
+            <p>201 Heim Angel Avenue, Karita, Osaka Shi Sumiyoshi Ku, Osaka Fu, 558-0011, Japan</p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Phone</h5>
-            <p>
+            <p>070 1734 7502</p>
+            {/* <p>
               Reception : +205 123 4567 <br />
               Office : +207 235 7890
-            </p>
+            </p> */}
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Email</h5>
-            <p>
+            <a className="link">deeprecommend@gmail.com</a>
+            {/* <p>
               Email :
               <Link href="#">
                 <a className="link">deeprecommend@gmail.com</a>
@@ -31,7 +33,7 @@ const Footer = () => {
               <Link href="/">
                 <a className="link">deeprecommend.com</a>
               </Link>
-            </p>
+            </p> */}
           </Col>
           <Col lg="3" md="6">
             <h5 className="m-b-20">Social</h5>

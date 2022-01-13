@@ -51,7 +51,7 @@ const PortfolioComponent = () => {
               <Card className="card-shadow">
                 <a href="#" className="img-ho">
                   <Image
-                    className="card-img-top p-2"
+                    className="card-img-top p-3"
                     src={logImg3}
                     alt="wrappixel kit"
                   />
