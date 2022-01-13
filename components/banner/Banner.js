@@ -14,10 +14,11 @@ const Banner = () => {
             </h4>
 
             <Button
-              href="https://join.slack.com/t/deeprecommend-mc58389/shared_invite/zt-wdn6aoli-x56SQa1Vfc97CEFvxcpmBw"
+              href="mailto:deeprecommend@gmail.com"
               className="btn btn-md m-t-30 btn-outline-primary font-14"
+              target="_blank" rel="noopener noreferrer"
             >
-              Contact by Slack
+              Contact
             </Button>
           </Col>
         </Row>

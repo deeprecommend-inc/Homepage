@@ -8,6 +8,7 @@ import img2 from "../../../assets/images/features/feature13/img2.jpg";
 import img3 from "../../../assets/images/features/feature13/img3.jpg";
 import img4 from "../../../assets/images/features/feature13/img4.jpg";
 import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
+import { site } from "../../../constants/const";
 
 const FeatureComponent = () => {
   return (
@@ -101,21 +102,21 @@ const FeatureComponent = () => {
                       <div className="m-r-20">
                         <Image
                           src={slackImg}
-                          height="70"
-                          width="70"
+                          height="50"
+                          width="50"
                           className="rounded"
                           alt="img"
                         />
                       </div>
                       <div>
                         <h5 className="font-medium">
-                          Let me know what you think in our community.
+                          Let me know your opinion
                         </h5>
                       </div>
                     </CardBody>
                   </Col>
                   <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
+                    <a href={site.community} target="_blank" rel="noopener noreferrer" className="text-white linking bg-info">
                       Lets Join <i className="ti-arrow-right"></i>
                     </a>
                   </Col>

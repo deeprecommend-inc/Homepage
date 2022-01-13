@@ -62,8 +62,8 @@ const Footer = () => {
               <div className="d-flex font-14">
                 <div className="m-t-10 m-b-10 copyright">
                   All Rights Reserved by{" "}
-                  <Link href="https://www.wrappixel.com">
-                    <a className="link">wrappixel.com</a>
+                  <Link href="/">
+                    <a className="link">deeprecommend.com</a>
                   </Link>
                 </div>
                 <div className="links ml-auto m-t-10 m-b-10">

@@ -18,6 +18,7 @@ import img3 from "../../../assets/images/portfolio/img3.jpg";
 import img4 from "../../../assets/images/portfolio/img4.jpg";
 import img5 from "../../../assets/images/portfolio/img5.jpg";
 import img6 from "../../../assets/images/portfolio/img6.jpg";
+import { site } from "../../../constants/const";
 
 const PortfolioComponent = () => {
   return (
@@ -49,7 +50,7 @@ const PortfolioComponent = () => {
           <Row className="m-t-40 justify-content-center">
             <Col md="4">
               <Card className="card-shadow">
-                <a href="#" className="img-ho">
+                <a href={site.deepLog} target="_blank" rel="noopener noreferrer" className="img-ho">
                   <Image
                     className="card-img-top p-3"
                     src={logImg3}
@@ -66,7 +67,7 @@ const PortfolioComponent = () => {
             </Col>
             <Col md="4">
               <Card className="card-shadow">
-                <a href="#" className="img-ho">
+                <a href={site.deepMuseum} target="_blank" rel="noopener noreferrer" className="img-ho">
                   <Image
                     className="card-img-top p-5"
                     src={museumImg3}

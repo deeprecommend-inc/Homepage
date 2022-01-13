@@ -20,6 +20,7 @@ import Image from "next/image";
 import logo from "../../../assets/images/logos/logo.png";
 import logo2 from "../../../assets/images/logos/white-logo.png";
 import image from "next/image";
+import { site } from "../../../constants/const";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,24 +57,24 @@ const HeaderComponent = () => {
                   <NavLink href="#"></NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">DeepLog</NavLink>
+                  <NavLink href={site.deepLog} target="_blank" rel="noopener noreferrer">DeepLog</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">DeepMuseum</NavLink>
+                  <NavLink href={site.deepMuseum} target="_blank" rel="noopener noreferrer">DeepMuseum</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav>
                     Others <i className="fa fa-angle-down m-l-5"></i>
                   </DropdownToggle>
                   <DropdownMenu className="b-none animated fadeInUp">
-                    <DropdownItem>Community</DropdownItem>
+                    <DropdownItem href={site.community} target="_blank" rel="noopener noreferrer">Community</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>T-shirt</DropdownItem>
+                    <DropdownItem href={site.ec} target="_blank" rel="noopener noreferrer">T-shirt</DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem>Twitter</DropdownItem>
-                    <DropdownItem>Instagram</DropdownItem>
-                    <DropdownItem>TikTok</DropdownItem>
-                    <DropdownItem>YouTube</DropdownItem>
+                    <DropdownItem href={site.twitter} target="_blank" rel="noopener noreferrer">Twitter</DropdownItem>
+                    <DropdownItem href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</DropdownItem>
+                    <DropdownItem href={site.tiktok} target="_blank" rel="noopener noreferrer">TikTok</DropdownItem>
+                    <DropdownItem href={site.youtube} target="_blank" rel="noopener noreferrer">YouTube</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 {/* <NavItem>
