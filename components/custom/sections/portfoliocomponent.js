@@ -20,6 +20,9 @@ import img5 from "../../../assets/images/portfolio/img5.jpg";
 import img6 from "../../../assets/images/portfolio/img6.jpg";
 import { site } from "../../../constants/const";
 
+const logStyle = {padding: "72px"}
+const museumStyle = {padding: "48px"}
+
 const PortfolioComponent = () => {
   return (
     <div>
@@ -50,9 +53,9 @@ const PortfolioComponent = () => {
           <Row className="m-t-40 justify-content-center">
             <Col md="4">
               <Card className="card-shadow">
-                <a href={site.deepLog} target="_blank" rel="noopener noreferrer" className="img-ho">
+                <a style={logStyle} href={site.deepLog} target="_blank" rel="noopener noreferrer" className="img-ho">
                   <Image
-                    className="card-img-top p-3"
+                    className="card-img-top"
                     src={logImg3}
                     alt="wrappixel kit"
                   />
@@ -67,7 +70,7 @@ const PortfolioComponent = () => {
             </Col>
             <Col md="4">
               <Card className="card-shadow">
-                <a href={site.deepMuseum} target="_blank" rel="noopener noreferrer" className="img-ho">
+                <a style={museumStyle} href={site.deepMuseum} target="_blank" rel="noopener noreferrer" className="img-ho">
                   <Image
                     className="card-img-top p-5"
                     src={museumImg3}

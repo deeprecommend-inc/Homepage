@@ -14,7 +14,9 @@ const Footer = () => {
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Phone</h5>
-            <p>070 1734 7502</p>
+            <a className="link" href="tel:07017347502">
+              070 1734 7502
+            </a>
             {/* <p>
               Reception : +205 123 4567 <br />
               Office : +207 235 7890
@@ -22,7 +24,7 @@ const Footer = () => {
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Email</h5>
-            <a className="link">deeprecommend@gmail.com</a>
+            <a className="link" href="mailto:deeprecommend@gmail.com">deeprecommend@gmail.com</a>
             {/* <p>
               Email :
               <Link href="#">
@@ -39,17 +41,17 @@ const Footer = () => {
             <h5 className="m-b-20">Social</h5>
             <div className="round-social light">
               <Link href="https://twitter.com/DeepRecommend">
-                <a className="link">
+                <a className="link" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-twitter"></i>
                 </a>
               </Link>
               <Link href="https://www.youtube.com/channel/UCwGTL90Osb8lItwP3zFfQ2Q">
-                <a className="link">
+                <a className="link"  target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-youtube-play"></i>
                 </a>
               </Link>
               <Link href="https://www.instagram.com/deep_recommend/">
-                <a className="link">
+                <a className="link" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-instagram"></i>
                 </a>
               </Link>
@@ -63,10 +65,10 @@ const Footer = () => {
                 <div className="m-t-10 m-b-10 copyright">
                   All Rights Reserved by{" "}
                   <Link href="/">
-                    <a className="link">deeprecommend.com</a>
+                    <a className="link">DeepRecommend</a>
                   </Link>
                 </div>
-                <div className="links ml-auto m-t-10 m-b-10">
+                {/* <div className="links ml-auto m-t-10 m-b-10">
                   <Link href="#">
                     <a className="p-10 p-l-0">Terms of Use</a>
                   </Link>
@@ -76,7 +78,7 @@ const Footer = () => {
                   <Link href="#">
                     <a className="p-10">Privacy Policy</a>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>

@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
+import { sugimoto } from '../../../constants/const';
 
 const TeamComponent = () => {
     return (
@@ -30,8 +31,8 @@ const TeamComponent = () => {
                                     <div className="card-img-overlay">
                                         <ul className="list-inline">
                                             {/* <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li> */}
-                                            <li className="list-inline-item"><a href="https://twitter.com/jin_707502345"><i className="fa fa-twitter"></i></a></li>
-                                            <li className="list-inline-item"><a href="https://www.instagram.com/sugi_jin_dot_com/"><i className="fa fa-instagram"></i></a></li>
+                                            <li className="list-inline-item"><a href={sugimoto.twitter} target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a></li>
+                                            <li className="list-inline-item"><a href={sugimoto.instagram} target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a></li>
                                             {/* <li className="list-inline-item"><a href="#"><i className="fa fa-behance"></i></a></li> */}
                                         </ul>
                                     </div>

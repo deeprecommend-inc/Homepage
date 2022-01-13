@@ -6,5 +6,10 @@ export const site = {
   twitter: 'https://twitter.com/DeepRecommend',
   youtube: 'https://www.youtube.com/channel/UCwGTL90Osb8lItwP3zFfQ2Q',
   instagram: 'https://www.instagram.com/deep_recommend/',
-  tiktok: 'https://www.tiktok.com/deep_recommend',
+  tiktok: 'https://www.tiktok.com/@deeprecommend',
+}
+
+export const sugimoto = {
+  twitter: 'https://twitter.com/jin_707502345',
+  instagram: 'https://www.instagram.com/sugi_jin_dot_com/',
 }
