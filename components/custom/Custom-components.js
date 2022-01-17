@@ -41,10 +41,10 @@ const CustomComponents = () => {
       <HeaderComponent />
       {/* <Banner2 /> */}
       <Banner/>
+      <PortfolioComponent />
       {/* <BannerComponent />
       <FormBannerComponent /> */}
       <FeatureComponent />
-      <PortfolioComponent />
       {/* <PricingComponent /> */}
       <TeamComponent />
       {/* <TestimonialComponent />

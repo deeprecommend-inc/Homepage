@@ -32,9 +32,9 @@ const PortfolioComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Services</h1>
+              <h1 className="title font-bold">Products</h1>
               <h6 className="subtitle">
-                Here are some of our services
+                Here are some of our Products
               </h6>
             </Col>
           </Row>
