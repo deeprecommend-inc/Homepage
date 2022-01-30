@@ -69,12 +69,15 @@ const HeaderComponent = () => {
                   <DropdownMenu className="b-none animated fadeInUp">
                     <DropdownItem href={site.community} target="_blank" rel="noopener noreferrer">Community</DropdownItem>
                     <DropdownItem divider />
+                    <DropdownItem href={site.github} target="_blank" rel="noopener noreferrer">Github</DropdownItem>
+                    <DropdownItem divider />
                     <DropdownItem href={site.ec} target="_blank" rel="noopener noreferrer">T-shirt</DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem href={site.twitter} target="_blank" rel="noopener noreferrer">Twitter</DropdownItem>
                     <DropdownItem href={site.instagram} target="_blank" rel="noopener noreferrer">Instagram</DropdownItem>
                     <DropdownItem href={site.tiktok} target="_blank" rel="noopener noreferrer">TikTok</DropdownItem>
                     <DropdownItem href={site.youtube} target="_blank" rel="noopener noreferrer">YouTube</DropdownItem>
+                    <DropdownItem href={site.facebook} target="_blank" rel="noopener noreferrer">Facebook</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 {/* <NavItem>

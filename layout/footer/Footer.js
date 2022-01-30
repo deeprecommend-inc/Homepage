@@ -2,6 +2,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
+import { site } from "../../constants/const";
 
 const Footer = () => {
   return (
@@ -40,19 +41,29 @@ const Footer = () => {
           <Col lg="3" md="6">
             <h5 className="m-b-20">Social</h5>
             <div className="round-social light">
-              <Link href="https://twitter.com/DeepRecommend">
+              <Link href={site.github}>
+                <a className="link" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-github"></i>
+                </a>
+              </Link>
+              <Link href={site.twitter}>
                 <a className="link" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-twitter"></i>
                 </a>
               </Link>
-              <Link href="https://www.youtube.com/channel/UCwGTL90Osb8lItwP3zFfQ2Q">
+              <Link href={site.youtube}>
                 <a className="link"  target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-youtube-play"></i>
                 </a>
               </Link>
-              <Link href="https://www.instagram.com/deep_recommend/">
+              <Link href={site.instagram}>
                 <a className="link" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-instagram"></i>
+                </a>
+              </Link>
+              <Link href={site.facebook}>
+                <a className="link" target="_blank" rel="noopener noreferrer">
+                  <i className="fa fa-facebook"></i>
                 </a>
               </Link>
             </div>

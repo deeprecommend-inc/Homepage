@@ -7,6 +7,8 @@ export const site = {
   youtube: 'https://www.youtube.com/channel/UCwGTL90Osb8lItwP3zFfQ2Q',
   instagram: 'https://www.instagram.com/deep_recommend/',
   tiktok: 'https://www.tiktok.com/@deeprecommend',
+  github: 'https://github.com/deep-recommend-sugimoto',
+  facebook: 'https://www.facebook.com/recommend.deep/',
 }
 
 export const sugimoto = {
