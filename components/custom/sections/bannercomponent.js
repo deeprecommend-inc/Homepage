@@ -76,3 +76,4 @@ const BannerComponent = () => {
 };
 
 export default BannerComponent;
+
