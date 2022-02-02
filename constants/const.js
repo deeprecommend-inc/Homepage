@@ -12,6 +12,6 @@ export const site = {
 }
 
 export const sugimoto = {
-  twitter: 'https://twitter.com/jin_707502345',
+  twitter: 'https://twitter.com/Jin__Sugimoto',
   instagram: 'https://www.instagram.com/sugi_jin_dot_com/',
 }
