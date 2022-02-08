@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 // core components
 import Banner2 from "../banner/Banner2";
@@ -25,15 +25,29 @@ const buttonStyle = {
   position: 'fixed',
   bottom: '24px',
   right: '24px',
+  borderRadius: '100%',
+  width: '52px',
+  minWidth: '52px',
+  height: '52px',
   zIndex: 1000
 }
 
 const CustomComponents = () => {
+  const [isMouseOver, setIsMouseOver] = useState(false);
+
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
+  }
+
+  const mouseOver = () => {
+    setIsMouseOver(true)
+  }
+
+  const mouseLeave = () => {
+    setIsMouseOver(false)
   }
 
   return (
@@ -52,7 +66,13 @@ const CustomComponents = () => {
       <C2aComponent />
       <ContactComponent />
       <CallToAction /> */}
-      <Button variant="contained" style={buttonStyle} onClick={scrollTop}><VerticalAlignTopIcon/></Button>
+      <Button
+        variant={isMouseOver ? "contained" : "outlined"}
+        style={buttonStyle}
+        onMouseOver={mouseOver}
+        onMouseLeave={mouseLeave}
+        onClick={scrollTop}
+      ><VerticalAlignTopIcon/></Button>
     </div>
   );
 };
