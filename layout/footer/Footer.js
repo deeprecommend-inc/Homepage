@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="round-social light">
               <Link href={site.github}>
                 <a className="link" target="_blank" rel="noopener noreferrer">
-                  <i class="fa fa-github"></i>
+                  <i className="fa fa-github"></i>
                 </a>
               </Link>
               <Link href={site.twitter}>
