@@ -3,7 +3,7 @@ import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Image from "next/image";
 import img1 from "../../../assets/images/features/feature13/img1.jpg";
-import slackImg from "../../../assets/images/features/feature13/slack.png";
+import communityImg from "../../../assets/images/features/feature13/discord.png";
 import img2 from "../../../assets/images/features/feature13/img2.jpg";
 import img3 from "../../../assets/images/features/feature13/img3.jpg";
 import img4 from "../../../assets/images/features/feature13/img4.jpg";
@@ -19,8 +19,8 @@ const FeatureComponent = () => {
             <Col md="7" className="text-center">
               <h1 className="title font-bold">Features</h1>
               <h6 className="subtitle">
-                Here you can check how we recommend services
-                &amp; our strength. <br/>
+                Here you can check how we recommend services &amp; our strength.{" "}
+                <br />
                 You'll find your dream a service in DeepRecommend.
               </h6>
             </Col>
@@ -31,12 +31,10 @@ const FeatureComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <span className="label label-info label-rounded">
-                Feature 1
-              </span>
+              <span className="label label-info label-rounded">Feature 1</span>
               <h2 className="title">Development based on a simple rule</h2>
               <h6 className="subtitle">
-                Our purpose is making people enrich. <br/>
+                Our purpose is making people enrich. <br />
                 For this purpose, We follow a simple rule.
               </h6>
             </Col>
@@ -51,9 +49,9 @@ const FeatureComponent = () => {
                   </div>
                   <h5 className="font-medium">Highly recommended</h5>
                   <p className="m-t-20">
-                    We think first "Is this service highly recommended?".
-                    If the answer is "No", we still have room for improvement.
-                    By doing so, we will be able to improve our services.
+                    We think first "Is this service highly recommended?". If the
+                    answer is "No", we still have room for improvement. By doing
+                    so, we will be able to improve our services.
                   </p>
                   {/* <a href="#" className="linking text-themecolor">
                     Explore More<i className="ti-arrow-right"></i>
@@ -87,9 +85,10 @@ const FeatureComponent = () => {
               <span className="label label-info label-rounded">Feature 2</span>
               <h2 className="title">Active relationship</h2>
               <h6 className="subtitle">
-                Even if we think it's highly recommended, customers may not think so. <br/>
-                Therefore, we take care of customers' direct opinions.
-                We have own community by Slack.
+                Even if we think it's highly recommended, customers may not
+                think so. <br />
+                Therefore, we take care of customers' direct opinions. We have
+                own community by Discord.
               </h6>
             </Col>
           </Row>
@@ -101,7 +100,7 @@ const FeatureComponent = () => {
                     <CardBody className="d-flex no-block">
                       <div className="m-r-20">
                         <Image
-                          src={slackImg}
+                          src={communityImg}
                           height="50"
                           width="50"
                           className="rounded"
@@ -116,7 +115,12 @@ const FeatureComponent = () => {
                     </CardBody>
                   </Col>
                   <Col md="4" className="text-center">
-                    <a href={site.community} target="_blank" rel="noopener noreferrer" className="text-white linking bg-info">
+                    <a
+                      href={site.community}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white linking bg-info"
+                    >
                       Lets Join <i className="ti-arrow-right"></i>
                     </a>
                   </Col>
@@ -230,11 +234,9 @@ const FeatureComponent = () => {
                     <span className="label label-info label-rounded">
                       Feature 3
                     </span>
-                    <h3 className="title">
-                      Creativity
-                    </h3>
+                    <h3 className="title">Creativity</h3>
                     <p>
-                      We continue to challenge <br/>
+                      We continue to challenge <br />
                       what others do not do, what is new.
                     </p>
                     {/* <a
