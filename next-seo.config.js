@@ -1,6 +1,6 @@
 export default {
-  titleTemplate: "DeepLog",
-  defaultTitle: "Website Management Service | DeepLog",
+  titleTemplate: "DeepRecommend",
+  defaultTitle: "Homepage | DeepLog",
   additionalMetaTags: [
     {
       property: "dc:creator",
