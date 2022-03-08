@@ -15,7 +15,7 @@ export default {
     url: "https://deep-recommend.com/",
     type: "website",
     locale: "en_US",
-    site_name: "DeepLog",
+    site_name: "DeepRecommend",
   },
   twitter: {
     handle: "@DeepRecommend",
