@@ -21,14 +21,14 @@ import logo from "../../../assets/images/logos/logo.png";
 import logo2 from "../../../assets/images/logos/white-logo.png";
 import image from "next/image";
 import { site } from "../../../constants/const";
-import ForumIcon from '@mui/icons-material/Forum';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import ForumIcon from "@mui/icons-material/Forum";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import MusicNoteIcon from "@mui/icons-material/MusicNote";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,27 +65,89 @@ const HeaderComponent = () => {
                   <NavLink href="#"></NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href={site.deepLog} target="_blank" rel="noopener noreferrer">DeepLog</NavLink>
+                  <NavLink
+                    href={site.deepLog}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    DeepLog
+                  </NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink href={site.deepMuseum} target="_blank" rel="noopener noreferrer">DeepMuseum</NavLink>
-                </NavItem>
+                </NavItem> */}
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav>
                     Others <i className="fa fa-angle-down m-l-5"></i>
                   </DropdownToggle>
                   <DropdownMenu className="b-none animated fadeInUp">
-                    <DropdownItem href={site.community} target="_blank" rel="noopener noreferrer"><ForumIcon />Community</DropdownItem>
+                    <DropdownItem
+                      href={site.community}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ForumIcon />
+                      Community
+                    </DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem href={site.ec} target="_blank" rel="noopener noreferrer"><ShoppingCartIcon/>Shop</DropdownItem>
+                    <DropdownItem
+                      href={site.ec}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ShoppingCartIcon />
+                      Shop
+                    </DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem href={site.github} target="_blank" rel="noopener noreferrer"><GitHubIcon/>Github</DropdownItem>
+                    <DropdownItem
+                      href={site.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <GitHubIcon />
+                      Github
+                    </DropdownItem>
                     <DropdownItem divider />
-                    <DropdownItem href={site.twitter} target="_blank" rel="noopener noreferrer"><TwitterIcon/>Twitter</DropdownItem>
-                    <DropdownItem href={site.instagram} target="_blank" rel="noopener noreferrer"><InstagramIcon/>Instagram</DropdownItem>
-                    <DropdownItem href={site.tiktok} target="_blank" rel="noopener noreferrer"><MusicNoteIcon/>TikTok</DropdownItem>
-                    <DropdownItem href={site.youtube} target="_blank" rel="noopener noreferrer"><YouTubeIcon/>YouTube</DropdownItem>
-                    <DropdownItem href={site.facebook} target="_blank" rel="noopener noreferrer"><FacebookIcon/>Facebook</DropdownItem>
+                    <DropdownItem
+                      href={site.twitter}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <TwitterIcon />
+                      Twitter
+                    </DropdownItem>
+                    <DropdownItem
+                      href={site.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <InstagramIcon />
+                      Instagram
+                    </DropdownItem>
+                    <DropdownItem
+                      href={site.tiktok}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <MusicNoteIcon />
+                      TikTok
+                    </DropdownItem>
+                    <DropdownItem
+                      href={site.youtube}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <YouTubeIcon />
+                      YouTube
+                    </DropdownItem>
+                    <DropdownItem
+                      href={site.facebook}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FacebookIcon />
+                      Facebook
+                    </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 {/* <NavItem>

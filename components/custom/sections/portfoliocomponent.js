@@ -22,8 +22,13 @@ import img5 from "../../../assets/images/portfolio/img5.jpg";
 import img6 from "../../../assets/images/portfolio/img6.jpg";
 import { site } from "../../../constants/const";
 
-const logStyle = {padding: "0", height: '256px'}
-const museumStyle = {padding: "0", height: '256px'}
+const logStyle = { padding: "0", height: "256px" };
+const museumStyle = {
+  padding: "0",
+  height: "256px",
+  opacity: "0.6",
+  backgroundColor: "black",
+};
 
 const PortfolioComponent = () => {
   return (
@@ -33,9 +38,7 @@ const PortfolioComponent = () => {
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
               <h1 className="title font-bold">Products</h1>
-              <h6 className="subtitle">
-                Here are some of our Products
-              </h6>
+              <h6 className="subtitle">Here are some of our Products</h6>
             </Col>
           </Row>
         </Container>
@@ -55,7 +58,13 @@ const PortfolioComponent = () => {
           <Row className="m-t-40 justify-content-center">
             <Col md="4">
               <Card className="card-shadow">
-                <a style={logStyle} href={site.deepLog} target="_blank" rel="noopener noreferrer" className="img-ho">
+                <a
+                  style={logStyle}
+                  href={site.deepLog}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="img-ho"
+                >
                   <Image
                     className="card-img-top"
                     src={logImg5}
@@ -63,16 +72,14 @@ const PortfolioComponent = () => {
                   />
                 </a>
                 <CardBody>
-                  <h5 className="font-medium m-b-0">
-                    DeepLog
-                  </h5>
+                  <h5 className="font-medium m-b-0">DeepLog</h5>
                   <p className="m-b-0 font-14">Website Management</p>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
               <Card className="card-shadow">
-                <a style={museumStyle} href={site.deepMuseum} target="_blank" rel="noopener noreferrer" className="img-ho">
+                <a style={museumStyle} className="img-ho" disabled>
                   <Image
                     className="card-img-top"
                     src={museumImg5}
@@ -81,7 +88,9 @@ const PortfolioComponent = () => {
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">DeepMuseum</h5>
-                  <p className="m-b-0 font-14">Online Museum</p>
+                  <p className="m-b-0 font-14">
+                    Online Museum (Closed at 3/8/2022)
+                  </p>
                 </CardBody>
               </Card>
             </Col>
