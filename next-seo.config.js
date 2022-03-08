@@ -1,6 +1,6 @@
 export default {
   titleTemplate: "DeepRecommend",
-  defaultTitle: "Homepage | DeepLog",
+  defaultTitle: "Homepage | DeepRecommend",
   additionalMetaTags: [
     {
       property: "dc:creator",
@@ -8,7 +8,7 @@ export default {
     },
     {
       name: "application-name",
-      content: "DeepLog",
+      content: "Homepage",
     },
   ],
   openGraph: {
