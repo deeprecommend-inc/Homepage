@@ -17,20 +17,21 @@ import C2aComponent from "./sections/c2acomponent";
 import ContactComponent from "./sections/contactcomponent";
 import CallToAction from "../../components/call-to-action/CallToAction";
 import Banner from "../banner/Banner";
-import IconButton from '@mui/material/IconButton';
-import VerticalAlignTopIcon from '@mui/icons-material/VerticalAlignTop';
-import Button from '@mui/material/Button';
+import IconButton from "@mui/material/IconButton";
+import VerticalAlignTopIcon from "@mui/icons-material/VerticalAlignTop";
+import Button from "@mui/material/Button";
+import TwitterEmbedded from "./sections/twitter";
 
 const buttonStyle = {
-  position: 'fixed',
-  bottom: '24px',
-  right: '24px',
-  borderRadius: '100%',
-  width: '52px',
-  minWidth: '52px',
-  height: '52px',
-  zIndex: 1000
-}
+  position: "fixed",
+  bottom: "24px",
+  right: "24px",
+  borderRadius: "100%",
+  width: "52px",
+  minWidth: "52px",
+  height: "52px",
+  zIndex: 1000,
+};
 
 const CustomComponents = () => {
   const [isMouseOver, setIsMouseOver] = useState(false);
@@ -38,29 +39,31 @@ const CustomComponents = () => {
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
-  }
+  };
 
   const mouseOver = () => {
-    setIsMouseOver(true)
-  }
+    setIsMouseOver(true);
+  };
 
   const mouseLeave = () => {
-    setIsMouseOver(false)
-  }
+    setIsMouseOver(false);
+  };
 
   return (
     <div id="container">
       <HeaderComponent />
       {/* <Banner2 /> */}
-      <Banner/>
+      <Banner />
       <PortfolioComponent />
       {/* <BannerComponent />
       <FormBannerComponent /> */}
       <FeatureComponent />
       {/* <PricingComponent /> */}
+      <TwitterEmbedded />
       <TeamComponent />
+
       {/* <TestimonialComponent />
       <BlogComponent />
       <C2aComponent />
@@ -72,7 +75,9 @@ const CustomComponents = () => {
         onMouseOver={mouseOver}
         onMouseLeave={mouseLeave}
         onClick={scrollTop}
-      ><VerticalAlignTopIcon/></Button>
+      >
+        <VerticalAlignTopIcon />
+      </Button>
     </div>
   );
 };

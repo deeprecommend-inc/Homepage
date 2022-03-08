@@ -12,7 +12,7 @@ export default {
     },
   ],
   openGraph: {
-    url: "https://deeprecommend.d1j2dik066nfj.amplifyapp.com/",
+    url: "https://deep-recommend.com/",
     type: "website",
     locale: "en_US",
     site_name: "DeepLog",
