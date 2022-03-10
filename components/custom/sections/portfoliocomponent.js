@@ -10,6 +10,7 @@ import logImg2 from "../../../assets/images/portfolio/log2.png";
 import logImg3 from "../../../assets/images/portfolio/log3.png";
 import logImg4 from "../../../assets/images/portfolio/log4.png";
 import logImg5 from "../../../assets/images/portfolio/deepLog.png";
+import musicImg5 from "../../../assets/images/portfolio/deepMusic.jpeg";
 import museumImg from "../../../assets/images/portfolio/museum.jpg";
 import museumImg1 from "../../../assets/images/portfolio/museum.png";
 import museumImg2 from "../../../assets/images/portfolio/museum2.png";
@@ -26,7 +27,7 @@ const logStyle = { padding: "0", height: "256px" };
 const museumStyle = {
   padding: "0",
   height: "256px",
-  opacity: "0.6",
+  opacity: "0.5",
   backgroundColor: "black",
 };
 
@@ -74,6 +75,29 @@ const PortfolioComponent = () => {
                 <CardBody>
                   <h5 className="font-medium m-b-0">DeepLog</h5>
                   <p className="m-b-0 font-14">Website Management</p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a
+                  style={logStyle}
+                  href={site.deepMusic}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="img-ho"
+                >
+                  <Image
+                    className="card-img-top"
+                    src={musicImg5}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">DeepMusic</h5>
+                  <p className="m-b-0 font-14">
+                    Music produced by DeepRecommend
+                  </p>
                 </CardBody>
               </Card>
             </Col>

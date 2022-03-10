@@ -73,6 +73,15 @@ const HeaderComponent = () => {
                     DeepLog
                   </NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink
+                    href={site.deepMusic}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    DeepMusic
+                  </NavLink>
+                </NavItem>
                 {/* <NavItem>
                   <NavLink href={site.deepMuseum} target="_blank" rel="noopener noreferrer">DeepMuseum</NavLink>
                 </NavItem> */}
