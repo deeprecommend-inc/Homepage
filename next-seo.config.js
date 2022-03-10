@@ -7,7 +7,7 @@ export default {
       content: "DeepRecommend",
     },
     {
-      name: "application-name",
+      name: "DeepRecommend",
       content: "Homepage",
     },
   ],
