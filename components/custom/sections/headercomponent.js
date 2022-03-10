@@ -29,6 +29,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
+import NewspaperIcon from "@mui/icons-material/Newspaper";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -115,6 +116,15 @@ const HeaderComponent = () => {
                     >
                       <GitHubIcon />
                       Github
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem
+                      href={site.pressRelease}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <NewspaperIcon />
+                      Press release
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem

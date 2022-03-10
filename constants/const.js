@@ -14,6 +14,7 @@ export const site = {
   slack:
     "https://join.slack.com/t/deeprecommend-mc58389/shared_invite/zt-wdn6aoli-x56SQa1Vfc97CEFvxcpmBw",
   discord: "https://discord.gg/QjSFUCzDn5",
+  pressRelease: "https://prtimes.jp/main/html/searchrlp/company_id/92063",
 };
 
 export const sugimoto = {
