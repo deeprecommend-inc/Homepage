@@ -58,8 +58,8 @@ const TeamComponent = () => {
                     <h5 className="title font-medium">Jin Sugimoto</h5>
                     <h6 className="subtitle">Representative</h6>
                     <p>
-                      Active / Aesthetics / Bold / Crazy / Creative / Curiosity
-                      / Hardworking / Introspection / Sense
+                      Active ∩ Aesthetics ∩ Bold ∩ Crazy ∩ Creative ∩ Curiosity
+                      ∩ Hardworking ∩ Introspective ∩ Sensory
                     </p>
                   </div>
                 </Col>
