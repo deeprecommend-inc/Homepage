@@ -12,7 +12,7 @@ const SDGsComponent = () => {
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
               <h1 className="title font-bold">SDGs</h1>
-              <h6 className="subtitle">Here are some of our Products</h6>
+              <h6 className="subtitle">Here is commitment to the SDGs</h6>
             </Col>
           </Row>
         </Container>
