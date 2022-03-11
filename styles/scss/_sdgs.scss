@@ -1,0 +1,60 @@
+.py-96 {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.layout-expand {
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.layout-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.layout-w-m {
+  max-width: 1060px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mb-84 {
+  margin-bottom: 84px;
+}
+
+.layout-topic {
+  display: flex;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.sdgs-img {
+  width: 330px;
+  text-align: center;
+  margin-right: 84px;
+  flex-shrink: 0;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+img {
+  border-style: none;
+}
+
+.l-height-16 {
+  line-height: 1.6;
+}

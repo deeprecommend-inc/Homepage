@@ -21,6 +21,7 @@ import IconButton from "@mui/material/IconButton";
 import VerticalAlignTopIcon from "@mui/icons-material/VerticalAlignTop";
 import Button from "@mui/material/Button";
 import TwitterEmbedded from "./sections/twitter";
+import SDGsComponent from "./sections/SDGs";
 
 const buttonStyle = {
   position: "fixed",
@@ -62,6 +63,7 @@ const CustomComponents = () => {
       <FeatureComponent />
       {/* <PricingComponent /> */}
       <TwitterEmbedded />
+      <SDGsComponent />
       <TeamComponent />
 
       {/* <TestimonialComponent />
