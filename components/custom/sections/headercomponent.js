@@ -36,7 +36,7 @@ const HeaderComponent = () => {
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <div id="section">
+    <div id="section h-100">
       {/* <div className="spacer">
         <Container>
           <Row className="justify-content-center">
@@ -74,7 +74,7 @@ const HeaderComponent = () => {
                     DeepLog
                   </NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink
                     href={site.deepMusic}
                     target="_blank"
@@ -82,7 +82,7 @@ const HeaderComponent = () => {
                   >
                     DeepMusic
                   </NavLink>
-                </NavItem>
+                </NavItem> */}
                 {/* <NavItem>
                   <NavLink href={site.deepMuseum} target="_blank" rel="noopener noreferrer">DeepMuseum</NavLink>
                 </NavItem> */}

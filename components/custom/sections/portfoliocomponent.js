@@ -23,7 +23,7 @@ import img5 from "../../../assets/images/portfolio/img5.jpg";
 import img6 from "../../../assets/images/portfolio/img6.jpg";
 import { site } from "../../../constants/const";
 
-const logStyle = { padding: "0", height: "256px" };
+const logStyle = { padding: "0", height: "384px" };
 const museumStyle = {
   padding: "0",
   height: "256px",
@@ -57,7 +57,7 @@ const PortfolioComponent = () => {
             </Col>
           </Row> */}
           <Row className="m-t-40 justify-content-center">
-            <Col md="4">
+            <Col md="6">
               <Card className="card-shadow">
                 <a
                   style={logStyle}
@@ -74,11 +74,14 @@ const PortfolioComponent = () => {
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">DeepLog</h5>
-                  <p className="m-b-0 font-14">Website Management</p>
+                  <p className="m-b-0 font-14">
+                    System of website to manage the website like a music
+                    playlist
+                  </p>
                 </CardBody>
               </Card>
             </Col>
-            <Col md="4">
+            {/* <Col md="4">
               <Card className="card-shadow">
                 <a
                   style={logStyle}
@@ -100,7 +103,7 @@ const PortfolioComponent = () => {
                   </p>
                 </CardBody>
               </Card>
-            </Col>
+            </Col> */}
             <Col md="4">
               <Card className="card-shadow">
                 <a style={museumStyle} className="img-ho" disabled>

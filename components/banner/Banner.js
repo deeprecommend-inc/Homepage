@@ -19,7 +19,7 @@ const Banner = () => {
             </h1>
             <h4 className="subtitle font-light text-dark">
               We recommend technology and art products
-              <br /> By creativity and objectivity.
+              <br /> by creativity and objectivity.
             </h4>
 
             <Button

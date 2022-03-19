@@ -2,7 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
-import bannerimg from "../../assets/images/landingpage/banner-img.png";
+import bannerimg from "../../assets/images/landingpage/deep-brain.png";
+import { site } from "../../constants/const";
 
 const Banner2 = () => {
   return (
@@ -10,22 +11,26 @@ const Banner2 = () => {
       <Container>
         <Row className="">
           <Col lg="6" md="6" className="align-self-center">
-            <h1 className="title">
-              DeepRecommend
-            </h1>
-            <h4 className="subtitle font-light">
-              We recommend services
-              <br /> By creativity and objectivity
+            <h1>DeepRecommend</h1>
+            <h4>
+              We recommend products
+              <br /> by creativity and objectivity
             </h4>
             <a
-              href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
-              className="btn btn-danger m-r-20 btn-md m-t-30 "
+              href="https://deep-log.net/signup"
+              className="btn btn-md m-r-20 btn-outline-primary m-t-30"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Download Free
+              Start DeepLog
             </a>
-            <Link href="/#coming">
-              <a className="btn btn-md m-t-30  btn-outline-light ">
-                Upgrade To Pro
+            <Link href={site.discord}>
+              <a
+                className="btn btn-md m-t-30  btn-outline-secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Help / Support
               </a>
             </Link>
           </Col>

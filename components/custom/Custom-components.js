@@ -55,18 +55,19 @@ const CustomComponents = () => {
   return (
     <div id="container">
       <HeaderComponent />
-      {/* <Banner2 /> */}
-      <Banner />
+      {/* <Banner /> */}
+      <Banner2 />
       <PortfolioComponent />
       {/* <BannerComponent />
       <FormBannerComponent /> */}
+
       <FeatureComponent />
       {/* <PricingComponent /> */}
       <TwitterEmbedded />
-      <SDGsComponent />
-      <TeamComponent />
-
-      {/* <TestimonialComponent />
+      {/* <SDGsComponent /> */}
+      {/* <TeamComponent /> */}
+      {/* 
+      <TestimonialComponent />
       <BlogComponent />
       <C2aComponent />
       <ContactComponent />
