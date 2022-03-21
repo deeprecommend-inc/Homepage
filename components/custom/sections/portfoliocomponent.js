@@ -2,29 +2,13 @@
 import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Image from "next/image";
-import img1 from "../../../assets/images/portfolio/img1.jpg";
-import img2 from "../../../assets/images/portfolio/img2.jpg";
-import logImg from "../../../assets/images/portfolio/log.jpg";
-import logImg1 from "../../../assets/images/portfolio/log.png";
-import logImg2 from "../../../assets/images/portfolio/log2.png";
-import logImg3 from "../../../assets/images/portfolio/log3.png";
-import logImg4 from "../../../assets/images/portfolio/log4.png";
-import logImg5 from "../../../assets/images/portfolio/deepLog.png";
-import musicImg5 from "../../../assets/images/portfolio/deepMusic.jpeg";
-import museumImg from "../../../assets/images/portfolio/museum.jpg";
-import museumImg1 from "../../../assets/images/portfolio/museum.png";
-import museumImg2 from "../../../assets/images/portfolio/museum2.png";
-import museumImg3 from "../../../assets/images/portfolio/museum3.png";
-import museumImg4 from "../../../assets/images/portfolio/museum4.png";
-import museumImg5 from "../../../assets/images/portfolio/deepMuseum.jpg";
-import img3 from "../../../assets/images/portfolio/img3.jpg";
-import img4 from "../../../assets/images/portfolio/img4.jpg";
-import img5 from "../../../assets/images/portfolio/img5.jpg";
-import img6 from "../../../assets/images/portfolio/img6.jpg";
+import logImg from "../../../assets/images/portfolio/deepLog.png";
+import matchingImg from "../../../assets/images/portfolio/deepMatching.jpg";
+import museumImg from "../../../assets/images/portfolio/deepMuseum.jpg";
 import { site } from "../../../constants/const";
 
-const logStyle = { padding: "0", height: "384px" };
-const museumStyle = {
+const normalStyle = { padding: "0", height: "256px" };
+const endStyle = {
   padding: "0",
   height: "256px",
   opacity: "0.5",
@@ -57,10 +41,10 @@ const PortfolioComponent = () => {
             </Col>
           </Row> */}
           <Row className="m-t-40 justify-content-center">
-            <Col md="6">
+            <Col md="4">
               <Card className="card-shadow">
                 <a
-                  style={logStyle}
+                  style={normalStyle}
                   href={site.deepLog}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -68,7 +52,7 @@ const PortfolioComponent = () => {
                 >
                   <Image
                     className="card-img-top"
-                    src={logImg5}
+                    src={logImg}
                     alt="wrappixel kit"
                   />
                 </a>
@@ -77,6 +61,29 @@ const PortfolioComponent = () => {
                   <p className="m-b-0 font-14">
                     System of website to manage the website like a music
                     playlist
+                  </p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a
+                  style={normalStyle}
+                  href={site.deepMatching}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="img-ho"
+                >
+                  <Image
+                    className="card-img-top"
+                    src={matchingImg}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">CmCn</h5>
+                  <p className="m-b-0 font-14">
+                    Matching app for comedians they are "Bokeh" and "Tsukkomi"
                   </p>
                 </CardBody>
               </Card>
@@ -106,10 +113,10 @@ const PortfolioComponent = () => {
             </Col> */}
             <Col md="4">
               <Card className="card-shadow">
-                <a style={museumStyle} className="img-ho" disabled>
+                <a style={endStyle} className="img-ho" disabled>
                   <Image
                     className="card-img-top"
-                    src={museumImg5}
+                    src={museumImg}
                     alt="wrappixel kit"
                   />
                 </a>

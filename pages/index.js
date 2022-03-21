@@ -1,7 +1,6 @@
 import Head from "next/head";
 import CustomComponents from "../components/custom/Custom-components";
-import { NextSeo } from 'next-seo';
-
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
         <title>DeepRecommend</title>
         <meta
           name="description"
-          content="DeepRecommend"
+          content="We recommend products by creativity and objectivity"
         />
         <link rel="icon" href="favicon.ico" />
       </Head>

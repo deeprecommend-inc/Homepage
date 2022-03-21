@@ -54,7 +54,7 @@ const HeaderComponent = () => {
       <div className="header1 po-relative">
         <Container>
           <Navbar className="navbar-expand-lg h1-nav">
-            <NavbarBrand href="#">
+            <NavbarBrand href="/">
               <Image src={logo} alt="wrapkit" width="64" height="64" />
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
@@ -72,6 +72,15 @@ const HeaderComponent = () => {
                     rel="noopener noreferrer"
                   >
                     DeepLog
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    href={site.deepMatching}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    CmCn
                   </NavLink>
                 </NavItem>
                 {/* <NavItem>
@@ -108,7 +117,7 @@ const HeaderComponent = () => {
                       <ShoppingCartIcon />
                       Shop
                     </DropdownItem>
-                    <DropdownItem divider />
+                    {/* <DropdownItem divider />
                     <DropdownItem
                       href={site.github}
                       target="_blank"
@@ -117,15 +126,15 @@ const HeaderComponent = () => {
                       <GitHubIcon />
                       Github
                     </DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem
+                    <DropdownItem divider /> */}
+                    {/* <DropdownItem
                       href={site.pressRelease}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <NewspaperIcon />
                       Press release
-                    </DropdownItem>
+                    </DropdownItem> */}
                     <DropdownItem divider />
                     <DropdownItem
                       href={site.twitter}
@@ -159,14 +168,14 @@ const HeaderComponent = () => {
                       <YouTubeIcon />
                       YouTube
                     </DropdownItem>
-                    <DropdownItem
+                    {/* <DropdownItem
                       href={site.facebook}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <FacebookIcon />
                       Facebook
-                    </DropdownItem>
+                    </DropdownItem> */}
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 {/* <NavItem>

@@ -22,7 +22,7 @@ const Banner2 = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Start DeepLog
+              Get started
             </a>
             <Link href={site.discord}>
               <a
