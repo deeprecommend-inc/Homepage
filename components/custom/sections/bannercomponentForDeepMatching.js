@@ -2,7 +2,7 @@
 import React from "react";
 import { Row, Col, Container } from "reactstrap";
 import Image from "next/image";
-import deepLog from "../../../assets/images/staticslider/slider/deeplog-service.png";
+import deepMatching from "../../../assets/images/staticslider/slider/deepmatching-service.png";
 import { site } from "../../../constants/const";
 
 const BannerComponentForDeepMatching = () => {
@@ -35,7 +35,7 @@ const BannerComponentForDeepMatching = () => {
               </a>
             </Col>
             <Col md="6">
-              <Image src={deepLog} alt="herobanner"></Image>
+              <Image src={deepMatching} alt="herobanner"></Image>
             </Col>
           </Row>
         </Container>
