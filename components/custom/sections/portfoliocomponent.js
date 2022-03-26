@@ -60,7 +60,7 @@ const PortfolioComponent = () => {
                   <h5 className="font-medium m-b-0">DeepLog</h5>
                   <p className="m-b-0 font-14">
                     System of website to manage the website like a music
-                    playlist
+                    playlist for people use websites
                   </p>
                 </CardBody>
               </Card>
@@ -123,7 +123,8 @@ const PortfolioComponent = () => {
                 <CardBody>
                   <h5 className="font-medium m-b-0">DeepMuseum</h5>
                   <p className="m-b-0 font-14">
-                    Online Museum (Closed at 3/8/2022)
+                    Online museum website for painter they like (Closed at
+                    3/8/2022)
                   </p>
                 </CardBody>
               </Card>
