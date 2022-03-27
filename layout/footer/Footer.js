@@ -10,33 +10,45 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Address</h5>
-            <p>201 Heim Angel Avenue, Karita, Osaka Shi Sumiyoshi Ku, Osaka Fu, 558-0011, Japan</p>
+            <h5 className="m-b-20">Access</h5>
+            <div className="link-container">
+              <a className="link" href="tel:07017347502">
+                Phone: 070 1734 7502
+              </a>
+            </div>
+            <div className="link-container">
+              <a className="link" href="mailto:deeprecommend@gmail.com">
+                Email: deeprecommend@gmail.com
+              </a>
+            </div>
+            <div className="link-container">
+              <a
+                className="link"
+                href="https://www.google.com/maps/place/5-ch%C5%8Dme-16-3+Karita,+Sumiyoshi+Ward,+Osaka,+558-0011/@34.6007655,135.512425,17z/data=!3m1!4b1!4m5!3m4!1s0x6000dc17c29e2b17:0xb03725b81bee4a1!8m2!3d34.6007611!4d135.5146137"
+              >
+                Address: 201 Heim Angel Avenue, Karita, Osaka Shi Sumiyoshi Ku,
+                Osaka Fu, 558-0011, Japan
+              </a>
+            </div>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Phone</h5>
-            <a className="link" href="tel:07017347502">
-              070 1734 7502
+            <h5 className="m-b-20">Services</h5>
+            <div>
+              <a className="link" href="https://deep-log.net">
+                DeepLog
+              </a>
+            </div>
+            <div>
+              <a className="link" href="https://deep-matching.com">
+                CmCn
+              </a>
+            </div>
+          </Col>
+          <Col lg="3" md="6" className="m-b-30">
+            <h5 className="m-b-20">Customer care</h5>
+            <a className="link" href="/privacypolicy">
+              Privacy policy
             </a>
-            {/* <p>
-              Reception : +205 123 4567 <br />
-              Office : +207 235 7890
-            </p> */}
-          </Col>
-          <Col lg="3" md="6" className="m-b-30">
-            <h5 className="m-b-20">Email</h5>
-            <a className="link" href="mailto:deeprecommend@gmail.com">deeprecommend@gmail.com</a>
-            {/* <p>
-              Email :
-              <Link href="#">
-                <a className="link">deeprecommend@gmail.com</a>
-              </Link>
-              <br />
-              Site :
-              <Link href="/">
-                <a className="link">deeprecommend.com</a>
-              </Link>
-            </p> */}
           </Col>
           <Col lg="3" md="6">
             <h5 className="m-b-20">Social</h5>
@@ -52,7 +64,7 @@ const Footer = () => {
                 </a>
               </Link>
               <Link href={site.youtube}>
-                <a className="link"  target="_blank" rel="noopener noreferrer">
+                <a className="link" target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-youtube-play"></i>
                 </a>
               </Link>

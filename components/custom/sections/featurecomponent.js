@@ -29,7 +29,7 @@ const FeatureComponent = () => {
       </div>
       <div className="spacer feature4">
         <Container>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center" data-aos="slide-left">
             <Col md="7" className="text-center">
               <span className="label label-info label-rounded">Feature 1</span>
               <h2 className="title">Development based on a simple rule</h2>
@@ -39,7 +39,7 @@ const FeatureComponent = () => {
               </h6>
             </Col>
           </Row>
-          <Row className="m-t-40 justify-content-center">
+          <Row className="m-t-40 justify-content-center" data-aos="slide-right">
             <Col md="6" className="wrap-feature4-box text-center">
               <Card>
                 <CardBody>
@@ -80,7 +80,7 @@ const FeatureComponent = () => {
       </div>
       <div className="bg-light spacer feature20 up">
         <Container>
-          <Row className="justify-content-center">
+          <Row className="justify-content-center" data-aos="slide-left">
             <Col md="7" className="text-center">
               <span className="label label-info label-rounded">Feature 2</span>
               <h2 className="title">Active relationship</h2>
@@ -92,7 +92,10 @@ const FeatureComponent = () => {
               </h6>
             </Col>
           </Row>
-          <Row className="wrap-feature-20 justify-content-center">
+          <Row
+            className="wrap-feature-20 justify-content-center"
+            data-aos="slide-right"
+          >
             <Col lg="6">
               <Card>
                 <Row>
@@ -220,14 +223,19 @@ const FeatureComponent = () => {
       <div className="spacer ">
         <Container className="feature30">
           <Row>
-            <Col lg="10">
+            <Col lg="10" data-aos="slide-right">
               <Image
                 src={img5}
                 className="rounded img-responsive"
                 alt="wrappixel"
               />
             </Col>
-            <Col lg="5" md="7" className="text-center wrap-feature30-box">
+            <Col
+              lg="5"
+              md="7"
+              className="text-center wrap-feature30-box"
+              data-aos="slide-left"
+            >
               <Card className="card-shadow">
                 <CardBody>
                   <div className="p-20">

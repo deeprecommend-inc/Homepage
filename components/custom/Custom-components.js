@@ -63,11 +63,11 @@ const CustomComponents = () => {
 
       <FeatureComponent />
       {/* <PricingComponent /> */}
-      <TwitterEmbedded />
+      {/* <TwitterEmbedded /> */}
       {/* <SDGsComponent /> */}
       {/* <TeamComponent /> */}
-      {/* 
-      <TestimonialComponent />
+
+      {/* <TestimonialComponent />
       <BlogComponent />
       <C2aComponent />
       <ContactComponent />

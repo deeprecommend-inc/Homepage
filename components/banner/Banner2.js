@@ -7,10 +7,10 @@ import { site } from "../../constants/const";
 
 const Banner2 = () => {
   return (
-    <div className="static-slider-head banner2">
+    <div className="static-slider-head banner2" style={{ overflow: "hidden" }}>
       <Container>
-        <Row className="">
-          <Col lg="6" md="6" className="align-self-center">
+        <Row>
+          <Col lg="6" md="6" className="align-self-center" data-aos="flip-down">
             <h1>DeepRecommend</h1>
             <h4>
               We recommend products
@@ -34,7 +34,7 @@ const Banner2 = () => {
               </a>
             </Link>
           </Col>
-          <Col lg="6" md="6">
+          <Col lg="6" md="6" data-aos="zoom-in">
             <Image src={bannerimg} alt="hero banner" />
           </Col>
         </Row>

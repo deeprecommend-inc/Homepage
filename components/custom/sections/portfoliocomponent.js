@@ -41,7 +41,30 @@ const PortfolioComponent = () => {
             </Col>
           </Row> */}
           <Row className="m-t-40 justify-content-center">
-            <Col md="4">
+            <Col md="4" data-aos="fade-up-right">
+              <Card className="card-shadow">
+                <a
+                  style={normalStyle}
+                  href={site.deepMatching}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="img-ho"
+                >
+                  <Image
+                    className="card-img-top"
+                    src={matchingImg}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">CmCn</h5>
+                  <p className="m-b-0 font-14">
+                    Matching app for comedians they are "Bokeh" and "Tsukkomi"
+                  </p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4" data-aos="fade-up">
               <Card className="card-shadow">
                 <a
                   style={normalStyle}
@@ -61,29 +84,6 @@ const PortfolioComponent = () => {
                   <p className="m-b-0 font-14">
                     System of website to manage the website like a music
                     playlist for people use websites
-                  </p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a
-                  style={normalStyle}
-                  href={site.deepMatching}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="img-ho"
-                >
-                  <Image
-                    className="card-img-top"
-                    src={matchingImg}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">CmCn</h5>
-                  <p className="m-b-0 font-14">
-                    Matching app for comedians they are "Bokeh" and "Tsukkomi"
                   </p>
                 </CardBody>
               </Card>
@@ -111,7 +111,7 @@ const PortfolioComponent = () => {
                 </CardBody>
               </Card>
             </Col> */}
-            <Col md="4">
+            <Col md="4" data-aos="fade-up-left">
               <Card className="card-shadow">
                 <a style={endStyle} className="img-ho" disabled>
                   <Image

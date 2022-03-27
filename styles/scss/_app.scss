@@ -36,8 +36,13 @@ a:focus {
   text-decoration: none;
 }
 
+.link-container {
+  margin: 4px 0;
+}
+
 a.link {
   color: $headingtext;
+  font-size: smaller;
 
   &:hover,
   &:focus {
