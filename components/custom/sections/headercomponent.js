@@ -1,8 +1,6 @@
 /* eslint-disable */
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
-  Row,
-  Col,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -18,23 +16,28 @@ import {
 } from "reactstrap";
 import Image from "next/image";
 import logo from "../../../assets/images/logos/logo.png";
-import logo2 from "../../../assets/images/logos/white-logo.png";
-import image from "next/image";
 import { site } from "../../../constants/const";
 import ForumIcon from "@mui/icons-material/Forum";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
-import NewspaperIcon from "@mui/icons-material/Newspaper";
+import TranslateIcon from "@mui/icons-material/Translate";
+import Link from "next/link";
+import { useLocale } from "../../../locales/useLocale";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [ready, setReady] = useState(false);
+  const { t } = useLocale();
+
+  useEffect(() => {
+    setReady(true)
+  }, []);
 
   const toggle = () => setIsOpen(!isOpen);
+
   return (
     <div id="section h-100">
       {/* <div className="spacer">
@@ -83,21 +86,9 @@ const HeaderComponent = () => {
                     CmCn
                   </NavLink>
                 </NavItem>
-                {/* <NavItem>
-                  <NavLink
-                    href={site.deepMusic}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    DeepMusic
-                  </NavLink>
-                </NavItem> */}
-                {/* <NavItem>
-                  <NavLink href={site.deepMuseum} target="_blank" rel="noopener noreferrer">DeepMuseum</NavLink>
-                </NavItem> */}
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav>
-                    Others <i className="fa fa-angle-down m-l-5"></i>
+                    {t.index.header.others} <i className="fa fa-angle-down m-l-5"></i>
                   </DropdownToggle>
                   <DropdownMenu className="b-none animated fadeInUp">
                     <DropdownItem
@@ -106,7 +97,7 @@ const HeaderComponent = () => {
                       rel="noopener noreferrer"
                     >
                       <ForumIcon />
-                      Community
+                      {t.index.header.community}
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem
@@ -115,26 +106,8 @@ const HeaderComponent = () => {
                       rel="noopener noreferrer"
                     >
                       <ShoppingCartIcon />
-                      Shop
+                      {t.index.header.shop}
                     </DropdownItem>
-                    {/* <DropdownItem divider />
-                    <DropdownItem
-                      href={site.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <GitHubIcon />
-                      Github
-                    </DropdownItem>
-                    <DropdownItem divider /> */}
-                    {/* <DropdownItem
-                      href={site.pressRelease}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <NewspaperIcon />
-                      Press release
-                    </DropdownItem> */}
                     <DropdownItem divider />
                     <DropdownItem
                       href={site.twitter}
@@ -168,21 +141,26 @@ const HeaderComponent = () => {
                       <YouTubeIcon />
                       YouTube
                     </DropdownItem>
-                    {/* <DropdownItem
-                      href={site.facebook}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FacebookIcon />
-                      Facebook
-                    </DropdownItem> */}
                   </DropdownMenu>
                 </UncontrolledDropdown>
-                {/* <NavItem>
-                  <a className="btn btn-outline-info" href="#">
-                    Hire Me
-                  </a>
-                </NavItem> */}
+                {
+                  ready ?
+                  <NavItem>
+                    <Link
+                      href="/"
+                      locale={
+                        location.pathname.slice(1, 3) === "ja" ? "en" : "ja"
+                      }
+                      passHref
+                    >
+                      <NavLink>
+                        <TranslateIcon />
+                      </NavLink>
+                    </Link>
+                  </NavItem>
+                  : <></>
+                }
+                
               </Nav>
             </Collapse>
           </Navbar>

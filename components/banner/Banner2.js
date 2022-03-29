@@ -4,8 +4,11 @@ import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import bannerimg from "../../assets/images/landingpage/deep-brain.png";
 import { site } from "../../constants/const";
+import { useLocale } from "../../locales/useLocale";
 
 const Banner2 = () => {
+  const { t } = useLocale();
+
   return (
     <div className="static-slider-head banner2" style={{ overflow: "hidden" }}>
       <Container>
@@ -13,8 +16,7 @@ const Banner2 = () => {
           <Col lg="6" md="6" className="align-self-center" data-aos="flip-down">
             <h1>DeepRecommend</h1>
             <h4>
-              We recommend products
-              <br /> by creativity and objectivity
+              {t.index.banner.copy}
             </h4>
             <a
               href="https://deep-log.net/signup"

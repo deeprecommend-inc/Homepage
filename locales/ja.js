@@ -1,7 +1,17 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  RANKED_HIGH_CONDITION:
-    "Among all bloggers, the users who are doing their best to update the blog are ranked high.",
-  UNCATEGORIZED_RANKED_HIGH_CONDITION:
-    "Among Uncategorized bloggers, the users who are doing their best to update the blog are ranked high.",
-  SEE_ALL_BLOGGERS: "See all bloggers",
+  index: {
+    head: {
+      title: "DeepRecommend＜ディープレコメンド＞",
+      description: "心からおすすめできるモノづくりをします",
+    },
+    header: {
+      others: "その他",
+      community: "コミュニティー",
+      shop: "ショップ",
+    },
+    banner: {
+      copy: "心からおすすめできるモノづくりをします"
+    },
+  },
 };
