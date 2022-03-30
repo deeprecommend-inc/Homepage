@@ -24,7 +24,7 @@ const Banner2 = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Get started
+              {t.index.banner.getStarted}
             </a>
             <Link href={site.discord}>
               <a
@@ -32,7 +32,7 @@ const Banner2 = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Help / Support
+                {t.index.banner.helpSupport}
               </a>
             </Link>
           </Col>

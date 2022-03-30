@@ -38,6 +38,8 @@ const HeaderComponent = () => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  if (!ready) return <></>;
+
   return (
     <div id="section h-100">
       {/* <div className="spacer">
@@ -143,9 +145,7 @@ const HeaderComponent = () => {
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
-                {
-                  ready ?
-                  <NavItem>
+                <NavItem>
                     <Link
                       href="/"
                       locale={
@@ -158,9 +158,6 @@ const HeaderComponent = () => {
                       </NavLink>
                     </Link>
                   </NavItem>
-                  : <></>
-                }
-                
               </Nav>
             </Collapse>
           </Navbar>

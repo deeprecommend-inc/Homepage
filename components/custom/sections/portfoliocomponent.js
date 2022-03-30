@@ -1,11 +1,12 @@
 /* eslint-disable */
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import Image from "next/image";
 import logImg from "../../../assets/images/portfolio/deepLog.png";
 import matchingImg from "../../../assets/images/portfolio/deepMatching.jpg";
 import museumImg from "../../../assets/images/portfolio/deepMuseum.jpg";
 import { site } from "../../../constants/const";
+import { useLocale } from "../../../locales/useLocale";
 
 const normalStyle = { padding: "0", height: "256px" };
 const endStyle = {
@@ -16,14 +17,23 @@ const endStyle = {
 };
 
 const PortfolioComponent = () => {
+  const [ready, setReady] = useState(false);
+  const { t } = useLocale();
+
+  useEffect(() => {
+    setReady(true);
+  }, []);
+
+  if (!ready) return <></>;
+
   return (
     <div>
       <div className="spacer bg-light">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Products</h1>
-              <h6 className="subtitle">Here are some of our Products</h6>
+              <h1 className="title font-bold">{t.index.portfolio.title}</h1>
+              <h6 className="subtitle">{t.index.portfolio.subtitle}</h6>
             </Col>
           </Row>
         </Container>
@@ -57,9 +67,9 @@ const PortfolioComponent = () => {
                   />
                 </a>
                 <CardBody>
-                  <h5 className="font-medium m-b-0">CmCn</h5>
+                  <h5 className="font-medium m-b-0">{t.index.portfolio.cmcn.title}</h5>
                   <p className="m-b-0 font-14">
-                    Matching app for comedians they are "Bokeh" and "Tsukkomi"
+                    {t.index.portfolio.cmcn.description}
                   </p>
                 </CardBody>
               </Card>
@@ -80,10 +90,9 @@ const PortfolioComponent = () => {
                   />
                 </a>
                 <CardBody>
-                  <h5 className="font-medium m-b-0">DeepLog</h5>
+                  <h5 className="font-medium m-b-0">{t.index.portfolio.deeplog.title}</h5>
                   <p className="m-b-0 font-14">
-                    System of website to manage the website like a music
-                    playlist for people use websites
+                    {t.index.portfolio.deeplog.description}
                   </p>
                 </CardBody>
               </Card>
@@ -121,10 +130,9 @@ const PortfolioComponent = () => {
                   />
                 </a>
                 <CardBody>
-                  <h5 className="font-medium m-b-0">DeepMuseum</h5>
+                  <h5 className="font-medium m-b-0">{t.index.portfolio.deepmuseum.title}</h5>
                   <p className="m-b-0 font-14">
-                    Online museum website for painter they like (Closed at
-                    3/8/2022)
+                    {t.index.portfolio.deepmuseum.description}
                   </p>
                 </CardBody>
               </Card>
