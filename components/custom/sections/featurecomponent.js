@@ -9,19 +9,20 @@ import img3 from "../../../assets/images/features/feature13/img3.jpg";
 import img4 from "../../../assets/images/features/feature13/img4.jpg";
 import img5 from "../../../assets/images/features/feature30/feature-img.jpg";
 import { site } from "../../../constants/const";
+import { useLocale } from "../../../locales/useLocale";
 
 const FeatureComponent = () => {
+  const { t } = useLocale();
+
   return (
     <div>
       <div className="spacer bg-light">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Features</h1>
+              <h1 className="title font-bold">{t.index.feature.title}</h1>
               <h6 className="subtitle">
-                Here you can check how we recommend services &amp; our strength.{" "}
-                <br />
-                You'll find your dream a service in DeepRecommend.
+                {t.index.feature.subtitle}
               </h6>
             </Col>
           </Row>
@@ -31,11 +32,10 @@ const FeatureComponent = () => {
         <Container>
           <Row className="justify-content-center" data-aos="slide-left">
             <Col md="7" className="text-center">
-              <span className="label label-info label-rounded">Feature 1</span>
-              <h2 className="title">Development based on a simple rule</h2>
+              <span className="label label-info label-rounded">{t.index.feature.num1.label}</span>
+              <h2 className="title">{t.index.feature.num1.section1.title}</h2>
               <h6 className="subtitle">
-                Our purpose is making people enrich. <br />
-                For this purpose, We follow a simple rule.
+                {t.index.feature.num1.section1.subtitle}
               </h6>
             </Col>
           </Row>
@@ -47,11 +47,9 @@ const FeatureComponent = () => {
                     {/* <i className="fa fa-star"></i> */}
                     <i className="fa fa-check-circle"></i>
                   </div>
-                  <h5 className="font-medium">Highly recommended</h5>
+                  <h5 className="font-medium">{t.index.feature.num1.section2.title}</h5>
                   <p className="m-t-20">
-                    We think first "Is this service highly recommended?". If the
-                    answer is "No", we still have room for improvement. By doing
-                    so, we will be able to improve our services.
+                    {t.index.feature.num1.section2.subtitle}
                   </p>
                   {/* <a href="#" className="linking text-themecolor">
                     Explore More<i className="ti-arrow-right"></i>
@@ -82,13 +80,10 @@ const FeatureComponent = () => {
         <Container>
           <Row className="justify-content-center" data-aos="slide-left">
             <Col md="7" className="text-center">
-              <span className="label label-info label-rounded">Feature 2</span>
-              <h2 className="title">Active relationship</h2>
+              <span className="label label-info label-rounded">{t.index.feature.num2.label}</span>
+              <h2 className="title">{t.index.feature.num2.section1.title}</h2>
               <h6 className="subtitle">
-                Even if we think it's highly recommended, customers may not
-                think so. <br />
-                Therefore, we take care of customers' direct opinions. We have
-                own community by Discord.
+                {t.index.feature.num2.section1.subtitle}
               </h6>
             </Col>
           </Row>
@@ -112,7 +107,7 @@ const FeatureComponent = () => {
                       </div>
                       <div>
                         <h5 className="font-medium">
-                          Let me know your opinion
+                          {t.index.feature.num2.section2.title}
                         </h5>
                       </div>
                     </CardBody>
@@ -124,7 +119,7 @@ const FeatureComponent = () => {
                       rel="noopener noreferrer"
                       className="text-white linking bg-info"
                     >
-                      Lets Join <i className="ti-arrow-right"></i>
+                       {t.index.feature.num2.section2.subtitle} <i className="ti-arrow-right"></i>
                     </a>
                   </Col>
                 </Row>
@@ -240,12 +235,11 @@ const FeatureComponent = () => {
                 <CardBody>
                   <div className="p-20">
                     <span className="label label-info label-rounded">
-                      Feature 3
+                      {t.index.feature.num3.label}
                     </span>
-                    <h3 className="title">Creativity</h3>
+                    <h3 className="title">{t.index.feature.num3.title}</h3>
                     <p>
-                      We continue to challenge <br />
-                      what others do not do, what is new.
+                      {t.index.feature.num3.subtitle}
                     </p>
                     {/* <a
                       className="btn btn-danger btn-md btn-arrow m-t-20"
