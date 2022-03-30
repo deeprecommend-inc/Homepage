@@ -85,4 +85,22 @@ export default {
       },
     }
   },
+  deeplog: {
+    head: {
+      title: "DeepLog | System of website to manage the website like a music playlist",
+      description: "DeepLog is  System of website to manage the website like a music playlist from DeepRecommend",
+    },
+  },
+  deepmatching: {
+    head: {
+      title: "CmCn | Matching app for Matching app for comedians they are Bokeh and Tsukkomi",
+      description: "CmCn is Matching app for Matching app for comedians they are Bokeh and Tsukkomi from DeepRecommend",
+    }
+  },
+  privacyPolicy: {
+    head: {
+      title: "DeepRecommend | Privacy Policy",
+      description: "DeepRecommend Privacy policy",
+    }
+  }
 };

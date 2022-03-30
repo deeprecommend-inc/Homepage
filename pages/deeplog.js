@@ -1,19 +1,20 @@
 import Head from "next/head";
 import DeepLogComponents from "../components/custom/DeepLog";
 import { NextSeo } from "next-seo";
+import { useLocale } from "../locales/useLocale";
 
 export default function Home() {
+  const { t } = useLocale();
+
   return (
     <div>
       <Head>
         <title>
-          DeepLog | System of website to manage the website like a music
-          playlist
+          {t.deeplog.head.title}
         </title>
         <meta
           name="description"
-          content="DeepLog is  System of website to manage the website like a music
-          playlist from DeepRecommend"
+          content={t.deeplog.head.description}
         />
         <link rel="icon" href="favicon.ico" />
       </Head>

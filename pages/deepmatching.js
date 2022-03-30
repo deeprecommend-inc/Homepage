@@ -1,19 +1,20 @@
 import Head from "next/head";
 import DeepMatchingComponents from "../components/custom/DeepMatching";
 import { NextSeo } from "next-seo";
+import { useLocale } from "../locales/useLocale";
 
 export default function Home() {
+  const { t } = useLocale();
+
   return (
     <div>
       <Head>
         <title>
-          CmCn | Matching app for Matching app for comedians they are Bokeh and
-          Tsukkomi
+         {t.deepmatching.head.title}
         </title>
         <meta
           name="description"
-          content="CmCn is Matching app for Matching app for comedians they are Bokeh and
-          Tsukkomi from DeepRecommend"
+          content={t.deepmatching.head.description}
         />
         <link rel="icon" href="favicon.ico" />
       </Head>

@@ -85,4 +85,22 @@ export default {
       },
     }
   },
+  deeplog: {
+    head: {
+      title: "DeepLog＜ディープログ＞ | サイトを音楽のプレイリストのように一括管理するサイト",
+      description: "DeepLog＜ディープログ＞はDeepRecommendのサイトを音楽のプレイリストのように一括管理するサイトです",
+    },
+  },
+  deepmatching: {
+    head: {
+      title: "CmCn＜コンコン＞ | お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ＞",
+      description: "CmCn＜コンコン＞はDeepRecommendのお笑い芸人「ボケ」と「ツッコミ」のマッチングアプリです",
+    }
+  },
+  privacyPolicy: {
+    head: {
+      title: "DeepRecommend | プライバシーポリシー",
+      description: "DeepRecommend プライバシーポリシー",
+    }
+  }
 };
