@@ -1,9 +1,31 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
+  layout: {
+    footer: {
+      access: {
+        label: "Access",
+        phone: "Phone: 070 1734 7502",
+        email: "Email: deeprecommend@gmail.com",
+        address: "Address: 201 Heim Angel Avenue, Karita, Osaka Shi Sumiyoshi Ku, Osaka Fu, 558-0011, Japan",
+      },
+      service: {
+        label: "Services",
+        deeplog: "DeepLog",
+        cmcn: "CmCn",
+      },
+      customerCare: {
+        label: "Customer care",
+        privacyPolicy: "Privacy policy",
+      },
+      sns: {
+        label: "Social",
+      },
+    },
+  },
   index: {
     head: {
       title: "DeepRecommend",
-      description: "We make products that we can wholeheartedly recommend",
+      description: "We make services that we can wholeheartedly recommend",
     },
     header: {
       others: "Others",
@@ -11,13 +33,13 @@ export default {
       shop: "Shop"
     },
     banner: {
-      copy: "We make products\nthat we can wholeheartedly recommend",
+      copy: "We make services\nthat we can wholeheartedly recommend",
       getStarted: "Get started",
       helpSupport: "Help / Support",
     },
     portfolio: {
-      title: "Products",
-      subtitle: "Here are some of our Products",
+      title: "Services",
+      subtitle: "Here are some of our services",
       cmcn: {
         title: "CmCn",
         description: "Matching app for comedians they are 'Bokeh' and 'Tsukkomi'",

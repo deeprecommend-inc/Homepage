@@ -1,5 +1,27 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
+  layout: {
+    footer: {
+      access: {
+        label: "アクセス",
+        phone: "電話番号: 070 1734 7502",
+        email: "Email: deeprecommend@gmail.com",
+        address: "住所: 日本大阪府大阪市住吉区苅田5-16-3",
+      },
+      service: {
+        label: "サービス",
+        deeplog: "DeepLog",
+        cmcn: "CmCn",
+      },
+      customerCare: {
+        label: "カスタマーケア",
+        privacyPolicy: "プライバシーポリシー",
+      },
+      sns: {
+        label: "ソーシャルメディア"
+      },
+    },
+  },
   index: {
     head: {
       title: "DeepRecommend＜ディープレコメンド＞",
@@ -16,8 +38,8 @@ export default {
       helpSupport: "ヘルプ / サポート",
     },
     portfolio: {
-      title: "プロダクト",
-      subtitle: "DeepRecommendのプロダクト一覧",
+      title: "サービス",
+      subtitle: "DeepRecommendのサービス一覧",
       cmcn: {
         title: "CmCn＜コンコン＞",
         description: "お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ",
