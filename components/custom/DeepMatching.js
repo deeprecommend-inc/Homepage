@@ -56,7 +56,7 @@ const DeepMatchingComponents = () => {
 
   return (
     <div id="container">
-      <HeaderComponent />
+      <HeaderComponent localePath={'/deepmatching'} />
 
       {/* <Banner />
       <Banner2 />

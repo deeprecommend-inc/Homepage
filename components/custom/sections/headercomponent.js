@@ -27,10 +27,10 @@ import TranslateIcon from "@mui/icons-material/Translate";
 import Link from "next/link";
 import { useLocale } from "../../../locales/useLocale";
 
-const HeaderComponent = () => {
+const HeaderComponent = (localePath) => {
   const [isOpen, setIsOpen] = useState(false);
   const [ready, setReady] = useState(false);
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
 
   useEffect(() => {
     setReady(true)
@@ -147,9 +147,9 @@ const HeaderComponent = () => {
                 </UncontrolledDropdown>
                 <NavItem>
                     <Link
-                      href="/"
+                      href={localePath}
                       locale={
-                        location.pathname.slice(1, 3) === "ja" ? "en" : "ja"
+                        locale === "ja" ? "en" : "ja"
                       }
                       passHref
                     >

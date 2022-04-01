@@ -123,7 +123,7 @@ export const DeepLogTerm = () => {
         <meta name="description" content="DeepLog | Terms of service" />
         <link rel="icon" href="favicon.ico" />
       </Head>
-      <HeaderComponent />
+      <HeaderComponent localePath={'/terms/deeplog'} />
       <div style={{ maxWidth: "750px", margin: "64px auto" }}>
         <h1 style={{ margin: "35px 0 30px" }}>Terms of service</h1>
         <article></article>

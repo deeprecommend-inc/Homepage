@@ -18,43 +18,13 @@ import ContactComponent from "./sections/contactcomponent";
 import CallToAction from "../../components/call-to-action/CallToAction";
 import Banner from "../banner/Banner";
 import IconButton from "@mui/material/IconButton";
-import VerticalAlignTopIcon from "@mui/icons-material/VerticalAlignTop";
-import Button from "@mui/material/Button";
 import TwitterEmbedded from "./sections/twitter";
 import SDGsComponent from "./sections/SDGs";
 
-const buttonStyle = {
-  position: "fixed",
-  bottom: "24px",
-  right: "24px",
-  borderRadius: "100%",
-  width: "52px",
-  minWidth: "52px",
-  height: "52px",
-  zIndex: 1000,
-};
-
 const CustomComponents = () => {
-  const [isMouseOver, setIsMouseOver] = useState(false);
-
-  const scrollTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
-  const mouseOver = () => {
-    setIsMouseOver(true);
-  };
-
-  const mouseLeave = () => {
-    setIsMouseOver(false);
-  };
-
   return (
     <div id="container">
-      <HeaderComponent />
+      <HeaderComponent localePath={'/'} />
       {/* <Banner /> */}
       <Banner2 />
       <PortfolioComponent />
@@ -72,15 +42,6 @@ const CustomComponents = () => {
       <C2aComponent />
       <ContactComponent />
       <CallToAction /> */}
-      <Button
-        variant={isMouseOver ? "contained" : "outlined"}
-        style={buttonStyle}
-        onMouseOver={mouseOver}
-        onMouseLeave={mouseLeave}
-        onClick={scrollTop}
-      >
-        <VerticalAlignTopIcon />
-      </Button>
     </div>
   );
 };

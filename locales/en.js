@@ -101,6 +101,132 @@ export default {
     head: {
       title: "DeepRecommend | Privacy Policy",
       description: "DeepRecommend Privacy policy",
-    }
+    },
+    title: 'Privacy Policy',
+    content: `
+        <article>
+          <h2>Information</h2>
+          <h5>
+            we obtain from you We obtain the following information from you
+          </h5>
+          <div>
+            ・Name (including nicknames and pseudonyms) <br />
+            ・Age or date of birth <br />
+            ・Gender <br />
+            ・E-mail address <br />
+            ・Phone number <br />
+            ・Address <br />
+            ・Photos and videos <br />
+            ・Information regarding the customer&lsquo;s payment method, such as credit card, bank account, e-money, etc <br />
+            ・ Customer activity history on our website, including time spent on our website, input history, purchase history, etc. <br />
+            ・Usage history of our apps, such as startup time, input history, purchase history, etc. <br />
+          </div>
+        </article>
+        <article>
+          <h2>Purpose of using customer information</h2>
+          <h5>
+            The Company will use the information obtained from customers for the
+            following purposes
+          </h5>
+          <div>
+            ・To accept registrations for our services, to identify and
+            authenticate customers
+            <br />
+            ・To maintain a customer&lsquo;s usage history of our services
+            <br />
+            ・For payment of usage fees
+            <br />
+            ・To analyze customer&lsquo;s activity history on our services and
+            use it to maintain and improve our services <br />
+            <br />
+            ・To provide information about our services
+            <br />
+            ・To respond to customer inquiries
+            <br />
+            ・To respond to violations of our terms and conditions or laws and
+            regulations
+            <br />
+            ・To inform you of changes to our services, discontinuation of
+            provision, termination, or cancellation of contracts
+            <br />
+            ・To notify you of changes to our terms and conditions, etc.
+            <br />
+            ・In addition to the above, to provide, maintain, protect and
+            improve our services
+            <br />
+            ・To display targeted advertising tailored to your interests and
+            preferences
+            <br />
+            ・To deliver and display advertisements and measure their
+            effectiveness
+            <br />
+          </div>
+        </article>
+        <article>
+          <h2>Measures taken for security control</h2>
+          <div>
+            Regarding the measures we have taken to ensure the security of the
+            information we have obtained from our customers, please contact us
+            at the address listed at the end of this document, and we will
+            respond to you individually in accordance with the law.
+          </div>
+        </article>
+        <article>
+          <h2>Provision of Information to Third Parties</h2>
+          <div>
+            We will not collect personal data (Article 2, Paragraph 6 of the
+            Personal Information Protection Law) from customers without
+            obtaining the prior consent of the customer. We will not provide
+            such information to third parties (including parties located outside
+            of Japan) without the prior consent of the customer.
+          </div>
+          <div>
+            ・When the handling of personal data is outsourced In the event of
+            an acquisition of our company or our services <br />
+            ・ When sharing with business partners (if there are specific joint
+            uses, the details will be announced separately) <br />・ In other
+            cases where provision to third parties is legally permitted by law
+          </div>
+        </article>
+        <article>
+          <h2>Changes to the Privacy Policy</h2>
+          <div>
+            We will change the content of this Privacy Policy as necessary. In
+            this case, the Company will inform or notify the public of the
+            effective date and contents of the revised privacy policy by
+            appropriate means.
+          </div>
+        </article>
+        <article>
+          <h2>Inquiries</h2>
+          <div>
+            If you wish to disclose your information, correct, stop using, or
+            delete your information, please contact us at the following e-mail
+            address.
+            <div>
+              e-mail <br /> deeprecommend@gmail.com
+            </div>
+            In this case, we will always confirm that the request is made by the
+            person in question by presenting a &lsquo; license or other method
+            designated by the Company. Please note that an administrative fee of
+            1,000 yen will be charged for each request for disclosure of
+            information, regardless of whether or not the information is
+            disclosed.
+          </div>
+        </article>
+        <article>
+          <h2>Name of Business</h2>
+          <div>Jin Sugimoto</div>
+        </article>
+        <article>
+          <h2> Address of business </h2>
+          <div>
+            5-16-3-201 Kanda, Sumiyoshi-ku, Osaka-shi, Osaka
+          </div>
+        </article>
+        <article>
+          March 26, 2022 Establishment
+        </article>
+    `
   }
 };

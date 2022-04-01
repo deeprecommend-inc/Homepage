@@ -56,7 +56,7 @@ const DeepLogComponents = () => {
 
   return (
     <div id="container">
-      <HeaderComponent />
+      <HeaderComponent localePath={'/deeplog'} />
 
       {/* <Banner />
       <Banner2 />
