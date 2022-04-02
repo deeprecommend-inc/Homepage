@@ -19,7 +19,7 @@ const buttonStyle = {
 const sections = [
   { title: 'Web', url: '/lab/web' },
   { title: 'AI', url: '/lab/ai' },
-  { title: 'Quantum Computing', url: '/lab/quantum' },
+  { title: 'Quantum', url: '/lab/quantum' },
 ];
 
 const Layout = ({ children }) => {

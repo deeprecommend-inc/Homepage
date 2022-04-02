@@ -26,6 +26,7 @@ import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import TranslateIcon from "@mui/icons-material/Translate";
 import Link from "next/link";
 import { useLocale } from "../../../locales/useLocale";
+import BookIcon from '@mui/icons-material/Book';
 
 const HeaderComponent = (localePath) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -97,6 +98,15 @@ const HeaderComponent = (localePath) => {
                     >
                       <ForumIcon />
                       {t.index.header.community}
+                    </DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem
+                      href='/lab'
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       <BookIcon />
+                      {t.index.header.blog}
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem

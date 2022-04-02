@@ -10,7 +10,7 @@ export const site = {
   youtube: "https://www.youtube.com/channel/UCwGTL90Osb8lItwP3zFfQ2Q",
   instagram: "https://www.instagram.com/deep_recommend/",
   tiktok: "https://www.tiktok.com/@deeprecommend",
-  github: "https://github.com/deep-recommend-sugimoto",
+  github: "https://github.com/deep-recommend",
   facebook: "https://www.facebook.com/recommend.deep/",
   slack:
     "https://join.slack.com/t/deeprecommend-mc58389/shared_invite/zt-wdn6aoli-x56SQa1Vfc97CEFvxcpmBw",

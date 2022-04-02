@@ -12,12 +12,12 @@ export default {
         label: "Services",
         deeplog: "DeepLog",
         cmcn: "CmCn",
-        deeplab: "DeepLab"
       },
       customerCare: {
         label: "Customer care",
         privacyPolicy: "Privacy policy",
         contact: "Contact",
+        lab: "DeepLab",
       },
       sns: {
         label: "Social",
@@ -32,7 +32,8 @@ export default {
     header: {
       others: "Others",
       community: "Community",
-      shop: "Shop"
+      shop: "Shop",
+      blog: "Blog"
     },
     banner: {
       copy: "We make services\nthat we can wholeheartedly recommend",

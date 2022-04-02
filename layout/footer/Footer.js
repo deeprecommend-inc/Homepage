@@ -63,6 +63,11 @@ const Footer = () => {
                 {t.layout.footer.customerCare.contact}
               </a>
             </div>
+            <div>
+              <a className="link" href="/lab">
+                {t.layout.footer.customerCare.lab}
+              </a>
+            </div>
           </Col>
           <Col lg="3" md="6">
             <h5 className="m-b-20">{t.layout.footer.sns.label}</h5>

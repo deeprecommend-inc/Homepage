@@ -7,7 +7,6 @@ export const qiitaApi = {
     get: async (params) => {
         const api = await _qiitaApiInstance.create(params);
         const res = await api.get();
-
         return res.data;
     },
 };

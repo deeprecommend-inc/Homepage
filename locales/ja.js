@@ -12,12 +12,12 @@ export default {
         label: "サービス",
         deeplog: "DeepLog",
         cmcn: "CmCn",
-        deeplab: "DeepLab"
       },
       customerCare: {
         label: "カスタマーケア",
         privacyPolicy: "プライバシーポリシー",
         contact: "お問い合わせ",
+        lab: "DeepLab",
       },
       sns: {
         label: "ソーシャルメディア"
@@ -33,6 +33,7 @@ export default {
       others: "その他",
       community: "コミュニティー",
       shop: "ショップ",
+      blog: "ブログ"
     },
     banner: {
       copy: "心からおすすめできるモノづくりをします",

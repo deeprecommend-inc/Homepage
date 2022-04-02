@@ -1741,3 +1741,27 @@ a.btn-outline-success {
 article {
   margin: 64px 0;
 }
+
+$code-block-bg-color: #fafafa;
+$code-block-line-color: #c9c9c9;
+code {
+  background-color: $code-block-bg-color;
+  border: 1px solid $code-block-line-color;
+  margin: 0 2px;
+  padding: 0px 7px;
+}
+
+pre {
+  background-color: $code-block-bg-color !important;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  border: 1px solid $code-block-line-color;
+  border-left-width: 8px;
+  color: initial !important;
+  padding: 22px;
+  code {
+    border: none !important;
+    margin: none !important;
+    padding: none !important;
+  }
+}

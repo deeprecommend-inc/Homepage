@@ -17,7 +17,7 @@ export const Ai = () => {
         init();
     }, [])
 
-    return <BlogComponent title="AI" blogs={data} />
+    return <BlogComponent title="Artificial Intelligence" blogs={data} />
 }
 
 export default Ai;

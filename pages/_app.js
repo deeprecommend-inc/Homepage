@@ -7,8 +7,15 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "animate.css";
+import { Provider } from 'react-redux'
+import { persistStore } from 'redux-persist'
+import { PersistGate } from 'redux-persist/integration/react'
+import { useStore } from '../store';
 
 function MyApp({ Component, pageProps }) {
+  const store = useStore()
+  const persistor = persistStore(store)
+
   useEffect(() => {
     AOS.init({
       once: true,
@@ -26,7 +33,11 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <DefaultSeo {...SEO} />
-      <Component {...pageProps} />
+      <Provider store={store}>
+      <PersistGate persistor={persistor}>
+          <Component {...pageProps} />
+        </PersistGate>
+      </Provider>
     </Layout>
   );
 }
