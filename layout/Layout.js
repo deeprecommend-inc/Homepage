@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import Button from "@mui/material/Button";
 import VerticalAlignTopIcon from "@mui/icons-material/VerticalAlignTop";
+import Header from '../components/blog/Header';
+import { useRouter } from 'next/router'
 
 const buttonStyle = {
   position: "fixed",
@@ -15,8 +16,15 @@ const buttonStyle = {
   zIndex: 1000,
 };
 
+const sections = [
+  { title: 'Web', url: '/lab/web' },
+  { title: 'AI', url: '/lab/ai' },
+  { title: 'Quantum Computing', url: '/lab/quantum' },
+];
+
 const Layout = ({ children }) => {
   const [isMouseOver, setIsMouseOver] = useState(false);
+  const router = useRouter();
 
   const scrollTop = () => {
     window.scrollTo({
@@ -35,8 +43,12 @@ const Layout = ({ children }) => {
 
   return (
     <div id="main-wrapper">
-      {/* <Header /> */}
       <div className="page-wrapper">
+        {
+          router.pathname.slice(1, 4) === 'lab'
+            ? <Header title="DeepLab" sections={sections} localePath={router.pathname} />
+            : <></>
+        }
         <div className="container-fluid">{children}</div>
       </div>
       <Button

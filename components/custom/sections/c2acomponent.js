@@ -5,6 +5,25 @@ import Image from "next/image";
 import img1 from "../../../assets/images/features/feature48/app-store.png";
 import img2 from "../../../assets/images/features/feature48/play-store.png";
 
+const OnlyAskForQuestion = () => {
+  return (
+    <div className="mini-spacer bg-info text-white c2a7">
+        <Container>
+          <div className="d-flex">
+            <div className="display-7 align-self-center">
+              Are you happy with what we offer? Ask for Free Quote
+            </div>
+            <div className="ml-auto m-t-10 m-b-10">
+              <button className="btn btn-outline-light btn-md">
+                Ask for Quatation
+              </button>
+            </div>
+          </div>
+        </Container>
+      </div>
+  )
+}
+
 const C2aComponent = () => {
   return (
     <div>
@@ -62,4 +81,4 @@ const C2aComponent = () => {
   );
 };
 
-export default C2aComponent;
+export { C2aComponent, OnlyAskForQuestion };

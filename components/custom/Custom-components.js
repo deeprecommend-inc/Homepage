@@ -13,7 +13,7 @@ import PricingComponent from "./sections/pricingcomponent";
 import TeamComponent from "./sections/teamcomponent";
 import TestimonialComponent from "./sections/testimonialcomponent";
 import BlogComponent from "./sections/blogcomponent";
-import C2aComponent from "./sections/c2acomponent";
+import { C2aComponent, OnlyAskForQuestion } from "./sections/c2acomponent";
 import ContactComponent from "./sections/contactcomponent";
 import CallToAction from "../../components/call-to-action/CallToAction";
 import Banner from "../banner/Banner";
@@ -36,12 +36,13 @@ const CustomComponents = () => {
       {/* <TwitterEmbedded /> */}
       {/* <SDGsComponent /> */}
       {/* <TeamComponent /> */}
-
-      {/* <TestimonialComponent />
-      <BlogComponent />
-      <C2aComponent />
-      <ContactComponent />
-      <CallToAction /> */}
+{/* 
+      <OnlyAskForQuestion/> */}
+      {/* <TestimonialComponent /> */}
+      {/* <BlogComponent /> */}
+      {/* <C2aComponent /> */}
+      {/* <ContactComponent /> */}
+      {/* <CallToAction /> */}
     </div>
   );
 };

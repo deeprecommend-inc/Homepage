@@ -25,3 +25,10 @@ export const sugimoto = {
   twitter: "https://twitter.com/Jin__Sugimoto",
   instagram: "https://www.instagram.com/sugi_jin_dot_com/",
 };
+
+export const smtp = {
+  username: "deeprecommend@gmail.com",
+  password: "1B6B42B792EB04D97D0D4828ABB1209989B1",
+  servername: "smtp.elasticemail.com",
+  port: "2525",
+}

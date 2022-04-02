@@ -67,9 +67,6 @@ const HeaderComponent = (localePath) => {
             </NavbarToggler>
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                <NavItem className="active">
-                  <NavLink href="#"></NavLink>
-                </NavItem>
                 <NavItem>
                   <NavLink
                     href={site.deepLog}

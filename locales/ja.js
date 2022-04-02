@@ -12,10 +12,12 @@ export default {
         label: "サービス",
         deeplog: "DeepLog",
         cmcn: "CmCn",
+        deeplab: "DeepLab"
       },
       customerCare: {
         label: "カスタマーケア",
         privacyPolicy: "プライバシーポリシー",
+        contact: "お問い合わせ",
       },
       sns: {
         label: "ソーシャルメディア"
@@ -190,5 +192,21 @@ export default {
           2022年03月26日 制定
         </article>
     `
+  },
+  contact: {
+    form: {
+      title: "お問い合わせフォーム",
+      subtitle: "お気軽にお問い合わせください",
+      inner: {
+        title: "お問い合わせ",
+        name: "ご氏名",
+        email: "Email",
+        description: "内容",
+        submit: "送信",
+      }
+    },
+    detailBox: {
+      address: "大阪府大阪市\n 住吉区苅田5-16-3-201"
+    }
   }
 };

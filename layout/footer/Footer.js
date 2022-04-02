@@ -45,12 +45,24 @@ const Footer = () => {
                 {t.layout.footer.service.cmcn}
               </a>
             </div>
+            {/* <div>
+              <a className="link" href="/lab">
+                {t.layout.footer.service.deeplab}
+              </a>
+            </div> */}
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">{t.layout.footer.customerCare.label}</h5>
-            <a className="link" href="/privacypolicy">
-              {t.layout.footer.customerCare.privacyPolicy}
-            </a>
+            <div>
+              <a className="link" href="/privacypolicy">
+                {t.layout.footer.customerCare.privacyPolicy}
+              </a>
+            </div>
+            <div>
+              <a className="link" href="/contact">
+                {t.layout.footer.customerCare.contact}
+              </a>
+            </div>
           </Col>
           <Col lg="3" md="6">
             <h5 className="m-b-20">{t.layout.footer.sns.label}</h5>

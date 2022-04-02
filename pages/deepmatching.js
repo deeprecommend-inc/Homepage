@@ -3,7 +3,7 @@ import DeepMatchingComponents from "../components/custom/DeepMatching";
 import { NextSeo } from "next-seo";
 import { useLocale } from "../locales/useLocale";
 
-export default function Home() {
+export default function DeepMatching() {
   const { t } = useLocale();
 
   return (

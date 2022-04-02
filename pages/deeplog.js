@@ -3,7 +3,7 @@ import DeepLogComponents from "../components/custom/DeepLog";
 import { NextSeo } from "next-seo";
 import { useLocale } from "../locales/useLocale";
 
-export default function Home() {
+export default function DeepLog() {
   const { t } = useLocale();
 
   return (

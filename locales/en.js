@@ -12,10 +12,12 @@ export default {
         label: "Services",
         deeplog: "DeepLog",
         cmcn: "CmCn",
+        deeplab: "DeepLab"
       },
       customerCare: {
         label: "Customer care",
         privacyPolicy: "Privacy policy",
+        contact: "Contact",
       },
       sns: {
         label: "Social",
@@ -228,5 +230,21 @@ export default {
           March 26, 2022 Establishment
         </article>
     `
+  },
+  contact: {
+    form: {
+      title: "Contact Form",
+      subtitle: "Please feel free to contact us!",
+      inner: {
+        title: "Contact",
+        name: "Name",
+        email: "E-mail",
+        description: "Message",
+        submit: "Send",
+      }
+    },
+    detailBox: {
+      address: "5-16-3-201 Kanda, Sumiyoshi-ku,\n Osaka-shi, Osaka"
+    }
   }
 };
