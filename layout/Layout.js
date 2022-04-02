@@ -50,6 +50,7 @@ const Layout = ({ children }) => {
             : <></>
         }
         <div className="container-fluid">{children}</div>
+         <script src="https://smtpjs.com/v3/smtp.js"></script>
       </div>
       <Button
         variant={isMouseOver ? "contained" : "outlined"}
