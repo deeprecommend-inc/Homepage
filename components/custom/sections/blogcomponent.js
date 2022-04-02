@@ -19,7 +19,10 @@ const BlogCol = ({ blog }) => {
     dispatch(
       blogDetailSlice.actions.setBlogDetail(blog)
     )
-    router.push('/lab' + '/' + blog.id)
+
+    setTimeout(() => {
+      router.push('/lab' + '/' + blog.id)
+    }, 100)
   }
 
   return (

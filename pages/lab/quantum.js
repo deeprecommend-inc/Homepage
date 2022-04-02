@@ -11,7 +11,6 @@ export const Quantum = () => {
         const init = async () => {
           const data = await qiitaApi.get();
           const aboutQuantum = getByTagName(data, 'QuantumComputing');
-          console.log({aboutQuantum})
           aboutQuantum.forEach((el, i) => {
             el.img = `https://picsum.photos/id/${Math.floor(Math.random() * 1001)}/500/300`;
           });

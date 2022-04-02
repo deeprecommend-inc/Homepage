@@ -11,13 +11,16 @@ export const Ai = () => {
         const init = async () => {
           const data = await qiitaApi.get();
           const aboutAi = getByTagName(data, 'Ai');
+          aboutAi.forEach((el, i) => {
+            el.img = `https://picsum.photos/id/${Math.floor(Math.random() * 1001)}/500/300`;
+          });
           setData(aboutAi);
         }
 
         init();
     }, [])
 
-    return <BlogComponent title="Artificial Intelligence" blogs={data} />
+    return <BlogComponent title="Ai" blogs={data} />
 }
 
 export default Ai;

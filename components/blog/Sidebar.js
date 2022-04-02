@@ -47,7 +47,7 @@ function Sidebar(props) {
     
     setTimeout(() => {
       router.replace('/lab' + '/' + blog.id);
-    }, 0)
+    }, 100)
   }
 
   return (
