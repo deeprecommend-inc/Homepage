@@ -39,14 +39,6 @@ function MyApp({ Component, pageProps }) {
         title={t.index.head.title}
         description={t.index.head.description}
         canonical={site.home}
-        openGraph={{
-          url: site.home,
-          title: t.index.head.title,
-          description: t.index.head.description,
-          type: "website",
-          locale: locale,
-          site_name: "DeepRecommend",
-        }}
         twitter={{
           handle: "@DeepRecommend",
           site: "@DeepRecommend",

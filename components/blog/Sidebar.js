@@ -46,7 +46,7 @@ function Sidebar(props) {
     )
     
     setTimeout(() => {
-      router.replace('/lab' + '/' + blog.id);
+      router.push('/lab' + '/' + blog.id);
     }, 200)
   }
 

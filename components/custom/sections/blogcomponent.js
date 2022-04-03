@@ -7,7 +7,7 @@ import img2 from "../../../assets/images/blog/blog-home/img2.jpg";
 import img3 from "../../../assets/images/blog/blog-home/img1.jpg";
 import moment from 'moment';
 import { useRouter } from 'next/router';
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { blogDetailSlice } from "../../../store/blogDetail";
 import { asyncLocalStorage } from "../../../utils/asyncLocalStorage";
 

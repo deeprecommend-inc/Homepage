@@ -102,8 +102,6 @@ const HeaderComponent = (localePath) => {
                     <DropdownItem divider />
                     <DropdownItem
                       href='/lab'
-                      target="_blank"
-                      rel="noopener noreferrer"
                     >
                        <BookIcon />
                       {t.index.header.blog}

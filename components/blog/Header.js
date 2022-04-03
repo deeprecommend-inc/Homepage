@@ -45,7 +45,7 @@ function Header({ sections, title, localePath }) {
       <div className="header1 po-relative">
         <Container>
           <Navbar className="navbar-expand-lg h1-nav">
-            <NavbarBrand href="/" className="d-flex flex-row align-items-center">
+            <NavbarBrand href="/lab" className="d-flex flex-row align-items-center">
               <Image src={logo} alt="wrapkit" width="64" height="64" />
               <h1 className="ml-3">DeepLab</h1>
             </NavbarBrand>

@@ -14,11 +14,10 @@ import { site } from '../../constants/const';
 
 const theme = createTheme();
 
-const BlogContent = () => {
+const BlogContent = ({detail}) => {
   const [ready, setReady] = useState();
   const router = useRouter();
   const { t, locale } = useLocale();
-  const detail = useSelector(state => state.blogDetail.blogDetail)
 
   useEffect(() => {
     setReady(true);
@@ -32,28 +31,6 @@ const BlogContent = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <NextSeo
-        title={'DeepLab' + ' | ' + detail.title}
-        description={'DeepLab' + ' | ' + detail.body?.replace(/\n/, '').slice(0, 50) + '...'}
-        canonical={site.home + '/lab' + detail.id}
-        openGraph={{
-          url: site.home + '/lab' + detail.id,
-          title: detail.title,
-          description: detail.body?.replace(/\n/, '').slice(0, 50) + '...',
-          type: "website",
-          locale: locale,
-          images: [
-            {
-              url: './DeepLab.png',
-              width: 1600,
-              height: 900,
-              alt: 'DeepRecommend',
-              type: 'image/png',
-            },
-          ],
-          site_name: "DeepRecommend",
-        }}
-      />
       <CssBaseline />
       <Container maxWidth="lg" sx={{ marginBottom: '24px'}}>
         <main>
