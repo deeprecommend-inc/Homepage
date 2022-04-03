@@ -233,6 +233,10 @@ export default {
     `
   },
   contact: {
+    head: {
+      title: "DeepRecommend | Contact form",
+      description: "Please feel free to contact us!",
+    },
     form: {
       title: "Contact Form",
       subtitle: "Please feel free to contact us!",

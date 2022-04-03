@@ -195,6 +195,10 @@ export default {
     `
   },
   contact: {
+    head: {
+      title: "DeepRecommend | お問い合わせフォーム",
+      description: "お気軽にお問い合わせください",
+    },
     form: {
       title: "お問い合わせフォーム",
       subtitle: "お気軽にお問い合わせください",

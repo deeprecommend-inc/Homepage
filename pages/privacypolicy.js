@@ -3,17 +3,44 @@ import CustomComponents from "../components/custom/Custom-components";
 import { NextSeo } from "next-seo";
 import HeaderComponent from "../components/custom/sections/headercomponent";
 import { useLocale } from "../locales/useLocale";
+import { site } from '../constants/const';
+import deeprecommendImg from "../assets/images/deeprecommend/DeepRecommend.png";
 
 export const PrivacyPolicy = () => {
-  const { t } = useLocale();
+  const { t, locale } = useLocale();
 
   return (
     <div>
-      <Head>
-        <title>{t.privacyPolicy.head.title}</title>
-        <meta name="description" content={t.privacyPolicy.head.description} />
-        <link rel="icon" href="favicon.ico" />
-      </Head>
+      <NextSeo
+        title={t.privacyPolicy.head.title}
+        description={t.privacyPolicy.head.description}
+        canonical={site.home + '/privacypolicy'}
+        openGraph={{
+          url: site.home,
+          title: t.index.head.title,
+          description: t.index.head.description,
+          type: "website",
+          locale: locale,
+          images: [
+            {
+              url: deeprecommendImg,
+              width: 800,
+              height: 600,
+              alt: 'DeepRecommend',
+              type: 'image/png',
+            },
+            {
+              url: deeprecommendImg,
+              width: 900,
+              height: 800,
+              alt: 'DeepRecommend',
+              type: 'image/peg',
+            },
+            { url: deeprecommendImg },
+          ],
+          site_name: "DeepRecommend",
+        }}
+      />
       <HeaderComponent localePath={'/privacypolicy'} />
       <div style={{ maxWidth: "750px", margin: "64px auto", whiteSpace: 'normal' }}>
       <h1 style={{ margin: "35px 0 30px" }}>{t.privacyPolicy.title}</h1>

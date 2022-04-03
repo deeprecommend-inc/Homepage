@@ -1,4 +1,5 @@
 export const site = {
+  home: "https://deep-recommend.com",
   deepLog: "https://deep-log.net",
   deepMusic:
     "https://www.youtube.com/watch?v=LbCOZG1bKag&list=PLl1uSafEFyQk6_gbYvwFttY80szd-eKEZ",
