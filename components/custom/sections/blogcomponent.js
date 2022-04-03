@@ -22,7 +22,7 @@ const BlogCol = ({ blog }) => {
 
     setTimeout(() => {
       router.push('/lab' + '/' + blog.id)
-    }, 100)
+    }, 200)
   }
 
   return (

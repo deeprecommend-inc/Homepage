@@ -10,7 +10,7 @@ export const Ai = () => {
     useEffect(() => {
         const init = async () => {
           const data = await qiitaApi.get();
-          const aboutAi = getByTagName(data, 'Ai');
+          const aboutAi = getByTagName(data, 'AI');
           aboutAi.forEach((el, i) => {
             el.img = `https://picsum.photos/id/${Math.floor(Math.random() * 1001)}/500/300`;
           });
@@ -20,7 +20,7 @@ export const Ai = () => {
         init();
     }, [])
 
-    return <BlogComponent title="Ai" blogs={data} />
+    return <BlogComponent title="AI" blogs={data} />
 }
 
 export default Ai;
