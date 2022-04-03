@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
           content="Z6Rl8fnfOf9kvou18ZpxZmvW9HXWzt1p5uF_g35TPjw"
         />
       </Head>
-      <DefaultSeo
+      {/* <DefaultSeo
         title={t.index.head.title}
         description={t.index.head.description}
         canonical={site.home}
@@ -69,7 +69,7 @@ function MyApp({ Component, pageProps }) {
           site: "@DeepRecommend",
           cardType: "summary",
         }}
-      />
+      /> */}
       <Provider store={store}>
       <PersistGate persistor={persistor}>
           <Component {...pageProps} />
