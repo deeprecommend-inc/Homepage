@@ -12,6 +12,7 @@ import { PersistGate } from 'redux-persist/integration/react'
 import { useStore } from '../store';
 import { useLocale } from "../locales/useLocale";
 import { site } from "../constants/const";
+import deeprecommendImg from "../assets/images/deeprecommend/DeepRecommend.png";
 
 function MyApp({ Component, pageProps }) {
   const store = useStore()
@@ -34,7 +35,7 @@ function MyApp({ Component, pageProps }) {
           content="Z6Rl8fnfOf9kvou18ZpxZmvW9HXWzt1p5uF_g35TPjw"
         />
       </Head>
-      {/* <DefaultSeo
+      <DefaultSeo
         title={t.index.head.title}
         description={t.index.head.description}
         canonical={site.home}
@@ -46,21 +47,21 @@ function MyApp({ Component, pageProps }) {
           locale: locale,
           images: [
             {
-              url: '',
+              url: deeprecommendImg,
               width: 800,
               height: 600,
               alt: 'Og Image Alt',
               type: 'image/jpeg',
             },
             {
-              url: 'https://www.example.ie/og-image-02.jpg',
+              url: deeprecommendImg,
               width: 900,
               height: 800,
               alt: 'Og Image Alt Second',
               type: 'image/jpeg',
             },
-            { url: 'https://www.example.ie/og-image-03.jpg' },
-            { url: 'https://www.example.ie/og-image-04.jpg' },
+            { url: deeprecommendImg },
+            { url: deeprecommendImg },
           ],
           site_name: "DeepRecommend",
         }}
@@ -69,7 +70,7 @@ function MyApp({ Component, pageProps }) {
           site: "@DeepRecommend",
           cardType: "summary",
         }}
-      /> */}
+      />
       <Provider store={store}>
       <PersistGate persistor={persistor}>
           <Component {...pageProps} />
