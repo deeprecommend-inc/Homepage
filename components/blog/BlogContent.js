@@ -44,20 +44,12 @@ const BlogContent = () => {
           locale: locale,
           images: [
             {
-              url: 'https://source.unsplash.com/random',
-              width: 800,
-              height: 600,
+              url: './DeepLab.png',
+              width: 1600,
+              height: 900,
               alt: 'DeepRecommend',
               type: 'image/png',
             },
-            {
-              url: 'https://source.unsplash.com/random',
-              width: 900,
-              height: 800,
-              alt: 'DeepRecommend',
-              type: 'image/png',
-            },
-            { url: 'https://source.unsplash.com/random' },
           ],
           site_name: "DeepRecommend",
         }}

@@ -45,30 +45,12 @@ function MyApp({ Component, pageProps }) {
           description: t.index.head.description,
           type: "website",
           locale: locale,
-          images: [
-            {
-              url: deeprecommendImg,
-              width: 800,
-              height: 600,
-              alt: 'Og Image Alt',
-              type: 'image/jpeg',
-            },
-            {
-              url: deeprecommendImg,
-              width: 900,
-              height: 800,
-              alt: 'Og Image Alt Second',
-              type: 'image/jpeg',
-            },
-            { url: deeprecommendImg },
-            { url: deeprecommendImg },
-          ],
           site_name: "DeepRecommend",
         }}
         twitter={{
           handle: "@DeepRecommend",
           site: "@DeepRecommend",
-          cardType: "summary",
+          cardType: "summary_large_image",
         }}
       />
       <Provider store={store}>
