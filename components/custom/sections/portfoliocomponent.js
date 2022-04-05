@@ -5,6 +5,7 @@ import Image from "next/image";
 import logImg from "../../../assets/images/portfolio/deepLog.png";
 import matchingImg from "../../../assets/images/portfolio/deepMatching.jpg";
 import museumImg from "../../../assets/images/portfolio/deepMuseum.jpg";
+import labImg from "../../../assets/images/portfolio/deepLab.png";
 import { site } from "../../../constants/const";
 import { useLocale } from "../../../locales/useLocale";
 
@@ -55,29 +56,6 @@ const PortfolioComponent = () => {
               <Card className="card-shadow">
                 <a
                   style={normalStyle}
-                  href={site.deepMatching}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="img-ho"
-                >
-                  <Image
-                    className="card-img-top"
-                    src={matchingImg}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">{t.index.portfolio.cmcn.title}</h5>
-                  <p className="m-b-0 font-14">
-                    {t.index.portfolio.cmcn.description}
-                  </p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4" data-aos="fade-up">
-              <Card className="card-shadow">
-                <a
-                  style={normalStyle}
                   href={site.deepLog}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -93,6 +71,52 @@ const PortfolioComponent = () => {
                   <h5 className="font-medium m-b-0">{t.index.portfolio.deeplog.title}</h5>
                   <p className="m-b-0 font-14">
                     {t.index.portfolio.deeplog.description}
+                  </p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4" data-aos="fade-up">
+              <Card className="card-shadow">
+                <a
+                  style={normalStyle}
+                  href="/lab"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="img-ho"
+                >
+                  <Image
+                    className="card-img-top"
+                    src={labImg}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">{t.index.portfolio.deeplab.title}</h5>
+                  <p className="m-b-0 font-14">
+                    {t.index.portfolio.deeplab.description}
+                  </p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4" data-aos="fade-up-left">
+              <Card className="card-shadow">
+                <a
+                  style={normalStyle}
+                  href={site.deepMatching}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="img-ho"
+                >
+                  <Image
+                    className="card-img-top"
+                    src={matchingImg}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">{t.index.portfolio.cmcn.title}</h5>
+                  <p className="m-b-0 font-14">
+                    {t.index.portfolio.cmcn.description}
                   </p>
                 </CardBody>
               </Card>
@@ -120,7 +144,7 @@ const PortfolioComponent = () => {
                 </CardBody>
               </Card>
             </Col> */}
-            <Col md="4" data-aos="fade-up-left">
+            <Col md="4" data-aos="fade-up">
               <Card className="card-shadow">
                 <a style={endStyle} className="img-ho" disabled>
                   <Image

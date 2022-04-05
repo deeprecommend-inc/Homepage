@@ -79,6 +79,15 @@ const HeaderComponent = (localePath) => {
                 </NavItem>
                 <NavItem>
                   <NavLink
+                    href='/lab'
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    DeepLab
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
                     href={site.deepMatching}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -98,13 +107,6 @@ const HeaderComponent = (localePath) => {
                     >
                       <ForumIcon />
                       {t.index.header.community}
-                    </DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem
-                      href='/lab'
-                    >
-                       <BookIcon />
-                      {t.index.header.blog}
                     </DropdownItem>
                     <DropdownItem divider />
                     <DropdownItem

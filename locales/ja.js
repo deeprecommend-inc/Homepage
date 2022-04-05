@@ -11,6 +11,7 @@ export default {
       service: {
         label: "サービス",
         deeplog: "DeepLog",
+        deeplab: "DeepLab",
         cmcn: "CmCn",
       },
       customerCare: {
@@ -18,6 +19,7 @@ export default {
         privacyPolicy: "プライバシーポリシー",
         contact: "お問い合わせ",
         lab: "DeepLab",
+        community: "ヘルプ / サポート"
       },
       sns: {
         label: "ソーシャルメディア"
@@ -51,6 +53,10 @@ export default {
         title: "DeepLog＜ディープログ＞",
         description: "ウェブサイトを音楽のプレイリストのように一括管理するウェブサイト",
       },
+      deeplab: {
+        title: "DeepLab＜ディープラボ＞",
+        description: "Web、AI、そして量子コンピューティングの３つを軸に情報を発信していきます",
+      },
       deepmuseum: {
         title: "DeepMuseum＜ディープミュージアム＞",
         description: "アート好きと画家のためのオンライン美術館（2022/3/8サービス終了）",
@@ -74,7 +80,7 @@ export default {
         label: "特徴 2",
         section1: {
           title: "活発なやり取り",
-          subtitle: "私たちが「強くお勧めだ」と思っても, カスタマーはそうは考えない場合があります。\nそのため、お客様からの直接のご意見を大切にしています。Discordによる独自のコミュニティがあります。",
+          subtitle: "私たちが「強くお勧めだ」と思っても、カスタマーはそうは考えない場合があります。\nそのため、お客様からの直接のご意見を大切にしています。Discordによる独自のコミュニティがあるのでご活用ください。",
         },
         section2: {
           title: "ぜひ意見をお聴かせください",

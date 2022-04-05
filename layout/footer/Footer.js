@@ -40,19 +40,24 @@ const Footer = () => {
                 {t.layout.footer.service.deeplog}
               </a>
             </div>
+             <div>
+              <a className="link" href="/lab">
+                {t.layout.footer.service.deeplab}
+              </a>
+            </div>
             <div>
               <a className="link" href="https://deep-matching.com">
                 {t.layout.footer.service.cmcn}
               </a>
             </div>
-            {/* <div>
-              <a className="link" href="/lab">
-                {t.layout.footer.service.deeplab}
-              </a>
-            </div> */}
           </Col>
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">{t.layout.footer.customerCare.label}</h5>
+            <div>
+              <a className="link" href={site.discord} target="_blank" rel="noopener noreferrer">
+                {t.layout.footer.customerCare.community}
+              </a>
+            </div>
             <div>
               <a className="link" href="/privacypolicy">
                 {t.layout.footer.customerCare.privacyPolicy}
@@ -61,11 +66,6 @@ const Footer = () => {
             <div>
               <a className="link" href="/contact">
                 {t.layout.footer.customerCare.contact}
-              </a>
-            </div>
-            <div>
-              <a className="link" href="/lab">
-                {t.layout.footer.customerCare.lab}
               </a>
             </div>
           </Col>

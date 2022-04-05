@@ -11,6 +11,7 @@ export default {
       service: {
         label: "Services",
         deeplog: "DeepLog",
+        deeplab: "DeepLab",
         cmcn: "CmCn",
       },
       customerCare: {
@@ -18,6 +19,7 @@ export default {
         privacyPolicy: "Privacy policy",
         contact: "Contact",
         lab: "DeepLab",
+        community: "Help / Support",
       },
       sns: {
         label: "Social",
@@ -50,6 +52,10 @@ export default {
       deeplog: {
         title: "DeepLog",
         description: "System of website to manage the website like a music playlist for people use websites",
+      },
+      deeplab: {
+        title: "DeepLab",
+        description: "We will disseminate information based on the Web, AI, and Quantum Computing",
       },
       deepmuseum: {
         title: "DeepMuseum",
