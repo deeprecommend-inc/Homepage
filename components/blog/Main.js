@@ -3,12 +3,16 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import Markdown from './Markdown';
+import * as marked from 'marked';
 
 function Main(props) {
   const { detail, title } = props;
   const [ready, setReady] = useState(false);
+  const [html, setHtml] = useState('')
   
   useEffect(() => {
+    const parsed = marked.parse(detail);
+    setHtml(parsed);
     setReady(true);
   }, [])
 
@@ -29,9 +33,10 @@ function Main(props) {
         {title}
       </Typography>
       <Divider />
-      <Markdown className="markdown">
+      <div dangerouslySetInnerHTML={{__html: html}} />
+      {/* <Markdown className="markdown">
         {detail || ''}
-      </Markdown>
+      </Markdown> */}
     </Grid>
   );
 }
