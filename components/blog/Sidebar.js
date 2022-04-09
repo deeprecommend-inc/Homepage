@@ -40,6 +40,14 @@ function Sidebar(props) {
     init();
   }, []);
 
+  // useEffect(() => {
+  //   window.onscroll = () => {
+  //     const scrollTop = window.pageYOffset
+  //     console.log('SCROLL', {scrollTop, slider})
+  //     slider.current.style.color = 'red'
+  //   };
+  // }, [window.pageYOffset]);
+
   const toDetail = (blog) => {
     dispatch(
       blogDetailSlice.actions.setBlogDetail(blog)

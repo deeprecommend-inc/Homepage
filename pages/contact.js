@@ -40,6 +40,11 @@ const Contact = () => {
               ],
               site_name: "DeepRecommend",
             }}
+            twitter={{
+              handle: "@DeepRecommend",
+              site: "@DeepRecommend",
+              cardType: "summary",
+            }}
           />
           <HeaderComponent/>
           <ContactComponent />

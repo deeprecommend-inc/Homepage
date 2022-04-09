@@ -38,6 +38,11 @@ export default function DeepMatching() {
           ],
           site_name: "DeepRecommend",
         }}
+        twitter={{
+          handle: "@DeepRecommend",
+          site: "@DeepRecommend",
+          cardType: "summary",
+        }}
       />
       <DeepMatchingComponents />
     </div>

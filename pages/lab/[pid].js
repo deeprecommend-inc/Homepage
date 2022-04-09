@@ -42,8 +42,13 @@ const Post = () => {
           ],
           site_name: "DeepLab",
         }}
+        twitter={{
+          handle: "@DeepRecommend",
+          site: "@DeepRecommend",
+          cardType: "summary",
+        }}
       />
-      <BlogContent detail={detail} />
+      <BlogContent detail={detail} sx={{background: "#EDF2F7"}} />
     </div>
   )
 }

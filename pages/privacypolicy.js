@@ -39,6 +39,11 @@ export const PrivacyPolicy = () => {
           ],
           site_name: "DeepRecommend",
         }}
+        twitter={{
+          handle: "@DeepRecommend",
+          site: "@DeepRecommend",
+          cardType: "summary",
+        }}
       />
       <HeaderComponent localePath={'/privacypolicy'} />
       <div style={{ maxWidth: "750px", margin: "64px auto", whiteSpace: 'normal' }}>

@@ -1760,6 +1760,7 @@ pre {
   color: initial !important;
   padding: 22px;
   code {
+    background-color: $code-block-bg-color !important;
     border: none !important;
     margin: none !important;
     padding: none !important;

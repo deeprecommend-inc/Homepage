@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
@@ -21,11 +21,7 @@ const BlogContent = ({detail}) => {
 
   useEffect(() => {
     setReady(true);
-  }, [])
-
-  useEffect(() => {
-    console.log({detail})
-  }, [detail])
+  }, []);
 
   if (!ready) return <></>;
 
@@ -40,7 +36,7 @@ const BlogContent = ({detail}) => {
               image: 'https://source.unsplash.com/random',
               imageText: 'main image description',
           }}/>
-          <Grid container spacing={5} sx={{ mt: 3 }}>
+          <Grid id="main" container spacing={5} sx={{ mt: 3 }}>
             <Main title={detail.title} detail={detail.body} />
             <Sidebar
               title={'DeepLab'}

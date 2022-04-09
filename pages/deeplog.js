@@ -38,6 +38,11 @@ export default function DeepLog() {
           ],
           site_name: "DeepRecommend",
         }}
+        twitter={{
+          handle: "@DeepRecommend",
+          site: "@DeepRecommend",
+          cardType: "summary",
+        }}
       />
       <DeepLogComponents />
     </div>
