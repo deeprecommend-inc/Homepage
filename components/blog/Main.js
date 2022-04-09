@@ -34,9 +34,6 @@ function Main(props) {
       </Typography>
       <Divider />
       <div dangerouslySetInnerHTML={{__html: html}} />
-      {/* <Markdown className="markdown">
-        {detail || ''}
-      </Markdown> */}
     </Grid>
   );
 }
