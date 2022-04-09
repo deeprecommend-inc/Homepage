@@ -3,8 +3,7 @@ import CustomComponents from "../components/custom/Custom-components";
 import { NextSeo } from "next-seo";
 import HeaderComponent from "../components/custom/sections/headercomponent";
 import { useLocale } from "../locales/useLocale";
-import { site } from '../constants/const';
-import deeprecommendImg from "../assets/images/deeprecommend/DeepRecommend.png";
+import { imgUrl, site } from '../constants/const';
 
 export const PrivacyPolicy = () => {
   const { t, locale } = useLocale();
@@ -23,20 +22,20 @@ export const PrivacyPolicy = () => {
           locale: locale,
           images: [
             {
-              url: deeprecommendImg,
+              url: imgUrl.deeprecommend,
               width: 800,
               height: 600,
               alt: 'DeepRecommend',
               type: 'image/png',
             },
             {
-              url: deeprecommendImg,
+              url: imgUrl.deeprecommend,
               width: 900,
               height: 800,
               alt: 'DeepRecommend',
               type: 'image/peg',
             },
-            { url: deeprecommendImg },
+            { url: imgUrl.deeprecommend },
           ],
           site_name: "DeepRecommend",
         }}

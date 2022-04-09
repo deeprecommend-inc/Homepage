@@ -33,3 +33,8 @@ export const smtp = {
   servername: "smtp.elasticemail.com",
   port: "2525",
 }
+
+export const imgUrl = {
+  deeprecommend: 'https://deep-log.s3.ap-northeast-1.amazonaws.com/DeepRecommend+(1).png',
+  deeplab: 'https://deep-log.s3.ap-northeast-1.amazonaws.com/DeepLab+(1).png',
+}

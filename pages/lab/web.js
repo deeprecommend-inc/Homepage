@@ -12,7 +12,7 @@ export const Web = () => {
           const data = await qiitaApi.get();
           const aboutWeb = getByTagName(data, 'Web');
           aboutWeb.forEach((el, i) => {
-            el.img = `https://picsum.photos/id/${Math.floor(Math.random() * 1001)}/500/300`;
+            el.img = `https://picsum.photos/500/300?random=${i}`;
           });
           setData(aboutWeb);
         }

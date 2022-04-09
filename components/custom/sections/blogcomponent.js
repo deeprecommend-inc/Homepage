@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Row, Col, Container, Card } from "reactstrap";
 import Image from "next/image";
 import img1 from "../../../assets/images/blog/blog-home/img3.jpg";
@@ -14,6 +14,11 @@ import { asyncLocalStorage } from "../../../utils/asyncLocalStorage";
 const BlogCol = ({ blog }) => {
   const router = useRouter();
   const dispatch = useDispatch();
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    setReady(true);
+  }, [])
 
   const toDetail = () => {
     dispatch(
@@ -25,13 +30,15 @@ const BlogCol = ({ blog }) => {
     }, 200)
   }
 
+  if (!ready) return <></>;
+
   return (
     <Col lg="4" md="6" onClick={toDetail}>
       <Card>
         <a href="#">
           <img
             className="card-img-top"
-            src={blog.img}
+            src={blog.img ?? blog.insurance}
             alt="wrappixel kit"
           />
         </a>

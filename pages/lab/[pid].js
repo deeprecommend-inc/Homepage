@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import { useSelector } from 'react-redux'
 import BlogContent from '../../components/blog/BlogContent'
-import { site } from '../../constants/const'
+import { imgUrl, site } from '../../constants/const'
 import { useLocale } from '../../locales/useLocale'
 import { NextSeo } from "next-seo";
 
@@ -25,14 +25,22 @@ const Post = () => {
           locale: locale,
           images: [
             {
-              url: './DeepLab.png',
-              width: 1600,
-              height: 900,
-              alt: 'DeepRecommend',
+              url: imgUrl.deeplab,
+              width: 800,
+              height: 600,
+              alt: 'DeepLab',
               type: 'image/png',
             },
+            {
+              url: imgUrl.deeplab,
+              width: 1600,
+              height: 900,
+              alt: 'DeepLab',
+              type: 'image/png',
+            },
+            { url: imgUrl.deeplab },
           ],
-          site_name: "DeepRecommend",
+          site_name: "DeepLab",
         }}
       />
       <BlogContent detail={detail} />

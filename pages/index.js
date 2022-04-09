@@ -3,8 +3,7 @@ import CustomComponents from "../components/custom/Custom-components";
 import { NextSeo } from "next-seo";
 import { useLocale } from "../locales/useLocale";
 import React, { useState, useEffect } from "react";
-import { site } from "../constants/const";
-import deeprecommendImg from "../assets/images/deeprecommend/DeepRecommend.png";
+import { imgUrl, site } from "../constants/const";
 
 export default function Home() {
   const { t, locale } = useLocale();
@@ -30,20 +29,20 @@ export default function Home() {
           locale: locale,
           images: [
             {
-              url: deeprecommendImg,
+              url: imgUrl.deeprecommend,
               width: 800,
               height: 600,
               alt: 'DeepRecommend',
               type: 'image/png',
             },
             {
-              url: deeprecommendImg,
+              url: imgUrl.deeprecommend,
               width: 900,
               height: 800,
               alt: 'DeepRecommend',
               type: 'image/peg',
             },
-            { url: deeprecommendImg },
+            { url: imgUrl.deeprecommend },
           ],
           site_name: "DeepRecommend",
         }}

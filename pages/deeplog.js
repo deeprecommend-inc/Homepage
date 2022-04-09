@@ -2,8 +2,7 @@ import Head from "next/head";
 import DeepLogComponents from "../components/custom/DeepLog";
 import { NextSeo } from "next-seo";
 import { useLocale } from "../locales/useLocale";
-import { site } from '../constants/const';
-import deeplogImg from "../assets/images/deeprecommend/deeplog.png";
+import { imgUrl, site } from '../constants/const';
 
 export default function DeepLog() {
   const { t, locale } = useLocale();
@@ -22,20 +21,20 @@ export default function DeepLog() {
           locale: locale,
           images: [
             {
-              url: deeplogImg,
+              url: imgUrl.deeprecommend,
               width: 800,
               height: 600,
               alt: 'DeepRecommend',
               type: 'image/png',
             },
             {
-              url: deeplogImg,
+              url: imgUrl.deeprecommend,
               width: 900,
               height: 800,
               alt: 'DeepRecommend',
               type: 'image/png',
             },
-            { url: deeplogImg },
+            { url: imgUrl.deeprecommend},
           ],
           site_name: "DeepRecommend",
         }}

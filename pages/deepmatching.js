@@ -2,8 +2,7 @@ import Head from "next/head";
 import DeepMatchingComponents from "../components/custom/DeepMatching";
 import { NextSeo } from "next-seo";
 import { useLocale } from "../locales/useLocale";
-import { site } from '../constants/const';
-import deepmatchingImg from "../assets/images/deeprecommend/deepmatching.png";
+import { imgUrl, site } from '../constants/const';
 
 export default function DeepMatching() {
   const { t, locale } = useLocale();
@@ -22,20 +21,20 @@ export default function DeepMatching() {
           locale: locale,
           images: [
             {
-              url: deepmatchingImg,
+              url: imgUrl.deeprecommend,
               width: 800,
               height: 600,
               alt: 'DeepRecommend',
               type: 'image/jpg',
             },
             {
-              url: deepmatchingImg,
+              url: imgUrl.deeprecommend,
               width: 900,
               height: 800,
               alt: 'DeepRecommend',
               type: 'image/jpg',
             },
-            { url: deepmatchingImg },
+            { url: imgUrl.deeprecommend },
           ],
           site_name: "DeepRecommend",
         }}

@@ -18,7 +18,7 @@ import { useDispatch } from "react-redux";
 import { blogDetailSlice } from "../../store/blogDetail";
 
 const social = [
-    { name: 'GitHub', icon: GitHubIcon, url: site.github },
+    // { name: 'GitHub', icon: GitHubIcon, url: site.github },
     { name: 'Twitter', icon: TwitterIcon, url: site.twitter },
     { name: 'YouTube', icon: YouTubeIcon, url: site.youtube },
     { name: 'Instagram', icon: InstagramIcon, url: site.instagram },
@@ -61,7 +61,7 @@ function Sidebar(props) {
       <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
         Archives
       </Typography>
-      {archives.map((archive) => (
+      {archives.slice(0, 9).map((archive) => (
         <Link
           display="block"
           variant="body1"
