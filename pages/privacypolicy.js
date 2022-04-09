@@ -33,7 +33,7 @@ export const PrivacyPolicy = () => {
               width: 900,
               height: 800,
               alt: 'DeepRecommend',
-              type: 'image/peg',
+              type: 'image/png',
             },
             { url: imgUrl.deeprecommend },
           ],

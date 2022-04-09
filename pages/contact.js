@@ -4,8 +4,7 @@ import Head from "next/head";
 import { useLocale } from "../locales/useLocale";
 import HeaderComponent from '../components/custom/sections/headercomponent';
 import { NextSeo } from "next-seo";
-import { site } from '../constants/const';
-import deeprecommendImg from "../assets/images/deeprecommend/DeepRecommend.png";
+import { imgUrl, site } from '../constants/const';
 
 const Contact = () => {
     const { t, locale } = useLocale();
@@ -24,20 +23,20 @@ const Contact = () => {
               locale: locale,
               images: [
                 {
-                  url: deeprecommendImg,
+                  url: imgUrl.deeprecommend,
                   width: 800,
                   height: 600,
                   alt: 'DeepRecommend',
                   type: 'image/png',
                 },
                 {
-                  url: deeprecommendImg,
+                  url: imgUrl.deeprecommend,
                   width: 900,
                   height: 800,
                   alt: 'DeepRecommend',
-                  type: 'image/peg',
+                  type: 'image/png',
                 },
-                { url: deeprecommendImg },
+                { url: imgUrl.deeprecommend },
               ],
               site_name: "DeepRecommend",
             }}
