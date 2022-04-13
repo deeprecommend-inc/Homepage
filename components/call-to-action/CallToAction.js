@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
+import { site } from "../../constants/const";
+import { useLocale } from "../../locales/useLocale";
 
 const CallToAction = () => {
+  const { t } = useLocale();
+
+  const scrollToServices = () => {
+    window.scrollTo({
+      top: 750,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="coming-soon" id="coming">
       <Container className="py-5 mt-5">
@@ -10,17 +21,16 @@ const CallToAction = () => {
             <div className="d-flex align-items-center">
               <div>
                 <h2 className="title text-white font-weight-bold">
-                  Pro Version coming soon
+                  {t.index.callToAction.title}
                 </h2>
                 <h6 className="subtitle font-light text-white">
-                  We will add Pro Version with tons of great features and
-                  multiple category demos which is ready to use...
+                  <div dangerouslySetInnerHTML={{__html: t.index.callToAction.description}} />
                 </h6>
                 <Button
-                  href="/#coming"
                   className="btn btn-dark m-r-20 btn-md m-t-30"
+                  onClick={scrollToServices}
                 >
-                  Comming Soon
+                  {t.index.callToAction.action}
                 </Button>
               </div>
             </div>

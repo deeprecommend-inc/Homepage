@@ -92,6 +92,15 @@ export default {
         title: "Creativity",
         subtitle: "We continue to challenge\nwhat others do not do, what is new.",
       },
+    },
+    technologyUsed: {
+      title: 'Technology used',
+      subtitle: 'This is the technology we use. In addition to the technologies we use as a service, we also list the technologies we use internally.',
+    },
+    callToAction: {
+      title: 'Did you find the service you wanted?',
+      description: 'If you can\'t find the service you\'re looking for, please make a request in our <a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discord community!</a>',
+      action: 'Find a service',
     }
   },
   deeplog: {

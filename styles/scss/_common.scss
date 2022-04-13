@@ -123,8 +123,12 @@ Fix-width
 Spacer
 *******************/
 
+.big-spacer {
+  padding: 120px 0;
+}
+
 .spacer {
-  padding: 48px 0;
+  padding: 64px 0;
 }
 
 .mini-spacer {

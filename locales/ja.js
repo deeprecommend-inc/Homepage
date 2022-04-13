@@ -92,6 +92,15 @@ export default {
         title: "創造性",
         subtitle: "私たちは他の企業、事業、人がやらないこと、\n新しいことに挑戦し続けます。",
       },
+    },
+    technologyUsed: {
+      title: '使用技術',
+      subtitle: '私達が使用している技術です。サービスとして公開しているもの使用している技術以外にも、内部で使用している技術も掲載させていただいております。',
+    },
+    callToAction: {
+      title: 'お探しのサービスは見つかりましたか？',
+      description: 'もし見つかっていないなら<a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discordコミュニティー</a>でご要望承ります！',
+      action: 'サービスを探す',
     }
   },
   deeplog: {

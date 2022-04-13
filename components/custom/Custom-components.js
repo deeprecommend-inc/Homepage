@@ -20,6 +20,7 @@ import Banner from "../banner/Banner";
 import IconButton from "@mui/material/IconButton";
 import TwitterEmbedded from "./sections/twitter";
 import SDGsComponent from "./sections/SDGs";
+import TechnologyUsed from "./sections/technologyUsed";
 
 const CustomComponents = () => {
   return (
@@ -31,7 +32,11 @@ const CustomComponents = () => {
       {/* <BannerComponent />
       <FormBannerComponent /> */}
 
+      <TechnologyUsed/>
       <FeatureComponent />
+
+      {/* <TestimonialComponent/> */}
+
       {/* <PricingComponent /> */}
       {/* <TwitterEmbedded /> */}
       {/* <SDGsComponent /> */}
@@ -42,7 +47,7 @@ const CustomComponents = () => {
       {/* <BlogComponent /> */}
       {/* <C2aComponent /> */}
       {/* <ContactComponent /> */}
-      {/* <CallToAction /> */}
+      <CallToAction />
     </div>
   );
 };
