@@ -76,7 +76,7 @@ export const imgUrl = {
 
 const docs = {
   ts: 'https://www.typescriptlang.org/',
-  py: 'https://www.typescriptlang.org/',
+  py: 'https://www.python.org/',
   mdn: 'https://developer.mozilla.org/',
   sass: 'https://sass-lang.com/',
   tailwind: 'https://tailwindcss.com/',
