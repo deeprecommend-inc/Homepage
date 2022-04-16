@@ -209,6 +209,44 @@ export default {
         </article>
     `
   },
+  overview: {
+    head: {
+      title: "DeepRecommend | 企業概要",
+      description: "DeepRecommend 企業概要",
+    },
+    title: '企業概要',
+    content: `
+        <table>
+        <tr>
+        <td class="py-2">会社名</td>
+        <td>DeepRecommend株式会社</td>
+        </tr>
+        <tr>
+        <td class="py-2">代表者</td>
+        <td>杉本 迅</td>
+        </tr>
+        <tr>
+        <td class="py-2">住所</td>
+        <td>〒558-0011<br/>大阪府大阪市苅田5-16-3-201</td>
+        </tr>
+        <tr>
+        <td></td>
+        <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.134293731743!2d135.51242501553048!3d34.60076549607089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dc17c29e2b17%3A0xb03725b81bee4a1!2s5-ch%C5%8Dme-16-3%20Karita%2C%20Sumiyoshi%20Ward%2C%20Osaka%2C%20558-0011!5e0!3m2!1sen!2sjp!4v1650110961105!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        </tr>
+        <tr>
+        <td class="py-2">Tel</td>
+        <td>070-1734-7502</td>
+        <tr>
+        <td class="py-2">設立年</td>
+        <td>2022年</td>
+        </tr>
+        <tr>
+        <td class="py-2">資本金</td>
+        <td>1,000,000円</td>
+        </tr>
+        </table>
+    `
+  },
   contact: {
     head: {
       title: "DeepRecommend | お問い合わせフォーム",
