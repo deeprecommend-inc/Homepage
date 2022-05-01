@@ -16,7 +16,7 @@ const Adsense = () => {
     return (
         <div key={asPath}>
             <ins
-                class="adsbygoogle"
+                className="adsbygoogle"
                 tyle={{ display: 'block', textAlign: 'center' }}
                 data-ad-client="ca-pub-2370440619895423"
                 data-ad-slot="4751129579"
