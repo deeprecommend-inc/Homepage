@@ -46,6 +46,10 @@ export const TechnologyUsed = () => {
                                                         lg="4"
                                                         md="6"
                                                         className="mt-2"
+                                                        href={tech.url}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        key={tech.name}
                                                     >
                                                         <a
                                                             href={tech.url}
@@ -87,6 +91,7 @@ export const TechnologyUsed = () => {
                                                         href={tech.url}
                                                         target="_blank"
                                                         rel="noopener noreferrer"
+                                                        key={tech.name}
                                                     >
                                                         <a
                                                             href={tech.url}
@@ -131,6 +136,7 @@ export const TechnologyUsed = () => {
                                                         href={tech.url}
                                                         target="_blank"
                                                         rel="noopener noreferrer"
+                                                        key={tech.name}
                                                     >
                                                         <a
                                                             href={tech.url}

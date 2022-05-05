@@ -15,6 +15,7 @@ import { site } from '../constants/const';
 import deeprecommendImg from '../assets/images/deeprecommend/DeepRecommend.png';
 import { GA_ID, existsGaId, pageview } from '../utils/gtag';
 import { useRouter } from 'next/router';
+import $ from 'jquery';
 
 function MyApp({ Component, pageProps }) {
     const store = useStore();
@@ -27,6 +28,13 @@ function MyApp({ Component, pageProps }) {
             once: true,
             easing: 'ease-out-sine',
             duration: 600,
+        });
+    }, []);
+
+    useEffect(() => {
+        $(window).on('load', function () {
+            $('#splash').delay(1500).fadeOut('slow');
+            $('#splash_logo').delay(1200).fadeOut('slow');
         });
     }, []);
 
@@ -73,10 +81,27 @@ function MyApp({ Component, pageProps }) {
                     name="google-site-verification"
                     content="Z6Rl8fnfOf9kvou18ZpxZmvW9HXWzt1p5uF_g35TPjw"
                 />
+                <link
+                    href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css"
+                    rel="stylesheet"
+                />
             </Head>
             <Provider store={store}>
                 <PersistGate persistor={persistor}>
+                    <div id="splash">
+                        <div id="splash_logo">
+                            <img src={'/logo.jpg'} alt="" className="fadeUp" />
+                        </div>
+                    </div>
+
                     <Component {...pageProps} />
+
+                    <script
+                        src="https://code.jquery.com/jquery-3.4.1.min.js"
+                        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                        crossOrigin="anonymous"
+                    ></script>
+                    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-4/js/4-1-4.js"></script>
                 </PersistGate>
             </Provider>
         </Layout>
