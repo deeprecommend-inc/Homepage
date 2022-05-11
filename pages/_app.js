@@ -88,6 +88,11 @@ function MyApp({ Component, pageProps }) {
                     href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css"
                     rel="stylesheet"
                 />
+                <script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2370440619895423"
+                    crossorigin="anonymous"
+                ></script>
             </Head>
             <Provider store={store}>
                 <PersistGate persistor={persistor}>
