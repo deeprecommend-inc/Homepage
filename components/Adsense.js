@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
-import AdSense from 'react-adsense';
 
 const Adsense = () => {
     const { asPath } = useRouter();
@@ -17,10 +16,11 @@ const Adsense = () => {
         <div key={asPath}>
             <ins
                 className="adsbygoogle"
-                tyle={{ display: 'block', textAlign: 'center' }}
+                style={{ display: 'block', textAlign: 'center' }}
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
                 data-ad-client="ca-pub-2370440619895423"
-                data-ad-slot="4751129579"
-                data-ad-format="auto"
+                data-ad-slot="8899511156"
                 data-full-width-responsive="true"
             ></ins>
         </div>
