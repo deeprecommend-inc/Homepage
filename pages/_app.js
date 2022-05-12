@@ -91,7 +91,7 @@ function MyApp({ Component, pageProps }) {
                 <script
                     async
                     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2370440619895423"
-                    crossorigin="anonymous"
+                    crossOrigin="anonymous"
                 ></script>
             </Head>
             <Provider store={store}>
