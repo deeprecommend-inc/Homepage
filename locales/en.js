@@ -15,7 +15,7 @@ export default {
                 label: 'Services',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
-                cmcn: 'CmCn',
+                cmcn: 'DeepConnect',
             },
             customerCare: {
                 label: 'Customer care',
@@ -23,6 +23,7 @@ export default {
                 contact: 'Contact',
                 lab: 'DeepLab',
                 community: 'Help / Support',
+                aboutUs: 'About us',
             },
             sns: {
                 label: 'Social',
@@ -32,8 +33,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend',
-            description:
-                'We make services that we can wholeheartedly recommend',
+            description: 'We make services that we can deeply recommend',
         },
         header: {
             others: 'Others',
@@ -42,7 +42,7 @@ export default {
             blog: 'Blog',
         },
         banner: {
-            copy: 'We make services\nthat we can wholeheartedly recommend',
+            copy: 'We make services\nthat we can deeply recommend',
             getStarted: 'Get started',
             helpSupport: 'Help / Support',
         },
@@ -50,9 +50,9 @@ export default {
             title: 'Services',
             subtitle: 'Here are some of our services',
             cmcn: {
-                title: 'CmCn',
+                title: 'DeepConnect',
                 description:
-                    "Matching app for comedians they are 'Bokeh' and 'Tsukkomi'",
+                    'Matching app to find your partner who can change the world with you',
             },
             deeplog: {
                 title: 'DeepLog',
@@ -127,9 +127,9 @@ export default {
     },
     deepmatching: {
         head: {
-            title: 'CmCn | Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
+            title: 'DeepConnect | Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
             description:
-                'CmCn is Matching app for Matching app for comedians they are Bokeh and Tsukkomi from DeepRecommend',
+                'DeepConnect is Matching app for Matching app for comedians they are Bokeh and Tsukkomi from DeepRecommend',
         },
     },
     privacyPolicy: {
@@ -266,38 +266,50 @@ export default {
     },
     overview: {
         head: {
-            title: 'DeepRecommend | 企業概要',
-            description: 'DeepRecommend 企業概要',
+            title: 'DeepRecommend | About us',
+            description: 'DeepRecommend About us',
         },
-        title: '企業概要',
+        title: 'About us',
         content: `
         <table>
         <tr>
-        <td class="py-2">会社名</td>
-        <td>DeepRecommend株式会社</td>
+        <td class="py-2 pr-2">Con</td>
+        <td>DeepRecommend Inc.</td>
         </tr>
         <tr>
-        <td class="py-2">代表者</td>
-        <td>杉本 迅</td>
+        <td class="py-2">Mission</td>
+        <td>Create products that can be deeply recommended</td>
         </tr>
         <tr>
-        <td class="py-2">住所</td>
-        <td>〒558-0011<br/>大阪府大阪市苅田5-16-3-201</td>
+        <td class="py-2 pr-2">Business</td>
+        <td>Web services, mobile applications, machine learning, quantum computing, brain development, and research</td>
+        </tr>
+        <tr>
+        <td class="py-2 pr-2">CEO</td>
+        <td>Jin Sugimoto</td>
+        </tr>
+        <tr>
+        <td class="py-2 pr-2">Address</td>
+        <td>〒558-0011<br/> '5-16-3-201 Kanda, Sumiyoshi-ku,\n Osaka-shi, Osaka'</td>
         </tr>
         <tr>
         <td></td>
         <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.134293731743!2d135.51242501553048!3d34.60076549607089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dc17c29e2b17%3A0xb03725b81bee4a1!2s5-ch%C5%8Dme-16-3%20Karita%2C%20Sumiyoshi%20Ward%2C%20Osaka%2C%20558-0011!5e0!3m2!1sen!2sjp!4v1650110961105!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
         </tr>
         <tr>
-        <td class="py-2">Tel</td>
+        <td class="py-2 pr-2">Tel</td>
         <td>070-1734-7502</td>
         <tr>
-        <td class="py-2">設立年</td>
-        <td>2022年</td>
+        <tr>
+        <td class="py-2 pr-2">Email</td>
+        <td>deeprecommend@gmail.com</td>
+        <tr>
+        <td class="py-2 pr-2">Year founded</td>
+        <td>2022</td>
         </tr>
         <tr>
-        <td class="py-2">資本金</td>
-        <td>1,000,000円</td>
+        <td class="py-2 pr-2">Capital</td>
+        <td>¥1,000,000</td>
         </tr>
         </table>
     `,

@@ -9,6 +9,13 @@ import { useLocale } from '../../locales/useLocale';
 const Banner2 = () => {
     const { t } = useLocale();
 
+    const scrollToServices = () => {
+        window.scrollTo({
+            top: 750,
+            behavior: 'smooth',
+        });
+    };
+
     return (
         <div
             className="static-slider-head banner2"
@@ -25,10 +32,8 @@ const Banner2 = () => {
                         <h1>DeepRecommend</h1>
                         <h4>{t.index.banner.copy}</h4>
                         <a
-                            href="https://deep-log.net/signup"
                             className="btn btn-md m-r-20 btn-outline-primary m-t-30"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            onClick={scrollToServices}
                         >
                             {t.index.banner.getStarted}
                         </a>

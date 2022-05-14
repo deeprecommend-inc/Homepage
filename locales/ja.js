@@ -12,7 +12,7 @@ export default {
                 label: 'サービス',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
-                cmcn: 'CmCn',
+                cmcn: 'DeepConnect',
             },
             customerCare: {
                 label: 'カスタマーケア',
@@ -20,6 +20,7 @@ export default {
                 contact: 'お問い合わせ',
                 lab: 'DeepLab',
                 community: 'ヘルプ / サポート',
+                aboutUs: '企業概要',
             },
             sns: {
                 label: 'ソーシャルメディア',
@@ -46,9 +47,9 @@ export default {
             title: 'サービス',
             subtitle: 'DeepRecommendのサービス一覧',
             cmcn: {
-                title: 'CmCn＜コンコン＞',
+                title: 'DeepConnect＜ディープコネクト＞',
                 description:
-                    'お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ',
+                    'アイデアとスキルを繋ぎ２人で１人の天才を作るマッチングアプリ',
             },
             deeplog: {
                 title: 'DeepLog＜ディープログ＞',
@@ -58,7 +59,7 @@ export default {
             deeplab: {
                 title: 'DeepLab＜ディープラボ＞',
                 description:
-                    'Web、AI、そして量子コンピューティングの３つを軸に情報を発信していきます',
+                    'Web、AI、そして量子コンピューティングの３つを軸に情報を発信するブログ',
             },
             deepmuseum: {
                 title: 'DeepMuseum＜ディープミュージアム＞',
@@ -123,9 +124,9 @@ export default {
     },
     deepmatching: {
         head: {
-            title: 'CmCn＜コンコン＞ | お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ＞',
+            title: 'DeepConnect＜ディープコネクト＞ | アイデアとスキルを繋ぐパートナーを探すマッチングアプリ',
             description:
-                'CmCn＜コンコン＞はDeepRecommendのお笑い芸人「ボケ」と「ツッコミ」のマッチングアプリです',
+                'DeepConnect＜ディープコネクト＞はDeepRecommendのアイデアとスキルを繋ぐパートナーを探すマッチングアプリです',
         },
     },
     privacyPolicy: {
@@ -231,15 +232,23 @@ export default {
         content: `
         <table>
         <tr>
-        <td class="py-2">会社名</td>
+        <td class="py-2 pr-2">会社名</td>
         <td>DeepRecommend株式会社</td>
         </tr>
         <tr>
-        <td class="py-2">代表者</td>
+        <td class="py-2 pr-2">ミッション</td>
+        <td>心底おすすめできるモノづくりをする</td>
+        </tr>
+        <tr>
+        <td class="py-2 pr-2">事業内容</td>
+        <td>Web、モバイルアプリケーション、機械学習、量子コンピュータ、脳の開発、及び研究</td>
+        </tr>
+        <tr>
+        <td class="py-2 pr-2">代表者</td>
         <td>杉本 迅</td>
         </tr>
         <tr>
-        <td class="py-2">住所</td>
+        <td class="py-2 pr-2">住所</td>
         <td>〒558-0011<br/>大阪府大阪市苅田5-16-3-201</td>
         </tr>
         <tr>
@@ -247,14 +256,14 @@ export default {
         <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.134293731743!2d135.51242501553048!3d34.60076549607089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dc17c29e2b17%3A0xb03725b81bee4a1!2s5-ch%C5%8Dme-16-3%20Karita%2C%20Sumiyoshi%20Ward%2C%20Osaka%2C%20558-0011!5e0!3m2!1sen!2sjp!4v1650110961105!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
         </tr>
         <tr>
-        <td class="py-2">Tel</td>
+        <td class="py-2 pr-2">Tel</td>
         <td>070-1734-7502</td>
         <tr>
-        <td class="py-2">設立年</td>
+        <td class="py-2 pr-2">設立年</td>
         <td>2022年</td>
         </tr>
         <tr>
-        <td class="py-2">資本金</td>
+        <td class="py-2 pr-2">資本金</td>
         <td>1,000,000円</td>
         </tr>
         </table>

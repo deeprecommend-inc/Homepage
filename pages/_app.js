@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
         }
 
         const handleRouteChange = (path) => {
-            pageview(path);
+            // pageview(path);
         };
 
         router.events.on('routeChangeComplete', handleRouteChange);
