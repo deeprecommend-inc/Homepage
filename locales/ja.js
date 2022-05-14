@@ -1,127 +1,140 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  layout: {
-    footer: {
-      access: {
-        label: "アクセス",
-        phone: "電話番号: 070 1734 7502",
-        email: "Email: deeprecommend@gmail.com",
-        address: "住所: 日本大阪府大阪市住吉区苅田5-16-3",
-      },
-      service: {
-        label: "サービス",
-        deeplog: "DeepLog",
-        deeplab: "DeepLab",
-        cmcn: "CmCn",
-      },
-      customerCare: {
-        label: "カスタマーケア",
-        privacyPolicy: "プライバシーポリシー",
-        contact: "お問い合わせ",
-        lab: "DeepLab",
-        community: "ヘルプ / サポート"
-      },
-      sns: {
-        label: "ソーシャルメディア"
-      },
-    },
-  },
-  index: {
-    head: {
-      title: "DeepRecommend＜ディープレコメンド＞",
-      description: "心からおすすめできるモノづくりをします",
-    },
-    header: {
-      others: "その他",
-      community: "コミュニティー",
-      shop: "ショップ",
-      blog: "ブログ"
-    },
-    banner: {
-      copy: "心からおすすめできるモノづくりをします",
-      getStarted: "始める",
-      helpSupport: "ヘルプ / サポート",
-    },
-    portfolio: {
-      title: "サービス",
-      subtitle: "DeepRecommendのサービス一覧",
-      cmcn: {
-        title: "CmCn＜コンコン＞",
-        description: "お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ",
-      },
-      deeplog: {
-        title: "DeepLog＜ディープログ＞",
-        description: "ウェブサイトを音楽のプレイリストのように一括管理するウェブサイト",
-      },
-      deeplab: {
-        title: "DeepLab＜ディープラボ＞",
-        description: "Web、AI、そして量子コンピューティングの３つを軸に情報を発信していきます",
-      },
-      deepmuseum: {
-        title: "DeepMuseum＜ディープミュージアム＞",
-        description: "アート好きと画家のためのオンライン美術館（2022/3/8サービス終了）",
-      }
-    },
-    feature: {
-      title: "特徴",
-      subtitle: "DeepRecommendのサービス、そしてカスタマーとの向き合い方の特徴",
-      num1: {
-        label: "特徴 1",
-        section1: {
-          title: "シンプルなルールに基づいた開発",
-          subtitle: "私たちの目的は人々を豊かたにすることです。\nそのために、以下のようなシンプルなルールに基づいて考えます。",
+    layout: {
+        footer: {
+            access: {
+                label: 'アクセス',
+                phone: '電話番号: 070 1734 7502',
+                email: 'Email: deeprecommend@gmail.com',
+                address: '住所: 日本大阪府大阪市住吉区苅田5-16-3',
+            },
+            service: {
+                label: 'サービス',
+                deeplog: 'DeepLog',
+                deeplab: 'DeepLab',
+                cmcn: 'CmCn',
+            },
+            customerCare: {
+                label: 'カスタマーケア',
+                privacyPolicy: 'プライバシーポリシー',
+                contact: 'お問い合わせ',
+                lab: 'DeepLab',
+                community: 'ヘルプ / サポート',
+            },
+            sns: {
+                label: 'ソーシャルメディア',
+            },
         },
-        section2: {
-          title: "オススメ",
-          subtitle: "私たちは最初に, 「そのサービスを自信を持ってお勧めできるか？」と問います。 もし答えが「NO」なら, まだ改善の余地があるということです。そうすることで、私たちのサービスの質を向上させることができます。",
-        }
-      },
-      num2: {
-        label: "特徴 2",
-        section1: {
-          title: "活発なやり取り",
-          subtitle: "私たちが「強くお勧めだ」と思っても、カスタマーはそうは考えない場合があります。\nそのため、お客様からの直接のご意見を大切にしています。Discordによる独自のコミュニティがあるのでご活用ください。",
+    },
+    index: {
+        head: {
+            title: 'DeepRecommend＜ディープレコメンド＞',
+            description: '心からおすすめできるモノづくりをします',
         },
-        section2: {
-          title: "ぜひ意見をお聴かせください",
-          subtitle: "参加する",
-        }
-      },
-      num3: {
-        label: "特徴 3",
-        title: "創造性",
-        subtitle: "私たちは他の企業、事業、人がやらないこと、\n新しいことに挑戦し続けます。",
-      },
+        header: {
+            others: 'その他',
+            community: 'コミュニティー',
+            shop: 'ショップ',
+            blog: 'ブログ',
+        },
+        banner: {
+            copy: '心からおすすめできるモノづくりをします',
+            getStarted: '始める',
+            helpSupport: 'ヘルプ / サポート',
+        },
+        portfolio: {
+            title: 'サービス',
+            subtitle: 'DeepRecommendのサービス一覧',
+            cmcn: {
+                title: 'CmCn＜コンコン＞',
+                description:
+                    'お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ',
+            },
+            deeplog: {
+                title: 'DeepLog＜ディープログ＞',
+                description:
+                    'ウェブサイトを音楽のプレイリストのように一括管理するウェブサイト',
+            },
+            deeplab: {
+                title: 'DeepLab＜ディープラボ＞',
+                description:
+                    'Web、AI、そして量子コンピューティングの３つを軸に情報を発信していきます',
+            },
+            deepmuseum: {
+                title: 'DeepMuseum＜ディープミュージアム＞',
+                description:
+                    'アート好きと画家のためのオンライン美術館（2022/3/8サービス終了）',
+            },
+        },
+        feature: {
+            title: '特徴',
+            subtitle:
+                'DeepRecommendのサービス、そしてカスタマーとの向き合い方の特徴',
+            num1: {
+                label: '特徴 1',
+                section1: {
+                    title: 'シンプルなルールに基づいた開発',
+                    subtitle:
+                        '私たちの目的は人々を豊かたにすることです。\nそのために、以下のようなシンプルなルールに基づいて考えます。',
+                },
+                section2: {
+                    title: 'オススメ',
+                    subtitle:
+                        '私たちは最初に, 「そのサービスを自信を持ってお勧めできるか？」と問います。 もし答えが「NO」なら, まだ改善の余地があるということです。そうすることで、私たちのサービスの質を向上させることができます。',
+                },
+            },
+            num2: {
+                label: '特徴 2',
+                section1: {
+                    title: '活発なやり取り',
+                    subtitle:
+                        '私たちが「強くお勧めだ」と思っても、カスタマーはそうは考えない場合があります。\nそのため、お客様からの直接のご意見を大切にしています。Discordによる独自のコミュニティがあるのでご活用ください。',
+                },
+                section2: {
+                    title: 'ぜひ意見をお聴かせください',
+                    subtitle: '参加する',
+                },
+            },
+            num3: {
+                label: '特徴 3',
+                title: '創造性',
+                subtitle:
+                    '私たちは他の企業、事業、人がやらないこと、\n新しいことに挑戦し続けます。',
+            },
+        },
+        technologyUsed: {
+            title: '使用技術',
+            subtitle:
+                '私達が使用している技術です。サービスとして公開しているもの使用している技術以外にも、内部で使用している技術も掲載させていただいております。',
+        },
+        callToAction: {
+            title: 'お探しのサービスは見つかりましたか？',
+            description:
+                'もし見つかっていないなら<a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discordコミュニティー</a>でご要望承ります！',
+            action: 'サービスを探す',
+        },
     },
-    technologyUsed: {
-      title: '使用技術',
-      subtitle: '私達が使用している技術です。サービスとして公開しているもの使用している技術以外にも、内部で使用している技術も掲載させていただいております。',
+    deeplog: {
+        head: {
+            title: 'DeepLog＜ディープログ＞ | サイトを音楽のプレイリストのように一括管理するサイト',
+            description:
+                'DeepLog＜ディープログ＞はDeepRecommendのサイトを音楽のプレイリストのように一括管理するサイトです',
+        },
     },
-    callToAction: {
-      title: 'お探しのサービスは見つかりましたか？',
-      description: 'もし見つかっていないなら<a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discordコミュニティー</a>でご要望承ります！',
-      action: 'サービスを探す',
-    }
-  },
-  deeplog: {
-    head: {
-      title: "DeepLog＜ディープログ＞ | サイトを音楽のプレイリストのように一括管理するサイト",
-      description: "DeepLog＜ディープログ＞はDeepRecommendのサイトを音楽のプレイリストのように一括管理するサイトです",
+    deepmatching: {
+        head: {
+            title: 'CmCn＜コンコン＞ | お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ＞',
+            description:
+                'CmCn＜コンコン＞はDeepRecommendのお笑い芸人「ボケ」と「ツッコミ」のマッチングアプリです',
+        },
     },
-  },
-  deepmatching: {
-    head: {
-      title: "CmCn＜コンコン＞ | お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ＞",
-      description: "CmCn＜コンコン＞はDeepRecommendのお笑い芸人「ボケ」と「ツッコミ」のマッチングアプリです",
-    }
-  },
-  privacyPolicy: {
-    head: {
-      title: "DeepRecommend | プライバシーポリシー",
-      description: "DeepRecommend プライバシーポリシー",
-    },
-    title: 'プライバシーポリシー',
-    content: `
+    privacyPolicy: {
+        head: {
+            title: 'DeepRecommend | プライバシーポリシー',
+            description: 'DeepRecommend プライバシーポリシー',
+        },
+        title: 'プライバシーポリシー',
+        content: `
         <article>
           <h2>お客様から取得する情報</h2>
           <h5>
@@ -207,15 +220,15 @@ export default {
         <article>
           2022年03月26日 制定
         </article>
-    `
-  },
-  overview: {
-    head: {
-      title: "DeepRecommend | 企業概要",
-      description: "DeepRecommend 企業概要",
+    `,
     },
-    title: '企業概要',
-    content: `
+    overview: {
+        head: {
+            title: 'DeepRecommend | 企業概要',
+            description: 'DeepRecommend 企業概要',
+        },
+        title: '企業概要',
+        content: `
         <table>
         <tr>
         <td class="py-2">会社名</td>
@@ -245,26 +258,34 @@ export default {
         <td>1,000,000円</td>
         </tr>
         </table>
-    `
-  },
-  contact: {
-    head: {
-      title: "DeepRecommend | お問い合わせフォーム",
-      description: "お気軽にお問い合わせください",
+    `,
     },
-    form: {
-      title: "お問い合わせフォーム",
-      subtitle: "お気軽にお問い合わせください",
-      inner: {
-        title: "お問い合わせ",
-        name: "ご氏名",
-        email: "Email",
-        description: "内容",
-        submit: "送信",
-      }
+    contact: {
+        head: {
+            title: 'DeepRecommend | お問い合わせフォーム',
+            description: 'お気軽にお問い合わせください',
+        },
+        form: {
+            title: 'お問い合わせフォーム',
+            subtitle: 'お気軽にお問い合わせください',
+            inner: {
+                title: 'お問い合わせ',
+                name: 'ご氏名',
+                email: 'Email',
+                description: '内容',
+                submit: '送信',
+            },
+        },
+        detailBox: {
+            address: '大阪府大阪市\n 住吉区苅田5-16-3-201',
+        },
     },
-    detailBox: {
-      address: "大阪府大阪市\n 住吉区苅田5-16-3-201"
-    }
-  }
+    page: {
+        deeplog: {
+            title: 'DeepLog＜ディープログ＞',
+            h1: 'Webサイトを一元で管理するためのWebサイト',
+            h6: " Would you like to manage a website like a music playlist?\n・Frequently used sites\n・Sites you searched for before\n・Sites\nI've forgotten when I used them DeepLog manages these sites and is comfortable surfing the Internet. Currently Free!!",
+            getStarted: '無料で始める',
+        },
+    },
 };
