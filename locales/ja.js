@@ -12,7 +12,7 @@ export default {
                 label: 'サービス',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
-                cmcn: 'CmCn',
+                cmcn: 'DeepConnect',
             },
             customerCare: {
                 label: 'カスタマーケア',
@@ -124,9 +124,9 @@ export default {
     },
     deepmatching: {
         head: {
-            title: 'CmCn＜コンコン＞ | お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ＞',
+            title: 'DeepConnect＜ディープコネクト＞ | 共に世界を変えるパートナーを探すマッチングアプリ',
             description:
-                'CmCn＜コンコン＞はDeepRecommendのお笑い芸人「ボケ」と「ツッコミ」のマッチングアプリです',
+                'DeepConnect＜ディープコネクト＞はDeepRecommendの共に世界を変えるパートナーを探すマッチングアプリです',
         },
     },
     privacyPolicy: {

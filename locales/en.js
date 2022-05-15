@@ -13,7 +13,7 @@ export default {
                 label: 'Services',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
-                cmcn: 'CmCn',
+                cmcn: 'DeepConnect',
             },
             customerCare: {
                 label: 'Customer care',
@@ -49,9 +49,9 @@ export default {
             title: 'Services',
             subtitle: 'Here are some of our services',
             cmcn: {
-                title: 'CmCn',
+                title: 'DeepConnect',
                 description:
-                    "Matching app for comedians they are 'Bokeh' and 'Tsukkomi'",
+                    'Matching app to find your partner who can change the world with you',
             },
             deeplog: {
                 title: 'DeepLog',
@@ -126,9 +126,9 @@ export default {
     },
     deepmatching: {
         head: {
-            title: 'CmCn | Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
+            title: 'DeepConnect | Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
             description:
-                'CmCn is Matching app for Matching app for comedians they are Bokeh and Tsukkomi from DeepRecommend',
+                'DeepConnect is Matching app for Matching app for comedians they are Bokeh and Tsukkomi from DeepRecommend',
         },
     },
     privacyPolicy: {
