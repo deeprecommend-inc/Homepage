@@ -47,9 +47,9 @@ export default {
             title: 'サービス',
             subtitle: 'DeepRecommendのサービス一覧',
             cmcn: {
-                title: 'CmCn＜コンコン＞',
+                title: 'DeepConnect＜ディープコネクト＞',
                 description:
-                    'お笑い芸人「ボケ」と「ツッコミ」のマッチングアプリ',
+                    'アイデアとスキルを繋ぎ２人で１人の天才を作るマッチングアプリ',
             },
             deeplog: {
                 title: 'DeepLog＜ディープログ＞',
@@ -59,7 +59,7 @@ export default {
             deeplab: {
                 title: 'DeepLab＜ディープラボ＞',
                 description:
-                    'Web、AI、そして量子コンピューティングの３つを軸に情報を発信していきます',
+                    'Web、AI、そして量子コンピューティングの３つを軸に情報を発信するブログ',
             },
             deepmuseum: {
                 title: 'DeepMuseum＜ディープミュージアム＞',
@@ -124,9 +124,9 @@ export default {
     },
     deepmatching: {
         head: {
-            title: 'DeepConnect＜ディープコネクト＞ | 共に世界を変えるパートナーを探すマッチングアプリ',
+            title: 'DeepConnect＜ディープコネクト＞ | アイデアとスキルを繋ぐパートナーを探すマッチングアプリ',
             description:
-                'DeepConnect＜ディープコネクト＞はDeepRecommendの共に世界を変えるパートナーを探すマッチングアプリです',
+                'DeepConnect＜ディープコネクト＞はDeepRecommendのアイデアとスキルを繋ぐパートナーを探すマッチングアプリです',
         },
     },
     privacyPolicy: {

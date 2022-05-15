@@ -86,31 +86,6 @@ const PortfolioComponent = () => {
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
-                                    href="/lab"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="img-ho"
-                                >
-                                    <Image
-                                        className="card-img-top"
-                                        src={labImg}
-                                        alt="wrappixel kit"
-                                    />
-                                </a>
-                                <CardBody>
-                                    <h5 className="font-medium m-b-0">
-                                        {t.index.portfolio.deeplab.title}
-                                    </h5>
-                                    <p className="m-b-0 font-14">
-                                        {t.index.portfolio.deeplab.description}
-                                    </p>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col md="4" data-aos="fade-up-left">
-                            <Card className="card-shadow">
-                                <a
-                                    style={normalStyle}
                                     href={site.deepMatching}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -128,6 +103,31 @@ const PortfolioComponent = () => {
                                     </h5>
                                     <p className="m-b-0 font-14">
                                         {t.index.portfolio.cmcn.description}
+                                    </p>
+                                </CardBody>
+                            </Card>
+                        </Col>
+                        <Col md="4" data-aos="fade-up-left">
+                            <Card className="card-shadow">
+                                <a
+                                    style={normalStyle}
+                                    href="/lab"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="img-ho"
+                                >
+                                    <Image
+                                        className="card-img-top"
+                                        src={labImg}
+                                        alt="wrappixel kit"
+                                    />
+                                </a>
+                                <CardBody>
+                                    <h5 className="font-medium m-b-0">
+                                        {t.index.portfolio.deeplab.title}
+                                    </h5>
+                                    <p className="m-b-0 font-14">
+                                        {t.index.portfolio.deeplab.description}
                                     </p>
                                 </CardBody>
                             </Card>

@@ -48,16 +48,16 @@ const Footer = () => {
                             </a>
                         </div>
                         <div>
-                            <a className="link" href="/lab">
-                                {t.layout.footer.service.deeplab}
-                            </a>
-                        </div>
-                        <div>
                             <a
                                 className="link"
                                 href="https://deep-matching.com"
                             >
                                 {t.layout.footer.service.cmcn}
+                            </a>
+                        </div>
+                        <div>
+                            <a className="link" href="/lab">
+                                {t.layout.footer.service.deeplab}
                             </a>
                         </div>
                     </Col>

@@ -31,8 +31,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend',
-            description:
-                'We make services that we can wholeheartedly recommend',
+            description: 'We make services that we can deeply recommend',
         },
         header: {
             others: 'Others',
@@ -41,7 +40,7 @@ export default {
             blog: 'Blog',
         },
         banner: {
-            copy: 'We make services\nthat we can wholeheartedly recommend',
+            copy: 'We make services\nthat we can deeply recommend',
             getStarted: 'Get started',
             helpSupport: 'Help / Support',
         },
