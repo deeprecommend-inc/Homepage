@@ -338,7 +338,7 @@ export default {
         deeplog: {
             title: 'DeepLog',
             h1: 'System of website to manage the website',
-            h6: " Would you like to manage a website like a music playlist?\n・Frequently used sites\n・Sites you searched for before\n・Sites\nI've forgotten when I used them DeepLog manages these sites and is comfortable surfing the Internet. Currently Free!!",
+            h6: "Would you like to manage a website like a music playlist?\n・Frequently used sites\n・Sites you searched for before\n・Sites I've forgotten when I used them DeepLog manages\nThese sites and is comfortable surfing the Internet. Currently Free!!",
             getStarted: 'Get Started for Free',
         },
     },

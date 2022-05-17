@@ -18,7 +18,7 @@ const BannerComponentForDeepLog = () => {
                             <span className="label label-rounded label-inverse">
                                 {t.page.deeplog.title}
                             </span>
-                            <h1>{t.page.deeplog.h1}e</h1>
+                            <h1>{t.page.deeplog.h1}</h1>
                             <h6 className="my-5">{t.page.deeplog.h6}</h6>
                             <a
                                 className="btn btn-light btn-outline-primary btn-md m-t-20"

@@ -293,7 +293,7 @@ export default {
         deeplog: {
             title: 'DeepLog＜ディープログ＞',
             h1: 'Webサイトを一元で管理するためのWebサイト',
-            h6: " Would you like to manage a website like a music playlist?\n・Frequently used sites\n・Sites you searched for before\n・Sites\nI've forgotten when I used them DeepLog manages these sites and is comfortable surfing the Internet. Currently Free!!",
+            h6: '膨大なWebサイトに嫌気が差しませんか?\n・よく使うサイトが見つからない\n・前検索したサイトをまた検索しないと出てこない\n・そもそも使いたいサイトがあるが、なんて言うサイトかわからない\nDeepLog＜ディープログ＞ならそのお悩みを解決し、快適なネットサーフィンを実現します。今なら無料!!',
             getStarted: '無料で始める',
         },
     },
