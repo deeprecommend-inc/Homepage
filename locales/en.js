@@ -341,5 +341,11 @@ export default {
             h6: "Would you like to manage a website like a music playlist?\n・Frequently used sites\n・Sites you searched for before\n・Sites I've forgotten when I used them DeepLog manages\nThese sites and is comfortable surfing the Internet. Currently Free!!",
             getStarted: 'Get Started for Free',
         },
+        deepconnect: {
+            title: 'DeepConnect',
+            h1: 'Matching app to find your partner who can change the world with you',
+            h6: "Looking for a comedy partner?\n・ It's hard to find someone to meet\n・I don't have time for this\n・Training schools are high hurdle\nDeepConnect solves all those problems! An interesting comedian meets an interesting partner! Currently Free!!",
+            getStarted: 'Get Started for Free',
+        },
     },
 };
