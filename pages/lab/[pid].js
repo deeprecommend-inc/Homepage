@@ -56,6 +56,7 @@ const Post = () => {
                 }}
             />
             <BlogContent detail={detail} sx={{ background: '#EDF2F7' }} />
+            <Adsense />
         </div>
     );
 };
