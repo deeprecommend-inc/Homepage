@@ -313,6 +313,9 @@ export default {
         </tr>
         </table>
     `,
+        performance: 'Performance',
+        november: 'November',
+        sales: 'Sales（hundred millison yen）',
     },
     contact: {
         head: {

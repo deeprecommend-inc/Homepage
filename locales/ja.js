@@ -268,6 +268,9 @@ export default {
         </tr>
         </table>
     `,
+        performance: '業績',
+        november: '11月',
+        sales: '売上（億円）',
     },
     contact: {
         head: {

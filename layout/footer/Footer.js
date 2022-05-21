@@ -66,7 +66,7 @@ const Footer = () => {
                             {t.layout.footer.customerCare.label}
                         </h5>
                         <div>
-                            <a className="link" href="/overview">
+                            <a className="link" href="/aboutus">
                                 {t.layout.footer.customerCare.aboutUs}
                             </a>
                         </div>
