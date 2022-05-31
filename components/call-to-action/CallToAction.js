@@ -15,31 +15,26 @@ const CallToAction = () => {
 
     return (
         <div className="coming-soon" id="coming">
-            <Container className="py-5 mt-5">
-                <Row>
-                    <Col md="6">
-                        <div className="d-flex align-items-center">
-                            <div>
-                                <h2 className="title text-white font-weight-bold">
-                                    {t.index.callToAction.title}
-                                </h2>
-                                <h6 className="subtitle font-light text-white"></h6>
-                                <div
-                                    dangerouslySetInnerHTML={{
-                                        __html: t.index.callToAction
-                                            .description,
-                                    }}
-                                />
-                                <Button
-                                    className="btn btn-dark m-r-20 btn-md m-t-30"
-                                    onClick={scrollToServices}
-                                >
-                                    {t.index.callToAction.action}
-                                </Button>
-                            </div>
-                        </div>
-                    </Col>
-                </Row>
+            <Container className="py-5 mt-5  d-flex justify-content-center align-items-center">
+                <div className="d-flex align-items-center">
+                    <div className="text-center">
+                        <h2 className="title font-weight-bold">
+                            {t.index.callToAction.title}
+                        </h2>
+                        <h6 className="subtitle font-light"></h6>
+                        <div
+                            dangerouslySetInnerHTML={{
+                                __html: t.index.callToAction.description,
+                            }}
+                        />
+                        <Button
+                            className="btn btn-dark m-r-20 btn-md m-t-30"
+                            onClick={scrollToServices}
+                        >
+                            {t.index.callToAction.action}
+                        </Button>
+                    </div>
+                </div>
             </Container>
         </div>
     );
