@@ -67,6 +67,15 @@ export default {
                     'アート好きと画家のためのオンライン美術館（2022/3/8サービス終了）',
             },
         },
+        work: {
+            title: '制作実績',
+            subtitle: 'DeepRecommendの制作実績',
+            cmcn: {
+                title: 'DeepConnect',
+                description:
+                    'Matching app to find your partner who can change the world with you',
+            },
+        },
         feature: {
             title: '特徴',
             subtitle:

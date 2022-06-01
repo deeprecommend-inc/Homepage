@@ -70,6 +70,15 @@ export default {
                     'Online museum website for painter and people they like art (Closed at 3/8/2022)',
             },
         },
+        work: {
+            title: 'Work',
+            subtitle: 'Here are some of our past work',
+            cmcn: {
+                title: 'DeepConnect',
+                description:
+                    'Matching app to find your partner who can change the world with you',
+            },
+        },
         feature: {
             title: 'Features',
             subtitle:

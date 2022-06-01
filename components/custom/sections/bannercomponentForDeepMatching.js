@@ -18,7 +18,7 @@ const BannerComponentForDeepMatching = () => {
                             <span className="label label-rounded label-inverse">
                                 {t.page.deepconnect.title}
                             </span>
-                            <h1>{t.page.deepconnect.h1}</h1>
+                            <h1 className="my-2">{t.page.deepconnect.h1}</h1>
                             <h6 className="my-5">{t.page.deepconnect.h6}</h6>
                             <a
                                 className="btn btn-light btn-outline-primary btn-md m-t-20"

@@ -8,6 +8,7 @@ import HeaderComponent from './sections/headercomponent';
 import BannerComponent from './sections/bannercomponent';
 import FormBannerComponent from './sections/formbannercomponent';
 import FeatureComponent from './sections/featurecomponent';
+import WorkComponent from './sections/workcomponent';
 import PortfolioComponent from './sections/portfoliocomponent';
 import PricingComponent from './sections/pricingcomponent';
 import TeamComponent from './sections/teamcomponent';
@@ -31,6 +32,8 @@ const CustomComponents = () => {
             {/* <Banner /> */}
             <Banner2 />
             <PortfolioComponent />
+            {/* 実績 */}
+            {/* <WorkComponent /> */}
             {/* <BannerComponent />
       <FormBannerComponent /> */}
 
