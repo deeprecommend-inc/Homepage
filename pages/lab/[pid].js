@@ -55,8 +55,8 @@ const Post = () => {
                     cardType: 'summary',
                 }}
             />
-            <Adsense />
             <BlogContent detail={detail} sx={{ background: '#EDF2F7' }} />
+            <Adsense />
         </div>
     );
 };
