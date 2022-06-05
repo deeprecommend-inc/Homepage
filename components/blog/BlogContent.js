@@ -48,6 +48,7 @@ const BlogContent = ({ detail }) => {
                             description="Sharing technical information from three pillars: Web, AI and Quantum Computing"
                         />
                     </Grid>
+                    <Adsense />
                 </main>
             </Container>
         </ThemeProvider>
