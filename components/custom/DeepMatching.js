@@ -24,6 +24,7 @@ import TwitterEmbedded from './sections/twitter';
 import SDGsComponent from './sections/SDGs';
 import deepLogBanner from '../../assets/images/portfolio/deepLogBanner.png';
 import AllComponents from '../basic/AllComponents';
+import { site } from '../../constants/const';
 
 const buttonStyle = {
     position: 'fixed',
@@ -57,25 +58,31 @@ const DeepMatchingComponents = () => {
     return (
         <div id="container">
             <HeaderComponent localePath={'/deepmatching'} />
-
             {/* <Banner />
-      <Banner2 />
-      <PortfolioComponent /> */}
-
+                <Banner2 />
+                <PortfolioComponent />
+             */}
             <BannerComponentForDeepMatching />
-
-            {/* <FormBannerComponent />
-      <FeatureComponent />
-      <PricingComponent />
-      <TwitterEmbedded />
-      <SDGsComponent />
-      <TeamComponent />
-      <TestimonialComponent />
-      <BlogComponent />
-      <C2aComponent />
-      <ContactComponent />
-      <CallToAction /> */}
-
+            <div className="relative w-full" style={{ width: '100vw' }}>
+                <iframe
+                    style={{ width: '100vw', height: '100vh' }}
+                    className="absolute inset-0 w-full scroll-container"
+                    src={site.deepconnectBanner}
+                ></iframe>
+            </div>
+            {/*
+                <FormBannerComponent />
+                <FeatureComponent />
+                <PricingComponent />
+                <TwitterEmbedded />
+                <SDGsComponent />
+                <TeamComponent />
+                <TestimonialComponent />
+                <BlogComponent />
+                <C2aComponent />
+                <ContactComponent />
+                <CallToAction />
+             */}
             <Button
                 variant={isMouseOver ? 'contained' : 'outlined'}
                 style={buttonStyle}

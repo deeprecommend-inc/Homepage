@@ -55,6 +55,7 @@ export const site = {
   medium: "https://medium.com/@deeprecommend",
   qiita: "https://qiita.com/DeepRecommend/",
   zenn: "https://zenn.dev/deeprecommend",
+  deepconnectBanner: "https://deepconnect.my.canva.site/"
 };
 
 export const sugimoto = {
