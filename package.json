@@ -45,6 +45,7 @@
     "react-markdown": "^8.0.2",
     "react-redux": "^7.2.8",
     "react-responsive": "^9.0.0-beta.6",
+    "react-simple-chatbot": "^0.6.1",
     "react-speech-recognition": "^3.9.0",
     "reactstrap": "8.10.0",
     "redux-persist": "^6.0.0",

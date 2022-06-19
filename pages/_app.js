@@ -17,6 +17,7 @@ import { GA_ID, existsGaId, pageview } from '../utils/gtag';
 import { useRouter } from 'next/router';
 import $ from 'jquery';
 import Script from 'next/script';
+import Chatbot from '../components/Chatbot';
 
 function MyApp({ Component, pageProps }) {
     const store = useStore();
@@ -33,9 +34,13 @@ function MyApp({ Component, pageProps }) {
     }, []);
 
     useEffect(() => {
-        $(window).on('load', function () {
-            $('#splash').delay(1500).fadeOut('slow');
-            $('#splash_logo').delay(1200).fadeOut('slow');
+        $(window).on('load', function() {
+            $('#splash')
+                .delay(1500)
+                .fadeOut('slow');
+            $('#splash_logo')
+                .delay(1200)
+                .fadeOut('slow');
         });
     }, []);
 
@@ -44,7 +49,7 @@ function MyApp({ Component, pageProps }) {
             return;
         }
 
-        const handleRouteChange = (path) => {
+        const handleRouteChange = path => {
             // pageview(path);
         };
 
@@ -103,6 +108,7 @@ function MyApp({ Component, pageProps }) {
                     </div>
 
                     <Component {...pageProps} />
+                    {/* <Chatbot /> */}
 
                     <Script
                         id="jquery"
