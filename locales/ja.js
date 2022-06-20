@@ -29,7 +29,7 @@ export default {
     },
     index: {
         head: {
-            title: 'DeepRecommend＜ディープレコメンド＞',
+            title: 'DeepRecommend株式会社',
             description: '心からおすすめできるモノづくりをします',
         },
         header: {
@@ -39,13 +39,14 @@ export default {
             blog: 'ブログ',
         },
         banner: {
+            title: 'DeepRecommend株式会社',
             copy: '心からおすすめできるモノづくりをします',
             getStarted: '始める',
             helpSupport: 'ヘルプ / サポート',
         },
         portfolio: {
             title: 'サービス',
-            subtitle: 'DeepRecommendのサービス一覧',
+            subtitle: '私たちのサービス一覧',
             cmcn: {
                 title: 'DeepConnect＜ディープコネクト＞',
                 description:
@@ -69,7 +70,7 @@ export default {
         },
         work: {
             title: '制作実績',
-            subtitle: 'DeepRecommendの制作実績',
+            subtitle: '私たちの制作実績',
             cmcn: {
                 title: 'DeepConnect',
                 description:
@@ -78,8 +79,7 @@ export default {
         },
         feature: {
             title: '特徴',
-            subtitle:
-                'DeepRecommendのサービス、そしてカスタマーとの向き合い方の特徴',
+            subtitle: '私たちのサービス、そしてカスタマーとの向き合い方の特徴',
             num1: {
                 label: '特徴 1',
                 section1: {
@@ -115,7 +115,7 @@ export default {
         technologyUsed: {
             title: '使用技術',
             subtitle:
-                '私達が使用している技術です。サービスとして公開しているもの使用している技術以外にも、内部で使用している技術も掲載させていただいております。',
+                '私たちが使用している技術です。サービスとして公開しているもの使用している技術以外にも、内部で使用している技術も掲載させていただいております。',
         },
         callToAction: {
             title: 'お探しのサービスは見つかりましたか？',
@@ -126,22 +126,24 @@ export default {
     },
     deeplog: {
         head: {
-            title: 'DeepLog＜ディープログ＞ | サイトを音楽のプレイリストのように一括管理するサイト',
+            title:
+                'DeepLog＜ディープログ＞ | サイトを音楽のプレイリストのように一括管理するサイト',
             description:
-                'DeepLog＜ディープログ＞はDeepRecommendのサイトを音楽のプレイリストのように一括管理するサイトです',
+                'DeepLog＜ディープログ＞はWebサイトを音楽のプレイリストのように一括管理するサイトです',
         },
     },
     deepmatching: {
         head: {
-            title: 'DeepConnect＜ディープコネクト＞ | アイデアとスキルを繋ぐパートナーを探すマッチングアプリ',
+            title:
+                'DeepConnect＜ディープコネクト＞ | アイデアとスキルを繋ぐパートナーを探すマッチングアプリ',
             description:
-                'DeepConnect＜ディープコネクト＞はDeepRecommendのアイデアとスキルを繋ぐパートナーを探すマッチングアプリです',
+                'DeepConnect＜ディープコネクト＞はアイデアとスキルを繋ぐパートナーを探すマッチングアプリです',
         },
     },
     privacyPolicy: {
         head: {
-            title: 'DeepRecommend | プライバシーポリシー',
-            description: 'DeepRecommend プライバシーポリシー',
+            title: 'DeepRecommend株式会社 | プライバシーポリシー',
+            description: 'DeepRecommend株式会社 プライバシーポリシー',
         },
         title: 'プライバシーポリシー',
         content: `
@@ -234,8 +236,8 @@ export default {
     },
     overview: {
         head: {
-            title: 'DeepRecommend | 企業概要',
-            description: 'DeepRecommend 企業概要',
+            title: 'DeepRecommend株式会社 | 企業概要',
+            description: 'DeepRecommend株式会社 企業概要',
         },
         title: '企業概要',
         content: `
@@ -283,7 +285,7 @@ export default {
     },
     contact: {
         head: {
-            title: 'DeepRecommend | お問い合わせフォーム',
+            title: 'DeepRecommend株式会社 | お問い合わせフォーム',
             description: 'お気軽にお問い合わせください',
         },
         form: {
@@ -305,13 +307,15 @@ export default {
         deeplog: {
             title: 'DeepLog＜ディープログ＞',
             h1: 'Webサイトを一元で管理するためのWebサイト',
-            h6: '膨大なWebサイトに嫌気が差しませんか?\n・よく使うサイトが見つからない\n・前検索したサイトをまた検索しないと出てこない\n・そもそも使いたいサイトがあるが、なんて言うサイトかわからない\nDeepLog＜ディープログ＞ならそのお悩みを解決し、快適なネットサーフィンを実現します。今なら無料！',
+            h6:
+                '膨大なWebサイトに嫌気が差しませんか?\n・よく使うサイトが見つからない\n・前検索したサイトをまた検索しないと出てこない\n・そもそも使いたいサイトがあるが、なんて言うサイトかわからない\nDeepLog＜ディープログ＞ならそのお悩みを解決し、快適なネットサーフィンを実現します。今なら無料！',
             getStarted: '無料で始める',
         },
         deepconnect: {
             title: 'DeepConnect＜ディープコネクト＞',
             h1: 'アイデアとスキルを繋ぐマッチングアプリ',
-            h6: '足りないなら補えば合えば良い。\n・アイデアはあるがスキルがない\n・逆にスキルはあるがアイデアはない\n・片思いかもしれない\nあなたのベストパートナーを探します。今なら無料！',
+            h6:
+                '足りないなら補えば合えば良い。\n・アイデアはあるがスキルがない\n・逆にスキルはあるがアイデアはない\n・片思いかもしれない\nあなたのベストパートナーを探します。今なら無料！',
             getStarted: '無料で始める',
         },
     },

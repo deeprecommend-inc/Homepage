@@ -42,6 +42,7 @@ export default {
             blog: 'Blog',
         },
         banner: {
+            title: 'DeepRecommend Inc.',
             copy: 'We make services\nthat we can deeply recommend',
             getStarted: 'Get started',
             helpSupport: 'Help / Support',
@@ -82,7 +83,7 @@ export default {
         feature: {
             title: 'Features',
             subtitle:
-                "Here you can check how we recommend services & our strength.\nYou'll find your dream a service in DeepRecommend.",
+                "Here you can check how we recommend services & our strength.\nYou'll find your dream a service in DeepRecommend",
             num1: {
                 label: 'Feature 1',
                 section1: {
@@ -129,22 +130,24 @@ export default {
     },
     deeplog: {
         head: {
-            title: 'DeepLog | System of website to manage the website like a music playlist',
+            title:
+                'DeepLog | System of website to manage the website like a music playlist',
             description:
-                'DeepLog is  System of website to manage the website like a music playlist from DeepRecommend',
+                'DeepLog is  System of website to manage the website like a music playlist',
         },
     },
     deepmatching: {
         head: {
-            title: 'DeepConnect | Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
+            title:
+                'DeepConnect | Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
             description:
-                'DeepConnect is Matching app for Matching app for comedians they are Bokeh and Tsukkomi from DeepRecommend',
+                'DeepConnect is Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
         },
     },
     privacyPolicy: {
         head: {
-            title: 'DeepRecommend | Privacy Policy',
-            description: 'DeepRecommend Privacy policy',
+            title: 'DeepRecommend Inc. | Privacy Policy',
+            description: 'DeepRecommend Inc. Privacy policy',
         },
         title: 'Privacy Policy',
         content: `
@@ -275,8 +278,8 @@ export default {
     },
     overview: {
         head: {
-            title: 'DeepRecommend | About us',
-            description: 'DeepRecommend About us',
+            title: 'DeepRecommend Inc. | About us',
+            description: 'DeepRecommend Inc. About us',
         },
         title: 'About us',
         content: `
@@ -350,13 +353,16 @@ export default {
         deeplog: {
             title: 'DeepLog',
             h1: 'System of website to manage the website',
-            h6: "Would you like to manage a website like a music playlist?\n・Frequently used sites\n・Sites you searched for before\n・Sites I've forgotten when I used them DeepLog manages\nThese sites and is comfortable surfing the Internet. Currently Free!!",
+            h6:
+                "Would you like to manage a website like a music playlist?\n・Frequently used sites\n・Sites you searched for before\n・Sites I've forgotten when I used them DeepLog manages\nThese sites and is comfortable surfing the Internet. Currently Free!!",
             getStarted: 'Get Started for Free',
         },
         deepconnect: {
             title: 'DeepConnect',
-            h1: 'Matching app to find your partner who can change the world with you',
-            h6: "Looking for a comedy partner?\n・ It's hard to find someone to meet\n・I don't have time for this\n・Training schools are high hurdle\nDeepConnect solves all those problems! An interesting comedian meets an interesting partner! Currently Free!!",
+            h1:
+                'Matching app to find your partner who can change the world with you',
+            h6:
+                "Looking for a comedy partner?\n・ It's hard to find someone to meet\n・I don't have time for this\n・Training schools are high hurdle\nDeepConnect solves all those problems! An interesting comedian meets an interesting partner! Currently Free!!",
             getStarted: 'Get Started for Free',
         },
     },

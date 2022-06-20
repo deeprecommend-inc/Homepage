@@ -29,7 +29,7 @@ const Banner2 = () => {
                         className="align-self-center"
                         data-aos="flip-down"
                     >
-                        <h1>DeepRecommend</h1>
+                        <h1>{t.index.banner.title}</h1>
                         <h4>{t.index.banner.copy}</h4>
                         <a
                             className="btn btn-md m-r-20 btn-outline-primary m-t-30"
