@@ -10,7 +10,7 @@ const Post = () => {
     const router = useRouter();
     const { pid } = router.query;
     const { t, locale } = useLocale();
-    const detail = useSelector((state) => state.blogDetail.blogDetail);
+    const detail = useSelector(state => state.blogDetail.blogDetail);
 
     return (
         <div>
@@ -55,6 +55,7 @@ const Post = () => {
                     cardType: 'summary',
                 }}
             />
+
             <BlogContent detail={detail} sx={{ background: '#EDF2F7' }} />
             <Adsense />
         </div>

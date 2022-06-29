@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import VerticalAlignTopIcon from '@mui/icons-material/VerticalAlignTop';
 import Header from '../components/blog/Header';
 import { useRouter } from 'next/router';
+import Script from 'next/script';
 
 const buttonStyle = {
     position: 'fixed',
@@ -15,12 +16,6 @@ const buttonStyle = {
     height: '52px',
     zIndex: 999,
 };
-
-const sections = [
-    { title: 'Web', url: '/lab/web' },
-    { title: 'AI', url: '/lab/ai' },
-    { title: 'Quantum', url: '/lab/quantum' },
-];
 
 const Layout = ({ children }) => {
     const [isMouseOver, setIsMouseOver] = useState(false);
@@ -44,17 +39,8 @@ const Layout = ({ children }) => {
     return (
         <div id="main-wrapper">
             <div className="page-wrapper">
-                {router.pathname.slice(1, 4) === 'lab' ? (
-                    <Header
-                        title="DeepLab"
-                        sections={sections}
-                        localePath={router.pathname}
-                    />
-                ) : (
-                    <></>
-                )}
                 <div className="container-fluid">{children}</div>
-                <script src="https://smtpjs.com/v3/smtp.js"></script>
+                <Script src="https://smtpjs.com/v3/smtp.js"></Script>
             </div>
             <Button
                 variant={isMouseOver ? 'contained' : 'outlined'}
