@@ -1,15 +1,15 @@
 #splash {
-    position: relative;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     z-index: 1000;
-    background: #fff;
+    background: #fff !important;
     text-align: center;
     color: #fff;
 }
 
 #splash_logo {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
