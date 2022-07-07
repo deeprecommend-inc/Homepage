@@ -97,9 +97,9 @@ const CompanyOverview = () => {
                 <Bar data={graphData} />
             </div>
 
-            <a href="./pdf/sample.pdf" download="sample.pdf">
+            {/* <a href="./pdf/sample.pdf" download="sample.pdf">
                 2022
-            </a>
+            </a> */}
         </div>
     );
 };
