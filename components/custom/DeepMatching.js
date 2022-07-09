@@ -63,13 +63,7 @@ const DeepMatchingComponents = () => {
                 <PortfolioComponent />
              */}
             <BannerComponentForDeepMatching />
-            <div className="relative w-full" style={{ width: '100vw' }}>
-                <iframe
-                    style={{ width: '100vw', height: '100vh' }}
-                    className="absolute inset-0 w-full scroll-container"
-                    src={site.deepconnectBanner}
-                ></iframe>
-            </div>
+
             {/*
                 <FormBannerComponent />
                 <FeatureComponent />
