@@ -28,7 +28,7 @@ const CallToAction = () => {
                             }}
                         />
                         <Button
-                            className="btn btn-dark m-r-20 btn-md m-t-30"
+                            className="btn btn-outline-primary m-r-20 btn-md m-t-30"
                             onClick={scrollToServices}
                         >
                             {t.index.callToAction.action}

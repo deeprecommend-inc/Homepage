@@ -28,7 +28,7 @@ import Link from 'next/link';
 import { useLocale } from '../../../locales/useLocale';
 import BookIcon from '@mui/icons-material/Book';
 
-const HeaderComponent = (localePath) => {
+const HeaderComponent = localePath => {
     const [isOpen, setIsOpen] = useState(false);
     const [ready, setReady] = useState(false);
     const { t, locale } = useLocale();

@@ -23,12 +23,15 @@ const ContactComponent = () => {
         const email = document.getElementById('inputEmail').value;
         const message = document.getElementById('inputMessage').value;
 
-        gtag.event({
-            action: 'submit_form',
-            category: 'Contact',
-            label: message,
-        });
+        // gtag.event({
+        //     action: 'submit_form',
+        //     category: 'Contact',
+        //     label: message,
+        // });
 
+        /**
+         * SMTPJS
+         */
         Email.send({
             Host: smtp.servername,
             Username: smtp.username,
@@ -37,10 +40,10 @@ const ContactComponent = () => {
             From: email,
             Subject: `${name}さんからホームページへのお問い合わせ`,
             Body: message,
-        }).then((message) => openSnackbar(message));
+        }).then(message => openSnackbar(message));
     };
 
-    const openSnackbar = (messge) => {
+    const openSnackbar = messge => {
         setSnackbarMes(messge);
         setSnackbar(true);
         setTimeout(() => {
