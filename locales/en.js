@@ -32,7 +32,7 @@ export default {
     },
     index: {
         head: {
-            title: 'DeepRecommend',
+            title: 'DeepRecommend Inc.',
             description: 'We make services that we can deeply recommend',
         },
         header: {
