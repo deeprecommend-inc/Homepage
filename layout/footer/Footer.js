@@ -153,16 +153,16 @@ const Footer = () => {
                                     </Link>
                                 </div>
                                 {/* <div className="links ml-auto m-t-10 m-b-10">
-                  <Link href="#">
-                    <a className="p-10 p-l-0">Terms of Use</a>
-                  </Link>
-                  <Link href="#">
-                    <a className="p-10">Legal Disclaimer</a>
-                  </Link>
-                  <Link href="#">
-                    <a className="p-10">Privacy Policy</a>
-                  </Link>
-                </div> */}
+                                      <Link href="#">
+                                        <a className="p-10 p-l-0">Terms of Use</a>
+                                      </Link>
+                                      <Link href="#">
+                                        <a className="p-10">Legal Disclaimer</a>
+                                      </Link>
+                                      <Link href="#">
+                                        <a className="p-10">Privacy Policy</a>
+                                      </Link>
+                                    </div> */}
                             </div>
                         </Col>
                     </Row>

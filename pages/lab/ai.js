@@ -36,7 +36,8 @@ export const Ai = ({ res }) => {
 };
 
 export async function getServerSideProps() {
-    const res = await qiitaApi.get();
+    const res = await qiitaApi.get({ per_page: 100 });
+
     return { props: { res } };
 }
 
