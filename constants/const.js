@@ -127,6 +127,7 @@ export const sections = [
     { title: 'Web', url: '/lab/web' },
     { title: 'AI', url: '/lab/ai' },
     { title: 'Quantum', url: '/lab/quantum' },
+    { title: 'Brain', url: '/lab/brain' },
 ];
 
 export const techUsed = {
