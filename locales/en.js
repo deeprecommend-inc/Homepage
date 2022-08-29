@@ -33,7 +33,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend Inc.',
-            description: 'We make services that we can deeply recommend',
+            description: 'We recommend services that make your brain happy.',
         },
         header: {
             others: 'Others',
@@ -43,7 +43,7 @@ export default {
         },
         banner: {
             title: 'DeepRecommend Inc.',
-            copy: 'We make services\nthat we can deeply recommend',
+            copy: 'We recommend services\nthat make your brain happy.',
             getStarted: 'Get started',
             helpSupport: 'Help / Support',
         },
