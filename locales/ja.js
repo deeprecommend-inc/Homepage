@@ -30,7 +30,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend株式会社',
-            description: '脳が喜ぶサービスを提供します',
+            description: '脳ファーストなサービスをおすすめします',
         },
         header: {
             others: 'その他',
@@ -40,7 +40,7 @@ export default {
         },
         banner: {
             title: 'DeepRecommend株式会社',
-            copy: '脳が喜ぶサービスを提供します',
+            copy: '脳ファーストなサービスをおすすめします',
             getStarted: '始める',
             helpSupport: 'ヘルプ / サポート',
         },

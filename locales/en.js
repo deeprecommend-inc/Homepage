@@ -11,8 +11,8 @@ export default {
                 address:
                     'Address: 201 Heim Angel Avenue, Karita, Osaka Shi Sumiyoshi Ku, Osaka Fu, 558-0011, Japan',
             },
-            service: {
-                label: 'Services',
+            product: {
+                label: 'Products',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
                 cmcn: 'DeepConnect',
@@ -33,7 +33,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend Inc.',
-            description: 'We recommend services that make your brain happy.',
+            description: 'We recommend brain-first products.',
         },
         header: {
             others: 'Others',
@@ -43,13 +43,13 @@ export default {
         },
         banner: {
             title: 'DeepRecommend Inc.',
-            copy: 'We recommend services\nthat make your brain happy.',
+            copy: 'We recommend brain-first products.',
             getStarted: 'Get started',
             helpSupport: 'Help / Support',
         },
         portfolio: {
-            title: 'Services',
-            subtitle: 'Here are some of our services',
+            title: 'Products',
+            subtitle: 'Here are some of our products',
             cmcn: {
                 title: 'DeepConnect',
                 description:
@@ -83,7 +83,7 @@ export default {
         feature: {
             title: 'Features',
             subtitle:
-                "Here you can check how we recommend services & our strength.\nYou'll find your dream a service in DeepRecommend",
+                "Here you can check how we recommend products & our strength.\nYou'll find your dream a product in DeepRecommend",
             num1: {
                 label: 'Feature 1',
                 section1: {
@@ -94,7 +94,7 @@ export default {
                 section2: {
                     title: 'Highly recommended',
                     subtitle:
-                        'We think first, Is this service highly recommended?. If the answer is No, we still have room for improvement. By doing so, we will be able to improve our services.',
+                        'We think first, Is this product highly recommended?. If the answer is No, we still have room for improvement. By doing so, we will be able to improve our products.',
                 },
             },
             num2: {
@@ -119,13 +119,13 @@ export default {
         technologyUsed: {
             title: 'Technology used',
             subtitle:
-                'This is the technology we use. In addition to the technologies we use as a service, we also list the technologies we use internally.',
+                'This is the technology we use. In addition to the technologies we use as a product, we also list the technologies we use internally.',
         },
         callToAction: {
-            title: 'Did you find the service you wanted?',
+            title: 'Did you find the product you wanted?',
             description:
-                'If you can\'t find the service you\'re looking for, please make a request in our <a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discord community!</a>',
-            action: 'Find a service',
+                'If you can\'t find the product you\'re looking for, please make a request in our <a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discord community!</a>',
+            action: 'Find a product',
         },
     },
     deeplog: {
@@ -176,30 +176,30 @@ export default {
             following purposes
           </h5>
           <div>
-            ・To accept registrations for our services, to identify and
+            ・To accept registrations for our products, to identify and
             authenticate customers
             <br />
-            ・To maintain a customer&lsquo;s usage history of our services
+            ・To maintain a customer&lsquo;s usage history of our products
             <br />
             ・For payment of usage fees
             <br />
-            ・To analyze customer&lsquo;s activity history on our services and
-            use it to maintain and improve our services <br />
+            ・To analyze customer&lsquo;s activity history on our products and
+            use it to maintain and improve our products <br />
             <br />
-            ・To provide information about our services
+            ・To provide information about our products
             <br />
             ・To respond to customer inquiries
             <br />
             ・To respond to violations of our terms and conditions or laws and
             regulations
             <br />
-            ・To inform you of changes to our services, discontinuation of
+            ・To inform you of changes to our products, discontinuation of
             provision, termination, or cancellation of contracts
             <br />
             ・To notify you of changes to our terms and conditions, etc.
             <br />
             ・In addition to the above, to provide, maintain, protect and
-            improve our services
+            improve our products
             <br />
             ・To display targeted advertising tailored to your interests and
             preferences
@@ -229,7 +229,7 @@ export default {
           </div>
           <div>
             ・When the handling of personal data is outsourced In the event of
-            an acquisition of our company or our services <br />
+            an acquisition of our company or our products <br />
             ・ When sharing with business partners (if there are specific joint
             uses, the details will be announced separately) <br />・ In other
             cases where provision to third parties is legally permitted by law
@@ -294,7 +294,7 @@ export default {
         </tr>
         <tr>
         <td class="py-2 pr-2">Business</td>
-        <td>Web services, mobile applications, machine learning, quantum computing, brain development, and research</td>
+        <td>Web products, mobile applications, machine learning, quantum computing, brain development, and research</td>
         </tr>
         <tr>
         <td class="py-2 pr-2">CEO</td>
