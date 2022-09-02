@@ -8,7 +8,7 @@ export default {
                 email: 'Email: deeprecommend@gmail.com',
                 address: '住所: 日本大阪府大阪市住吉区苅田5-16-3',
             },
-            service: {
+            product: {
                 label: 'サービス',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',

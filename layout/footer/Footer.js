@@ -40,11 +40,11 @@ const Footer = () => {
                     </Col>
                     <Col lg="3" md="6" className="m-b-30">
                         <h5 className="m-b-20">
-                            {t.layout.footer.service.label}
+                            {t.layout.footer.product.label}
                         </h5>
                         <div>
                             <a className="link" href="https://deep-log.net">
-                                {t.layout.footer.service.deeplog}
+                                {t.layout.footer.product.deeplog}
                             </a>
                         </div>
                         <div>
@@ -52,12 +52,12 @@ const Footer = () => {
                                 className="link"
                                 href="https://deep-matching.com"
                             >
-                                {t.layout.footer.service.cmcn}
+                                {t.layout.footer.product.cmcn}
                             </a>
                         </div>
                         <div>
                             <a className="link" href="/lab">
-                                {t.layout.footer.service.deeplab}
+                                {t.layout.footer.product.deeplab}
                             </a>
                         </div>
                     </Col>
