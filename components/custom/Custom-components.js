@@ -45,7 +45,7 @@ const CustomComponents = () => {
             {/* <PricingComponent /> */}
             {/* <TwitterEmbedded /> */}
             {/* <SDGsComponent /> */}
-            {/* <TeamComponent /> */}
+            <TeamComponent />
             {/* 
       <OnlyAskForQuestion/> */}
             {/* <TestimonialComponent /> */}

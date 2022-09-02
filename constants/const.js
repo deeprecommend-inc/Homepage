@@ -59,8 +59,8 @@ export const site = {
 };
 
 export const sugimoto = {
-    twitter: 'https://twitter.com/Jin__Sugimoto',
-    instagram: 'https://www.instagram.com/sugi_jin_dot_com/',
+    twitter: 'https://twitter.com/DeepRecommend',
+    instagram: 'https://www.instagram.com/deep_recommend/',
 };
 
 export const smtp = {
