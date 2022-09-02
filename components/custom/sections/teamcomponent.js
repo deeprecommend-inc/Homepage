@@ -60,9 +60,7 @@ const TeamComponent = () => {
                                         <h5 className="title font-medium">
                                             Jin Sugimoto
                                         </h5>
-                                        <h6 className="subtitle">
-                                            Representative
-                                        </h6>
+                                        <h6 className="subtitle">CEO</h6>
                                         <p>
                                             Active ∩ Aesthetics ∩ Bold ∩ Crazy ∩
                                             Creative ∩ Curiosity ∩ Hardworking ∩
