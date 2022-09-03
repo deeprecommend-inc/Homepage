@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Link from 'next/link';
 import { site } from '../../constants/const';
 import { useLocale } from '../../locales/useLocale';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
 
 const Footer = () => {
     const { t } = useLocale();
@@ -94,7 +95,7 @@ const Footer = () => {
                     <Col lg="3" md="6">
                         <h5 className="m-b-20">{t.layout.footer.sns.label}</h5>
                         <div className="round-social light">
-                            <Link href={site.github}>
+                            {/* <Link href={site.github}>
                                 <a
                                     className="link"
                                     target="_blank"
@@ -102,7 +103,7 @@ const Footer = () => {
                                 >
                                     <i className="fa fa-github"></i>
                                 </a>
-                            </Link>
+                            </Link> */}
                             <Link href={site.twitter}>
                                 <a
                                     className="link"
@@ -110,6 +111,25 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                 >
                                     <i className="fa fa-twitter"></i>
+                                </a>
+                            </Link>
+
+                            <Link href={site.instagram}>
+                                <a
+                                    className="link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i className="fa fa-instagram"></i>
+                                </a>
+                            </Link>
+                            <Link href={site.tiktok}>
+                                <a
+                                    className="link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <MusicNoteIcon />
                                 </a>
                             </Link>
                             <Link href={site.youtube}>
@@ -121,16 +141,7 @@ const Footer = () => {
                                     <i className="fa fa-youtube-play"></i>
                                 </a>
                             </Link>
-                            <Link href={site.instagram}>
-                                <a
-                                    className="link"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <i className="fa fa-instagram"></i>
-                                </a>
-                            </Link>
-                            <Link href={site.facebook}>
+                            {/* <Link href={site.facebook}>
                                 <a
                                     className="link"
                                     target="_blank"
@@ -138,7 +149,7 @@ const Footer = () => {
                                 >
                                     <i className="fa fa-facebook"></i>
                                 </a>
-                            </Link>
+                            </Link> */}
                         </div>
                     </Col>
                 </Row>

@@ -59,6 +59,7 @@ export const site = {
 };
 
 export const sugimoto = {
+    line: 'https://line.me/ti/p/y7xddvw79c',
     twitter: 'https://twitter.com/DeepRecommend',
     instagram: 'https://www.instagram.com/deep_recommend/',
 };
@@ -125,6 +126,7 @@ const docs = {
 
 export const sections = [
     { title: 'Web', url: '/lab/web' },
+    { title: 'XR', url: '/lab/xr' },
     { title: 'AI', url: '/lab/ai' },
     { title: 'Quantum', url: '/lab/quantum' },
     { title: 'Brain', url: '/lab/brain' },

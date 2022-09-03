@@ -18,6 +18,9 @@ import { useRouter } from 'next/router';
 import $ from 'jquery';
 import Script from 'next/script';
 import Chatbot from '../components/Chatbot';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
     const store = useStore();

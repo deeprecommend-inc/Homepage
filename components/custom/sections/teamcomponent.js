@@ -2,6 +2,8 @@
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import { sugimoto } from '../../../constants/const';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLine } from '@fortawesome/free-brands-svg-icons';
 
 const TeamComponent = () => {
     return (
@@ -33,6 +35,17 @@ const TeamComponent = () => {
                                     <div className="card-img-overlay">
                                         <ul className="list-inline">
                                             {/* <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li> */}
+                                            <li className="list-inline-item">
+                                                <a
+                                                    href={sugimoto.line}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <FontAwesomeIcon
+                                                        icon={faLine}
+                                                    />
+                                                </a>
+                                            </li>
                                             <li className="list-inline-item">
                                                 <a
                                                     href={sugimoto.twitter}
