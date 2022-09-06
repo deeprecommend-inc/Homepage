@@ -146,7 +146,7 @@ export default {
                 'DeepBook＜ディープブック＞はブックシェアリングサービスです',
         },
         lineDialog: {
-            title: '本を無料で借りるには担当のLINEを追加してください',
+            title: '無料で本を借りるには担当のLINEを追加してください',
             close: '閉じる',
             add: 'URLから追加',
         },
