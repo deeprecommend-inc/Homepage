@@ -75,11 +75,11 @@ const HeaderComponent = localePath => {
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
                                 <NavItem>
                                     <NavLink
-                                        href={site.deepLog}
+                                        href="/book"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        DeepLog
+                                        DeepBook
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -98,6 +98,15 @@ const HeaderComponent = localePath => {
                                         rel="noopener noreferrer"
                                     >
                                         DeepLab
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink
+                                        href={site.deepLog}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        DeepLog
                                     </NavLink>
                                 </NavItem>
                                 <UncontrolledDropdown nav inNavbar>

@@ -330,3 +330,66 @@ export const techUsed = {
         },
     ],
 };
+
+export const books = [
+    {
+        id: 0,
+        categories: ['brain'],
+        img: '/books/0.jpg',
+        title: '脳は「ものの見方」で進化する',
+    },
+    {
+        id: 1,
+        categories: ['art', 'brain', 'history'],
+        img: '/books/1.jpg',
+        title: 'ダ・ヴィンチの右脳と左脳を科学する',
+    },
+    {
+        id: 2,
+        categories: ['ai', 'brain'],
+        img: '/books/2.jpg',
+        title:
+            '脳と人工知能をつないだら、人間の能力はどこまで拡張できるのか 脳AI融合の最前線',
+    },
+    {
+        id: 3,
+        categories: ['brain', 'computer'],
+        img: '/books/4.jpg',
+        title: 'メカ屋のための脳科学入門-脳をリバースエンジニアリングする-',
+    },
+    {
+        id: 100,
+        categories: ['architecture'],
+        img: '/books/100.jpg',
+        title: '新建築 2020年2月号',
+    },
+];
+
+export const bookCategories = [
+    'ai',
+    'architecture',
+    'art',
+    'brain',
+    'business',
+    'chemistry',
+    'computer',
+    'cosmology',
+    'economy',
+    'education',
+    'history',
+    'investment',
+    'literature',
+    'management',
+    'marketing',
+    'mathematics',
+    'music',
+    'novel',
+    'painting',
+    'physics',
+    'poem',
+    'psychology',
+    'quantum',
+    'spiritual',
+    'statistics',
+    'web',
+];

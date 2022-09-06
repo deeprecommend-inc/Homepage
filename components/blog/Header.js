@@ -37,6 +37,14 @@ function Header({ sections, title, localePath }) {
 
     const toggle = () => setIsOpen(!isOpen);
 
+    const routeToHome = () => {
+        router.push('/');
+    };
+
+    const routeToLab = () => {
+        router.push('/lab');
+    };
+
     if (!ready) return <></>;
 
     return (
@@ -44,17 +52,17 @@ function Header({ sections, title, localePath }) {
             <div className="header1 po-relative">
                 <Container>
                     <Navbar className="navbar-expand-lg h1-nav">
-                        <NavbarBrand
-                            href="/lab"
-                            className="d-flex flex-row align-items-center"
-                        >
+                        <NavbarBrand className="d-flex flex-row align-items-center">
                             <Image
                                 src={logo}
                                 alt="wrapkit"
                                 width="64"
                                 height="64"
+                                onClick={routeToHome}
                             />
-                            <h1 className="ml-3">DeepLab</h1>
+                            <h1 className="ml-3" onClick={routeToLab}>
+                                DeepLab
+                            </h1>
                         </NavbarBrand>
                         <NavbarToggler onClick={toggle}>
                             <span className="ti-menu"></span>

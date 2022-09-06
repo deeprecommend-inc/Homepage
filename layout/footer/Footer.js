@@ -44,8 +44,8 @@ const Footer = () => {
                             {t.layout.footer.product.label}
                         </h5>
                         <div>
-                            <a className="link" href="https://deep-log.net">
-                                {t.layout.footer.product.deeplog}
+                            <a className="link" href="/book">
+                                {t.layout.footer.product.deepbook}
                             </a>
                         </div>
                         <div>
@@ -59,6 +59,11 @@ const Footer = () => {
                         <div>
                             <a className="link" href="/lab">
                                 {t.layout.footer.product.deeplab}
+                            </a>
+                        </div>
+                        <div>
+                            <a className="link" href="https://deep-log.net">
+                                {t.layout.footer.product.deeplog}
                             </a>
                         </div>
                     </Col>

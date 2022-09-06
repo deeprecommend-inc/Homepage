@@ -13,6 +13,7 @@ export default {
             },
             product: {
                 label: 'Products',
+                deepbook: 'DeepBook',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
                 cmcn: 'DeepConnect',
@@ -130,18 +131,26 @@ export default {
     },
     deeplog: {
         head: {
-            title:
-                'DeepLog | System of website to manage the website like a music playlist',
-            description:
-                'DeepLog is  System of website to manage the website like a music playlist',
+            title: 'DeepLog | Website Management',
+            description: 'DeepLog is a website management system',
         },
     },
     deepmatching: {
         head: {
+            title: 'DeepConnect | Idea & Skill Matching App',
+            description: 'DeepConnect is a idea & skill matching app',
+        },
+    },
+    deepbook: {
+        head: {
+            title: 'DeepBook | Book Sharing',
+            description: 'DeepBook is a book Sharing service',
+        },
+        lineDialog: {
             title:
-                'DeepConnect | Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
-            description:
-                'DeepConnect is Matching app for Matching app for comedians they are Bokeh and Tsukkomi',
+                'To borrow books for free, please add the line of the person in charge',
+            close: 'Close',
+            add: 'Add from URL',
         },
     },
     privacyPolicy: {
@@ -365,5 +374,34 @@ export default {
                 "Looking for a comedy partner?\n・ It's hard to find someone to meet\n・I don't have time for this\n・Training schools are high hurdle\nDeepConnect solves all those problems! An interesting comedian meets an interesting partner! Currently Free!!",
             getStarted: 'Get Started for Free',
         },
+    },
+    bookCategory: {
+        ai: 'AI',
+        architecture: 'Architecture',
+        art: 'Art',
+        brain: 'Brain',
+        business: 'Business',
+        chemistry: 'Chemistry',
+        computer: 'Computer',
+        cosmology: 'Cosmology',
+        economy: 'Economy',
+        education: 'Education',
+        history: 'History',
+        investment: 'Investment',
+        literature: 'Literature',
+        management: 'Management',
+        marketing: 'Marketing',
+        mathematics: 'Mathematics',
+        music: 'Music',
+        novel: 'Novel',
+        painting: 'Painting',
+        philosophy: 'Philosophy',
+        physics: 'Physics',
+        poem: 'Poem',
+        psychology: 'Psychology',
+        quantum: 'Quantum',
+        spiritual: 'Spiritual',
+        statistics: 'Statistics',
+        web: 'Web',
     },
 };

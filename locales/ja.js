@@ -10,6 +10,7 @@ export default {
             },
             product: {
                 label: 'サービス',
+                deepbook: 'DeepBook',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
                 cmcn: 'DeepConnect',
@@ -126,18 +127,28 @@ export default {
     },
     deeplog: {
         head: {
-            title:
-                'DeepLog＜ディープログ＞ | サイトを音楽のプレイリストのように一括管理するサイト',
-            description:
-                'DeepLog＜ディープログ＞はWebサイトを音楽のプレイリストのように一括管理するサイトです',
+            title: 'DeepLog＜ディープログ＞ | Webの一元管理システム',
+            description: 'DeepLog＜ディープログ＞はWebの一括管理システムです',
         },
     },
     deepmatching: {
         head: {
             title:
-                'DeepConnect＜ディープコネクト＞ | アイデアとスキルを繋ぐパートナーを探すマッチングアプリ',
+                'DeepConnect＜ディープコネクト＞ | アイデアとスキルのマッチングアプリ',
             description:
-                'DeepConnect＜ディープコネクト＞はアイデアとスキルを繋ぐパートナーを探すマッチングアプリです',
+                'DeepConnect＜ディープコネクト＞はアイデアとスキルのマッチングアプリです',
+        },
+    },
+    deepbook: {
+        head: {
+            title: 'DeepBook＜ディープブック＞ | ブックシェアリング',
+            description:
+                'DeepBook＜ディープブック＞はブックシェアリングサービスです',
+        },
+        lineDialog: {
+            title: '本を無料で借りるには担当のLINEを追加してください',
+            close: '閉じる',
+            add: 'URLから追加',
         },
     },
     privacyPolicy: {
@@ -318,5 +329,34 @@ export default {
                 '足りないなら補えば合えば良い。\n・アイデアはあるがスキルがない\n・逆にスキルはあるがアイデアはない\n・片思いかもしれない\nあなたのベストパートナーを探します。今なら無料！',
             getStarted: '無料で始める',
         },
+    },
+    bookCategory: {
+        ai: 'AI',
+        architecture: '建築',
+        art: '芸術',
+        brain: '脳',
+        business: 'ビジネス',
+        chemistry: '化学',
+        computer: 'コンピュータ',
+        cosmology: '宇宙',
+        economy: '経済',
+        education: '教育',
+        history: '歴史',
+        investment: '投資',
+        literature: '文学',
+        management: '経営',
+        marketing: 'マーケティング',
+        mathematics: '数学',
+        music: '音楽',
+        novel: '小説',
+        painting: '絵画',
+        philosophy: '哲学',
+        physics: '物理',
+        poem: '詩',
+        psychology: '心理',
+        quantum: '量子',
+        spiritual: 'スピリチュアル',
+        statistics: '統計',
+        web: 'Web',
     },
 };
