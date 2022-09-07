@@ -354,9 +354,206 @@ export const books = [
     {
         id: 3,
         categories: ['brain', 'computer'],
-        img: '/books/4.jpg',
+        img: '/books/3.jpg',
         title: 'メカ屋のための脳科学入門-脳をリバースエンジニアリングする-',
     },
+    {
+        id: 4,
+        categories: [''],
+        img: '/books/4.jpg',
+        title:
+            'いちばんやさしい機械学習プロジェクトの教本 人気講師が教える仕事に AI を導入する方法 (「いちばんやさしい教本」シリーズ)',
+    },
+    {
+        id: 5,
+        categories: [''],
+        img: '/books/5.jpg',
+        title: '日本の最も美しい図書館',
+    },
+    {
+        id: 6,
+        categories: [''],
+        img: '/books/6.jpg',
+        title: 'コンピュータシステムの基礎 第17版 ',
+    },
+    {
+        id: 7,
+        categories: [''],
+        img: '/books/7.jpg',
+        title: '一度見たら忘れない奇跡の建物 異彩を放つ世界の名建築100',
+    },
+    {
+        id: 8,
+        categories: [''],
+        img: '/books/8.jpg',
+        title: 'Ruby on Rails 6 超入門',
+    },
+    {
+        id: 9,
+        categories: [''],
+        img: '/books/9.jpg',
+        title: 'たった1日で基本が身に付く! Docker/Kubernetes超入門',
+    },
+    {
+        id: 10,
+        categories: [''],
+        img: '/books/10.jpg',
+        title: '1冊ですべて身につくHTML ＆ CSSとWebデザイン入門講座',
+    },
+    {
+        id: 11,
+        categories: [''],
+        img: '/books/11.jpg',
+        title: 'AWSでつくる AIプログラミング入門',
+    },
+    {
+        id: 12,
+        categories: [''],
+        img: '/books/12.jpg',
+        title:
+            'ゴッホ展 Vincent Van Gogh : Under the Spell of Hague School and Impressionism　[図録]',
+    },
+    {
+        id: 13,
+        categories: [''],
+        img: '/books/13.jpg',
+        title: 'パーフェクト Ruby on Rails 【増補改訂版】 (Perfect series)',
+    },
+    {
+        id: 14,
+        categories: [''],
+        img: '/books/14.jpg',
+        title: '野村重存のそのまま描けるえんぴつ画練習帳 (実用BEST BOOKS)',
+    },
+    {
+        id: 15,
+        categories: [''],
+        img: '/books/15.jpg',
+        title: '図解入門TCP/IP 仕組み・動作が見てわかる ',
+    },
+    {
+        id: 16,
+        categories: [''],
+        img: '/books/16.jpg',
+        title: 'まるごとわかる! 撮り方ブック iPhone&スマホ編',
+    },
+    {
+        id: 17,
+        categories: [''],
+        img: '/books/17.jpg',
+        title: '366日の西洋美術 (366日の教養シリーズ)',
+    },
+    {
+        id: 18,
+        categories: [''],
+        img: '/books/18.jpg',
+        title:
+            '現場で役立つシステム設計の原則 ~変更を楽で安全にするオブジェクト指向の実践技法',
+    },
+    {
+        id: 19,
+        categories: [''],
+        img: '/books/19.jpg',
+        title:
+            'リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック (Theory in practice)',
+    },
+    {
+        id: 20,
+        categories: [''],
+        img: '/books/20.jpg',
+        title:
+            'Webを支える技術 ―― HTTP，URI，HTML，そしてREST WEB+DB PRESS plus',
+    },
+
+    {
+        id: 21,
+        categories: [''],
+        img: '/books/21.jpg',
+        title: 'HTML&CSS&JavaScript辞典 第7版 ',
+    },
+    {
+        id: 22,
+        categories: [''],
+        img: '/books/22.jpg',
+        title: '独学プログラマー Python言語の基本から仕事のやり方まで ',
+    },
+    {
+        id: 23,
+        categories: [''],
+        img: '/books/23.jpg',
+        title:
+            'CircleCI実践入門──CI/CDがもたらす開発速度と品質の両立 (WEB+DB PRESS plus)',
+    },
+
+    {
+        id: 24,
+        categories: [''],
+        img: '/books/24.jpg',
+        title: '住宅の射程',
+    },
+    {
+        id: 25,
+        categories: [''],
+        img: '/books/25.jpg',
+        title: '数学する身体 ',
+    },
+    {
+        id: 26,
+        categories: [''],
+        img: '/books/26.jpg',
+        title: 'GIVE & TAKE「与える人」こそ成功する時代 (単行本)',
+    },
+
+    {
+        id: 27,
+        categories: [''],
+        img: '/books/27.jpg',
+        title:
+            'ORIGINALS The Age Of Everyone Can Do Things Different From People (Single Book) ',
+    },
+    {
+        id: 28,
+        categories: [''],
+        img: '/books/28.jpg',
+        title:
+            'Have poison in yourself - you can throw away the "common humans"',
+    },
+    {
+        id: 29,
+        categories: [''],
+        img: '/books/29.jpg',
+        title: 'まるっと1冊でわかる! 起業を決めたら最初に読む本 ',
+    },
+
+    {
+        id: 30,
+        categories: [''],
+        img: '/books/30.jpg',
+        title: 'Pythonで動かして学ぶ！ あたらしい機械学習の教科書',
+    },
+    {
+        id: 31,
+
+        categories: [''],
+        img: '/books/31.jpg',
+        title: 'Pythonによるあたらしいデータ分析の教科書',
+    },
+    {
+        id: 32,
+
+        categories: [''],
+        img: '/books/32.jpg',
+        title:
+            '東大の先生! 文系の私に超わかりやすく高校の数学を教えてください!',
+    },
+    {
+        id: 33,
+
+        categories: [''],
+        img: '/books/33.jpg',
+        title: '10年後の仕事図鑑',
+    },
+
     {
         id: 100,
         categories: ['architecture'],

@@ -117,6 +117,10 @@ const BookComponent = ({ title }) => {
         setBooksState(books);
     }, []);
 
+    const setAll = () => {
+        setBooksState(books);
+    };
+
     const search = async e => {
         const value = e.target.value;
         const regexp = new RegExp(value, 'i');
@@ -135,7 +139,9 @@ const BookComponent = ({ title }) => {
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="8" className="text-center">
-                            <h2 className="title">{title}</h2>
+                            <h2 className="title" onClick={setAll}>
+                                {title}
+                            </h2>
                             <TextField
                                 type="search"
                                 variant="standard"
