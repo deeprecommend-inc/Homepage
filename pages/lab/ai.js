@@ -14,9 +14,9 @@ export const Ai = ({ res }) => {
     useEffect(() => {
         const init = async () => {
             const aboutAi = getByTagName(res, 'AI');
-            aboutAi.forEach((el, i) => {
-                el.img = `https://picsum.photos/500/300?random=${i}`;
-            });
+            // aboutAi.forEach((el, i) => {
+            //     el.img = `https://picsum.photos/500/300?random=${i}`;
+            // });
             setData(aboutAi);
         };
 

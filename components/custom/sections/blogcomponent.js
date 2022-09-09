@@ -36,7 +36,7 @@ const BlogCol = ({ blog }) => {
                 <a href="#">
                     <img
                         className="card-img-top"
-                        src={blog.img ?? blog.insurance}
+                        src={'/deeprecommend.png'}
                         alt="wrappixel kit"
                     />
                 </a>

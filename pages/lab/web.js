@@ -14,9 +14,9 @@ export const Web = ({ res }) => {
     useEffect(() => {
         const init = async () => {
             const aboutWeb = getByTagName(res, 'Web');
-            aboutWeb.forEach((el, i) => {
-                el.img = `https://picsum.photos/500/300?random=${i}`;
-            });
+            // aboutWeb.forEach((el, i) => {
+            //     el.img = `https://picsum.photos/500/300?random=${i}`;
+            // });
             setData(aboutWeb);
         };
 

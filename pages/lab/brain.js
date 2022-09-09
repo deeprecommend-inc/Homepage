@@ -14,9 +14,9 @@ export const Brain = ({ res }) => {
     useEffect(() => {
         const init = async () => {
             const aboutBrain = getByTagName(res, 'brain');
-            aboutBrain.forEach((el, i) => {
-                el.img = `https://picsum.photos/500/300?random=${i}`;
-            });
+            // aboutBrain.forEach((el, i) => {
+            //     el.img = `https://picsum.photos/500/300?random=${i}`;
+            // });
             setData(aboutBrain);
         };
 
