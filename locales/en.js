@@ -400,6 +400,7 @@ export default {
         poem: 'Poem',
         psychology: 'Psychology',
         quantum: 'Quantum',
+        religion: 'Religion',
         spiritual: 'Spiritual',
         statistics: 'Statistics',
         web: 'Web',

@@ -540,7 +540,6 @@ export const books = [
     },
     {
         id: 32,
-
         categories: [''],
         img: '/books/32.jpg',
         title:
@@ -548,12 +547,114 @@ export const books = [
     },
     {
         id: 33,
-
         categories: [''],
         img: '/books/33.jpg',
         title: '10年後の仕事図鑑',
     },
-
+    {
+        id: 34,
+        categories: [''],
+        img: '/books/34.jpg',
+        title:
+            '文系編集者がわかるまで書き直した世界一美しい数式「eiπ=-1」を証明する',
+    },
+    {
+        id: 35,
+        categories: [''],
+        img: '/books/35.jpg',
+        title: '高校生からわかるベクトル解析',
+    },
+    {
+        id: 36,
+        categories: [''],
+        img: '/books/36.jpg',
+        title: '世界でいちばん素敵な元素の教室(世界でいちばん素敵な教室)',
+    },
+    {
+        id: 37,
+        categories: [''],
+        img: '/books/37.jpg',
+        title: 'バッテリー',
+    },
+    {
+        id: 38,
+        categories: [''],
+        img: '/books/38.jpg',
+        title: '脳HACK大全',
+    },
+    {
+        id: 39,
+        categorise: [''],
+        img: '/books/39.jpg',
+        title:
+            '僕たちは、宇宙のことぜんぜんわからない この世で一番おもしろい宇宙入門',
+    },
+    {
+        id: 40,
+        categories: [''],
+        img: '/books/40.jpg',
+        titel: 'メモの魔力',
+    },
+    {
+        id: 41,
+        categories: [''],
+        img: '/books/41.jpg',
+        titel: '心理学のすべてがわかる本',
+    },
+    {
+        id: 42,
+        categories: [''],
+        img: '/books/42.jpg',
+        titel: '難しい数式はまったくわかりませんが、微分積分を教えてください!',
+    },
+    {
+        id: 43,
+        categories: [''],
+        img: '/books/43.jpg',
+        titel: '敏感すぎて困っている自分の対処法',
+    },
+    {
+        id: 44,
+        categorise: [''],
+        img: '/books/44.jpg',
+        title: '敏感すぎるあなたが7日間で自己肯定感をあげる方法',
+    },
+    {
+        id: 45,
+        categories: [''],
+        img: '/books/45.jpg',
+        titel: '病院心理臨床入門',
+    },
+    {
+        id: 46,
+        categories: [''],
+        img: '/books/46.jpg',
+        titel: '読みたいことを、書けばいい。 人生が変わるシンプルな文章術,',
+    },
+    {
+        id: 47,
+        categories: [''],
+        img: '/books/47.jpg',
+        titel: '笑う数学',
+    },
+    {
+        id: 48,
+        categories: [''],
+        img: '/books/48.jpg',
+        titel: '般若心経の信仰',
+    },
+    {
+        id: 49,
+        categories: [''],
+        img: '/books/49.jpg',
+        titel: '夢をかなえるゾウ',
+    },
+    {
+        id: 50,
+        categories: [''],
+        img: '/books/50.jpg',
+        titel: '早わかり日本史',
+    },
     {
         id: 100,
         categories: ['architecture'],
@@ -586,6 +687,7 @@ export const bookCategories = [
     'poem',
     'psychology',
     'quantum',
+    'religion',
     'spiritual',
     'statistics',
     'web',

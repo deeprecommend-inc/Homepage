@@ -355,6 +355,7 @@ export default {
         poem: '詩',
         psychology: '心理',
         quantum: '量子',
+        religion: '宗教',
         spiritual: 'スピリチュアル',
         statistics: '統計',
         web: 'Web',
