@@ -13,10 +13,13 @@ export const Ai = ({ res }) => {
 
     useEffect(() => {
         const init = async () => {
+            const res = await qiitaApi.get({ per_page: 100 });
             const aboutAi = getByTagName(res, 'AI');
-            // aboutAi.forEach((el, i) => {
-            //     el.img = `https://picsum.photos/500/300?random=${i}`;
-            // });
+            aboutAi.forEach((el, i) => {
+                el.img = `https://picsum.photos/500/300?random=${Math.floor(
+                    Math.random() * aboutAi.length,
+                )}`;
+            });
             setData(aboutAi);
         };
 

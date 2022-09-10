@@ -14,9 +14,10 @@ export const Xr = ({ res }) => {
     useEffect(() => {
         const init = async () => {
             const aboutXr = getByTagName(res, 'XR');
-            // aboutXr.forEach((el, i) => {
-            //     el.img = `https://picsum.photos/500/300?random=${i}`;
-            // });
+            aboutXr.forEach((el, i) => {
+                el.img = `https://picsum.photos/500/300?random=${Math.random() *
+                    aboutXr.length}`;
+            });
             setData(aboutXr);
         };
 

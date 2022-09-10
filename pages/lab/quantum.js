@@ -14,9 +14,10 @@ export const Quantum = ({ res }) => {
     useEffect(() => {
         const init = async () => {
             const aboutQuantum = getByTagName(res, 'QuantumComputing');
-            // aboutQuantum.forEach((el, i) => {
-            //     el.img = `https://picsum.photos/500/300?random=${i}`;
-            // });
+            aboutQuantum.forEach((el, i) => {
+                el.img = `https://picsum.photos/500/300?random=${Math.random() *
+                    aboutQuantum.length}`;
+            });
             setData(aboutQuantum);
         };
 

@@ -8,11 +8,13 @@ import hljs from 'highlight.js';
 import 'highlight.js/styles/github.css';
 import { useDispatch } from 'react-redux';
 import { blogDetailSlice } from '../../store/blogDetail';
+import * as katex from 'katex';
+import 'katex/dist/katex.css';
 
 function Main(props) {
     const { detail, title } = props;
     const [ready, setReady] = useState(false);
-    const [html, setHtml] = useState('');
+    const [contentHtml, setContentHtml] = useState('');
     const [speakingInfo, setSpeakingInfo] = useState();
     const dispatch = useDispatch();
 
@@ -24,8 +26,43 @@ function Main(props) {
     }, []);
 
     const parse = () => {
+        const renderer = new marked.Renderer();
+
+        // function mathsExpression(expr) {
+        //     if (expr.match(/^\$\$[\s\S]*\$\$$/)) {
+        //         expr = expr.substr(2, expr.length - 4);
+        //         return katex.renderToString(expr, { displayMode: true });
+        //     } else if (expr.match(/^\$[\s\S]*\$$/)) {
+        //         expr = expr.substr(1, expr.length - 2);
+        //         return katex.renderToString(expr, { isplayMode: false });
+        //     }
+        // }
+
+        // const rendererCode = renderer.code;
+        // renderer.code = function(code, lang, escaped) {
+        //     if (!lang) {
+        //         const math = mathsExpression(code);
+        //         if (math) {
+        //             return math;
+        //         }
+        //     }
+
+        //     return rendererCode(code, lang, escaped);
+        // };
+
+        // const rendererCodespan = renderer.codespan;
+        // renderer.codespan = function(text) {
+        //     const math = mathsExpression(text);
+
+        //     if (math) {
+        //         return math;
+        //     }
+
+        //     return rendererCodespan(text);
+        // };
+
         marked.setOptions({
-            renderer: new marked.Renderer(),
+            renderer: renderer,
             highlight: (code, lang) => {
                 const language = hljs.getLanguage(lang) ? lang : 'plaintext';
                 return hljs.highlight(code, { language }).value;
@@ -41,7 +78,8 @@ function Main(props) {
         });
 
         const parsed = marked.parse(detail);
-        setHtml(parsed);
+
+        setContentHtml(parsed);
     };
 
     const genToc = () => {
@@ -73,7 +111,7 @@ function Main(props) {
 
     const setInitSpeakingInfo = () => {
         const speak = new SpeechSynthesisUtterance();
-        speak.text = html;
+        speak.text = contentHtml;
         speak.lang = 'en-US';
         setSpeakingInfo(speak);
     };
@@ -97,7 +135,11 @@ function Main(props) {
                 {title}
             </Typography>
             <Divider />
-            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <div
+                dangerouslySetInnerHTML={{
+                    __html: contentHtml,
+                }}
+            />
             <style src="highlightjs/styles/github-gist.css"></style>
         </Grid>
     );

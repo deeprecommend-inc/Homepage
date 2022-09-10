@@ -4,8 +4,11 @@ import { Row, Col, Container } from 'reactstrap';
 import { sugimoto } from '../../../constants/const';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLine } from '@fortawesome/free-brands-svg-icons';
+import { useRouter } from 'next/router';
 
 const TeamComponent = () => {
+    const router = useRouter();
+
     return (
         <div>
             <div className="spacer bg-light">
@@ -29,7 +32,14 @@ const TeamComponent = () => {
                         </Col>
                     </Row> */}
                     <Row className="m-t-30 justify-content-center">
-                        <Col lg="3" md="6" className="m-b-30">
+                        <Col
+                            lg="3"
+                            md="6"
+                            className="m-b-30"
+                            // onClick={() => {
+                            //     router.push('/team/sugimoto');
+                            // }}
+                        >
                             <Row className="no-gutters">
                                 <Col md="12" className="pro-pic t1">
                                     <div className="card-img-overlay">

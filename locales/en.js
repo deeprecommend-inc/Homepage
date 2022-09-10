@@ -118,7 +118,7 @@ export default {
             },
         },
         technologyUsed: {
-            title: 'Technology used',
+            title: 'Technologies',
             subtitle:
                 'This is the technology we use. In addition to the technologies we use as a product, we also list the technologies we use internally.',
         },

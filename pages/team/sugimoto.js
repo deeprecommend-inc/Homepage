@@ -1,8 +1,10 @@
 import Head from 'next/head';
-import DeepLogComponents from '../components/custom/DeepLog';
+import DeepLogComponents from '../../components/custom/DeepLog';
 import { NextSeo } from 'next-seo';
-import { useLocale } from '../locales/useLocale';
-import { imgUrl, site } from '../constants/const';
+import { useLocale } from '../../locales/useLocale';
+import { imgUrl, site } from '../../constants/const';
+import Sugimoto from '../../components/teams/Sugimoto';
+import HeaderComponent from '../../components/custom/sections/headercomponent';
 
 export default function DeepLog() {
     const { t, locale } = useLocale();
@@ -12,7 +14,7 @@ export default function DeepLog() {
             <NextSeo
                 title={t.deeplog.head.title}
                 description={t.deeplog.head.description}
-                canonical={site.home + '/deepmatching'}
+                canonical={site.home + '/team/sugimoto'}
                 openGraph={{
                     url: site.home,
                     title: t.index.head.title,
@@ -44,7 +46,8 @@ export default function DeepLog() {
                     cardType: 'summary',
                 }}
             />
-            <DeepLogComponents />
+            <HeaderComponent />
+            <Sugimoto />
         </div>
     );
 }

@@ -36,8 +36,8 @@ const BlogCol = ({ blog }) => {
                 <a href="#">
                     <img
                         className="card-img-top"
-                        src={'/deeprecommend.png'}
-                        alt="wrappixel kit"
+                        src={blog.img ?? ''}
+                        alt="404"
                     />
                 </a>
                 <div className="date-pos bg-info-gradiant">

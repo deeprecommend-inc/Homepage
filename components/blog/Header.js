@@ -18,9 +18,17 @@ import TranslateIcon from '@mui/icons-material/Translate';
 import { useRouter } from 'next/router';
 
 const NavChild = ({ href, name }) => {
+    const router = useRouter();
+
     return (
         <NavItem>
-            <NavLink href={href}>{name}</NavLink>
+            <NavLink
+                onClick={() => {
+                    router.push(href);
+                }}
+            >
+                {name}
+            </NavLink>
         </NavItem>
     );
 };

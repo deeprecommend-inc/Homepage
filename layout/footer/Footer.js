@@ -134,7 +134,12 @@ const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <MusicNoteIcon />
+                                    <MusicNoteIcon
+                                        style={{
+                                            width: '20px',
+                                            height: '20px',
+                                        }}
+                                    />
                                 </a>
                             </Link>
                             <Link href={site.youtube}>

@@ -97,6 +97,12 @@ function MyApp({ Component, pageProps }) {
                     href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css"
                     rel="stylesheet"
                 />
+                <link
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.css"
+                    integrity="sha384-knaESGLxlQRSHWSJ+ZbTX6/L1bJZWBsBYGb2O+g64XHFuO7CbIj9Pkf1aaVXzIZJ"
+                    crossOrigin="anonymous"
+                />
                 <script
                     async
                     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2370440619895423"
