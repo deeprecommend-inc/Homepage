@@ -12,8 +12,8 @@ export default function DeepLog() {
     return (
         <div>
             <NextSeo
-                title={t.deeplog.head.title}
-                description={t.deeplog.head.description}
+                title={t.teams.sugimoto.head.title}
+                description={t.teams.sugimoto.head.description}
                 canonical={site.home + '/team/sugimoto'}
                 openGraph={{
                     url: site.home,

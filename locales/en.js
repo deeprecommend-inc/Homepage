@@ -458,6 +458,10 @@ export default {
             },
         },
         sugimoto: {
+            head: {
+                title: 'Jin Sugimoto | DeepRecommend Inc.',
+                description: 'DeepRecommend CEO',
+            },
             JinSugimoto: {
                 title: 'Jin Sugimoto',
                 strengths: ['Curiosity', 'Creativity', 'Aesthetic Sense'],

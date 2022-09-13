@@ -414,6 +414,10 @@ export default {
             },
         },
         sugimoto: {
+            head: {
+                title: '杉本迅 | DeepRecommend株式会社',
+                description: 'DeepRecommend株式会社 代表取締役',
+            },
             JinSugimoto: {
                 title: '杉本迅',
                 strengths: ['好奇心', '創造性', '審美眼'],
