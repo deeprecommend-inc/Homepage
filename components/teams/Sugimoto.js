@@ -120,6 +120,30 @@ const Sugimoto = () => {
                     ],
                 }}
             />
+            <h1 style={{ margin: '35px 0 30px' }}>EQ</h1>
+            <Radar
+                options={{
+                    scales: {
+                        r: {
+                            min: 0,
+                            max: 10,
+                            stepSize: 1,
+                        },
+                    },
+                }}
+                data={{
+                    labels: t.teams.general.eq,
+                    datasets: [
+                        {
+                            label: t.teams.sugimoto.JinSugimoto.title,
+                            data: [10, 10, 6, 10, 7, 10, 10, 5, 10, 10, 5, 4],
+                            backgroundColor: 'rgba(1, 100, 211, 0.5)',
+                            borderColor: '#0164d3',
+                            borderWidth: 1,
+                        },
+                    ],
+                }}
+            />
             <h1 style={{ margin: '35px 0 30px' }}>16Personalities</h1>
             INTP-A
             <img src="/intp.png" />

@@ -456,6 +456,20 @@ export default {
                 intrapersonal: 'Intrapersonal Intelligence',
                 naturalistic: 'Naturalistic Intelligence',
             },
+            eq: [
+                'Self-awareness',
+                'Perception of the other',
+                'Affective vocabulary',
+                'Emotional inhibition',
+                'Emotional creativity',
+                'Affective analysis',
+                'Affective perception',
+                'Affective empathy',
+                'Emotional unity',
+                'Secret power of emotion',
+                'Emotional expression',
+                'momentary stillness',
+            ],
         },
         sugimoto: {
             head: {
