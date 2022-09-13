@@ -63,7 +63,7 @@ export default {
             deepmuseum: {
                 title: 'DeepMuseum｜ディープミュージアム',
                 description:
-                    'アート好きと画家のためのオンライン美術館（~ 2022/3/8）',
+                    'オンライン美術館（~ 2022/3/8）',
             },
             deepbook: {
                 title: 'DeepBook｜ディープブック',
