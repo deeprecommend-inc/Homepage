@@ -47,7 +47,7 @@ const Banner2 = () => {
                         </Link>
                     </Col>
                     <Col lg="6" md="6" data-aos="zoom-in">
-                        <Image src='/banner.gif' alt="Banner img" width="500" height="350"/>
+                        <img src='/banner.gif' alt="Banner img" />
                     </Col>
                 </Row>
             </Container>
