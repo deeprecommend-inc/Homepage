@@ -112,8 +112,12 @@ function MyApp({ Component, pageProps }) {
             <Provider store={store}>
                 <PersistGate persistor={persistor}>
                     <div id="splash">
-                        <div id="splash_logo" style={{ width: '128px' }}>
-                            <img src={'/logo.jpg'} alt="" className="fadeUp" />
+                        <div id="splash_logo" style={{ width: '100vw' }}>
+                            <img
+                                src={'/illusion.gif'}
+                                alt=""
+                                className="fadeUp"
+                            />
                         </div>
                     </div>
 

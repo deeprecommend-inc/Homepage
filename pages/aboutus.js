@@ -85,6 +85,7 @@ const CompanyOverview = () => {
                     maxWidth: '750px',
                     margin: '64px auto',
                     whiteSpace: 'normal',
+                    padding: '0 24px',
                 }}
             >
                 <h1 style={{ margin: '35px 0 30px' }}>{t.overview.title}</h1>

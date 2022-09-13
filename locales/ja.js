@@ -31,7 +31,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend株式会社',
-            description: '脳ファーストなサービスをおすすめします',
+            description: '最高の感覚意識をつくります',
         },
         header: {
             others: 'その他',
@@ -41,7 +41,7 @@ export default {
         },
         banner: {
             title: 'DeepRecommend株式会社',
-            copy: '脳ファーストなサービスをおすすめします',
+            copy: '最高の感覚意識をつくります',
             getStarted: '始める',
             helpSupport: 'ヘルプ / サポート',
         },
@@ -49,24 +49,25 @@ export default {
             title: 'サービス',
             subtitle: '私たちのサービス一覧',
             cmcn: {
-                title: 'DeepConnect＜ディープコネクト＞',
-                description:
-                    'アイデアとスキルを繋ぎ２人で１人の天才を作るマッチングアプリ',
+                title: 'DeepConnect｜ディープコネクト',
+                description: 'アイデアとスキルを繋ぐマッチングアプリ',
             },
             deeplog: {
-                title: 'DeepLog＜ディープログ＞',
-                description:
-                    'ウェブサイトを音楽のプレイリストのように一括管理するウェブサイト',
+                title: 'DeepLog｜ディープログ',
+                description: 'ウェブサイトを一括管理するウェブサイト',
             },
             deeplab: {
-                title: 'DeepLab＜ディープラボ＞',
-                description:
-                    'Web、AI、そして量子コンピューティングの３つを軸に情報を発信するブログ',
+                title: 'DeepLab｜ディープラボ',
+                description: 'ディープテックブログ',
             },
             deepmuseum: {
-                title: 'DeepMuseum＜ディープミュージアム＞',
+                title: 'DeepMuseum｜ディープミュージアム',
                 description:
-                    'アート好きと画家のためのオンライン美術館（2022/3/8サービス終了）',
+                    'アート好きと画家のためのオンライン美術館（~ 2022/3/8）',
+            },
+            deepbook: {
+                title: 'DeepBook｜ディープブック',
+                description: 'オンライン図書館',
             },
         },
         work: {
@@ -84,39 +85,39 @@ export default {
             num1: {
                 label: '特徴 1',
                 section1: {
-                    title: 'シンプルなルールに基づいた開発',
+                    title: 'シンプルルール',
                     subtitle:
-                        '私たちの目的は人々を豊かたにすることです。\nそのために、以下のようなシンプルなルールに基づいて考えます。',
+                        '最高の感覚意識をつくるには、以下のようなシンプルなルールに基づいて考えます。',
                 },
                 section2: {
                     title: 'オススメ',
                     subtitle:
-                        '私たちは最初に, 「そのサービスを自信を持ってお勧めできるか？」と問います。 もし答えが「NO」なら, まだ改善の余地があるということです。そうすることで、私たちのサービスの質を向上させることができます。',
+                        '「お勧めできるか？」と問います。 もし答えが「NO」なら, まだ改善の余地があるということです。そうすることで、私たちはより洗練された感覚意識を与えることができます。',
                 },
             },
             num2: {
                 label: '特徴 2',
                 section1: {
-                    title: '活発なやり取り',
+                    title: '創造性',
                     subtitle:
-                        '私たちが「強くお勧めだ」と思っても、カスタマーはそうは考えない場合があります。\nそのため、お客様からの直接のご意見を大切にしています。Discordによる独自のコミュニティがあるのでご活用ください。',
+                        '私たちは「不確実」に果敢に挑戦し続けることで、\n新たな価値を生み出し続けます。',
                 },
                 section2: {
-                    title: 'ぜひ意見をお聴かせください',
+                    title: '多様なアイデアが豊かな創造性に繋がります。',
                     subtitle: '参加する',
                 },
             },
             num3: {
                 label: '特徴 3',
-                title: '創造性',
+                title: '深い思考',
                 subtitle:
-                    '私たちは他の企業、事業、人がやらないこと、\n新しいことに挑戦し続けます。',
+                    '私たちが本当に求めている感覚意識は普段意識しているより深い場所にあります。深い思考をすることで、求めていた感覚意識に出会えます。',
             },
         },
         technologyUsed: {
             title: '使用技術',
             subtitle:
-                '私たちが使用している技術です。サービスとして公開しているもの使用している技術以外にも、内部で使用している技術も掲載させていただいております。',
+                '私たちが使用している技術です。常日頃から高い技術水準を保つよう努めるため、公開しています。',
         },
         callToAction: {
             title: 'お探しのサービスは見つかりましたか？',
@@ -252,44 +253,44 @@ export default {
         },
         title: '企業概要',
         content: `
-        <table>
-        <tr>
-        <td class="py-2 pr-2">会社名</td>
-        <td>DeepRecommend株式会社</td>
-        </tr>
-        <tr>
-        <td class="py-2 pr-2">ミッション</td>
-        <td>心底おすすめできるモノづくりをする</td>
-        </tr>
-        <tr>
-        <td class="py-2 pr-2">事業内容</td>
-        <td>Web、モバイルアプリケーション、機械学習、量子コンピュータ、脳の開発、及び研究</td>
-        </tr>
-        <tr>
-        <td class="py-2 pr-2">代表者</td>
-        <td>杉本 迅</td>
-        </tr>
-        <tr>
-        <td class="py-2 pr-2">住所</td>
-        <td>〒558-0011<br/>大阪府大阪市苅田5-16-3-201</td>
-        </tr>
-        <tr>
-        <td></td>
-        <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.134293731743!2d135.51242501553048!3d34.60076549607089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dc17c29e2b17%3A0xb03725b81bee4a1!2s5-ch%C5%8Dme-16-3%20Karita%2C%20Sumiyoshi%20Ward%2C%20Osaka%2C%20558-0011!5e0!3m2!1sen!2sjp!4v1650110961105!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
-        </tr>
-        <tr>
-        <td class="py-2 pr-2">Tel</td>
-        <td>070-1734-7502</td>
-        <tr>
-        <td class="py-2 pr-2">設立年</td>
-        <td>2022年</td>
-        </tr>
-        <tr>
-        <td class="py-2 pr-2">資本金</td>
-        <td>1,000,000円</td>
-        </tr>
-        </table>
-    `,
+            <table style="display: block; overflow-x: scroll; white-space: nowrap; -webkit-overflow-scrolling: touch;">
+                <tr>
+                    <td class="py-2 pr-2">会社名</td>
+                    <td>DeepRecommend株式会社</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">ミッション</td>
+                    <td>心底おすすめできるモノづくりをする</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">事業内容</td>
+                    <td>Web、モバイルアプリケーション、機械学習、量子コンピュータ、脳の開発、及び研究</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">代表者</td>
+                    <td>杉本 迅</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">住所</td>
+                    <td>〒558-0011<br/>大阪府大阪市苅田5-16-3-201</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.134293731743!2d135.51242501553048!3d34.60076549607089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dc17c29e2b17%3A0xb03725b81bee4a1!2s5-ch%C5%8Dme-16-3%20Karita%2C%20Sumiyoshi%20Ward%2C%20Osaka%2C%20558-0011!5e0!3m2!1sen!2sjp!4v1650110961105!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Tel</td>
+                    <td>070-1734-7502</td>
+                <tr>
+                    <td class="py-2 pr-2">設立年</td>
+                    <td>2022年</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">資本金</td>
+                    <td>1,000,000円</td>
+                </tr>
+            </table>
+        `,
         performance: '業績',
         november: '11月',
         sales: '売上（億円）',
@@ -359,5 +360,480 @@ export default {
         spiritual: 'スピリチュアル',
         statistics: '統計',
         web: 'Web',
+    },
+    teams: {
+        general: {
+            upbringing: '生い立ち',
+            manual: {
+                title: 'トリセツ',
+                content: `
+                    常に新しい刺激を与えてあげてください。
+                    空回りが続いているときは、そっとしてあげてください。
+                    哲学的な内容の話を持ちかけてみてください。
+                    基本的にドＭで、批判されることなどを好みますが、建設的な批判でなければ言うことを聞きません。
+                    聞いたり、文字を読んだりして、理解する速度が遅いので、図や絵とともに伝えるか、実際にやらせてみてください。
+                `,
+            },
+            big5: {
+                opennessToExperience: 'チャレンジパワー',
+                conscientiousness: '誠実パワー',
+                extraversion: '外交パワー',
+                agreeableness: '協力パワー',
+                neuroticism: 'メンタルパワー',
+            },
+            cognitiveCharacteristics: {
+                vision: {
+                    title: '視覚',
+                    cameraEye: '写真（カメラアイ）',
+                    threeDimensionalVision: '三次元映像',
+                },
+                lang: {
+                    title: '言語',
+                    fantasy: '言語映像',
+                    dictionary: '言語抽象',
+                },
+                auditory: {
+                    title: '聴覚',
+                    radio: '聴覚言語',
+                    sound: '聴覚＆音',
+                },
+            },
+            multipleIntelligences: {
+                visualSpatial: '視覚・空間的知能',
+                linguisticVerbalIntelligence: '言語的知能',
+                logicalMathematical: '論理数学的知能',
+                bodilyKinesthetic: '身体・運動感覚知能',
+                musical: '音楽・リズム知能',
+                interpersonal: '対人的知能',
+                intrapersonal: '内省的知能',
+                naturalistic: '博学的知能',
+            },
+        },
+        sugimoto: {
+            JinSugimoto: {
+                title: '杉本迅',
+                content: `
+                    <table style="display: block; white-space: nowrap; -ms-overflow-style: none;">
+                        <img src="/sugimoto.jpg" style="width: 360px;" />
+                        <tr>
+                            <td class="py-2 pr-2">ポジション</td>
+                            <td>CEO</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">ビジョン</td>
+                            <td>人類にとって最高の感覚意識をつくること</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">生誕</td>
+                            <td>2003年8月18日</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">国籍</td>
+                            <td>日本</td>
+                        </tr>
+                         <tr>
+                            <td class="py-2 pr-2">血液型</td>
+                            <td>O型</td>
+                        </tr>
+                       <tr>
+                            <td class="py-2 pr-2">クロノタイプ</td>
+                            <td>朝型</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">利き手</td>
+                            <td>左</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">第二言語</td>
+                            <td>英語</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">プログラミング言語</td>
+                            <td>Python, TypeScript, Dart</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">性別</td>
+                            <td>どっちもいける</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">MBTI</td>
+                            <td>INTP</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">色</td>
+                            <td>朱</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">本</td>
+                            <td>『論語』</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">映画</td>
+                            <td>『Matrix』</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">ゲーム</td>
+                            <td>『Detroit: Become Human』</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">趣味</td>
+                            <td>哲学</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">スポーツ</td>
+                            <td>ハンドボール</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">認知特性</td>
+                            <td>視覚 > 言語 > 聴覚</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">強み</td>
+                            <td>好奇心</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">弱み</td>
+                            <td>愛情</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">得意科目</td>
+                            <td>数学</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">苦手科目</td>
+                            <td>国語</td>
+                        </tr>
+                    </table>
+                `,
+                history: `
+                    <table style="display: block; overflow-x: scroll; white-space: nowrap; -ms-overflow-style: none;">
+                        <tr>
+                            <td class="py-2 pr-2">0歳</td>
+                            <td>2003/8/18生誕</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
+                            <td>他人の墓を荒らす</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
+                            <td>母親が妊娠悪阻。父親の承諾で幼稚園に弁当に寿司を持っていく。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
+                            <td>ぶどう狩りで、お腹を壊し、うんこを漏らす。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
+                            <td>"汗だく"の"だく"を"ダーク"とかけて、汗ダークと言う悪役になって遊ぶ。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
+                            <td>ダンスや歌が馬鹿馬鹿くて、冷める。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
+                            <td>合奏中にシンバルを落とし、全体が中断。スキップで替えのシンバルを取りに行く。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
+                            <td>英語と体育教育を受けるも、英語はずっと苦手。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>坊主にする。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>高学年しかクラブ活動がなく、まだ低学年だったので、しかたなく変な絵クラブを休み時間に設立。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>休み時間は絵を描くか、ドッヂボールをするか、将棋をする。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>いじめに合う。〇〇をやらなければ絶好という小学生には怖い脅しをかけられる。毎休み時間に縛られ、顔にボールを当てられる。うんこをふまされる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>先端恐怖症なのを理由にコンパスを向けられ、ビビっている姿を見て弄ばれるも、合気道を使って撃退。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>青鬼というゲームをモチーフにして、鬼が学校のロッカーに入り、その前を通って、ランダムに鬼が出てくるという鬼ごっこを考案。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>ラーメンにハマる。ラーメン職人を目指す。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>自分でカードゲームをつくって、皆で遊ぶ。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>鬼ごっことカードゲームをかけ合わせ、カードをアイテムとした鬼ごっこをする。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>マイクラにハマる。建築士を目指す。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>ビートボックスを習得し、披露。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>10歳までお漏らし。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>ビートボックスを習得し、披露。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>百人一首を一番に暗記し無双するも、皆が暗記すると反射神経がなく最弱になる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>KANA-BOONとASIAN KUNG-FU GENERATIONにハマる。ここから、音楽にハマる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">少年時代</td>
+                            <td>テストはほぼ満点、裏に絵を描く。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">12歳</td>
+                            <td>親の離婚</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">12歳</td>
+                            <td>高所恐怖症を克服しようと思い立つ。ジェットコースターはいけるけど、観覧車は無理。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">13歳</td>
+                            <td>ハンドボール部に入部。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">14歳</td>
+                            <td>ギターを始め、2週間で初めての作曲。曲名は『特徴』。見た目の差別について歌った。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">14歳</td>
+                            <td>『ピーナッツバター』という曲を作曲。ピーナッツバターを横に塗るか♪縦に塗るか♪というくだらない歌詞だが、地元で少し流行る。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">15歳</td>
+                            <td>ハンドボール部でキャプテンを務める。大阪2位まで登り詰める。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">15歳</td>
+                            <td>『論語』にハマる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">15歳</td>
+                            <td>彼女から「好きそう」という理由で渋沢栄一の『論語と算盤』を勧められる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>受験。第一志望の自由な校風だった住吉高校に落ちる。清風高校に入学。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>受験落ちの反動で、東大を目指す。友達と縁を切る。彼女に振られる。清風高校でも友達を作らずに勉強にのめり込む。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>偏差値80をオーバーする成績を取る。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>朝起きられなく成り、高校中退。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>メンタルの影響で、模試の偏差値40。大学を諦め、大学の代わりになるものを自分で作ろうと思い立つ。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>馬肉専門店けとばし屋チャンピオンでアルバイト開始。片手間にビジネスと、プログラミングを勉強する。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>すき家のアルバイトを掛け持つも、余裕がなく失敗しまくり、2週間で辞める。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>バイトに行かず、公園で寝る。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>けとばし屋チャンピオンの店長が家に来る。「こんな自分を心配してくれう心の広い人がいるんだ」と思う。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>精神科に行くも、「あなたは強いです。もう来なくても大丈夫です。」と言われる。この時、精神科学を自分で勝手に勉強していた。精神疾患ではないことを悟った。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>徐々に元気を取り戻し、アルバイト先で、『仮想現実に住みたい』『もう一人の自分を作りたい』と語る。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>せどりビジネスの詐欺に合いかける。母親に止められる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">16歳</td>
+                            <td>パソコンを購入し、テトリスをつくる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">17歳</td>
+                            <td>プログラミングの成果物。失敗共有SNS『ERRORS』をシフトプラス株式会社に提出し、就職。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">17歳</td>
+                            <td>Web開発だけでは淘汰されると思い、量子コンピュータと大学数学の勉強を始める。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">17歳</td>
+                            <td>会社勤務しながら、個人事業を立ち上げる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">17歳</td>
+                            <td>DeepRecommend博物館というサービスを立ち上げる。オンラインサロンのビジネスモデル。理解されず終了。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">17歳</td>
+                            <td>『DeepRecommend博物館』を、オンライン美術館『DeepRecommend美術館』に変更。お客さんは1人。売上が立たず終了。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">17歳</td>
+                            <td>AWSから14万円の請求が来る。3万にしてもらうよう交渉。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>数学者と物理学者と建築家とお笑い芸人と音楽家と画家になりたいと思っていたが、流石にやることが多すぎると思い、経営と技術に絞ると決める。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>人生100年の、『金銭目標』『技術目標』『創造目標』を立てる。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>日本語だけでは淘汰されると思い、DMM英会話を始める。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>金を稼いでおらず焦り、受託を開始。15万円を手にする。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>作業中Google Chromeのタブいっぱいになるのがウザくて、Webサイト管理アプリ『DeepLog』開始。スポニチ新聞に取り上げられるも、全く利用者が増えず。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>中学の友人と芸人になる約束をしていたので、芸人の相方を探すマッチングアプリ『CmCn』を開始。読売テレビ『上沼・高田のクギズケ！』で紹介したいというメールを見逃し、チャンスを逃す。 </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>中学の友達にもう芸人の相方候補ではないことを告げられ、ショックを受ける。仲は良いまま。NSC用に貯金していた50万円が浮く。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>PRTimesの無料枠を超過したことに気づかず、26万円の請求。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>『CmCn』をアイデアとスキルのマッチングアプリ『DeepConnect』に変更。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>これからはAI人材が必要だと思い、AIの部門に行きたいと勤務中の会社の社長に交渉。部長への交渉に失敗し、実現せず。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>脳科学者渡 渡辺正隆氏とのオンラインミーティングの機会を頂く。"核分裂のような流行"が必要だと教えてもらう。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>blueqat CEO 港氏にメールを送って助言を頂く。"会社法人化とスキルの向上と交渉力"が必要だと教えてもらう。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td>個人事業のDeepRecommend博物館を法事化。DeepRecommend株式会社設立。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19歳</td>
+                            <td>会社のプログラミング研修課題で、『量子最適化を使ってふるさと納税で得するプログラム』を提出し1位を取る。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19歳</td>
+                            <td>会社を辞める。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19歳</td>
+                            <td>オンライン図書館『DeepBook』開始。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19歳</td>
+                            <td>blueqat株式会社で量子機械学習のインターン開始。</td>
+                        </tr>
+                    </table>
+                `,
+                routine: `
+                    <table style="display: block; white-space: nowrap; -ms-overflow-style: none;">
+                        <tr>
+                            <td class="py-2 pr-2">3:30</td>
+                            <td>起きる</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">3:45</td>
+                            <td>ランニング</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">4:15</td>
+                            <td>冷水シャワー => 瞑想 => コーヒー => 発信</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">7:00</td>
+                            <td>英会話</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">7:30</td>
+                            <td>読書</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">8:00</td>
+                            <td>仕事（メール / セールス / 事務 / 経理 / 開発 / 計画 / リスクマネジメント）</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">12:00</td>
+                            <td>昼休憩</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">13:00</td>
+                            <td>再開</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18:00</td>
+                            <td>終了 （振り返り / 次の日のToDo整理）</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18:30</td>
+                            <td>夜ご飯</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">20:00</td>
+                            <td>寝る準備 / 読書</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">20:30</td>
+                            <td>寝る</td>
+                        </tr>
+                    </table>
+                `,
+            },
+        },
     },
 };

@@ -8,7 +8,7 @@ const CallToAction = () => {
 
     const scrollToServices = () => {
         window.scrollTo({
-            top: 750,
+            top: 720,
             behavior: 'smooth',
         });
     };

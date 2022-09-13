@@ -2,11 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 import Image from 'next/image';
-import logImg from '../../../assets/images/portfolio/deepLog.png';
-import matchingImg from '../../../assets/images/portfolio/deepMatching.jpg';
-import connectImg from '../../../assets/images/portfolio/deepConnect.jpg';
-import museumImg from '../../../assets/images/portfolio/deepMuseum.jpg';
-import labImg from '../../../assets/images/portfolio/deepLab.png';
+import logImg from '../../../assets/images/portfolio/4.png';
+import connectImg from '../../../assets/images/portfolio/3.png';
+import museumImg from '../../../assets/images/portfolio/1.png';
+import labImg from '../../../assets/images/portfolio/2.png';
+import bookImg from '../../../assets/images/portfolio/5.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
 
@@ -61,6 +61,31 @@ const PortfolioComponent = () => {
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
+                                    href="/book"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="img-ho"
+                                >
+                                    <Image
+                                        className="card-img-top"
+                                        src={bookImg}
+                                        alt="DeepBook"
+                                    />
+                                </a>
+                                <CardBody>
+                                    <h5 className="font-medium m-b-0">
+                                        {t.index.portfolio.deepbook.title}
+                                    </h5>
+                                    <p className="m-b-0 font-14">
+                                        {t.index.portfolio.deepbook.description}
+                                    </p>
+                                </CardBody>
+                            </Card>
+                        </Col>
+                        <Col md="4" data-aos="fade-up">
+                            <Card className="card-shadow">
+                                <a
+                                    style={normalStyle}
                                     href={site.deepLog}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -69,7 +94,7 @@ const PortfolioComponent = () => {
                                     <Image
                                         className="card-img-top"
                                         src={logImg}
-                                        alt="wrappixel kit"
+                                        alt="DeepLog"
                                     />
                                 </a>
                                 <CardBody>
@@ -82,7 +107,7 @@ const PortfolioComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col md="4" data-aos="fade-up">
+                        <Col md="4" data-aos="fade-up-left">
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
@@ -94,7 +119,7 @@ const PortfolioComponent = () => {
                                     <Image
                                         className="card-img-top"
                                         src={connectImg}
-                                        alt="wrappixel kit"
+                                        alt="DeepConnect"
                                     />
                                 </a>
                                 <CardBody>
@@ -107,7 +132,7 @@ const PortfolioComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col md="4" data-aos="fade-up-left">
+                        <Col md="4" data-aos="fade-up-right">
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
@@ -119,7 +144,7 @@ const PortfolioComponent = () => {
                                     <Image
                                         className="card-img-top"
                                         src={labImg}
-                                        alt="wrappixel kit"
+                                        alt="DeepLab"
                                     />
                                 </a>
                                 <CardBody>
@@ -155,13 +180,13 @@ const PortfolioComponent = () => {
                 </CardBody>
               </Card>
             </Col> */}
-                        <Col md="4" data-aos="fade-up">
+                        <Col md="4" data-aos="fade-up-left">
                             <Card className="card-shadow">
                                 <a style={endStyle} className="img-ho" disabled>
                                     <Image
                                         className="card-img-top"
                                         src={museumImg}
-                                        alt="wrappixel kit"
+                                        alt="DeepMuseum"
                                     />
                                 </a>
                                 <CardBody>
