@@ -364,6 +364,9 @@ export default {
     teams: {
         general: {
             upbringing: '生い立ち',
+            routine: 'ルーティン',
+            strength: '強み',
+            weakness: '弱み',
             manual: {
                 title: 'トリセツ',
                 content: `
@@ -382,6 +385,7 @@ export default {
                 neuroticism: 'メンタルパワー',
             },
             cognitiveCharacteristics: {
+                title: '認知特性（得意: 3, 普通: 2, 苦手: 1）',
                 vision: {
                     title: '視覚',
                     cameraEye: '写真（カメラアイ）',
@@ -412,6 +416,8 @@ export default {
         sugimoto: {
             JinSugimoto: {
                 title: '杉本迅',
+                strengths: ['好奇心', '創造性', '審美眼'],
+                weaknesses: ['飽き性', '不注意', '完璧主義'],
                 content: `
                     <table style="display: block; white-space: nowrap; -ms-overflow-style: none;">
                         <img src="/sugimoto.jpg" style="width: 360px;" />

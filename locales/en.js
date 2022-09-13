@@ -408,10 +408,13 @@ export default {
     teams: {
         general: {
             upbringing: 'Upbringing',
+            routine: 'Routine',
+            strength: 'Strength',
+            weakness: 'Weakness',
             manual: {
                 title: 'Manual',
                 content: `
-                Always give them new stimuli.
+                    Always give them new stimuli.
                     If they are spinning out of control, let them gently.
                     Try talking to them about philosophical matters.
                     Basically, he is a dominatrix and likes to be criticized, but he will not listen unless the criticism is constructive.
@@ -426,6 +429,7 @@ export default {
                 neuroticism: 'Neuroticism',
             },
             cognitiveCharacteristics: {
+                title: 'Cognitive Characteristics (Strength: 3, Normal: 2, Weakness: 1)',
                 vision: {
                     title: 'Vision',
                     cameraEye: 'Camera Eye',
@@ -456,6 +460,8 @@ export default {
         sugimoto: {
             JinSugimoto: {
                 title: '杉本迅',
+                strengths: ['Curiosity', 'Creativity', 'Aesthetic Sense'],
+                weaknesses: ['Tiredness', 'Carelessness', 'Perfectionism'],
                 content: `
                     <table style="display: block; white-space: nowrap; -ms-overflow-style: none;">
                         <img src="/sugimoto.jpg" style="width: 360px;" />
@@ -771,9 +777,9 @@ export default {
                             <td class="py-2 pr-2">18 years old</td>
                             <td>Not making any money and impatient, he starts a fiduciary service and gets 150,000 yen. He is not making money and is impatient.</td>
                         </tr>
-                        <>
+                        <tr>
                             <td class="py-2 pr-2">18 years old</td>
-                            <>He is annoyed by Google Chrome's full tabs while working, so he starts a website management application, "DeepLog". It was featured in the Spoony Newspaper, but the number of users did not increase at all. </td>
+                            <td>He is annoyed by Google Chrome's full tabs while working, so he starts a website management application, "DeepLog". It was featured in the Spoony Newspaper, but the number of users did not increase at all. </td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">18 years old</td>
