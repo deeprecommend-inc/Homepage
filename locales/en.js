@@ -459,7 +459,7 @@ export default {
         },
         sugimoto: {
             JinSugimoto: {
-                title: '杉本迅',
+                title: 'Jin Sugimoto',
                 strengths: ['Curiosity', 'Creativity', 'Aesthetic Sense'],
                 weaknesses: ['Tiredness', 'Carelessness', 'Perfectionism'],
                 content: `
