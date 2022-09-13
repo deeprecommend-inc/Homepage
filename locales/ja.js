@@ -142,9 +142,9 @@ export default {
     },
     deepbook: {
         head: {
-            title: 'DeepBook＜ディープブック＞ | ブックシェアリング',
+            title: 'DeepBook＜ディープブック＞ | オンライン図書館',
             description:
-                'DeepBook＜ディープブック＞はブックシェアリングサービスです',
+                'DeepBook＜ディープブック＞はオンライン図書館です',
         },
         lineDialog: {
             title: '無料で本を借りるには担当のLINEを追加してください',

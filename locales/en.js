@@ -143,8 +143,8 @@ export default {
     },
     deepbook: {
         head: {
-            title: 'DeepBook | Book Sharing',
-            description: 'DeepBook is a book Sharing service',
+            title: 'DeepBook | Online Library',
+            description: 'DeepBook is the Online Library',
         },
         lineDialog: {
             title:
