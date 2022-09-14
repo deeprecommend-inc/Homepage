@@ -31,7 +31,7 @@ export const Quantum = ({ res }) => {
                 sections={sections}
                 localePath={router.pathname}
             />
-            <BlogComponent title="Quantum Computing" blogs={data} />
+            <BlogComponent title="Quantum" blogs={data} />
         </div>
     );
 };
