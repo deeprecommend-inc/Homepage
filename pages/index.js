@@ -4,6 +4,7 @@ import { NextSeo } from 'next-seo';
 import { useLocale } from '../locales/useLocale';
 import React, { useState, useEffect } from 'react';
 import { imgUrl, site } from '../constants/const';
+import Footer from '../layout/footer/Footer';
 
 export default function Home() {
     const { t, locale } = useLocale();
@@ -54,6 +55,7 @@ export default function Home() {
                     }}
                 />
                 <CustomComponents />
+                <Footer />
             </div>
         </>
     );

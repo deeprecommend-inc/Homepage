@@ -51,7 +51,6 @@ const Layout = ({ children }) => {
             >
                 <VerticalAlignTopIcon />
             </Button>
-            <Footer />
         </div>
     );
 };
