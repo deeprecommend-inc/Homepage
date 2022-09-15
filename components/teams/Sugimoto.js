@@ -75,13 +75,9 @@ const Sugimoto = () => {
                 {t.teams.general.manual.title}
             </h1>
             <p>
-                常に新しい刺激を与えてあげてください。
-                空回りが続いているときは、そっとしてあげてください。
-                哲学的な内容の話を持ちかけてみてください。
-                基本的にドＭで、批判されることなどを好みますが、建設的な批判でなければ言うことを聞きません。
-                聞いたり、文字を読んだりして、理解する速度が遅いので、図や絵とともに伝えるか、実際にやらせてみてください。
+                {t.teams.general.manual.content}
             </p>
-            <h1 style={{ margin: '35px 0 30px' }}>ルーティン</h1>
+            <h1 style={{ margin: '35px 0 30px' }}>{t.teams.general.routine}</h1>
             <span
                 dangerouslySetInnerHTML={{
                     __html: t.teams.sugimoto.JinSugimoto.routine,
@@ -124,25 +120,53 @@ const Sugimoto = () => {
                     ],
                 }}
             />
+            <h1 style={{ margin: '35px 0 30px' }}>EQ</h1>
+            <Radar
+                options={{
+                    scales: {
+                        r: {
+                            min: 0,
+                            max: 10,
+                            stepSize: 1,
+                        },
+                    },
+                }}
+                data={{
+                    labels: t.teams.general.eq,
+                    datasets: [
+                        {
+                            label: t.teams.sugimoto.JinSugimoto.title,
+                            data: [10, 10, 6, 10, 7, 10, 10, 5, 10, 10, 5, 4],
+                            backgroundColor: 'rgba(1, 100, 211, 0.5)',
+                            borderColor: '#0164d3',
+                            borderWidth: 1,
+                        },
+                    ],
+                }}
+            />
             <h1 style={{ margin: '35px 0 30px' }}>16Personalities</h1>
             INTP-A
             <img src="/intp.png" />
             or ENTJ-A
             <img src="/entj.png" />
-            <h1 style={{ margin: '35px 0 30px' }}>強み</h1>
+            <h1 style={{ margin: '35px 0 30px' }}>{t.teams.general.strength}</h1>
             <ul>
-                <li>好奇心</li>
-                <li>創造性</li>
-                <li>審美眼</li>
+                {t.teams.sugimoto.JinSugimoto.strengths.map(strength => {
+                    return (
+                        <li key={strength}>{strength}</li>
+                    )
+                })}
             </ul>
-            <h1 style={{ margin: '35px 0 30px' }}>弱み</h1>
+            <h1 style={{ margin: '35px 0 30px' }}>{t.teams.general.weakness}</h1>
             <ul>
-                <li>飽き性</li>
-                <li>不注意</li>
-                <li>完璧主義</li>
+                {t.teams.sugimoto.JinSugimoto.weaknesses.map(weakness => {
+                    return (
+                        <li key={weakness}>{weakness}</li>
+                    )
+                })}
             </ul>
             <h1 style={{ margin: '35px 0 30px' }}>
-                認知特性（得意: 3, 普通: 2, 苦手: 1）
+                {t.teams.general.cognitiveCharacteristics.title}
             </h1>
             <Radar
                 options={{

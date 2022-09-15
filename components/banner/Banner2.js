@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import { Container, Row, Col } from 'reactstrap';
 import Image from 'next/image';
-import bannerimg from '../../assets/images/landingpage/banner.gif';
 import { site } from '../../constants/const';
 import { useLocale } from '../../locales/useLocale';
 
@@ -48,7 +47,7 @@ const Banner2 = () => {
                         </Link>
                     </Col>
                     <Col lg="6" md="6" data-aos="zoom-in">
-                        <Image src={bannerimg} alt="hero banner" />
+                        <img src='/banner.gif' alt="Banner img" />
                     </Col>
                 </Row>
             </Container>

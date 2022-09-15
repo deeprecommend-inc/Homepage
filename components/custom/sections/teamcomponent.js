@@ -48,17 +48,6 @@ const TeamComponent = () => {
                                             {/* <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li> */}
                                             <li className="list-inline-item">
                                                 <a
-                                                    href={sugimoto.line}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                >
-                                                    <FontAwesomeIcon
-                                                        icon={faLine}
-                                                    />
-                                                </a>
-                                            </li>
-                                            <li className="list-inline-item">
-                                                <a
                                                     href={sugimoto.twitter}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
@@ -68,11 +57,13 @@ const TeamComponent = () => {
                                             </li>
                                             <li className="list-inline-item">
                                                 <a
-                                                    href={sugimoto.instagram}
+                                                    href={sugimoto.line}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
-                                                    <i className="fa fa-instagram"></i>
+                                                    <FontAwesomeIcon
+                                                        icon={faLine}
+                                                    />
                                                 </a>
                                             </li>
                                             {/* <li className="list-inline-item"><a href="#"><i className="fa fa-behance"></i></a></li> */}

@@ -63,7 +63,7 @@ export default {
             deepmuseum: {
                 title: 'DeepMuseum｜ディープミュージアム',
                 description:
-                    'アート好きと画家のためのオンライン美術館（~ 2022/3/8）',
+                    'オンライン美術館（~ 2022/3/8）',
             },
             deepbook: {
                 title: 'DeepBook｜ディープブック',
@@ -142,9 +142,9 @@ export default {
     },
     deepbook: {
         head: {
-            title: 'DeepBook＜ディープブック＞ | ブックシェアリング',
+            title: 'DeepBook＜ディープブック＞ | オンライン図書館',
             description:
-                'DeepBook＜ディープブック＞はブックシェアリングサービスです',
+                'DeepBook＜ディープブック＞はオンライン図書館です',
         },
         lineDialog: {
             title: '無料で本を借りるには担当のLINEを追加してください',
@@ -364,6 +364,9 @@ export default {
     teams: {
         general: {
             upbringing: '生い立ち',
+            routine: 'ルーティン',
+            strength: '強み',
+            weakness: '弱み',
             manual: {
                 title: 'トリセツ',
                 content: `
@@ -372,6 +375,7 @@ export default {
                     哲学的な内容の話を持ちかけてみてください。
                     基本的にドＭで、批判されることなどを好みますが、建設的な批判でなければ言うことを聞きません。
                     聞いたり、文字を読んだりして、理解する速度が遅いので、図や絵とともに伝えるか、実際にやらせてみてください。
+                    感情表現と一時が
                 `,
             },
             big5: {
@@ -382,6 +386,7 @@ export default {
                 neuroticism: 'メンタルパワー',
             },
             cognitiveCharacteristics: {
+                title: '認知特性（得意: 3, 普通: 2, 苦手: 1）',
                 vision: {
                     title: '視覚',
                     cameraEye: '写真（カメラアイ）',
@@ -408,10 +413,30 @@ export default {
                 intrapersonal: '内省的知能',
                 naturalistic: '博学的知能',
             },
+            eq: [
+                '自己自覚力',
+                '他者察知力',
+                '感情語彙力',
+                '感情抑制力',
+                '感情創出力',
+                '感情分析力',
+                '感情推察力',
+                '感情共感力',
+                '感情統合力',
+                '感情秘匿力',
+                '感情表現力',
+                '一時静止力',
+            ],
         },
         sugimoto: {
+            head: {
+                title: '杉本迅 | DeepRecommend株式会社',
+                description: 'DeepRecommend株式会社 代表取締役',
+            },
             JinSugimoto: {
                 title: '杉本迅',
+                strengths: ['好奇心', '創造性', '審美眼'],
+                weaknesses: ['飽き性', '不注意', '完璧主義'],
                 content: `
                     <table style="display: block; white-space: nowrap; -ms-overflow-style: none;">
                         <img src="/sugimoto.jpg" style="width: 360px;" />
