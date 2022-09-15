@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import DeepLogComponents from '../../components/custom/DeepLog';
-import { NextSeo } from 'next-seo';
+import { NextSeo, ArticleJsonLd } from 'next-seo';
 import { useLocale } from '../../locales/useLocale';
 import { imgUrl, site } from '../../constants/const';
 import Sugimoto from '../../components/teams/Sugimoto';
@@ -45,6 +45,17 @@ export default function DeepLog() {
                     site: '@DeepRecommend',
                     cardType: 'summary',
                 }}
+            />
+            <ArticleJsonLd
+                url="https://deep-recommend.com/team/sugimoto"
+                title={t.teams.sugimoto.head.title}
+                images="/sugimoto.jpg"
+                datePublished="9/16/2022"
+                dateModified="9/16/2022"
+                authorName={t.teams.sugimoto.head.title}
+                publisherName="DeepRecommend"
+                publisherLogo="/logo.jpg"
+                description={t.teams.sugimoto.head.description}
             />
             <HeaderComponent />
             <Sugimoto />

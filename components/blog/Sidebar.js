@@ -49,11 +49,12 @@ function Sidebar(props) {
     //   };
     // }, [window.pageYOffset]);
 
-    const toDetail = (blog) => {
+    const toDetail = blog => {
         dispatch(blogDetailSlice.actions.setBlogDetail(blog));
 
         setTimeout(() => {
             router.push('/lab' + '/' + blog.id);
+            location.reload();
         }, 200);
     };
 
@@ -69,7 +70,7 @@ function Sidebar(props) {
             <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
                 Archives
             </Typography>
-            {archives.slice(0, 9).map((archive) => (
+            {archives.slice(0, 9).map(archive => (
                 <Link
                     display="block"
                     variant="body1"
@@ -86,7 +87,7 @@ function Sidebar(props) {
             <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
                 Social
             </Typography>
-            {social.map((network) => (
+            {social.map(network => (
                 <Link
                     display="block"
                     variant="body1"

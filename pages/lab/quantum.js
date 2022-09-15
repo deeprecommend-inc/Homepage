@@ -5,6 +5,7 @@ import { useGetByTagName } from '../../hooks/useGetByTagName';
 import Header from '../../components/blog/Header';
 import { sections } from '../../constants/const';
 import { useRouter } from 'next/router';
+import Adsense from '../../components/Adsense';
 
 export const Quantum = ({ res }) => {
     const [data, setData] = useState([]);
@@ -32,6 +33,7 @@ export const Quantum = ({ res }) => {
                 localePath={router.pathname}
             />
             <BlogComponent title="Quantum" blogs={data} />
+            <Adsense />
         </div>
     );
 };

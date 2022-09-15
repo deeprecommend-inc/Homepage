@@ -40,6 +40,7 @@ export const site = {
         'https://www.youtube.com/watch?v=LbCOZG1bKag&list=PLl1uSafEFyQk6_gbYvwFttY80szd-eKEZ',
     deepMuseum: 'https://deep-recommend.com',
     deepMatching: 'https://deep-matching.com',
+    deepLab: 'https://deep-recommend.com/lab',
     community: 'https://discord.gg/QjSFUCzDn5',
     ec: 'http://deeprecommed.official.ec',
     twitter: 'https://twitter.com/DeepRecommend',

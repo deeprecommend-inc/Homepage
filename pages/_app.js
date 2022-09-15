@@ -11,7 +11,7 @@ import { persistStore } from 'redux-persist';
 import { PersistGate } from 'redux-persist/integration/react';
 import { useStore } from '../store';
 import { useLocale } from '../locales/useLocale';
-import { site } from '../constants/const';
+import { imgUrl, site } from '../constants/const';
 import deeprecommendImg from '../assets/images/deeprecommend/DeepRecommend.png';
 import { GA_ID, existsGaId, pageview } from '../utils/gtag';
 import { useRouter } from 'next/router';
@@ -109,6 +109,41 @@ function MyApp({ Component, pageProps }) {
                     crossOrigin="anonymous"
                 ></script>
             </Head>
+            <DefaultSeo
+                title={t.index.head.title}
+                description={t.index.head.description}
+                canonical={site.home}
+                openGraph={{
+                    url: site.home,
+                    title: t.index.head.title,
+                    description: t.index.head.description,
+                    type: 'website',
+                    locale: locale,
+                    images: [
+                        {
+                            url: imgUrl.deeprecommend,
+                            width: 800,
+                            height: 600,
+                            alt: 'DeepRecommend',
+                            type: 'image/png',
+                        },
+                        {
+                            url: imgUrl.deeprecommend,
+                            width: 900,
+                            height: 800,
+                            alt: 'DeepRecommend',
+                            type: 'image/png',
+                        },
+                        { url: imgUrl.deeprecommend },
+                    ],
+                    site_name: 'DeepRecommend',
+                }}
+                twitter={{
+                    handle: '@DeepRecommend',
+                    site: '@DeepRecommend',
+                    cardType: 'summary',
+                }}
+            />
             <Provider store={store}>
                 <PersistGate persistor={persistor}>
                     <div id="splash">
