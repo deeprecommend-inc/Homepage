@@ -77,14 +77,12 @@ const TeamComponent = () => {
                                 <Col md="12">
                                     <div className="p-t-10">
                                         <h5 className="title font-medium">
-                                            Jin Sugimoto
+                                            {t.index.team.sugimoto.name}
                                         </h5>
-                                        <h6 className="subtitle">CEO</h6>
-                                        <p>
-                                            Active ∩ Aesthetics ∩ Bold ∩ Crazy ∩
-                                            Creative ∩ Curiosity ∩ Hardworking ∩
-                                            Introspective ∩ Sensory
-                                        </p>
+                                        <h6 className="subtitle">
+                                            {t.index.team.sugimoto.position}
+                                        </h6>
+                                        <p>{t.index.team.sugimoto.message}</p>
                                     </div>
                                 </Col>
                             </Row>

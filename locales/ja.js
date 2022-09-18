@@ -120,6 +120,11 @@ export default {
         team: {
             title: 'チーム',
             subtitle: 'チームメイトを紹介します。',
+            sugimoto: {
+                name: '杉本 迅',
+                position: 'CEO',
+                message: 'めちゃくちゃ運が良い人間です。',
+            },
         },
         contact: {
             title: 'お問い合わせ',

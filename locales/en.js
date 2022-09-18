@@ -124,6 +124,11 @@ export default {
         team: {
             title: 'Team',
             subtitle: 'Here are some of our teammates.',
+            sugimoto: {
+                name: 'Jin Sugimoto',
+                position: 'CEO',
+                message: 'I am a very lucky person.',
+            },
         },
         contact: {
             title: 'Contact Us',
