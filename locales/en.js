@@ -119,8 +119,15 @@ export default {
         },
         technologyUsed: {
             title: 'Technologies',
-            subtitle:
-                'This is the technology we use. In addition to the technologies we use as a product, we also list the technologies we use internally.',
+            subtitle: 'We specialize in this technical stack.',
+        },
+        team: {
+            title: 'Team',
+            subtitle: 'Here are some of our teammates.',
+        },
+        contact: {
+            title: 'Contact Us',
+            subtitle: 'Please contact us from below.',
         },
         callToAction: {
             title: 'Did you find the product you wanted?',
@@ -429,7 +436,8 @@ export default {
                 neuroticism: 'Neuroticism',
             },
             cognitiveCharacteristics: {
-                title: 'Cognitive Characteristics (Strength: 3, Normal: 2, Weakness: 1)',
+                title:
+                    'Cognitive Characteristics (Strength: 3, Normal: 2, Weakness: 1)',
                 vision: {
                     title: 'Vision',
                     cameraEye: 'Camera Eye',

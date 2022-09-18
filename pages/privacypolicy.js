@@ -4,6 +4,7 @@ import { NextSeo } from 'next-seo';
 import HeaderComponent from '../components/custom/sections/headercomponent';
 import { useLocale } from '../locales/useLocale';
 import { imgUrl, site } from '../constants/const';
+import Footer from '../layout/footer/Footer';
 
 export const PrivacyPolicy = () => {
     const { t, locale } = useLocale();
@@ -63,6 +64,7 @@ export const PrivacyPolicy = () => {
                     }}
                 ></div>
             </div>
+            <Footer />
         </div>
     );
 };

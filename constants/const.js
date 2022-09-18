@@ -140,96 +140,96 @@ export const techUsed = {
             name: 'TypeScript',
             url: docs.ts,
         },
-        {
-            img: python,
-            name: 'Python',
-            url: docs.py,
-        },
-        {
-            img: htmlCss,
-            name: 'HTML/CSS',
-            url: docs.mdn,
-        },
-        {
-            img: sassTailwind,
-            name: 'Sass/Tailwind',
-            url: docs.sass,
-        },
-        {
-            img: ng,
-            name: 'Angular',
-            url: docs.ng,
-        },
+        // {
+        //     img: python,
+        //     name: 'Python',
+        //     url: docs.py,
+        // },
+        // {
+        //     img: htmlCss,
+        //     name: 'HTML/CSS',
+        //     url: docs.mdn,
+        // },
+        // {
+        //     img: sassTailwind,
+        //     name: 'Sass/Tailwind',
+        //     url: docs.sass,
+        // },
+        // {
+        //     img: ng,
+        //     name: 'Angular',
+        //     url: docs.ng,
+        // },
         {
             img: react,
             name: 'React',
             url: docs.react,
         },
-        {
-            img: next,
-            name: 'Next.js',
-            url: docs.next,
-        },
-        {
-            img: nest,
-            name: 'NestJS',
-            url: docs.nest,
-        },
-        {
-            img: django,
-            name: 'Django',
-            url: docs.django,
-        },
-        {
-            img: mysql,
-            name: 'MySQL',
-            url: docs.mysql,
-        },
+        // {
+        //     img: next,
+        //     name: 'Next.js',
+        //     url: docs.next,
+        // },
+        // {
+        //     img: nest,
+        //     name: 'NestJS',
+        //     url: docs.nest,
+        // },
+        // {
+        //     img: django,
+        //     name: 'Django',
+        //     url: docs.django,
+        // },
+        // {
+        //     img: mysql,
+        //     name: 'MySQL',
+        //     url: docs.mysql,
+        // },
         {
             img: postgres,
             name: 'PostgreSQL',
             url: docs.postgres,
         },
-        {
-            img: mongo,
-            name: 'MongoDB',
-            url: docs.mongo,
-        },
-        {
-            img: nginx,
-            name: 'Nginx',
-            url: docs.nginx,
-        },
-        {
-            img: aws,
-            name: 'AWS',
-            url: docs.aws,
-        },
-        {
-            img: terraform,
-            name: 'Terraform',
-            url: docs.terraform,
-        },
-        {
-            img: electron,
-            name: 'Electron',
-            url: docs.electron,
-        },
-        {
-            img: github,
-            name: 'GitHub',
-            url: docs.github,
-        },
-        {
-            img: flutter,
-            name: 'Flutter',
-            url: docs.flutter,
-        },
-        {
-            img: docker,
-            name: 'Docker',
-            url: docs.docker,
-        },
+        // {
+        //     img: mongo,
+        //     name: 'MongoDB',
+        //     url: docs.mongo,
+        // },
+        // {
+        //     img: nginx,
+        //     name: 'Nginx',
+        //     url: docs.nginx,
+        // },
+        // {
+        //     img: aws,
+        //     name: 'AWS',
+        //     url: docs.aws,
+        // },
+        // {
+        //     img: terraform,
+        //     name: 'Terraform',
+        //     url: docs.terraform,
+        // },
+        // {
+        //     img: electron,
+        //     name: 'Electron',
+        //     url: docs.electron,
+        // },
+        // {
+        //     img: github,
+        //     name: 'GitHub',
+        //     url: docs.github,
+        // },
+        // {
+        //     img: flutter,
+        //     name: 'Flutter',
+        //     url: docs.flutter,
+        // },
+        // {
+        //     img: docker,
+        //     name: 'Docker',
+        //     url: docs.docker,
+        // },
     ],
     ai: [
         {
@@ -237,98 +237,98 @@ export const techUsed = {
             name: 'Python',
             url: docs.py,
         },
-        {
-            img: django,
-            name: 'Django',
-            url: docs.django,
-        },
+        // {
+        //     img: django,
+        //     name: 'Django',
+        //     url: docs.django,
+        // },
         {
             img: tensorflow,
             name: 'TensorFlow',
             url: docs.tensorflow,
         },
-        {
-            img: anaconda,
-            name: 'Anaconda',
-            url: docs.anaconda,
-        },
+        // {
+        //     img: anaconda,
+        //     name: 'Anaconda',
+        //     url: docs.anaconda,
+        // },
         {
             img: cuda,
             name: 'CUDA',
             url: docs.cuda,
         },
-        {
-            img: cudnn,
-            name: 'cuDNN',
-            url: docs.cudnn,
-        },
-        {
-            img: jupyter,
-            name: 'Jupyter Notebook',
-            url: docs.jupyter,
-        },
-        {
-            img: sklearn,
-            name: 'scikit-learn',
-            url: docs.sklearn,
-        },
-        {
-            img: keras,
-            name: 'Keras',
-            url: docs.keras,
-        },
-        {
-            img: numpy,
-            name: 'Numpy',
-            url: docs.numpy,
-        },
-        {
-            img: sympy,
-            name: 'Sympy',
-            url: docs.sympy,
-        },
-        {
-            img: matplotlib,
-            name: 'Matplotlib',
-            url: docs.matplotlib,
-        },
-        {
-            img: pillow,
-            name: 'Pillow',
-            url: docs.pillow,
-        },
-        {
-            img: flickr,
-            name: 'Flickr',
-            url: docs.flickr,
-        },
-        {
-            img: selenuim,
-            name: 'Selenium',
-            url: docs.selenuim,
-        },
+        // {
+        //     img: cudnn,
+        //     name: 'cuDNN',
+        //     url: docs.cudnn,
+        // },
+        // {
+        //     img: jupyter,
+        //     name: 'Jupyter Notebook',
+        //     url: docs.jupyter,
+        // },
+        // {
+        //     img: sklearn,
+        //     name: 'scikit-learn',
+        //     url: docs.sklearn,
+        // },
+        // {
+        //     img: keras,
+        //     name: 'Keras',
+        //     url: docs.keras,
+        // },
+        // {
+        //     img: numpy,
+        //     name: 'Numpy',
+        //     url: docs.numpy,
+        // },
+        // {
+        //     img: sympy,
+        //     name: 'Sympy',
+        //     url: docs.sympy,
+        // },
+        // {
+        //     img: matplotlib,
+        //     name: 'Matplotlib',
+        //     url: docs.matplotlib,
+        // },
+        // {
+        //     img: pillow,
+        //     name: 'Pillow',
+        //     url: docs.pillow,
+        // },
+        // {
+        //     img: flickr,
+        //     name: 'Flickr',
+        //     url: docs.flickr,
+        // },
+        // {
+        //     img: selenuim,
+        //     name: 'Selenium',
+        //     url: docs.selenuim,
+        // },
     ],
     quantum: [
-        {
-            img: python,
-            name: 'Python',
-            url: docs.py,
-        },
+        // {
+        //     img: python,
+        //     name: 'Python',
+        //     url: docs.py,
+        // },
         {
             img: tensorflow,
             name: 'TensorFlow Quantum',
             url: docs.tensorflowQuantum,
         },
-        {
-            img: qiskit,
-            name: 'Qiskit',
-            url: docs.qiskit,
-        },
-        {
-            img: blueqat,
-            name: 'Bluqat',
-            url: docs.blueqat,
-        },
+        // {
+        //     img: qiskit,
+        //     name: 'Qiskit',
+        //     url: docs.qiskit,
+        // },
+        // {
+        //     img: blueqat,
+        //     name: 'Bluqat',
+        //     url: docs.blueqat,
+        // },
     ],
 };
 

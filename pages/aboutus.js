@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import router from 'next/router';
 import { Bar } from 'react-chartjs-2';
 import Chart from 'chart.js/auto';
+import Footer from '../layout/footer/Footer';
 
 const CompanyOverview = () => {
     const { t, locale } = useLocale();
@@ -97,10 +98,10 @@ const CompanyOverview = () => {
                 </h1>
                 <Bar data={graphData} />
             </div>
-
             {/* <a href="./pdf/sample.pdf" download="sample.pdf">
                 2022
             </a> */}
+            <Footer />
         </div>
     );
 };

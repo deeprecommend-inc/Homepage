@@ -62,8 +62,7 @@ export default {
             },
             deepmuseum: {
                 title: 'DeepMuseum｜ディープミュージアム',
-                description:
-                    'オンライン美術館（~ 2022/3/8）',
+                description: 'オンライン美術館（~ 2022/3/8）',
             },
             deepbook: {
                 title: 'DeepBook｜ディープブック',
@@ -116,8 +115,15 @@ export default {
         },
         technologyUsed: {
             title: '使用技術',
-            subtitle:
-                '私たちが使用している技術です。常日頃から高い技術水準を保つよう努めるため、公開しています。',
+            subtitle: 'こちらの技術スタックは我々にお任せください。',
+        },
+        team: {
+            title: 'チーム',
+            subtitle: 'チームメイトを紹介します。',
+        },
+        contact: {
+            title: 'お問い合わせ',
+            subtitle: '以下のフォームからご気軽にお問い合わせください。',
         },
         callToAction: {
             title: 'お探しのサービスは見つかりましたか？',
@@ -143,8 +149,7 @@ export default {
     deepbook: {
         head: {
             title: 'DeepBook＜ディープブック＞ | オンライン図書館',
-            description:
-                'DeepBook＜ディープブック＞はオンライン図書館です',
+            description: 'DeepBook＜ディープブック＞はオンライン図書館です',
         },
         lineDialog: {
             title: '無料で本を借りるには担当のLINEを追加してください',

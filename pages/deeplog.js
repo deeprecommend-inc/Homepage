@@ -3,6 +3,7 @@ import DeepLogComponents from '../components/custom/DeepLog';
 import { NextSeo } from 'next-seo';
 import { useLocale } from '../locales/useLocale';
 import { imgUrl, site } from '../constants/const';
+import Footer from '../layout/footer/Footer';
 
 export default function DeepLog() {
     const { t, locale } = useLocale();
@@ -45,6 +46,7 @@ export default function DeepLog() {
                 }}
             />
             <DeepLogComponents />
+            <Footer />
         </div>
     );
 }

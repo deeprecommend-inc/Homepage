@@ -111,25 +111,27 @@
 // 本サービスに関して紛争が生じた場合には、当社の本店所在地を管轄する地方裁判所を専属的合意管轄とします。
 // 2022年03月26日 制定
 
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-import HeaderComponent from "../../components/custom/sections/headercomponent";
+import Head from 'next/head';
+import { NextSeo } from 'next-seo';
+import HeaderComponent from '../../components/custom/sections/headercomponent';
+import Footer from '../../layout/footer/Footer';
 
 export const DeepLogTerm = () => {
-  return (
-    <div>
-      <Head>
-        <title>DeepRecommend｜DeepLog｜Terms of service</title>
-        <meta name="description" content="DeepLog | Terms of service" />
-        <link rel="icon" href="favicon.ico" />
-      </Head>
-      <HeaderComponent localePath={'/terms/deeplog'} />
-      <div style={{ maxWidth: "750px", margin: "64px auto" }}>
-        <h1 style={{ margin: "35px 0 30px" }}>Terms of service</h1>
-        <article></article>
-      </div>
-    </div>
-  );
+    return (
+        <div>
+            <Head>
+                <title>DeepRecommend｜DeepLog｜Terms of service</title>
+                <meta name="description" content="DeepLog | Terms of service" />
+                <link rel="icon" href="favicon.ico" />
+            </Head>
+            <HeaderComponent localePath={'/terms/deeplog'} />
+            <div style={{ maxWidth: '750px', margin: '64px auto' }}>
+                <h1 style={{ margin: '35px 0 30px' }}>Terms of service</h1>
+                <article></article>
+            </div>
+            <Footer />
+        </div>
+    );
 };
 
 export default DeepLogTerm;

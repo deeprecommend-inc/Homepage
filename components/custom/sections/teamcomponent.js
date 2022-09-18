@@ -5,9 +5,11 @@ import { sugimoto } from '../../../constants/const';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLine } from '@fortawesome/free-brands-svg-icons';
 import { useRouter } from 'next/router';
+import { useLocale } from '../../../locales/useLocale';
 
 const TeamComponent = () => {
     const router = useRouter();
+    const { t } = useLocale();
 
     return (
         <div>
@@ -15,9 +17,11 @@ const TeamComponent = () => {
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                            <h1 className="title font-bold">Team</h1>
+                            <h1 className="title font-bold">
+                                {t.index.team.title}
+                            </h1>
                             <h6 className="subtitle">
-                                Here are some of our teammates
+                                {t.index.team.subtitle}
                             </h6>
                         </Col>
                     </Row>

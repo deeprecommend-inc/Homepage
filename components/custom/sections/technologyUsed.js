@@ -39,7 +39,7 @@ export const TechnologyUsed = () => {
                                     </h6>
                                     <Container>
                                         <Row className="testi3 m-t-40 justify-content-start">
-                                            {techUsed.web.map((tech) => {
+                                            {techUsed.web.map(tech => {
                                                 return (
                                                     <Col
                                                         xs="4"
@@ -81,7 +81,7 @@ export const TechnologyUsed = () => {
                                     </h6>
                                     <Container>
                                         <Row className="testi3 m-t-40 justify-content-start">
-                                            {techUsed.ai.map((tech) => {
+                                            {techUsed.ai.map(tech => {
                                                 return (
                                                     <Col
                                                         xs="4"
@@ -126,7 +126,7 @@ export const TechnologyUsed = () => {
                                     </h6>
                                     <Container>
                                         <Row className="testi3 m-t-40 justify-content-start">
-                                            {techUsed.quantum.map((tech) => {
+                                            {techUsed.quantum.map(tech => {
                                                 return (
                                                     <Col
                                                         xs="4"

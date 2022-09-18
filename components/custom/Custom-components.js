@@ -23,6 +23,7 @@ import TwitterEmbedded from './sections/twitter';
 import SDGsComponent from './sections/SDGs';
 import TechnologyUsed from './sections/technologyUsed';
 import BlochSphare from './sections/blochSphare';
+import Contact from './sections/contact';
 
 const CustomComponents = () => {
     return (
@@ -52,6 +53,7 @@ const CustomComponents = () => {
             {/* <BlogComponent /> */}
             {/* <C2aComponent /> */}
             {/* <ContactComponent /> */}
+            <Contact />
             <CallToAction />
         </div>
     );

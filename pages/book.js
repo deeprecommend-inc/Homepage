@@ -3,6 +3,7 @@ import DeepBookComponents from '../components/custom/DeepBook';
 import { NextSeo } from 'next-seo';
 import { useLocale } from '../locales/useLocale';
 import { imgUrl, site } from '../constants/const';
+import Footer from '../layout/footer/Footer';
 
 export default function DeepBook() {
     const { t, locale } = useLocale();
@@ -45,6 +46,7 @@ export default function DeepBook() {
                 }}
             />
             <DeepBookComponents />
+            <Footer />
         </div>
     );
 }
