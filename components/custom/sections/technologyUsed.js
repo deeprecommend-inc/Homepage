@@ -28,7 +28,7 @@ export const TechnologyUsed = () => {
             <div className="testimonial3 spacer">
                 <Container>
                     <Row className="testi3 m-t-40 justify-content-center">
-                        <Col lg="4" md="6">
+                        {/* <Col lg="4" md="6">
                             <Card
                                 className="card-shadow"
                                 data-aos="fade-up-right"
@@ -72,12 +72,12 @@ export const TechnologyUsed = () => {
                                     </Container>
                                 </CardBody>
                             </Card>
-                        </Col>
+                        </Col> */}
                         <Col lg="4" md="6">
                             <Card className="card-shadow" data-aos="fade-up">
                                 <CardBody>
                                     <h6 className="font-light m-b-30 text-center">
-                                        AI
+                                        AI / Quantum
                                     </h6>
                                     <Container>
                                         <Row className="testi3 m-t-40 justify-content-start">
@@ -115,7 +115,7 @@ export const TechnologyUsed = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col lg="4" md="6">
+                        {/* <Col lg="4" md="6">
                             <Card
                                 className="card-shadow"
                                 data-aos="fade-up-left"
@@ -159,7 +159,7 @@ export const TechnologyUsed = () => {
                                     </Container>
                                 </CardBody>
                             </Card>
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </div>
