@@ -44,6 +44,11 @@ const Footer = () => {
                             {t.layout.footer.product.label}
                         </h5>
                         <div>
+                            <a className="link" href={site.deepAi}>
+                                {t.layout.footer.product.deepai}
+                            </a>
+                        </div>
+                        <div>
                             <a className="link" href="/book">
                                 {t.layout.footer.product.deepbook}
                             </a>

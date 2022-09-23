@@ -57,6 +57,7 @@ export const site = {
     qiita: 'https://qiita.com/DeepRecommend/',
     zenn: 'https://zenn.dev/deeprecommend',
     deepconnectBanner: 'https://deepconnect.my.canva.site/',
+    deepAi: 'https://github.com/deep-recommend/DeepAi',
 };
 
 export const sugimoto = {

@@ -7,6 +7,7 @@ import connectImg from '../../../assets/images/portfolio/3.png';
 import museumImg from '../../../assets/images/portfolio/1.png';
 import labImg from '../../../assets/images/portfolio/2.png';
 import bookImg from '../../../assets/images/portfolio/5.png';
+import aiImg from '../../../assets/images/portfolio/6.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
 
@@ -57,6 +58,31 @@ const PortfolioComponent = () => {
             </Col>
           </Row> */}
                     <Row className="m-t-40 justify-content-center">
+                        <Col md="4" data-aos="fade-up-right">
+                            <Card className="card-shadow">
+                                <a
+                                    style={normalStyle}
+                                    href="/book"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="img-ho"
+                                >
+                                    <Image
+                                        className="card-img-top"
+                                        src={aiImg}
+                                        alt="DeepAI"
+                                    />
+                                </a>
+                                <CardBody>
+                                    <h5 className="font-medium m-b-0">
+                                        {t.index.portfolio.deepai.title}
+                                    </h5>
+                                    <p className="m-b-0 font-14">
+                                        {t.index.portfolio.deepai.description}
+                                    </p>
+                                </CardBody>
+                            </Card>
+                        </Col>
                         <Col md="4" data-aos="fade-up-right">
                             <Card className="card-shadow">
                                 <a

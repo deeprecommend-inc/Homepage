@@ -6,7 +6,7 @@ import { NextSeo } from 'next-seo';
 import { imgUrl, site } from '../../constants/const';
 
 export default function Blog({ children, href }) {
-    const { t } = useLocale();
+    const { t, locale } = useLocale();
     const router = useRouter();
     const [ready, setReady] = useState(false);
 

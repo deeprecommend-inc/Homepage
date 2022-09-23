@@ -13,6 +13,7 @@ export default {
             },
             product: {
                 label: 'Products',
+                deepai: 'DeepAI',
                 deepbook: 'DeepBook',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
@@ -70,6 +71,10 @@ export default {
             deepbook: {
                 title: 'DeepBook',
                 description: 'Online Library',
+            },
+            deepai: {
+                title: 'DeepAI',
+                description: 'AI Research',
             },
         },
         work: {

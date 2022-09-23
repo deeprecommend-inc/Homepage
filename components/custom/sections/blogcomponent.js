@@ -10,6 +10,8 @@ import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from 'react-redux';
 import { blogDetailSlice } from '../../../store/blogDetail';
 import { asyncLocalStorage } from '../../../utils/asyncLocalStorage';
+import ReactPaginate from 'react-paginate';
+import { Pagination } from '@mui/material';
 
 const BlogCol = ({ blog }) => {
     const router = useRouter();
@@ -73,6 +75,7 @@ const BlogComponent = ({ blogs, title }) => {
                         {blogs.map(blog => {
                             return <BlogCol key={blog.id} blog={blog} />;
                         })}
+                        {/* <Pagination count={10} variant="outlined" /> */}
                     </Row>
                 </Container>
             </div>
