@@ -62,7 +62,7 @@ const PortfolioComponent = () => {
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
-                                    href="/book"
+                                    href={site.deepAi}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="img-ho"
