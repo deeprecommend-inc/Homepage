@@ -83,7 +83,7 @@ const PortfolioComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col md="4" data-aos="fade-up-right">
+                        <Col md="4" data-aos="fade-up">
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
@@ -108,7 +108,7 @@ const PortfolioComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col md="4" data-aos="fade-up">
+                        <Col md="4" data-aos="fade-up-left">
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
@@ -133,7 +133,7 @@ const PortfolioComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col md="4" data-aos="fade-up-left">
+                        <Col md="4" data-aos="fade-up-right">
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
@@ -158,7 +158,7 @@ const PortfolioComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        <Col md="4" data-aos="fade-up-right">
+                        <Col md="4" data-aos="fade-up">
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
