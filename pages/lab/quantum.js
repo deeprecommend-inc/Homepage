@@ -15,10 +15,6 @@ export const Quantum = ({ res }) => {
     useEffect(() => {
         const init = async () => {
             const aboutQuantum = getByTagName(res, 'QuantumComputing');
-            aboutQuantum.forEach((el, i) => {
-                el.img = `https://picsum.photos/500/300?random=${Math.random() *
-                    aboutQuantum.length}`;
-            });
             setData(aboutQuantum);
         };
 
@@ -39,7 +35,7 @@ export const Quantum = ({ res }) => {
 };
 
 export async function getServerSideProps() {
-    const res = await qiitaApi.get({ per_page: 100 });
+    const res = await qiitaApi.get({ page: 1, per_page: 12 });
     return { props: { res } };
 }
 

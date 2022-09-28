@@ -35,14 +35,14 @@ const BlogCol = ({ blog }) => {
     return (
         <Col lg="4" md="6" onClick={toDetail}>
             <Card>
-                <a href="#">
+                {/* <a href="#">
                     <img
                         className="card-img-top"
                         src={blog.img ?? ''}
                         alt="404"
                     />
-                </a>
-                <div className="date-pos bg-info-gradiant">
+                </a> */}
+                <div className="">
                     {moment(blog.created_at).format('DD/MM/YYYY')}
                 </div>
                 <h5 className="font-medium m-t-30">
@@ -62,6 +62,11 @@ const BlogCol = ({ blog }) => {
 };
 
 const BlogComponent = ({ blogs, title }) => {
+    const handleChangePage = (event, newPage) => {
+        console.log({ event, newPage });
+        setPage(newPage);
+    };
+
     return (
         <div>
             <div className="blog-home2 spacer">
@@ -75,8 +80,15 @@ const BlogComponent = ({ blogs, title }) => {
                         {blogs.map(blog => {
                             return <BlogCol key={blog.id} blog={blog} />;
                         })}
-                        {/* <Pagination count={10} variant="outlined" /> */}
                     </Row>
+                    {/* <Row className="m-t-40 justify-content-center">
+                        <Pagination
+                            page={1}
+                            count={12}
+                            variant="outlined"
+                            onPageChange={handleChangePage}
+                        />
+                    </Row> */}
                 </Container>
             </div>
         </div>

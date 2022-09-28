@@ -14,10 +14,6 @@ export const Brain = ({ res }) => {
     useEffect(() => {
         const init = async () => {
             const aboutBrain = getByTagName(res, 'brain');
-            aboutBrain.forEach((el, i) => {
-                el.img = `https://picsum.photos/500/300?random=${Math.random() *
-                    aboutBrain.length}`;
-            });
             setData(aboutBrain);
         };
 
@@ -37,7 +33,7 @@ export const Brain = ({ res }) => {
 };
 
 export async function getServerSideProps() {
-    const res = await qiitaApi.get({ per_page: 100 });
+    const res = await qiitaApi.get({ page: 1, per_page: 12 });
 
     return { props: { res } };
 }

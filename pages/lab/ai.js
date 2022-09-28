@@ -13,13 +13,7 @@ export const Ai = ({ res }) => {
 
     useEffect(() => {
         const init = async () => {
-            const res = await qiitaApi.get({ per_page: 100 });
             const aboutAi = getByTagName(res, 'AI');
-            aboutAi.forEach((el, i) => {
-                el.img = `https://picsum.photos/500/300?random=${Math.floor(
-                    Math.random() * aboutAi.length,
-                )}`;
-            });
             setData(aboutAi);
         };
 
@@ -39,8 +33,7 @@ export const Ai = ({ res }) => {
 };
 
 export async function getServerSideProps() {
-    const res = await qiitaApi.get({ per_page: 100 });
-
+    const res = await qiitaApi.get({ page: 1, per_page: 12 });
     return { props: { res } };
 }
 

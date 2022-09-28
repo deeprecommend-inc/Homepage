@@ -39,6 +39,10 @@ const HeaderComponent = localePath => {
 
     const toggle = () => setIsOpen(!isOpen);
 
+    const routeToLab = () => {
+        router.push('/lab/web');
+    };
+
     if (!ready) return <></>;
 
     return (
@@ -102,7 +106,7 @@ const HeaderComponent = localePath => {
                                 </NavItem>
                                 <NavItem>
                                     <NavLink
-                                        href="/lab"
+                                        href="/lab/web"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

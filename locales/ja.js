@@ -32,7 +32,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend株式会社',
-            description: '最高の感覚意識をつくります',
+            description: '次元を捻じ曲げます',
         },
         header: {
             others: 'その他',
@@ -42,7 +42,7 @@ export default {
         },
         banner: {
             title: 'DeepRecommend株式会社',
-            copy: '最高の感覚意識をつくります',
+            copy: '次元を捻じ曲げます',
             getStarted: '始める',
             helpSupport: 'ヘルプ / サポート',
         },

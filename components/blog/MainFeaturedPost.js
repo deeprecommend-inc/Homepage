@@ -14,7 +14,7 @@ function MainFeaturedPost(props) {
     const router = useRouter();
 
     const backToBlockList = () => {
-        router.push('/lab');
+        router.push('/lab/web');
     };
 
     return (

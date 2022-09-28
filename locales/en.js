@@ -35,7 +35,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend Inc.',
-            description: 'Create The Best Sensory Awareness',
+            description: "We're Here to Twist the Dimensions.",
         },
         header: {
             others: 'Others',
@@ -45,7 +45,7 @@ export default {
         },
         banner: {
             title: 'DeepRecommend Inc.',
-            copy: 'Create The Best Sensory Awareness',
+            copy: "We're Here to Twist the Dimensionss.",
             getStarted: 'Get started',
             helpSupport: 'Help / Support',
         },
