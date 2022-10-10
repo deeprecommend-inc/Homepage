@@ -71,7 +71,7 @@ const BlogContent = ({ detail }) => {
                 dateModified={new Date()}
                 authorName={t.teams.sugimoto.head.title}
                 publisherName="DeepRecommend"
-                publisherLogo="/logo.jpg"
+                publisherLogo="/new_logo.png"
                 description={detail.body}
             />
             <ThemeProvider theme={theme}>

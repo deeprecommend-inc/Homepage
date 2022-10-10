@@ -49,15 +49,44 @@ const DeepCircle = () => {
                 }}
             />
             <HeaderComponent />
-            <div>
-                <img src="/ai/1.png" />
-                <img src="/ai/2.png" />
-                <img src="/ai/3.png" />
-                <img src="/ai/4.png" />
-                <img src="/ai/5.png" style={{ opacity: '0.5' }} />
-                <img src="/ai/6.png" style={{ opacity: '0.5' }} />
-                <img src="/ai/7.png" />
+            <div style={{ width: '70vw', margin: '0 auto' }}>
+                {locale === 'en' ? (
+                    <>
+                        <img src="/circle_en/2.png" />
+                        <img src="/circle_en/4.png" />
+                        <img src="/circle_en/6.png" />
+                        <img src="/circle_en/8.png" />
+                        <img
+                            src="/circle_en/10.png"
+                            style={{ opacity: '0.5' }}
+                        />
+                        <img
+                            src="/circle_en/12.png"
+                            style={{ opacity: '0.5' }}
+                        />
+                        <img src="/circle_en/14.png" />
+                        <img src="/circle_en/16.png" />
+                    </>
+                ) : (
+                    <>
+                        <img src="/circle_ja/1.png" />
+                        <img src="/circle_ja/3.png" />
+                        <img src="/circle_ja/5.png" />
+                        <img src="/circle_ja/7.png" />
+                        <img
+                            src="/circle_ja/9.png"
+                            style={{ opacity: '0.5' }}
+                        />
+                        <img
+                            src="/circle_ja/11.png"
+                            style={{ opacity: '0.5' }}
+                        />
+                        <img src="/circle_ja/13.png" />
+                        <img src="/circle_ja/15.png" />
+                    </>
+                )}
             </div>
+            <ContactComponent needsTitle={false} />
             <Footer />
         </div>
     );

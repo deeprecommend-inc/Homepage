@@ -36,7 +36,7 @@ const Banner2 = () => {
                         >
                             {t.index.banner.getStarted}
                         </a>
-                        <Link href={site.discord}>
+                        <Link href={'/deepcircle'}>
                             <a
                                 className="btn btn-md m-t-30  btn-outline-secondary"
                                 target="_blank"
@@ -47,7 +47,7 @@ const Banner2 = () => {
                         </Link>
                     </Col>
                     <Col lg="6" md="6" data-aos="zoom-in">
-                        <img src='/banner.gif' alt="Banner img" />
+                        <img src="/banner.gif" alt="Banner img" />
                     </Col>
                 </Row>
             </Container>

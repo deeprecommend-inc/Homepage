@@ -68,8 +68,8 @@ const HeaderComponent = localePath => {
                             <Image
                                 src={logo}
                                 alt="wrapkit"
-                                width="64"
-                                height="64"
+                                width="36"
+                                height="36"
                             />
                         </NavbarBrand>
                         <NavbarToggler onClick={toggle}>

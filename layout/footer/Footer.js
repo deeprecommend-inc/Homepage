@@ -49,8 +49,8 @@ const Footer = () => {
                             </a>
                         </div>
                         <div>
-                            <a className="link" href="/book">
-                                {t.layout.footer.product.deepbook}
+                            <a className="link" href="/deepcircle">
+                                {t.layout.footer.product.deepcircle}
                             </a>
                         </div>
                         <div>
@@ -84,7 +84,7 @@ const Footer = () => {
                         <div>
                             <a
                                 className="link"
-                                href={site.discord}
+                                href={'/deepcircle'}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

@@ -15,6 +15,7 @@ export default {
                 label: 'Products',
                 deepai: 'DeepAI',
                 deepbook: 'DeepBook',
+                deepcircle: 'DeepCircle',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
                 cmcn: 'DeepConnect',
@@ -24,7 +25,7 @@ export default {
                 privacyPolicy: 'Privacy policy',
                 contact: 'Contact',
                 lab: 'DeepLab',
-                community: 'Help / Support',
+                community: 'Personal AI Community',
                 aboutUs: 'About us',
             },
             sns: {
@@ -47,7 +48,7 @@ export default {
             title: 'DeepRecommend Inc.',
             copy: "We're Here to Twist the Dimensionss.",
             getStarted: 'Get started',
-            helpSupport: 'Help / Support',
+            helpSupport: 'Personal AI Community',
         },
         portfolio: {
             title: 'Products',
@@ -71,6 +72,10 @@ export default {
             deepbook: {
                 title: 'DeepBook',
                 description: 'Online Library',
+            },
+            deepcircle: {
+                title: 'DeepCircle',
+                description: 'Personal AI Community',
             },
             deepai: {
                 title: 'DeepAI',

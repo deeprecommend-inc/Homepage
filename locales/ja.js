@@ -12,6 +12,7 @@ export default {
                 label: 'サービス',
                 deepai: 'DeepAI',
                 deepbook: 'DeepBook',
+                deepcircle: 'DeepCircle',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
                 cmcn: 'DeepConnect',
@@ -21,7 +22,8 @@ export default {
                 privacyPolicy: 'プライバシーポリシー',
                 contact: 'お問い合わせ',
                 lab: 'DeepLab',
-                community: 'ヘルプ / サポート',
+                helpSupport: '個人がAIを武器にするためのコミュニティー',
+                community: '',
                 aboutUs: '企業概要',
             },
             sns: {
@@ -44,7 +46,7 @@ export default {
             title: 'DeepRecommend株式会社',
             copy: '次元を捻じ曲げます',
             getStarted: '始める',
-            helpSupport: 'ヘルプ / サポート',
+            helpSupport: '個人がAIを武器にするためのコミュニティー',
         },
         portfolio: {
             title: 'サービス',
@@ -68,6 +70,10 @@ export default {
             deepbook: {
                 title: 'DeepBook｜ディープブック',
                 description: 'オンライン図書館',
+            },
+            deepcircle: {
+                title: 'DeepCircle｜ディープサークル',
+                description: '個人がAIを武器にするためのコミュニティー',
             },
             deepai: {
                 title: 'DeepAI｜ディープAI',

@@ -7,6 +7,7 @@ import connectImg from '../../../assets/images/portfolio/3.png';
 import museumImg from '../../../assets/images/portfolio/1.png';
 import labImg from '../../../assets/images/portfolio/2.png';
 import bookImg from '../../../assets/images/portfolio/5.png';
+import circleImg from '../../../assets/images/portfolio/7.png';
 import aiImg from '../../../assets/images/portfolio/6.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
@@ -87,23 +88,26 @@ const PortfolioComponent = () => {
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
-                                    href="/book"
+                                    href="/deepcircle"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="img-ho"
                                 >
                                     <Image
                                         className="card-img-top"
-                                        src={bookImg}
-                                        alt="DeepBook"
+                                        src={circleImg}
+                                        alt="DeepCircle"
                                     />
                                 </a>
                                 <CardBody>
                                     <h5 className="font-medium m-b-0">
-                                        {t.index.portfolio.deepbook.title}
+                                        {t.index.portfolio.deepcircle.title}
                                     </h5>
                                     <p className="m-b-0 font-14">
-                                        {t.index.portfolio.deepbook.description}
+                                        {
+                                            t.index.portfolio.deepcircle
+                                                .description
+                                        }
                                     </p>
                                 </CardBody>
                             </Card>

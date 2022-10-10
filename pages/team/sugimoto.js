@@ -54,7 +54,7 @@ export default function DeepLog() {
                 dateModified="9/16/2022"
                 authorName={t.teams.sugimoto.head.title}
                 publisherName="DeepRecommend"
-                publisherLogo="/logo.jpg"
+                publisherLogo="/new_logo.png"
                 description={t.teams.sugimoto.head.description}
             />
             <HeaderComponent />
