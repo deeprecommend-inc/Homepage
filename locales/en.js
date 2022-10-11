@@ -927,4 +927,11 @@ export default {
             },
         },
     },
+    dialog: {
+        ai: {
+            content: "Join DeepCircle to use DeepRecommend's AI!",
+            disagree: 'Disagree',
+            agree: 'Agree',
+        },
+    },
 };

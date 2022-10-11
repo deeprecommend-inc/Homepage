@@ -882,4 +882,12 @@ export default {
             },
         },
     },
+    dialog: {
+        ai: {
+            content:
+                'DeepRecommendのAIを使うためにDeepCircleに参加してください',
+            disagree: 'やめておく',
+            agree: '参加する',
+        },
+    },
 };

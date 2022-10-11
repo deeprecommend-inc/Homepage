@@ -1,13 +1,35 @@
 /* eslint-disable */
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import Link from 'next/link';
 import { site } from '../../constants/const';
 import { useLocale } from '../../locales/useLocale';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
+import Button from '@mui/material/Button';
+import { useRouter } from 'next/router';
 
 const Footer = () => {
     const { t } = useLocale();
+    const [open, setOpen] = useState(false);
+    const router = useRouter();
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+    const routeToCircle = () => {
+        setOpen(false);
+        router.push('/deepcircle');
+    };
 
     return (
         <div className="footer4 spacer">
@@ -44,7 +66,7 @@ const Footer = () => {
                             {t.layout.footer.product.label}
                         </h5>
                         <div>
-                            <a className="link" href={site.deepAi}>
+                            <a className="link" onClick={handleClickOpen}>
                                 {t.layout.footer.product.deepai}
                             </a>
                         </div>
@@ -194,6 +216,25 @@ const Footer = () => {
                     </Row>
                 </div>
             </Container>
+
+            <Dialog
+                open={open}
+                onClose={handleClose}
+                aria-describedby="alert-dialog-slide-description"
+            >
+                <DialogTitle>{'DeepAI'}</DialogTitle>
+                <DialogContent>
+                    <DialogContentText id="alert-dialog-slide-description">
+                        {t.dialog.ai.content}
+                    </DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={handleClose}>
+                        {t.dialog.ai.disagree}
+                    </Button>
+                    <Button onClick={routeToCircle}>{t.dialog.ai.agree}</Button>
+                </DialogActions>
+            </Dialog>
         </div>
     );
 };

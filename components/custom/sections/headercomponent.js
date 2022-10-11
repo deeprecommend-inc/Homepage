@@ -27,20 +27,43 @@ import TranslateIcon from '@mui/icons-material/Translate';
 import Link from 'next/link';
 import { useLocale } from '../../../locales/useLocale';
 import BookIcon from '@mui/icons-material/Book';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
+import Slide from '@mui/material/Slide';
+import Button from '@mui/material/Button';
+import { useRouter } from 'next/router';
 
 const HeaderComponent = localePath => {
     const [isOpen, setIsOpen] = useState(false);
     const [ready, setReady] = useState(false);
     const { t, locale } = useLocale();
+    const [open, setOpen] = useState(false);
+    const router = useRouter();
 
     useEffect(() => {
         setReady(true);
     }, []);
 
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
     const toggle = () => setIsOpen(!isOpen);
 
     const routeToLab = () => {
         router.push('/lab/web');
+    };
+
+    const routeToCircle = () => {
+        setOpen(false);
+        router.push('/deepcircle');
     };
 
     if (!ready) return <></>;
@@ -79,20 +102,21 @@ const HeaderComponent = localePath => {
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
                                 <NavItem>
                                     <NavLink
-                                        href={site.deepAi}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                        // href={site.deepAi}
+                                        // target="_blank"
+                                        // rel="noopener noreferrer"
+                                        onClick={handleClickOpen}
                                     >
                                         DeepAI
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink
-                                        href="/book"
+                                        href="/deepcircle"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        DeepBook
+                                        DeepCircle
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -244,6 +268,25 @@ const HeaderComponent = localePath => {
           </Navbar>
         </Container>
       </div> */}
+
+            <Dialog
+                open={open}
+                onClose={handleClose}
+                aria-describedby="alert-dialog-slide-description"
+            >
+                <DialogTitle>{'DeepAI'}</DialogTitle>
+                <DialogContent>
+                    <DialogContentText id="alert-dialog-slide-description">
+                        {t.dialog.ai.content}
+                    </DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={handleClose}>
+                        {t.dialog.ai.disagree}
+                    </Button>
+                    <Button onClick={routeToCircle}>{t.dialog.ai.agree}</Button>
+                </DialogActions>
+            </Dialog>
         </div>
     );
 };

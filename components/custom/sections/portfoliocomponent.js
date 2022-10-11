@@ -11,6 +11,13 @@ import circleImg from '../../../assets/images/portfolio/7.png';
 import aiImg from '../../../assets/images/portfolio/6.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
+import { useRouter } from 'next/router';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
+import Button from '@mui/material/Button';
 
 const normalStyle = { padding: '0', height: '256px' };
 const endStyle = {
@@ -23,10 +30,25 @@ const endStyle = {
 const PortfolioComponent = () => {
     const [ready, setReady] = useState(false);
     const { t } = useLocale();
+    const [open, setOpen] = React.useState(false);
+    const router = useRouter();
 
     useEffect(() => {
         setReady(true);
     }, []);
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+    const routeToCircle = () => {
+        setOpen(false);
+        router.push('/deepcircle');
+    };
 
     if (!ready) return <></>;
 
@@ -63,10 +85,11 @@ const PortfolioComponent = () => {
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
-                                    href={site.deepAi}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                    // href={site.deepAi}
+                                    // target="_blank"
+                                    // rel="noopener noreferrer"
                                     className="img-ho"
+                                    onClick={handleClickOpen}
                                 >
                                     <Image
                                         className="card-img-top"
@@ -295,6 +318,25 @@ const PortfolioComponent = () => {
                     </Row>
                 </Container>
             </div>
+
+            <Dialog
+                open={open}
+                onClose={handleClose}
+                aria-describedby="alert-dialog-slide-description"
+            >
+                <DialogTitle>{'DeepAI'}</DialogTitle>
+                <DialogContent>
+                    <DialogContentText id="alert-dialog-slide-description">
+                        {t.dialog.ai.content}
+                    </DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={handleClose}>
+                        {t.dialog.ai.disagree}
+                    </Button>
+                    <Button onClick={routeToCircle}>{t.dialog.ai.agree}</Button>
+                </DialogActions>
+            </Dialog>
         </div>
     );
 };
