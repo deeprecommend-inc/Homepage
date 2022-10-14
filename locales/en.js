@@ -75,11 +75,11 @@ export default {
             },
             deepcircle: {
                 title: 'DeepCircle',
-                description: 'Personal AI Community',
+                description: 'AI Agency Services (Community)',
             },
             deepai: {
                 title: 'DeepAI',
-                description: 'AI Research',
+                description: 'AI produced by DeepRecommend',
             },
         },
         work: {
@@ -929,7 +929,8 @@ export default {
     },
     dialog: {
         ai: {
-            content: "Join DeepCircle to use DeepRecommend's AI!",
+            content:
+                "Join DeepCircle an AI agency service, for 390 yen/month to use DeepRecommend's AI!",
             disagree: 'Disagree',
             agree: 'Agree',
         },

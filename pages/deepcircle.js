@@ -64,6 +64,7 @@ const DeepCircle = () => {
                             src="/circle_en/12.png"
                             style={{ opacity: '0.5' }}
                         />
+                        <img src="/circle_en/18.png" />
                         <img src="/circle_en/14.png" />
                         <img src="/circle_en/16.png" />
                     </>
@@ -81,6 +82,7 @@ const DeepCircle = () => {
                             src="/circle_ja/11.png"
                             style={{ opacity: '0.5' }}
                         />
+                        <img src="/circle_ja/17.png" />
                         <img src="/circle_ja/13.png" />
                         <img src="/circle_ja/15.png" />
                     </>

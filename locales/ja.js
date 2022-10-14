@@ -73,11 +73,11 @@ export default {
             },
             deepcircle: {
                 title: 'DeepCircle｜ディープサークル',
-                description: '個人がAIを武器にするためのコミュニティー',
+                description: 'AI代行サービス（コミュニティー）',
             },
             deepai: {
                 title: 'DeepAI｜ディープAI',
-                description: 'AIリサーチ',
+                description: 'DeepRecommendのAI',
             },
         },
         work: {
@@ -885,7 +885,7 @@ export default {
     dialog: {
         ai: {
             content:
-                'DeepRecommendのAIを使うためにDeepCircleに参加してください',
+                'DeepRecommendのAIを使うためにAI代行サービスDeepCircleに月額390円で参加する',
             disagree: 'やめておく',
             agree: '参加する',
         },
