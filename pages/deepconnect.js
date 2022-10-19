@@ -9,7 +9,7 @@ export default function DeepMatching() {
     const { t, locale } = useLocale();
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={t.deepmatching.head.title}
                 description={t.deepmatching.head.description}
@@ -47,6 +47,6 @@ export default function DeepMatching() {
             />
             <DeepMatchingComponents />
             <Footer />
-        </div>
+        </>
     );
 }

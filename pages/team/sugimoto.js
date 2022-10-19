@@ -10,7 +10,7 @@ export default function DeepLog() {
     const { t, locale } = useLocale();
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={t.teams.sugimoto.head.title}
                 description={t.teams.sugimoto.head.description}
@@ -59,6 +59,6 @@ export default function DeepLog() {
             />
             <HeaderComponent />
             <Sugimoto />
-        </div>
+        </>
     );
 }

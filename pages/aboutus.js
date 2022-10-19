@@ -44,7 +44,7 @@ const CompanyOverview = () => {
     };
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={t.privacyPolicy.head.title}
                 description={t.privacyPolicy.head.description}
@@ -102,7 +102,7 @@ const CompanyOverview = () => {
                 2022
             </a> */}
             <Footer />
-        </div>
+        </>
     );
 };
 

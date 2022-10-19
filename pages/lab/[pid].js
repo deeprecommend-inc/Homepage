@@ -13,7 +13,7 @@ const Post = () => {
     const detail = useSelector(state => state.blogDetail.blogDetail);
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={'DeepLab' + ' | ' + detail.title}
                 description={
@@ -57,7 +57,7 @@ const Post = () => {
             />
             <BlogContent detail={detail} sx={{ background: '#EDF2F7' }} />
             <Adsense />
-        </div>
+        </>
     );
 };
 

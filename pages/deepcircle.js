@@ -12,7 +12,7 @@ const DeepCircle = () => {
     const { t, locale } = useLocale();
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={t.contact.head.title}
                 description={t.contact.head.description}
@@ -90,7 +90,7 @@ const DeepCircle = () => {
             </div>
             <ContactComponent needsTitle={false} />
             <Footer />
-        </div>
+        </>
     );
 };
 

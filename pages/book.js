@@ -9,7 +9,7 @@ export default function DeepBook() {
     const { t, locale } = useLocale();
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={t.deepbook.head.title}
                 description={t.deepbook.head.description}
@@ -47,6 +47,6 @@ export default function DeepBook() {
             />
             <DeepBookComponents />
             <Footer />
-        </div>
+        </>
     );
 }

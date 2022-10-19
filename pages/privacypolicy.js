@@ -10,7 +10,7 @@ export const PrivacyPolicy = () => {
     const { t, locale } = useLocale();
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={t.privacyPolicy.head.title}
                 description={t.privacyPolicy.head.description}
@@ -65,7 +65,7 @@ export const PrivacyPolicy = () => {
                 ></div>
             </div>
             <Footer />
-        </div>
+        </>
     );
 };
 

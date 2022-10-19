@@ -22,7 +22,7 @@ export default function Blog({ children, href }) {
     if (!ready) return <></>;
 
     return (
-        <div>
+        <>
             <Head>
                 <title>{t.index.portfolio.deeplab.title}</title>
                 <meta
@@ -66,6 +66,6 @@ export default function Blog({ children, href }) {
                     cardType: 'summary',
                 }}
             />
-        </div>
+        </>
     );
 }

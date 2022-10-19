@@ -18,42 +18,42 @@ export default function Home() {
 
     return (
         <>
+            <NextSeo
+                title={t.index.head.title}
+                description={t.index.head.description}
+                canonical={site.home}
+                openGraph={{
+                    url: site.home,
+                    title: t.index.head.title,
+                    description: t.index.head.description,
+                    type: 'website',
+                    locale: locale,
+                    images: [
+                        {
+                            url: imgUrl.deeprecommend,
+                            width: 800,
+                            height: 600,
+                            alt: 'DeepRecommend',
+                            type: 'image/png',
+                        },
+                        {
+                            url: imgUrl.deeprecommend,
+                            width: 900,
+                            height: 800,
+                            alt: 'DeepRecommend',
+                            type: 'image/png',
+                        },
+                        { url: imgUrl.deeprecommend },
+                    ],
+                    site_name: 'DeepRecommend',
+                }}
+                twitter={{
+                    handle: '@DeepRecommend',
+                    site: '@DeepRecommend',
+                    cardType: 'summary',
+                }}
+            />
             <div>
-                <NextSeo
-                    title={t.index.head.title}
-                    description={t.index.head.description}
-                    canonical={site.home}
-                    openGraph={{
-                        url: site.home,
-                        title: t.index.head.title,
-                        description: t.index.head.description,
-                        type: 'website',
-                        locale: locale,
-                        images: [
-                            {
-                                url: imgUrl.deeprecommend,
-                                width: 800,
-                                height: 600,
-                                alt: 'DeepRecommend',
-                                type: 'image/png',
-                            },
-                            {
-                                url: imgUrl.deeprecommend,
-                                width: 900,
-                                height: 800,
-                                alt: 'DeepRecommend',
-                                type: 'image/png',
-                            },
-                            { url: imgUrl.deeprecommend },
-                        ],
-                        site_name: 'DeepRecommend',
-                    }}
-                    twitter={{
-                        handle: '@DeepRecommend',
-                        site: '@DeepRecommend',
-                        cardType: 'summary',
-                    }}
-                />
                 <CustomComponents />
                 <Footer />
             </div>

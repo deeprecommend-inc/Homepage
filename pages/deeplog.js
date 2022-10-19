@@ -9,7 +9,7 @@ export default function DeepLog() {
     const { t, locale } = useLocale();
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={t.deeplog.head.title}
                 description={t.deeplog.head.description}
@@ -47,6 +47,6 @@ export default function DeepLog() {
             />
             <DeepLogComponents />
             <Footer />
-        </div>
+        </>
     );
 }

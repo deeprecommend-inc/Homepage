@@ -11,7 +11,7 @@ const DeepAI = () => {
     const { t, locale } = useLocale();
 
     return (
-        <div>
+        <>
             <NextSeo
                 title={t.contact.head.title}
                 description={t.contact.head.description}
@@ -50,7 +50,7 @@ const DeepAI = () => {
             <HeaderComponent />
             <ContactComponent />
             <Footer />
-        </div>
+        </>
     );
 };
 
