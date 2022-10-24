@@ -137,13 +137,7 @@ const PortfolioComponent = () => {
                         </Col>
                         <Col md="4" data-aos="fade-up-left">
                             <Card className="card-shadow">
-                                <a
-                                    style={normalStyle}
-                                    href={site.deepLog}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="img-ho"
-                                >
+                                <a style={endStyle} className="img-ho" disabled>
                                     <Image
                                         className="card-img-top"
                                         src={logImg}
@@ -162,13 +156,7 @@ const PortfolioComponent = () => {
                         </Col>
                         <Col md="4" data-aos="fade-up-right">
                             <Card className="card-shadow">
-                                <a
-                                    style={normalStyle}
-                                    href={site.deepMatching}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="img-ho"
-                                >
+                                <a style={endStyle} className="img-ho" disabled>
                                     <Image
                                         className="card-img-top"
                                         src={connectImg}

@@ -53,11 +53,13 @@ export default {
             subtitle: '私たちのサービス一覧',
             cmcn: {
                 title: 'DeepConnect｜ディープコネクト',
-                description: 'アイデアとスキルを繋ぐマッチングアプリ',
+                description:
+                    'アイデアとスキルを繋ぐマッチングアプリ（~ 2022/10/24）',
             },
             deeplog: {
                 title: 'DeepLog｜ディープログ',
-                description: 'ウェブサイトを一括管理するウェブサイト',
+                description:
+                    'ウェブサイトを一括管理するウェブサイト（~ 2022/10/24）',
             },
             deeplab: {
                 title: 'DeepLab｜ディープラボ',

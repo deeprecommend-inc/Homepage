@@ -55,11 +55,11 @@ export default {
             subtitle: 'Here are some of our products',
             cmcn: {
                 title: 'DeepConnect',
-                description: 'Matching App of Idea & Skill',
+                description: 'Matching App of Idea & Skill（~ 2022/3/8）',
             },
             deeplog: {
                 title: 'DeepLog',
-                description: 'Website Management',
+                description: 'Website Management（~ 2022/3/8）',
             },
             deeplab: {
                 title: 'DeepLab',
