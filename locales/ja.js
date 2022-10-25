@@ -22,7 +22,7 @@ export default {
                 privacyPolicy: 'プライバシーポリシー',
                 contact: 'お問い合わせ',
                 lab: 'DeepLab',
-                helpSupport: '個人がAIを武器にするためのコミュニティー',
+                helpSupport: 'パーソナルAIコミュニティー',
                 community: '',
                 aboutUs: '企業概要',
             },
@@ -46,7 +46,7 @@ export default {
             title: 'DeepRecommend株式会社',
             copy: '次元を捻じ曲げます',
             getStarted: '始める',
-            helpSupport: '個人がAIを武器にするためのコミュニティー',
+            helpSupport: 'パーソナルAIコミュニティー',
         },
         portfolio: {
             title: 'サービス',
