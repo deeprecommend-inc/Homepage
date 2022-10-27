@@ -75,24 +75,24 @@ const Footer = () => {
                                 {t.layout.footer.product.deepcircle}
                             </a>
                         </div>
-                        <div>
+                        {/* <div>
                             <a
                                 className="link"
                                 href="https://deep-matching.com"
                             >
                                 {t.layout.footer.product.cmcn}
                             </a>
-                        </div>
+                        </div> */}
                         <div>
                             <a className="link" href="/lab/web">
                                 {t.layout.footer.product.deeplab}
                             </a>
                         </div>
-                        <div>
+                        {/* <div>
                             <a className="link" href="https://deep-log.net">
                                 {t.layout.footer.product.deeplog}
                             </a>
-                        </div>
+                        </div> */}
                     </Col>
                     <Col lg="3" md="6" className="m-b-30">
                         <h5 className="m-b-20">
