@@ -119,7 +119,7 @@ const HeaderComponent = localePath => {
                                         DeepCircle
                                     </NavLink>
                                 </NavItem>
-                                <NavItem>
+                                {/* <NavItem>
                                     <NavLink
                                         href={site.deepMatching}
                                         target="_blank"
@@ -127,7 +127,7 @@ const HeaderComponent = localePath => {
                                     >
                                         DeepConnect
                                     </NavLink>
-                                </NavItem>
+                                </NavItem> */}
                                 <NavItem>
                                     <NavLink
                                         href="/lab/web"
@@ -137,7 +137,7 @@ const HeaderComponent = localePath => {
                                         DeepLab
                                     </NavLink>
                                 </NavItem>
-                                <NavItem>
+                                {/* <NavItem>
                                     <NavLink
                                         href={site.deepLog}
                                         target="_blank"
@@ -145,7 +145,7 @@ const HeaderComponent = localePath => {
                                     >
                                         DeepLog
                                     </NavLink>
-                                </NavItem>
+                                </NavItem> */}
                                 <UncontrolledDropdown nav inNavbar>
                                     <DropdownToggle nav>
                                         {t.index.header.others}{' '}
