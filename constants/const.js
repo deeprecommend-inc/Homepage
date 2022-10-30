@@ -127,8 +127,6 @@ const docs = {
 };
 
 export const sections = [
-    { title: 'Web', url: '/lab/web' },
-    { title: 'XR', url: '/lab/xr' },
     { title: 'AI', url: '/lab/ai' },
     { title: 'Quantum', url: '/lab/quantum' },
     { title: 'Brain', url: '/lab/brain' },
