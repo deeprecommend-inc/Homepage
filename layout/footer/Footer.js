@@ -84,7 +84,7 @@ const Footer = () => {
                             </a>
                         </div> */}
                         <div>
-                            <a className="link" href="/lab/web">
+                            <a className="link" href="/lab/ai">
                                 {t.layout.footer.product.deeplab}
                             </a>
                         </div>

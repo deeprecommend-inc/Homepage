@@ -12,7 +12,7 @@ export default function Blog({ children, href }) {
 
     useEffect(() => {
         setReady(true);
-        router.push('/lab/web', undefined, { shallow: true });
+        router.push('/lab/ai', undefined, { shallow: true });
     }, []);
 
     useEffect(() => {

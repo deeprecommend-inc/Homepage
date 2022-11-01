@@ -177,7 +177,7 @@ const PortfolioComponent = () => {
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
-                                    href="/lab/web"
+                                    href="/lab/ai"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="img-ho"

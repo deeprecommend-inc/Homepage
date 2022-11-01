@@ -50,7 +50,7 @@ function Header({ sections, title, localePath }) {
     };
 
     const routeToLab = () => {
-        router.push('/lab/web');
+        router.push('/lab/ai');
     };
 
     if (!ready) return <></>;

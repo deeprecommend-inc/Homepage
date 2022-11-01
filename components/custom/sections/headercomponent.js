@@ -58,7 +58,7 @@ const HeaderComponent = localePath => {
     const toggle = () => setIsOpen(!isOpen);
 
     const routeToLab = () => {
-        router.push('/lab/web');
+        router.push('/lab/ai');
     };
 
     const routeToCircle = () => {
@@ -130,7 +130,7 @@ const HeaderComponent = localePath => {
                                 </NavItem> */}
                                 <NavItem>
                                     <NavLink
-                                        href="/lab/web"
+                                        href="/lab/ai"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
