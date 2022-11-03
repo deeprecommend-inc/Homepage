@@ -132,7 +132,7 @@ export default {
         },
         team: {
             title: 'チーム',
-            subtitle: 'チームと言ってもまだひとりですが...',
+            subtitle: 'チームと言ってもまだひとりですが！',
             sugimoto: {
                 name: '杉本 迅',
                 position: 'CEO',
