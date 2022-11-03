@@ -59,7 +59,7 @@ export default {
             },
             deeplog: {
                 title: 'DeepLog',
-                description: 'Website Management（~ 2022/3/8）',
+                description: 'Website Management（~ 10/24/2022）',
             },
             deeplab: {
                 title: 'DeepLab',
@@ -67,7 +67,7 @@ export default {
             },
             deepmuseum: {
                 title: 'DeepMuseum',
-                description: 'Online Museum (~ 3/8/2022)',
+                description: 'Online Museum (~ 10/24/2022)',
             },
             deepbook: {
                 title: 'DeepBook',
