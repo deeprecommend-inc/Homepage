@@ -22,8 +22,8 @@ export default {
                 privacyPolicy: 'プライバシーポリシー',
                 contact: 'お問い合わせ',
                 lab: 'DeepLab',
-                helpSupport: 'パーソナルAIコミュニティー',
-                community: '',
+                helpSupport: 'ヘルプ & サポート',
+                community: 'Support',
                 aboutUs: '企業概要',
             },
             sns: {
@@ -46,7 +46,7 @@ export default {
             title: 'DeepRecommend株式会社',
             copy: '次元を捻じ曲げます',
             getStarted: '始める',
-            helpSupport: 'パーソナルAIコミュニティー',
+            helpSupport: 'ヘルプ & サポート',
         },
         portfolio: {
             title: 'サービス',
@@ -132,7 +132,7 @@ export default {
         },
         team: {
             title: 'チーム',
-            subtitle: 'チームと言ってもまだひとりですが！',
+            subtitle: 'DeepRecommendのチームメイトをご紹介します。',
             sugimoto: {
                 name: '杉本 迅',
                 position: 'CEO',

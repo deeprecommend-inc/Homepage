@@ -4,7 +4,7 @@ import { useLocale } from '../../../locales/useLocale';
 import SimpleBar from 'simplebar-react';
 
 const ContactComponent = ({ needsTitle = true }) => {
-    const { t } = useLocale();
+    const { t, locale } = useLocale();
 
     return (
         <div>
@@ -27,14 +27,25 @@ const ContactComponent = ({ needsTitle = true }) => {
                 <></>
             )}
             <div className="py-5 d-flex align-items-center align-items-center">
-                <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLSf5s1IQEEmL4dDyz0ADeE-wIMKL9Ne2EdTYc0TPEaat6TXOEA/viewform?embedded=true"
-                    width="100%"
-                    height="760"
-                    frameBorder="0"
-                    marginHeight="0"
-                    marginWidth="0"
-                ></iframe>
+                {locale === 'en' ? (
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSf5s1IQEEmL4dDyz0ADeE-wIMKL9Ne2EdTYc0TPEaat6TXOEA/viewform?embedded=true"
+                        width="100%"
+                        height="760"
+                        frameBorder="0"
+                        marginHeight="0"
+                        marginWidth="0"
+                    ></iframe>
+                ) : (
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScY8KTxYkhgQ20f6_AvrfhijxErVTOYLHo9nt0DHN02OkZ91A/viewform?embedded=true"
+                        width="100%"
+                        height="760"
+                        frameBorder="0"
+                        marginHeight="0"
+                        marginWidth="0"
+                    ></iframe>
+                )}
             </div>
         </div>
     );

@@ -36,7 +36,7 @@ const Banner2 = () => {
                         >
                             {t.index.banner.getStarted}
                         </a>
-                        <Link href={'/deepcircle'}>
+                        <Link href={site.community}>
                             <a
                                 className="btn btn-md m-t-30  btn-outline-secondary"
                                 target="_blank"

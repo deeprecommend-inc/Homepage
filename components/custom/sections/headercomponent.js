@@ -62,7 +62,6 @@ const HeaderComponent = localePath => {
     };
 
     const routeToCircle = () => {
-        setOpen(false);
         router.push('/deepcircle');
     };
 
@@ -130,7 +129,7 @@ const HeaderComponent = localePath => {
                                 </NavItem> */}
                                 <NavItem>
                                     <NavLink
-                                        href="/lab/ai"
+                                        href={site.deepLab}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

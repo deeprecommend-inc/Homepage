@@ -25,7 +25,7 @@ export default {
                 privacyPolicy: 'Privacy policy',
                 contact: 'Contact',
                 lab: 'DeepLab',
-                community: 'Personal AI Community',
+                community: 'Help & Support',
                 aboutUs: 'About us',
             },
             sns: {
@@ -40,7 +40,7 @@ export default {
         },
         header: {
             others: 'Others',
-            community: 'Community',
+            community: 'Help & Support',
             shop: 'Shop',
             blog: 'Blog',
         },
@@ -48,14 +48,14 @@ export default {
             title: 'DeepRecommend Inc.',
             copy: "We're Here to Twist the Dimensionss.",
             getStarted: 'Get started',
-            helpSupport: 'Personal AI Community',
+            helpSupport: 'Help & Support',
         },
         portfolio: {
             title: 'Products',
             subtitle: 'Here are some of our products',
             cmcn: {
                 title: 'DeepConnect',
-                description: 'Matching App of Idea & Skill（~ 2022/3/8）',
+                description: 'Matching App of Idea & Skill（~ 10/24/2022）',
             },
             deeplog: {
                 title: 'DeepLog',
@@ -67,7 +67,7 @@ export default {
             },
             deepmuseum: {
                 title: 'DeepMuseum',
-                description: 'Online Museum (~ 10/24/2022)',
+                description: 'Online Museum (~ 03/08/2022)',
             },
             deepbook: {
                 title: 'DeepBook',

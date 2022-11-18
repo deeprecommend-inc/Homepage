@@ -104,12 +104,7 @@ const Footer = () => {
                             </a>
                         </div>
                         <div>
-                            <a
-                                className="link"
-                                href={'/deepcircle'}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <a className="link" href={site.community}>
                                 {t.layout.footer.customerCare.community}
                             </a>
                         </div>
