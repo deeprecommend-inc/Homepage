@@ -51,8 +51,8 @@ export const Chatbot = () => {
         <div
             style={{
                 position: 'fixed',
-                bottom: '12px',
-                left: '12px',
+                bottom: '24px',
+                left: '24px',
                 zIndex: 999,
             }}
         >
