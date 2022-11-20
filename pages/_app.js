@@ -157,7 +157,7 @@ function MyApp({ Component, pageProps }) {
                     </div>
 
                     <Component {...pageProps} />
-                    {/* <Chatbot /> */}
+                    <Chatbot />
 
                     <Script
                         id="jquery"
