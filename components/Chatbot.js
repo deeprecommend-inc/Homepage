@@ -6,6 +6,8 @@ import VerticalAlignTopIcon from '@mui/icons-material/VerticalAlignTop';
 import { ThemeProvider } from 'styled-components';
 import CloseIcon from '@mui/icons-material/Close';
 import MarkChatUnreadIcon from '@mui/icons-material/MarkChatUnread';
+import { useRouter } from 'next/router';
+import { site } from '../constants/const';
 
 const theme = {
     background: '#fafafa',
@@ -32,8 +34,37 @@ const iconStyle = {
 };
 
 export const Chatbot = () => {
+    // TODO: 知りたい欲望にDiscord・LINE・メルマガの３つの選択肢を与える
     const [hidden, setHidden] = useState(true);
     const { t, locale } = useLocale();
+    const router = useRouter();
+
+    const handleEnd = ({ steps, values, locale }) => {
+        console.log({ value: values[0] });
+        switch (values[0]) {
+            case 1:
+                router.push('deepai');
+                break;
+            case 2:
+                router.push('deepai');
+                break;
+            case 3:
+                windowOpen(site.deepLab);
+                break;
+            case 4:
+                windowOpen(site.discord);
+                break;
+            case 5:
+                router.push('deepcircle');
+                break;
+            default:
+                break;
+        }
+    };
+
+    const windowOpen = url => {
+        window.open(url, '_blank', 'noreferrer');
+    };
 
     const toggleHidden = () => {
         if (hidden) {
@@ -41,10 +72,6 @@ export const Chatbot = () => {
         } else {
             setHidden(true);
         }
-    };
-
-    const handleEnd = ({ steps, values, locale }) => {
-        console.log({ value: values[0] });
     };
 
     return (
