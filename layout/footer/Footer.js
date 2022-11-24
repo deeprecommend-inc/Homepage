@@ -66,7 +66,7 @@ const Footer = () => {
                             {t.layout.footer.product.label}
                         </h5>
                         <div>
-                            <a className="link" onClick={handleClickOpen}>
+                            <a className="link" href="/deepai">
                                 {t.layout.footer.product.deepai}
                             </a>
                         </div>

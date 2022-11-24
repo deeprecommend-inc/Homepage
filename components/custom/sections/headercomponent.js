@@ -101,10 +101,10 @@ const HeaderComponent = localePath => {
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
                                 <NavItem>
                                     <NavLink
-                                        // href={site.deepAi}
-                                        // target="_blank"
-                                        // rel="noopener noreferrer"
-                                        onClick={handleClickOpen}
+                                        href={'/deepai'}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        // onClick={handleClickOpen}
                                     >
                                         DeepAI
                                     </NavLink>
