@@ -26,9 +26,8 @@ const Footer = () => {
         setOpen(false);
     };
 
-    const routeToCircle = () => {
-        setOpen(false);
-        router.push('/deepcircle');
+    const routerPush = route => {
+        router.push(route);
     };
 
     return (
@@ -63,58 +62,75 @@ const Footer = () => {
                     </Col>
                     <Col lg="3" md="6" className="m-b-30">
                         <h5 className="m-b-20">
-                            {t.layout.footer.product.label}
+                            {t.layout.footer.service.label}
                         </h5>
-                        <div>
-                            <a className="link" href="/deepai">
-                                {t.layout.footer.product.deepai}
+                        <div
+                            onClick={() => {
+                                routerPush('/deepai');
+                            }}
+                        >
+                            <a className="link">
+                                {t.layout.footer.service.deepai}
+                            </a>
+                        </div>
+                        <div
+                            onClick={() => {
+                                routerPush('/deepmagazine');
+                            }}
+                        >
+                            <a className="link">
+                                {t.layout.footer.service.magazine}
                             </a>
                         </div>
                         <div>
-                            <a className="link" href="/deepcircle">
-                                {t.layout.footer.product.deepcircle}
-                            </a>
-                        </div>
-                        {/* <div>
                             <a
                                 className="link"
-                                href="https://deep-matching.com"
+                                href={site.deepLab}
+                                target="_blank"
+                                rel="noopener noreferrer"
                             >
-                                {t.layout.footer.product.cmcn}
-                            </a>
-                        </div> */}
-                        <div>
-                            <a className="link" href="/lab/ai">
-                                {t.layout.footer.product.deeplab}
+                                {t.layout.footer.service.deeplab}
                             </a>
                         </div>
-                        {/* <div>
-                            <a className="link" href="https://deep-log.net">
-                                {t.layout.footer.product.deeplog}
-                            </a>
-                        </div> */}
                     </Col>
                     <Col lg="3" md="6" className="m-b-30">
                         <h5 className="m-b-20">
                             {t.layout.footer.customerCare.label}
                         </h5>
-                        <div>
-                            <a className="link" href="/aboutus">
+                        <div
+                            onClick={() => {
+                                routerPush('/aboutus');
+                            }}
+                        >
+                            <a className="link">
                                 {t.layout.footer.customerCare.aboutUs}
                             </a>
                         </div>
                         <div>
-                            <a className="link" href={site.community}>
+                            <a
+                                className="link"
+                                href={site.community}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 {t.layout.footer.customerCare.community}
                             </a>
                         </div>
-                        <div>
-                            <a className="link" href="/privacypolicy">
+                        <div
+                            onClick={() => {
+                                routerPush('/privacypolicy');
+                            }}
+                        >
+                            <a className="link">
                                 {t.layout.footer.customerCare.privacyPolicy}
                             </a>
                         </div>
-                        <div>
-                            <a className="link" href="/contact">
+                        <div
+                            onClick={() => {
+                                routerPush('/contact');
+                            }}
+                        >
+                            <a className="link">
                                 {t.layout.footer.customerCare.contact}
                             </a>
                         </div>
@@ -122,15 +138,6 @@ const Footer = () => {
                     <Col lg="3" md="6">
                         <h5 className="m-b-20">{t.layout.footer.sns.label}</h5>
                         <div className="round-social light">
-                            {/* <Link href={site.github}>
-                                <a
-                                    className="link"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <i className="fa fa-github"></i>
-                                </a>
-                            </Link> */}
                             <Link href={site.twitter}>
                                 <a
                                     className="link"
@@ -140,7 +147,6 @@ const Footer = () => {
                                     <i className="fa fa-twitter"></i>
                                 </a>
                             </Link>
-
                             <Link href={site.instagram}>
                                 <a
                                     className="link"
@@ -173,15 +179,6 @@ const Footer = () => {
                                     <i className="fa fa-youtube-play"></i>
                                 </a>
                             </Link>
-                            {/* <Link href={site.facebook}>
-                                <a
-                                    className="link"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <i className="fa fa-facebook"></i>
-                                </a>
-                            </Link> */}
                         </div>
                     </Col>
                 </Row>
@@ -189,23 +186,25 @@ const Footer = () => {
                     <Row>
                         <Col md="12">
                             <div className="d-flex font-14">
-                                <div className="m-t-10 m-b-10 copyright">
+                                <div className="m-t-10 m-b-10s ml-auto copyright">
                                     All Rights Reserved by{' '}
                                     <Link href="/">
                                         <a className="link">DeepRecommend</a>
                                     </Link>
                                 </div>
                                 {/* <div className="links ml-auto m-t-10 m-b-10">
-                                      <Link href="#">
-                                        <a className="p-10 p-l-0">Terms of Use</a>
-                                      </Link>
-                                      <Link href="#">
+                                    <Link href="#">
+                                        <a className="p-10 p-l-0">
+                                            Terms of Use
+                                        </a>
+                                    </Link>
+                                    <Link href="#">
                                         <a className="p-10">Legal Disclaimer</a>
-                                      </Link>
-                                      <Link href="#">
+                                    </Link>
+                                    <Link href="#">
                                         <a className="p-10">Privacy Policy</a>
-                                      </Link>
-                                    </div> */}
+                                    </Link>
+                                </div> */}
                             </div>
                         </Col>
                     </Row>
@@ -227,7 +226,7 @@ const Footer = () => {
                     <Button onClick={handleClose}>
                         {t.dialog.ai.disagree}
                     </Button>
-                    <Button onClick={routeToCircle}>{t.dialog.ai.agree}</Button>
+                    <Button>{t.dialog.ai.agree}</Button>
                 </DialogActions>
             </Dialog>
         </div>

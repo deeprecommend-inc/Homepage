@@ -22,7 +22,7 @@ const Banner = () => {
                             DeepRecommend Inc.
                         </h1>
                         <h4 className="subtitle font-light text-dark">
-                            We recommend technology and art products
+                            We recommend technology and art services.
                             <br /> by creativity and objectivity.
                         </h4>
 

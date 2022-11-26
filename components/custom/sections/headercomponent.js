@@ -57,32 +57,14 @@ const HeaderComponent = localePath => {
 
     const toggle = () => setIsOpen(!isOpen);
 
-    const routeToLab = () => {
-        router.push('/lab/ai');
-    };
-
-    const routeToCircle = () => {
-        router.push('/deepcircle');
+    const routerPush = route => {
+        router.push(route);
     };
 
     if (!ready) return <></>;
 
     return (
         <div id="section h-100">
-            {/* <div className="spacer">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h1 className="title font-bold">Header/Navigation</h1>
-              <h6 className="subtitle">
-                Here you can check Demos we created you can easily use it. Its
-                quite easy to Create your own dream website &amp; dashboard in
-                No-time.
-              </h6>
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
             <div className="header1 po-relative">
                 <Container>
                     <Navbar className="navbar-expand-lg h1-nav">
@@ -99,34 +81,20 @@ const HeaderComponent = localePath => {
                         </NavbarToggler>
                         <Collapse isOpen={isOpen} navbar id="header1">
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                                <NavItem>
-                                    <NavLink
-                                        href={'/deepai'}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        // onClick={handleClickOpen}
-                                    >
-                                        DeepAI
-                                    </NavLink>
+                                <NavItem
+                                    onClick={() => {
+                                        routerPush('/deepai');
+                                    }}
+                                >
+                                    <NavLink>DeepAI</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink
-                                        href="/deepcircle"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        DeepCircle
-                                    </NavLink>
+                                <NavItem
+                                    onClick={() => {
+                                        routerPush('/deepmagazine');
+                                    }}
+                                >
+                                    <NavLink>DeepMagazine</NavLink>
                                 </NavItem>
-                                {/* <NavItem>
-                                    <NavLink
-                                        href={site.deepMatching}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        DeepConnect
-                                    </NavLink>
-                                </NavItem> */}
                                 <NavItem>
                                     <NavLink
                                         href={site.deepLab}
@@ -136,15 +104,6 @@ const HeaderComponent = localePath => {
                                         DeepLab
                                     </NavLink>
                                 </NavItem>
-                                {/* <NavItem>
-                                    <NavLink
-                                        href={site.deepLog}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        DeepLog
-                                    </NavLink>
-                                </NavItem> */}
                                 <UncontrolledDropdown nav inNavbar>
                                     <DropdownToggle nav>
                                         {t.index.header.others}{' '}
@@ -283,7 +242,13 @@ const HeaderComponent = localePath => {
                     <Button onClick={handleClose}>
                         {t.dialog.ai.disagree}
                     </Button>
-                    <Button onClick={routeToCircle}>{t.dialog.ai.agree}</Button>
+                    <Button
+                        onClick={() => {
+                            routerPush;
+                        }}
+                    >
+                        {t.dialog.ai.agree}
+                    </Button>
                 </DialogActions>
             </Dialog>
         </div>
