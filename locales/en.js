@@ -44,6 +44,7 @@ export default {
             community: 'DeepNetwork',
             shop: 'Shop',
             blog: 'Blog',
+            contact: 'Contact us',
         },
         banner: {
             title: 'DeepRecommend Inc.',

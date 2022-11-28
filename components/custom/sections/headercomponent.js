@@ -35,6 +35,7 @@ import DialogTitle from '@mui/material/DialogTitle';
 import Slide from '@mui/material/Slide';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
+import EmailIcon from '@mui/icons-material/Email';
 
 const HeaderComponent = localePath => {
     const [isOpen, setIsOpen] = useState(false);
@@ -159,6 +160,15 @@ const HeaderComponent = localePath => {
                                         >
                                             <YouTubeIcon />
                                             YouTube
+                                        </DropdownItem>
+                                        <DropdownItem divider />
+                                        <DropdownItem
+                                            onClick={() => {
+                                                routerPush('/contact');
+                                            }}
+                                        >
+                                            <EmailIcon />
+                                            {t.index.header.contact}
                                         </DropdownItem>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>

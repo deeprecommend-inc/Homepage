@@ -42,6 +42,7 @@ export default {
             community: 'コミュニティー',
             shop: 'ショップ',
             blog: 'ブログ',
+            contact: 'お問い合わせ',
         },
         banner: {
             title: 'DeepRecommend株式会社',
