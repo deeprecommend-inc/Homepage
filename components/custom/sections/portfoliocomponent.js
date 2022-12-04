@@ -45,9 +45,8 @@ const PortfolioComponent = () => {
         setOpen(false);
     };
 
-    const routeToCircle = () => {
-        setOpen(false);
-        router.push('/deepcircle');
+    const routerPush = route => {
+        router.push(route);
     };
 
     if (!ready) return <></>;
@@ -85,11 +84,10 @@ const PortfolioComponent = () => {
                             <Card className="card-shadow">
                                 <a
                                     style={normalStyle}
-                                    // href={site.deepAi}
-                                    // target="_blank"
-                                    // rel="noopener noreferrer"
                                     className="img-ho"
-                                    onClick={handleClickOpen}
+                                    onClick={() => {
+                                        routerPush('/deepai');
+                                    }}
                                 >
                                     <Image
                                         className="card-img-top"
@@ -109,13 +107,7 @@ const PortfolioComponent = () => {
                         </Col>
                         <Col md="4" data-aos="fade-up">
                             <Card className="card-shadow">
-                                <a
-                                    style={normalStyle}
-                                    href="/deepcircle"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="img-ho"
-                                >
+                                <a style={endStyle} className="img-ho" disabled>
                                     <Image
                                         className="card-img-top"
                                         src={circleImg}
@@ -306,25 +298,6 @@ const PortfolioComponent = () => {
                     </Row>
                 </Container>
             </div>
-
-            <Dialog
-                open={open}
-                onClose={handleClose}
-                aria-describedby="alert-dialog-slide-description"
-            >
-                <DialogTitle>{'DeepAI'}</DialogTitle>
-                <DialogContent>
-                    <DialogContentText id="alert-dialog-slide-description">
-                        {t.dialog.ai.content}
-                    </DialogContentText>
-                </DialogContent>
-                <DialogActions>
-                    <Button onClick={handleClose}>
-                        {t.dialog.ai.disagree}
-                    </Button>
-                    <Button onClick={routeToCircle}>{t.dialog.ai.agree}</Button>
-                </DialogActions>
-            </Dialog>
         </div>
     );
 };

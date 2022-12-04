@@ -11,21 +11,22 @@ export default {
                 address:
                     'Address: 201 Heim Angel Avenue, Karita, Osaka Shi Sumiyoshi Ku, Osaka Fu, 558-0011, Japan',
             },
-            product: {
-                label: 'Products',
+            service: {
+                label: 'Services',
                 deepai: 'DeepAI',
                 deepbook: 'DeepBook',
                 deepcircle: 'DeepCircle',
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
                 cmcn: 'DeepConnect',
+                magazine: 'DeepMagazine',
             },
             customerCare: {
                 label: 'Customer care',
                 privacyPolicy: 'Privacy policy',
                 contact: 'Contact',
                 lab: 'DeepLab',
-                community: 'Help & Support',
+                community: 'DeepNetwork',
                 aboutUs: 'About us',
             },
             sns: {
@@ -40,19 +41,20 @@ export default {
         },
         header: {
             others: 'Others',
-            community: 'Help & Support',
+            community: 'DeepNetwork',
             shop: 'Shop',
             blog: 'Blog',
+            contact: 'Contact us',
         },
         banner: {
             title: 'DeepRecommend Inc.',
             copy: "We're Here to Twist the Dimensionss.",
-            getStarted: 'Get started',
-            helpSupport: 'Help & Support',
+            getStarted: 'Services',
+            helpSupport: 'Community',
         },
         portfolio: {
-            title: 'Products',
-            subtitle: 'Here are some of our products',
+            title: 'Services',
+            subtitle: 'Here are some of our services',
             cmcn: {
                 title: 'DeepConnect',
                 description: 'Matching App of Idea & Skill（~ 10/24/2022）',
@@ -92,9 +94,9 @@ export default {
             },
         },
         feature: {
-            title: 'Features',
+            title: 'Philosophy',
             subtitle:
-                "Here you can check how we recommend products & our strength.\nYou'll find your dream a product in DeepRecommend",
+                "Here you can check how we recommend services & our strength.\nYou'll find your dream a service in DeepRecommend",
             num1: {
                 label: 'Feature 1',
                 section1: {
@@ -128,7 +130,7 @@ export default {
             },
         },
         technologyUsed: {
-            title: 'Technologies',
+            title: 'Technology',
             subtitle: 'We specialize in this technical stack.',
         },
         team: {
@@ -145,10 +147,10 @@ export default {
             subtitle: 'Please contact us from below.',
         },
         callToAction: {
-            title: 'Did you find the product you wanted?',
+            title: 'Did you find the service you wanted?',
             description:
-                'If you can\'t find the product you\'re looking for, please make a request in our <a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discord community!</a>',
-            action: 'Find a product',
+                'If you can\'t find the service you\'re looking for, please make a request in our <a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discord community!</a>',
+            action: 'Find a service',
         },
     },
     deeplog: {
@@ -207,30 +209,30 @@ export default {
             following purposes
           </h5>
           <div>
-            ・To accept registrations for our products, to identify and
+            ・To accept registrations for our services, to identify and
             authenticate customers
             <br />
-            ・To maintain a customer&lsquo;s usage history of our products
+            ・To maintain a customer&lsquo;s usage history of our services
             <br />
             ・For payment of usage fees
             <br />
-            ・To analyze customer&lsquo;s activity history on our products and
-            use it to maintain and improve our products <br />
+            ・To analyze customer&lsquo;s activity history on our services and
+            use it to maintain and improve our services <br />
             <br />
-            ・To provide information about our products
+            ・To provide information about our services
             <br />
             ・To respond to customer inquiries
             <br />
             ・To respond to violations of our terms and conditions or laws and
             regulations
             <br />
-            ・To inform you of changes to our products, discontinuation of
+            ・To inform you of changes to our services, discontinuation of
             provision, termination, or cancellation of contracts
             <br />
             ・To notify you of changes to our terms and conditions, etc.
             <br />
             ・In addition to the above, to provide, maintain, protect and
-            improve our products
+            improve our services
             <br />
             ・To display targeted advertising tailored to your interests and
             preferences
@@ -260,7 +262,7 @@ export default {
           </div>
           <div>
             ・When the handling of personal data is outsourced In the event of
-            an acquisition of our company or our products <br />
+            an acquisition of our company or our services <br />
             ・ When sharing with business partners (if there are specific joint
             uses, the details will be announced separately) <br />・ In other
             cases where provision to third parties is legally permitted by law
@@ -321,11 +323,11 @@ export default {
                 </tr>
                     <tr>
                     <td class="py-2">Mission</td>
-                <td>Create products that can be deeply recommended</td>
+                <td>Create services that can be deeply recommended</td>
                 </tr>
                     <tr>
                     <td class="py-2 pr-2">Business</td>
-                <td>Web products, mobile applications, machine learning, quantum computing, brain development, and research</td>
+                <td>Web services, mobile applications, machine learning, quantum computing, brain development, and research</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">CEO</td>
@@ -708,7 +710,7 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">14 years old</td>
-                            <td>Started playing guitar and wrote his first composition within 2 weeks. The title of the song is "Features". I sang about discrimination in appearance. </td><tr> <td class="py-2 pr-2">14 years old</td
+                            <td>Started playing guitar and wrote his first composition within 2 weeks. The title of the song is "Philosophy". I sang about discrimination in appearance. </td><tr> <td class="py-2 pr-2">14 years old</td
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">14 years old</td>

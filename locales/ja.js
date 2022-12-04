@@ -8,7 +8,7 @@ export default {
                 email: 'Email: deeprecommend@gmail.com',
                 address: '住所: 日本大阪府大阪市住吉区苅田5-16-3',
             },
-            product: {
+            service: {
                 label: 'サービス',
                 deepai: 'DeepAI',
                 deepbook: 'DeepBook',
@@ -16,6 +16,7 @@ export default {
                 deeplog: 'DeepLog',
                 deeplab: 'DeepLab',
                 cmcn: 'DeepConnect',
+                magazine: 'DeepMagazine',
             },
             customerCare: {
                 label: 'カスタマーケア',
@@ -41,6 +42,7 @@ export default {
             community: 'コミュニティー',
             shop: 'ショップ',
             blog: 'ブログ',
+            contact: 'お問い合わせ',
         },
         banner: {
             title: 'DeepRecommend株式会社',

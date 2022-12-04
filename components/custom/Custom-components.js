@@ -34,14 +34,18 @@ const CustomComponents = () => {
             <Banner2 />
             <PortfolioComponent />
             {/* 実績 */}
-            {/* <WorkComponent /> */}
+
             {/* <BannerComponent />
-      <FormBannerComponent /> */}
+            <FormBannerComponent /> */}
 
             <TechnologyUsed />
-            <FeatureComponent />
 
-            {/* <TestimonialComponent/> */}
+            {/* 
+            TODO: 信頼
+            <WorkComponent />
+            <TestimonialComponent /> */}
+
+            <FeatureComponent />
 
             {/* <PricingComponent /> */}
             {/* <TwitterEmbedded /> */}
