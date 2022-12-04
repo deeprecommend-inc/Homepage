@@ -84,14 +84,14 @@ const HeaderComponent = localePath => {
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
                                 <NavItem
                                     onClick={() => {
-                                        routerPush('/deepai');
+                                        routerPush('/thinking');
                                     }}
                                 >
                                     <NavLink>DeepAI</NavLink>
                                 </NavItem>
                                 <NavItem
                                     onClick={() => {
-                                        routerPush('/deepmagazine');
+                                        routerPush('/thinking');
                                     }}
                                 >
                                     <NavLink>DeepMagazine</NavLink>

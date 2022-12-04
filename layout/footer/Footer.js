@@ -66,7 +66,7 @@ const Footer = () => {
                         </h5>
                         <div
                             onClick={() => {
-                                routerPush('/deepai');
+                                routerPush('/thinking');
                             }}
                         >
                             <a className="link">
@@ -75,7 +75,7 @@ const Footer = () => {
                         </div>
                         <div
                             onClick={() => {
-                                routerPush('/deepmagazine');
+                                routerPush('/thinking');
                             }}
                         >
                             <a className="link">
