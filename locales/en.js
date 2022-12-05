@@ -94,7 +94,7 @@ export default {
             },
         },
         feature: {
-            title: 'Philosophy',
+            title: 'Feature',
             subtitle:
                 "Here you can check how we recommend services & our strength.\nYou'll find your dream a service in DeepRecommend",
             num1: {
