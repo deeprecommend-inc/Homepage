@@ -16,10 +16,10 @@ export const MagazineContentsComponent = () => {
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
                             <h1 className="title font-bold">
-                                {t.index.technologyUsed.title}
+                                {t.index.contents.title}
                             </h1>
                             <h6 className="subtitle">
-                                {t.index.technologyUsed.subtitle}
+                                {t.index.contents.subtitle}
                             </h6>
                         </Col>
                     </Row>
@@ -35,7 +35,7 @@ export const MagazineContentsComponent = () => {
                             >
                                 <CardBody>
                                     <h6 className="font-light m-b-30 text-center">
-                                        Web
+                                        Deep Tech
                                     </h6>
                                     <Container>
                                         <Row className="testi3 m-t-40 justify-content-start">
@@ -77,7 +77,7 @@ export const MagazineContentsComponent = () => {
                             <Card className="card-shadow" data-aos="fade-up">
                                 <CardBody>
                                     <h6 className="font-light m-b-30 text-center">
-                                        AI / Quantum
+                                        Deep Tech
                                     </h6>
                                     <Container>
                                         <Row className="testi3 m-t-40 justify-content-start">

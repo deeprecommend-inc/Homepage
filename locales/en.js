@@ -133,6 +133,10 @@ export default {
             title: 'Technology',
             subtitle: 'We specialize in this technical stack.',
         },
+        contents: {
+            title: 'Contents',
+            subtitle: 'We will focus on the contents of this section.',
+        },
         team: {
             title: 'Team',
             subtitle: 'Here are some of our teammates.',
@@ -383,6 +387,13 @@ export default {
         },
     },
     page: {
+        deepmagazine: {
+            title: 'DeepMagazine',
+            h1: 'DeepTech and Business Magazine',
+            h6:
+                'We recommended for the following people.\n・Want to use deep tech to solve problems\n・Want to know the latest science and technology\n・Want to share the knowledge and values of deep recommendations.\nAll for free.',
+            getStarted: 'Get Started for Free',
+        },
         deeplog: {
             title: 'DeepLog',
             h1: 'System of website to manage the website',

@@ -132,6 +132,10 @@ export default {
             title: '使用技術',
             subtitle: 'こちらの技術スタックは我々にお任せください。',
         },
+        contents: {
+            title: '内容',
+            subtitle: 'こちらの内容を中心に扱っていきます。',
+        },
         team: {
             title: 'チーム',
             subtitle: 'DeepRecommendのチームメイトをご紹介します。',
@@ -341,6 +345,13 @@ export default {
         },
     },
     page: {
+        deepmagazine: {
+            title: 'DeepMagazine',
+            h1: 'ディープテックとビジネスの\nマガジン',
+            h6:
+                '以下のような方におすすめです。\n・ディープテックを活用して課題解決がしたい\n・最新の科学技術を知りたい\n・ディープレコメンドの知見や価値観を共有して欲しい\n全ては無料。',
+            getStarted: 'Get Started for Free',
+        },
         deeplog: {
             title: 'DeepLog＜ディープログ＞',
             h1: 'Webサイトを一元で管理するためのWebサイト',

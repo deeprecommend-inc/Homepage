@@ -23,16 +23,16 @@ const BannerComponentForDeepMagazine = () => {
                     <Row className="">
                         <Col md="6" className="align-self-center">
                             <span className="label label-rounded label-inverse">
-                                {t.page.deeplog.title}
+                                {t.page.deepmagazine.title}
                             </span>
-                            <h1 className="my-2">{t.page.deeplog.h1}</h1>
-                            <h6 className="my-5">{t.page.deeplog.h6}</h6>
+                            <h1 className="my-2">{t.page.deepmagazine.h1}</h1>
+                            <h6 className="my-5">{t.page.deepmagazine.h6}</h6>
                             <a
                                 className="btn btn-light btn-outline-primary btn-md m-t-20"
                                 data-toggle="collapse"
                                 onClick={scrollToRegisterMagazine}
                             >
-                                <span>{t.page.deeplog.getStarted}</span>
+                                <span>{t.page.deepmagazine.getStarted}</span>
                             </a>
                         </Col>
                         <Col md="6">
