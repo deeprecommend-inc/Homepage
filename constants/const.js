@@ -32,6 +32,9 @@ import tensorflow from '../assets/images/tech/ai/tensorflow.png';
 import sympy from '../assets/images/tech/ai/sympy.png';
 import qiskit from '../assets/images/tech/quantum/qiskit.png';
 import blueqat from '../assets/images/tech/quantum/blueqat.jpg';
+import discord from '../assets/images/icons/discord.png';
+import line from '../assets/images/icons/line.png';
+import email from '../assets/images/icons/email.png';
 
 export const site = {
     home: 'https://deep-recommend.com',
