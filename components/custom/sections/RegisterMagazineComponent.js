@@ -56,7 +56,7 @@ const RegisterMagazineComponent = () => {
                                     className="btn btn-info p-15 btn-arrow btn-block"
                                     href="#"
                                 >
-                                    CHOOSE PLAN{' '}
+                                    CHOOSE PLAN
                                 </a>
                             </Card>
                         </Col>

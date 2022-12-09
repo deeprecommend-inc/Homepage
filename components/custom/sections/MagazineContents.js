@@ -1,13 +1,28 @@
 /* eslint-disable */
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 import Image from 'next/image';
-import { techUsed } from '../../../constants/const';
+import connectImg from '../../../assets/images/portfolio/deepConnect.jpg';
+import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
-import Link from 'next/link';
 
-export const MagazineContentsComponent = () => {
+const normalStyle = { padding: '0', height: '256px' };
+const endStyle = {
+    padding: '0',
+    height: '256px',
+    opacity: '0.5',
+    backgroundColor: 'black',
+};
+
+const WorkComponent = () => {
+    const [ready, setReady] = useState(false);
     const { t } = useLocale();
+
+    useEffect(() => {
+        setReady(true);
+    }, []);
+
+    if (!ready) return <></>;
 
     return (
         <div>
@@ -16,147 +31,38 @@ export const MagazineContentsComponent = () => {
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
                             <h1 className="title font-bold">
-                                {t.index.contents.title}
+                                {t.index.work.title}
                             </h1>
                             <h6 className="subtitle">
-                                {t.index.contents.subtitle}
+                                {t.index.work.subtitle}
                             </h6>
                         </Col>
                     </Row>
                 </Container>
             </div>
-            <div className="testimonial3 spacer">
+            <div className="spacer">
                 <Container>
-                    <Row className="testi3 m-t-40 justify-content-center">
-                        <Col lg="4" md="6">
-                            <Card
-                                className="card-shadow"
-                                data-aos="fade-up-right"
-                            >
+                    <Row className="m-t-40 justify-content-center">
+                        <Col md="4" data-aos="fade-up">
+                            <Card className="card-shadow">
+                                <div
+                                    style={normalStyle}
+                                    href={site.deepMatching}
+                                    className="img-ho"
+                                >
+                                    <Image
+                                        className="card-img-top"
+                                        src={connectImg}
+                                        alt="wrappixel kit"
+                                    />
+                                </div>
                                 <CardBody>
-                                    <h6 className="font-light m-b-30 text-center">
-                                        Deep Tech
-                                    </h6>
-                                    <Container>
-                                        <Row className="testi3 m-t-40 justify-content-start">
-                                            {techUsed.web.map(tech => {
-                                                return (
-                                                    <Col
-                                                        xs="4"
-                                                        lg="4"
-                                                        md="6"
-                                                        className="mt-2"
-                                                        href={tech.url}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        key={tech.name}
-                                                    >
-                                                        <a
-                                                            href={tech.url}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                        >
-                                                            <Image
-                                                                src={tech.img}
-                                                                alt="wrapkit"
-                                                                className="circle"
-                                                            />
-                                                            <p className="font-10">
-                                                                {tech.name}
-                                                            </p>
-                                                        </a>
-                                                    </Col>
-                                                );
-                                            })}
-                                        </Row>
-                                    </Container>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col lg="4" md="6">
-                            <Card className="card-shadow" data-aos="fade-up">
-                                <CardBody>
-                                    <h6 className="font-light m-b-30 text-center">
-                                        Deep Tech
-                                    </h6>
-                                    <Container>
-                                        <Row className="testi3 m-t-40 justify-content-start">
-                                            {techUsed.ai.map(tech => {
-                                                return (
-                                                    <Col
-                                                        xs="4"
-                                                        lg="4"
-                                                        md="6"
-                                                        className="mt-2"
-                                                        href={tech.url}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        key={tech.name}
-                                                    >
-                                                        <a
-                                                            href={tech.url}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                        >
-                                                            <Image
-                                                                src={tech.img}
-                                                                alt="wrapkit"
-                                                                className="circle"
-                                                            />
-                                                            <p className="font-10">
-                                                                {tech.name}
-                                                            </p>
-                                                        </a>
-                                                    </Col>
-                                                );
-                                            })}
-                                        </Row>
-                                    </Container>
-                                </CardBody>
-                            </Card>
-                        </Col>
-                        <Col lg="4" md="6">
-                            <Card
-                                className="card-shadow"
-                                data-aos="fade-up-left"
-                            >
-                                <CardBody>
-                                    <h6 className="font-light m-b-30 text-center">
-                                        Quantum
-                                    </h6>
-                                    <Container>
-                                        <Row className="testi3 m-t-40 justify-content-start">
-                                            {techUsed.quantum.map(tech => {
-                                                return (
-                                                    <Col
-                                                        xs="4"
-                                                        lg="4"
-                                                        md="6"
-                                                        className="mt-2"
-                                                        href={tech.url}
-                                                        target="_blank"
-                                                        rel="noopener noreferrer"
-                                                        key={tech.name}
-                                                    >
-                                                        <a
-                                                            href={tech.url}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                        >
-                                                            <Image
-                                                                src={tech.img}
-                                                                alt="wrapkit"
-                                                                className="circle"
-                                                            />
-                                                            <p className="font-10">
-                                                                {tech.name}
-                                                            </p>
-                                                        </a>
-                                                    </Col>
-                                                );
-                                            })}
-                                        </Row>
-                                    </Container>
+                                    <h5 className="font-medium m-b-0">
+                                        {t.index.work.cmcn.title}
+                                    </h5>
+                                    <p className="m-b-0 font-14">
+                                        {t.index.work.cmcn.description}
+                                    </p>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -167,4 +73,4 @@ export const MagazineContentsComponent = () => {
     );
 };
 
-export default MagazineContentsComponent;
+export default WorkComponent;

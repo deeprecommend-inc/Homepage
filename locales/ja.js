@@ -347,10 +347,10 @@ export default {
     page: {
         deepmagazine: {
             title: 'DeepMagazine',
-            h1: 'ディープテックとビジネスの\nマガジン',
+            h1: 'ディープテック＆ビジネス\nマガジン',
             h6:
-                '以下のような方におすすめです。\n・ディープテックを活用して課題解決がしたい\n・最新の科学技術を知りたい\n・ディープレコメンドの知見や価値観を共有して欲しい\n全ては無料。',
-            getStarted: 'Get Started for Free',
+                '以下のような方におすすめです。\n\n・現場の最新の科学技術が知りたい\n・DeepRecommendの内部事情が知りたい\n・ディープテックを活用して課題解決がしたい\n\nDeepLabでは技術の課題にフォーカスしますが、\nDeepMagazineでは人の課題にフォーカスします。\n\n全ては無料。',
+            getStarted: '無料で購読する',
         },
         deeplog: {
             title: 'DeepLog＜ディープログ＞',

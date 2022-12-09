@@ -391,8 +391,8 @@ export default {
             title: 'DeepMagazine',
             h1: 'DeepTech and Business Magazine',
             h6:
-                'We recommended for the following people.\n・Want to use deep tech to solve problems\n・Want to know the latest science and technology\n・Want to share the knowledge and values of deep recommendations.\nAll for free.',
-            getStarted: 'Get Started for Free',
+                'We recommended for the following people.\n\n・Want to use deep tech to solve problems\n・Want to know the latest science and technology\n・Want to share the knowledge and values of deep recommendations.\n\nDeepLab focuses on more practical, technical issues with source code, etc., but DeepMagazine focuses on human issues.\n\nAll for free. ',
+            getStarted: 'Subscribe for Free',
         },
         deeplog: {
             title: 'DeepLog',
