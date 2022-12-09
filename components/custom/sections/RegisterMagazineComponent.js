@@ -1,5 +1,7 @@
 import React from 'react';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
+import Image from 'next/image';
+import { line, discord, email } from '../../../constants/const';
 
 const RegisterMagazineComponent = () => {
     return (
@@ -38,14 +40,16 @@ const RegisterMagazineComponent = () => {
                         >
                             <Card className="b-all">
                                 <CardBody className="p-30 text-center">
-                                    <h5>Regular Plan</h5>
-                                    <sup>$</sup>
+                                    <h5>Discord Plan</h5>
                                     <span className="text-dark display-5">
-                                        39
+                                    <Image
+                                        src={discord}
+                                        width={300}
+                                        height={300}
+                                        alt="wrapkit"
+                                        className="circle"
+                                    />
                                     </span>
-                                    <h6 className="font-light font-14">
-                                        YEARLY
-                                    </h6>
                                     <p className="m-t-40">
                                         The Master license allows you to
                                         customize, store and even host your
@@ -66,14 +70,10 @@ const RegisterMagazineComponent = () => {
                         >
                             <Card className="b-all">
                                 <CardBody className="p-30 text-center">
-                                    <h5>Master Plan</h5>
-                                    <sup>$</sup>
+                                    <h5>LINE Plan</h5>
                                     <span className="text-dark display-5">
                                         49
                                     </span>
-                                    <h6 className="font-light font-14">
-                                        YEARLY
-                                    </h6>
                                     <p className="m-t-40">
                                         The Master license allows you to
                                         customize, store and even host your
@@ -84,7 +84,7 @@ const RegisterMagazineComponent = () => {
                                     className="btn btn-danger p-15 btn-arrow btn-block"
                                     href="#"
                                 >
-                                    CHOOSE PLAN{' '}
+                                    CHOOSE PLAN
                                 </a>
                             </Card>
                         </Col>
@@ -94,14 +94,11 @@ const RegisterMagazineComponent = () => {
                         >
                             <Card className="b-all">
                                 <CardBody className="p-30 text-center">
-                                    <h5>Premium Plan</h5>
+                                    <h5>Email Plan</h5>
                                     <sup>$</sup>
                                     <span className="text-dark display-5">
                                         69
                                     </span>
-                                    <h6 className="font-light font-14">
-                                        YEARLY
-                                    </h6>
                                     <p className="m-t-40">
                                         The Master license allows you to
                                         customize, store and even host your
