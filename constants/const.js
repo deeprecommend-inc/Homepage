@@ -62,6 +62,8 @@ export const site = {
     zenn: 'https://zenn.dev/deeprecommend',
     deepconnectBanner: 'https://deepconnect.my.canva.site/',
     deepAi: 'https://github.com/deep-recommend/DeepAi',
+    line: 'https://line.me/R/ti/p/@990clvuz',
+    email: 'https://share.hsforms.com/1pgUww_kBRZyYq6iJqVcS-wdxi9l',
 };
 
 export const sugimoto = {
