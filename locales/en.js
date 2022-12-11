@@ -398,6 +398,7 @@ export default {
                 subtitle: '',
                 header: '',
                 subheader: '',
+                discord: ''
             }
         },
         deeplog: {
