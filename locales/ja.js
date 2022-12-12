@@ -52,7 +52,7 @@ export default {
         },
         portfolio: {
             title: 'サービス',
-            subtitle: '私たちのサービス一覧',
+            subtitle: '我々のサービス一覧',
             cmcn: {
                 title: 'DeepConnect｜ディープコネクト',
                 description:
@@ -86,7 +86,7 @@ export default {
         },
         work: {
             title: '制作実績',
-            subtitle: '私たちの制作実績',
+            subtitle: '我々の制作実績',
             cmcn: {
                 title: 'DeepConnect',
                 description:
@@ -95,7 +95,7 @@ export default {
         },
         feature: {
             title: '特徴',
-            subtitle: '私たちのサービス、そしてカスタマーとの向き合い方の特徴',
+            subtitle: '我々のサービス、カスタマーとの向き合い方の特徴',
             num1: {
                 label: '特徴 1',
                 section1: {
@@ -106,7 +106,7 @@ export default {
                 section2: {
                     title: 'オススメ',
                     subtitle:
-                        '「おすすめできるか？」と問います。 もし答えが「NO」なら, まだ改善の余地があるということです。そうすることで、私たちはより洗練された感覚意識を与えることができます。',
+                        '「おすすめできるか？」と問います。 もしおすすめできないのなら, まだ改善の余地があるということです。そうすることで、我々はより洗練された感覚意識をつくることができます。',
                 },
             },
             num2: {
@@ -114,7 +114,7 @@ export default {
                 section1: {
                     title: '創造性',
                     subtitle:
-                        '私たちは「不確定」に果敢に挑戦し続けることで、\n新たな価値を生み出し続けます。',
+                        '我々は「不確実」に果敢に挑戦し続けることで、\n新たな価値を生み出し続けます。',
                 },
                 section2: {
                     title: '価値を生み出す人の背中を押します。',
@@ -125,12 +125,16 @@ export default {
                 label: '特徴 3',
                 title: '深い思考',
                 subtitle:
-                    '私たちが本当に求めている感覚意識は普段意識しているより深い場所にあります。深い思考をすることで、求めていた感覚意識に出会えます。',
+                    '我々が本当に求めている感覚意識は普段意識しているより深い場所にあります。深い思考をすることで、求めていた感覚意識に出会えます。',
             },
         },
         technologyUsed: {
             title: '使用技術',
             subtitle: 'こちらの技術スタックは我々にお任せください。',
+        },
+        contents: {
+            title: '内容',
+            subtitle: 'こちらの内容を中心に扱っていきます。',
         },
         team: {
             title: 'チーム',
@@ -341,6 +345,25 @@ export default {
         },
     },
     page: {
+        deepmagazine: {
+            title: 'DeepMagazine',
+            h1: 'ディープテック＆ビジネス\nマガジン',
+            h6:
+                '以下のような方におすすめです。\n\n・現場の最新の科学技術が知りたい\n・DeepRecommendの裏側が知りたい\n・ディープテックを活用して課題解決がしたい\n\nDeepLabでは技術の課題にフォーカスしますが、\nDeepMagazineでは人の課題にフォーカスします。\n\n無料です。',
+            getStarted: '購読する',
+            subscribe: {
+                title: '購読する',
+                subtitle: '以下に登録して、DeepMagazineを無料で購読する。',
+                header:
+                    'あなたのスタイルに適した受信方法をお選びいただけます。',
+                subheader: '迷ったらLINEがおすすめです。',
+                advantage: {
+                    discord: 'コミュニティー性を重視したい',
+                    line: 'リアルタイム性を重視したい',
+                    email: '内容と信頼性を重視したい',
+                },
+            },
+        },
         deeplog: {
             title: 'DeepLog＜ディープログ＞',
             h1: 'Webサイトを一元で管理するためのWebサイト',

@@ -7,6 +7,27 @@ import { imgUrl, site } from '../constants/const';
 import ContactComponent from '../components/custom/sections/contact';
 import Footer from '../layout/footer/Footer';
 import CallToAction from '../components/call-to-action/CallToAction';
+import Banner2 from '../components/banner/Banner2';
+import PortfolioComponent from '../components/custom/sections/portfoliocomponent';
+import TechnologyUsed from '../components/custom/sections/technologyUsed';
+import BannerComponent from '../components/custom/sections/bannercomponent';
+import FormBannerComponent from '../components/custom/sections/formbannercomponent';
+import WorkComponent from '../components/custom/sections/workcomponent';
+import TestimonialComponent from '../components/custom/sections/testimonialcomponent';
+import FeatureComponent from '../components/custom/sections/featurecomponent';
+import PricingComponent from '../components/custom/sections/pricingcomponent';
+import TwitterEmbedded from '../components/custom/sections/twitter';
+import SDGsComponent from '../components/custom/sections/SDGs';
+import TeamComponent from '../components/custom/sections/teamcomponent';
+import {
+    C2aComponent,
+    OnlyAskForQuestion,
+} from '../components/custom/sections/c2acomponent';
+import BlogComponent from '../components/custom/sections/blogcomponent';
+import BannerComponentForDeepLog from '../components/custom/sections/bannercomponentForDeepLog';
+import MagazineContentsComponent from '../components/custom/sections/MagazineContents';
+import RegisterMagazineComponent from '../components/custom/sections/RegisterMagazineComponent';
+import BannerComponentForDeepMagazine from '../components/custom/sections/BannerForDeepMagazine';
 
 const DeepMagazine = () => {
     const { t, locale } = useLocale();
@@ -49,46 +70,12 @@ const DeepMagazine = () => {
                 }}
             />
             <HeaderComponent />
-            {/* <div style={{ width: '70vw', margin: '0 auto' }}>
-                {locale === 'en' ? (
-                    <>
-                        <img src="/circle_en/2.png" />
-                        <img src="/circle_en/4.png" />
-                        <img src="/circle_en/6.png" />
-                        <img src="/circle_en/8.png" />
-                        <img
-                            src="/circle_en/10.png"
-                            style={{ opacity: '0.5' }}
-                        />
-                        <img
-                            src="/circle_en/12.png"
-                            style={{ opacity: '0.5' }}
-                        />
-                        <img src="/circle_en/18.png" />
-                        <img src="/circle_en/14.png" />
-                        <img src="/circle_en/16.png" />
-                    </>
-                ) : (
-                    <>
-                        <img src="/circle_ja/1.png" />
-                        <img src="/circle_ja/3.png" />
-                        <img src="/circle_ja/5.png" />
-                        <img src="/circle_ja/7.png" />
-                        <img
-                            src="/circle_ja/9.png"
-                            style={{ opacity: '0.5' }}
-                        />
-                        <img
-                            src="/circle_ja/11.png"
-                            style={{ opacity: '0.5' }}
-                        />
-                        <img src="/circle_ja/17.png" />
-                        <img src="/circle_ja/13.png" />
-                        <img src="/circle_ja/15.png" />
-                    </>
-                )}
-            </div> */}
-            <ContactComponent needsTitle={false} />
+            <BannerComponentForDeepMagazine />
+            {/* <MagazineContentsComponent /> */}
+            <FeatureComponent />
+            {/* <TestimonialComponent /> */}
+            <RegisterMagazineComponent />
+
             <Footer />
         </>
     );

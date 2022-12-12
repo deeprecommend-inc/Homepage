@@ -75,7 +75,7 @@ const Footer = () => {
                         </div>
                         <div
                             onClick={() => {
-                                routerPush('/thinking');
+                                routerPush('/magazine');
                             }}
                         >
                             <a className="link">

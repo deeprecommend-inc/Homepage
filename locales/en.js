@@ -94,7 +94,7 @@ export default {
             },
         },
         feature: {
-            title: 'Philosophy',
+            title: 'Feature',
             subtitle:
                 "Here you can check how we recommend services & our strength.\nYou'll find your dream a service in DeepRecommend",
             num1: {
@@ -132,6 +132,10 @@ export default {
         technologyUsed: {
             title: 'Technology',
             subtitle: 'We specialize in this technical stack.',
+        },
+        contents: {
+            title: 'Contents',
+            subtitle: 'We will focus on the contents of this section.',
         },
         team: {
             title: 'Team',
@@ -383,6 +387,26 @@ export default {
         },
     },
     page: {
+        deepmagazine: {
+            title: 'DeepMagazine',
+            h1: 'DeepTech and Business Magazine',
+            h6:
+                'We recommended for the following people.\n\n・Want to use deep tech to solve problems\n・Want to know the latest science and technology\n・Want to share the knowledge and values of deep recommendations.\n\nDeepLab focuses on more practical, technical issues with source code, etc., but DeepMagazine focuses on human issues.\n\nAll for free. ',
+            getStarted: 'Subscribe',
+            subscribe: {
+                title: 'Subscribe',
+                subtitle:
+                    'Subscribe to DeepMagazine for free by registering below.',
+                header:
+                    'You can choose the receiving method that best suits your style.',
+                subheader: 'If in doubt, we recommend LINE.',
+                advantage: {
+                    discord: 'Focus on community',
+                    line: 'Focus on real-time performance.',
+                    email: 'Focus on content and reliability.',
+                },
+            },
+        },
         deeplog: {
             title: 'DeepLog',
             h1: 'System of website to manage the website',

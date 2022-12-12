@@ -32,6 +32,9 @@ import tensorflow from '../assets/images/tech/ai/tensorflow.png';
 import sympy from '../assets/images/tech/ai/sympy.png';
 import qiskit from '../assets/images/tech/quantum/qiskit.png';
 import blueqat from '../assets/images/tech/quantum/blueqat.jpg';
+import discord from '../assets/images/icons/discord.png';
+import line from '../assets/images/icons/line.png';
+import email from '../assets/images/icons/email.png';
 
 export const site = {
     home: 'https://deep-recommend.com',
@@ -59,6 +62,8 @@ export const site = {
     zenn: 'https://zenn.dev/deeprecommend',
     deepconnectBanner: 'https://deepconnect.my.canva.site/',
     deepAi: 'https://github.com/deep-recommend/DeepAi',
+    line: 'https://line.me/R/ti/p/@990clvuz',
+    email: 'https://share.hsforms.com/1pgUww_kBRZyYq6iJqVcS-wdxi9l',
 };
 
 export const sugimoto = {
