@@ -71,7 +71,7 @@ const RegisterMagazineComponent = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    CHOOSE PLAN
+                                    SUBSCRIBE
                                 </a>
                             </Card>
                         </Col>
@@ -108,7 +108,7 @@ const RegisterMagazineComponent = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    CHOOSE PLAN
+                                    SUBSCRIBE
                                 </a>
                             </Card>
                         </Col>
@@ -145,7 +145,7 @@ const RegisterMagazineComponent = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    CHOOSE PLAN{' '}
+                                    SUBSCRIBE
                                 </a>
                             </Card>
                         </Col>
