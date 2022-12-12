@@ -121,12 +121,12 @@ export const Chatbot = () => {
                                             label: 'I want AI on my behalf.',
                                             trigger: '4',
                                         },
-                                        {
-                                            value: 2,
-                                            label:
-                                                'I want AI to act on my behalf.',
-                                            trigger: '3',
-                                        },
+                                        // {
+                                        //     value: 2,
+                                        //     label:
+                                        //         'I want AI to act on my behalf.',
+                                        //     trigger: '3',
+                                        // },
                                         {
                                             value: 5,
                                             label:
@@ -195,11 +195,11 @@ export const Chatbot = () => {
                                             label: 'AIを代行してほしい',
                                             trigger: '4',
                                         },
-                                        {
-                                            value: 2,
-                                            label: 'AIを代行したい',
-                                            trigger: '3',
-                                        },
+                                        // {
+                                        //     value: 2,
+                                        //     label: 'AIを代行したい',
+                                        //     trigger: '3',
+                                        // },
                                         {
                                             value: 5,
                                             label:
