@@ -3,20 +3,24 @@ import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 import Image from 'next/image';
 import discord from '../../../assets/images/icons/discord.png';
 import line from '../../../assets/images/icons/line.png';
-import email from  '../../../assets/images/icons/email.png';
+import email from '../../../assets/images/icons/email.png';
 import { site } from '../../../constants/const';
-
+import { useLocale } from '../../../locales/useLocale';
 
 const RegisterMagazineComponent = () => {
+    const { t } = useLocale();
+
     return (
         <div>
             <div className="spacer bg-light">
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                            <h1 className="title font-bold">購読する</h1>
+                            <h1 className="title font-bold">
+                                {t.page.deepmagazine.subscribe.title}
+                            </h1>
                             <h6 className="subtitle">
-                                以下に登録して、DeepMagazineを無料で購読する。
+                                {t.page.deepmagazine.subscribe.subtitle}
                             </h6>
                         </Col>
                     </Row>
@@ -27,10 +31,10 @@ const RegisterMagazineComponent = () => {
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
                             <h2 className="title">
-                                あなたのスタイルに適した受信方法をお選びいただけます。
+                                {t.page.deepmagazine.subscribe.header}
                             </h2>
                             <h6 className="subtitle">
-                               迷ったらLINEがおすすめです。
+                                {t.page.deepmagazine.subscribe.subheader}
                             </h6>
                         </Col>
                     </Row>
@@ -52,14 +56,17 @@ const RegisterMagazineComponent = () => {
                                     </span>
                                     */}
                                     <p className="m-t-40">
-                                        コミュニティー性を重視したい
+                                        {
+                                            t.page.deepmagazine.subscribe
+                                                .advantage.discord
+                                        }
                                     </p>
                                 </CardBody>
                                 <a
                                     className="btn p-15 btn-arrow btn-block"
                                     href={site.discord}
                                     style={{
-                                        backgroundColor: '#8D9DFE'
+                                        backgroundColor: '#8D9DFE',
                                     }}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -86,13 +93,16 @@ const RegisterMagazineComponent = () => {
                                     </span>
                                     */}
                                     <p className="m-t-40">
-                                        リアルタイム性を重視したい
+                                        {
+                                            t.page.deepmagazine.subscribe
+                                                .advantage.line
+                                        }
                                     </p>
                                 </CardBody>
                                 <a
                                     className="btn p-15 btn-arrow btn-block"
                                     style={{
-                                        backgroundColor:'#02C754'
+                                        backgroundColor: '#02C754',
                                     }}
                                     href={site.line}
                                     target="_blank"
@@ -120,13 +130,16 @@ const RegisterMagazineComponent = () => {
                                         69
                                     </span> */}
                                     <p className="m-t-40">
-                                        内容と信頼性を重視したい
+                                        {
+                                            t.page.deepmagazine.subscribe
+                                                .advantage.email
+                                        }
                                     </p>
                                 </CardBody>
                                 <a
                                     className="btn p-15 btn-arrow btn-block"
                                     style={{
-                                        backgroundColor: '#8C8076'
+                                        backgroundColor: '#8C8076',
                                     }}
                                     href={site.email}
                                     target="_blank"

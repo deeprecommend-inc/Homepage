@@ -43,10 +43,10 @@ export const Chatbot = () => {
         console.log({ value: values[0] });
         switch (values[0]) {
             case 1:
-                router.push('deepai');
+                router.push('thinking');
                 break;
             case 2:
-                router.push('deepai');
+                router.push('thinking');
                 break;
             case 3:
                 windowOpen(site.deepLab);
@@ -55,7 +55,7 @@ export const Chatbot = () => {
                 windowOpen(site.discord);
                 break;
             case 5:
-                router.push('deepcircle');
+                router.push('magazine');
                 break;
             default:
                 break;
@@ -128,52 +128,48 @@ export const Chatbot = () => {
                                             trigger: '3',
                                         },
                                         {
-                                            value: 3,
-                                            label:
-                                                'I want to know about AI, Quantum Computers, Brain Tech, and other DeepTech.',
-                                            trigger: '6',
-                                        },
-                                        {
-                                            value: 4,
-                                            label:
-                                                'I want to have friends to share information about technology and business.',
-                                            trigger: '7',
-                                        },
-                                        {
                                             value: 5,
                                             label:
-                                                "I'd like to see more asynchronous and direct sharing of in-depth technical, marketing, and other knowledge in the field.",
+                                                'I want to know about AI, quantum computing, brain machines, and other DeepTech.',
                                             trigger: '5',
                                         },
+                                        // {
+                                        //     value: 3,
+                                        //     label:
+                                        //         'I want to read DeepTech articles.',
+                                        //     trigger: '6',
+                                        // },
+                                        // {
+                                        //     value: 4,
+                                        //     label:
+                                        //         'I want to join the DeepTech community.',
+                                        //     trigger: '7',
+                                        // },
                                     ],
                                 },
                                 {
                                     id: '3',
-                                    message:
-                                        'We recommend DeepAI.（Agency fee $39）',
+                                    message: 'We recommend DeepAI.',
                                     end: true,
                                 },
                                 {
                                     id: '4',
-                                    message:
-                                        'We recommend DeepAI.（Free user registration）',
+                                    message: 'We recommend DeepAI.',
                                     end: true,
                                 },
                                 {
                                     id: '5',
-                                    message:
-                                        'We recommend DeepCircle.（$9.9 per month）',
+                                    message: 'We recommend DeepMagazine.',
                                     end: true,
                                 },
                                 {
                                     id: '6',
-                                    message: 'We recommend DeepLab（Free）',
+                                    message: 'We recommend DeepLab.',
                                     end: true,
                                 },
                                 {
                                     id: '7',
-                                    message:
-                                        'We recommend DeepNetwork.（Free & Special Benefits）',
+                                    message: 'We recommend DeepNetwork.',
                                     end: true,
                                 },
                             ]}
@@ -205,51 +201,47 @@ export const Chatbot = () => {
                                             trigger: '3',
                                         },
                                         {
-                                            value: 3,
-                                            label:
-                                                'AI・量子コンピュータ・ブレインテックなどのDeepTechについて知りたい',
-                                            trigger: '6',
-                                        },
-                                        {
-                                            value: 4,
-                                            label:
-                                                '技術やビジネスについて情報共有できる仲間が欲しい',
-                                            trigger: '7',
-                                        },
-                                        {
                                             value: 5,
                                             label:
-                                                'もっと現場の深い技術やマーケティングなど知見を非同期で直接共有して欲しい',
+                                                'AI・量子コンピューティング・ブレインマシンなどのDeepTechについて知りたい',
                                             trigger: '5',
                                         },
+                                        // {
+                                        //     value: 3,
+                                        //     label: 'DeepTechの記事を読みたい',
+                                        //     trigger: '6',
+                                        // },
+                                        // {
+                                        //     value: 4,
+                                        //     label:
+                                        //         'DeepTechのコミュニティーに参加したい',
+                                        //     trigger: '7',
+                                        // },
                                     ],
                                 },
                                 {
                                     id: '3',
-                                    message:
-                                        'DeepAIがおすすめです（代行料金3,999円）',
+                                    message: 'DeepAIがおすすめです',
                                     end: true,
                                 },
                                 {
                                     id: '4',
-                                    message: 'DeepAIがおすすめです（登録無料）',
+                                    message: 'DeepAIがおすすめです',
                                     end: true,
                                 },
                                 {
                                     id: '5',
-                                    message:
-                                        'DeepCircleがおすすめです（月額999円）',
+                                    message: 'DeepMagazineがおすすめです',
                                     end: true,
                                 },
                                 {
                                     id: '6',
-                                    message: 'DeepLabがおすすめです（無料）',
+                                    message: 'DeepLabがおすすめです',
                                     end: true,
                                 },
                                 {
                                     id: '7',
-                                    message:
-                                        'DeepNetworkがおすすめです（無料&参加特典配布）',
+                                    message: 'DeepNetworkがおすすめです',
                                     end: true,
                                 },
                             ]}

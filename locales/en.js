@@ -392,14 +392,20 @@ export default {
             h1: 'DeepTech and Business Magazine',
             h6:
                 'We recommended for the following people.\n\n・Want to use deep tech to solve problems\n・Want to know the latest science and technology\n・Want to share the knowledge and values of deep recommendations.\n\nDeepLab focuses on more practical, technical issues with source code, etc., but DeepMagazine focuses on human issues.\n\nAll for free. ',
-            getStarted: 'Subscribe for Free',
+            getStarted: 'Subscribe',
             subscribe: {
-                title: '',
-                subtitle: '',
-                header: '',
-                subheader: '',
-                discord: ''
-            }
+                title: 'Subscribe',
+                subtitle:
+                    'Subscribe to DeepMagazine for free by registering below.',
+                header:
+                    'You can choose the receiving method that best suits your style.',
+                subheader: 'If in doubt, we recommend LINE.',
+                advantage: {
+                    discord: 'Focus on community',
+                    line: 'Focus on real-time performance.',
+                    email: 'Focus on content and reliability.',
+                },
+            },
         },
         deeplog: {
             title: 'DeepLog',

@@ -91,7 +91,7 @@ const HeaderComponent = localePath => {
                                 </NavItem>
                                 <NavItem
                                     onClick={() => {
-                                        routerPush('/thinking');
+                                        routerPush('/magazine');
                                     }}
                                 >
                                     <NavLink>DeepMagazine</NavLink>
