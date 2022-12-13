@@ -35,9 +35,9 @@ const DeepMagazine = () => {
     return (
         <>
             <NextSeo
-                title={t.contact.head.title}
-                description={t.contact.head.description}
-                canonical={site.home + '/contact'}
+                title={t.page.deepmagazine.title}
+                description={t.page.deepmagazine.h1}
+                canonical={site.home + '/magazine'}
                 openGraph={{
                     url: site.home,
                     title: t.index.head.title,
