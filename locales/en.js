@@ -399,7 +399,7 @@ export default {
                     'Subscribe to DeepMagazine for free by registering below.',
                 header:
                     'You can choose the receiving method that best suits your style.',
-                subheader: 'If in doubt, we recommend LINE.',
+                subheader: 'If in doubt, we recommend Email.',
                 advantage: {
                     discord: 'Focus on community',
                     line: 'Focus on real-time performance.',
