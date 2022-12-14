@@ -321,6 +321,7 @@ export default {
             </table>
         `,
         performance: '業績',
+        report: '決算報告',
         november: '11月',
         sales: '売上（億円）',
     },

@@ -363,6 +363,7 @@ export default {
             </table>
     `,
         performance: 'Performance',
+        report: 'Financial Report',
         november: 'November',
         sales: 'Sales（hundred millison yen）',
     },
@@ -959,6 +960,20 @@ export default {
                 "Join DeepCircle an AI agency service, for 390 yen/month to use DeepRecommend's AI!",
             disagree: 'Disagree',
             agree: 'Agree',
+        },
+    },
+    seo: {
+        aboutus: {
+            head: {
+                title: '',
+                description: '',
+            },
+        },
+        QnA: {
+            head: {
+                title: '',
+                description: '',
+            },
         },
     },
 };

@@ -46,8 +46,8 @@ const CompanyOverview = () => {
     return (
         <>
             <NextSeo
-                title={t.privacyPolicy.head.title}
-                description={t.privacyPolicy.head.description}
+                title={t.seo.QnA.head.title}
+                description={t.seo.QnA.head.description}
                 canonical={site.home + '/privacypolicy'}
                 openGraph={{
                     url: site.home,
@@ -80,7 +80,7 @@ const CompanyOverview = () => {
                     cardType: 'summary',
                 }}
             />
-            <HeaderComponent localePath={'/aboutus'} />
+            <HeaderComponent localePath={'/QnA'} />
             <div
                 style={{
                     maxWidth: '750px',
@@ -90,20 +90,7 @@ const CompanyOverview = () => {
                 }}
             >
                 <h1 style={{ margin: '35px 0 30px' }}>{t.overview.title}</h1>
-                <span
-                    dangerouslySetInnerHTML={{ __html: t.overview.content }}
-                />
-                <h1 style={{ margin: '35px 0 30px' }}>
-                    {t.overview.performance}
-                </h1>
-                <Bar data={graphData} />
-                <h1 style={{ margin: '35px 0 30px' }}>{t.overview.report}</h1>
-                <a
-                    href="/report/2022.pdf"
-                    download="2022_DeepRecommend_Financial_Report.pdf"
-                >
-                    2022
-                </a>
+                <h1 style={{ margin: '35px 0 30px' }}>{t.overview.title}</h1>
             </div>
             <Footer />
         </>
