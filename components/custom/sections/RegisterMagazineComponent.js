@@ -9,6 +9,29 @@ import { useLocale } from '../../../locales/useLocale';
 
 const RegisterMagazineComponent = () => {
     const { t } = useLocale();
+    const magazines = [
+        {
+            title: 'Email',
+            img: email,
+            advantage: t.page.deepmagazine.subscribe.advantage.email,
+            url: site.email,
+            backgroundColor: '#8C8076',
+        },
+        {
+            title: 'LINE',
+            img: line,
+            advantage: t.page.deepmagazine.subscribe.advantage.line,
+            url: site.line,
+            backgroundColor: '#02C754',
+        },
+        {
+            title: 'Discord',
+            img: discord,
+            advantage: t.page.deepmagazine.subscribe.advantage.discord,
+            url: site.discord,
+            backgroundColor: '#8D9DFE',
+        },
+    ];
 
     return (
         <div>
@@ -39,116 +62,41 @@ const RegisterMagazineComponent = () => {
                         </Col>
                     </Row>
                     <Row className="m-t-40">
-                        <Col
-                            md="4"
-                            className="ml-auto pricing-box align-self-center"
-                        >
-                            <Card className="b-all">
-                                <CardBody className="p-30 text-center">
-                                    <h5>Discord</h5>
-                                    <Image
-                                        src={discord}
-                                        alt="Picture of the author"
-                                        width={64}
-                                        height={64}
-                                    />
-                                    {/* <span className="text-dark display-5">
-                                    </span>
-                                    */}
-                                    <p className="m-t-40">
-                                        {
-                                            t.page.deepmagazine.subscribe
-                                                .advantage.discord
-                                        }
-                                    </p>
-                                </CardBody>
-                                <a
-                                    className="btn p-15 btn-arrow btn-block"
-                                    href={site.discord}
-                                    style={{
-                                        backgroundColor: '#8D9DFE',
-                                    }}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SUBSCRIBE
-                                </a>
-                            </Card>
-                        </Col>
-                        <Col
-                            md="4"
-                            className="ml-auto pricing-box align-self-center"
-                        >
-                            <Card className="b-all">
-                                <CardBody className="p-30 text-center">
-                                    <h5>LINE</h5>
-                                    <Image
-                                        src={line}
-                                        alt="Picture of the author"
-                                        width={64}
-                                        height={64}
-                                    />
-                                    {/* <span className="text-dark display-5">
-                                        
-                                    </span>
-                                    */}
-                                    <p className="m-t-40">
-                                        {
-                                            t.page.deepmagazine.subscribe
-                                                .advantage.line
-                                        }
-                                    </p>
-                                </CardBody>
-                                <a
-                                    className="btn p-15 btn-arrow btn-block"
-                                    style={{
-                                        backgroundColor: '#02C754',
-                                    }}
-                                    href={site.line}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SUBSCRIBE
-                                </a>
-                            </Card>
-                        </Col>
-                        <Col
-                            md="4"
-                            className="ml-auto pricing-box align-self-center"
-                        >
-                            <Card className="b-all">
-                                <CardBody className="p-30 text-center">
-                                    <h5>Email</h5>
-                                    <Image
-                                        src={email}
-                                        alt="Picture of the author"
-                                        width={64}
-                                        height={64}
-                                    />
-                                    {/* <sup>$</sup>
-                                    <span className="text-dark display-5">
-                                        69
-                                    </span> */}
-                                    <p className="m-t-40">
-                                        {
-                                            t.page.deepmagazine.subscribe
-                                                .advantage.email
-                                        }
-                                    </p>
-                                </CardBody>
-                                <a
-                                    className="btn p-15 btn-arrow btn-block"
-                                    style={{
-                                        backgroundColor: '#8C8076',
-                                    }}
-                                    href={site.email}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    SUBSCRIBE
-                                </a>
-                            </Card>
-                        </Col>
+                        {magazines.map(magazine => (
+                            <Col
+                                key={magazine.title}
+                                md="4"
+                                className="ml-auto pricing-box align-self-center"
+                            >
+                                <Card className="b-all">
+                                    <CardBody className="p-30 text-center">
+                                        <h5>{magazine.title}</h5>
+                                        <Image
+                                            src={magazine.img}
+                                            alt="Picture of the author"
+                                            width={64}
+                                            height={64}
+                                        />
+
+                                        <p className="m-t-40">
+                                            {magazine.advantage}
+                                        </p>
+                                    </CardBody>
+                                    <a
+                                        className="btn p-15 btn-arrow btn-block"
+                                        href={magazine.url}
+                                        style={{
+                                            backgroundColor:
+                                                magazine.backgroundColor,
+                                        }}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        SUBSCRIBE
+                                    </a>
+                                </Card>
+                            </Col>
+                        ))}
                     </Row>
                 </Container>
             </div>
