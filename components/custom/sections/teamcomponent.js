@@ -3,7 +3,7 @@ import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import { sugimoto } from '../../../constants/const';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLine } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { useRouter } from 'next/router';
 import { useLocale } from '../../../locales/useLocale';
 
@@ -61,12 +61,12 @@ const TeamComponent = () => {
                                             </li>
                                             <li className="list-inline-item">
                                                 <a
-                                                    href={sugimoto.line}
+                                                    href={sugimoto.linkedIn}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
                                                     <FontAwesomeIcon
-                                                        icon={faLine}
+                                                        icon={faLinkedinIn}
                                                     />
                                                 </a>
                                             </li>

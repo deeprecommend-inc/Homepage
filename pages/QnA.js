@@ -89,8 +89,12 @@ const CompanyOverview = () => {
                     padding: '0 24px',
                 }}
             >
-                <h1 style={{ margin: '35px 0 30px' }}>{t.overview.title}</h1>
-                <h1 style={{ margin: '35px 0 30px' }}>{t.overview.title}</h1>
+                {t.QnA.map(o => (
+                    <>
+                        <h1 style={{ margin: '35px 0 30px' }}>{o.q}</h1>
+                        <p>{o.a}</p>
+                    </>
+                ))}
             </div>
             <Footer />
         </>

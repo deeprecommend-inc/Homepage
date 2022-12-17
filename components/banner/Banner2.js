@@ -4,9 +4,11 @@ import { Container, Row, Col } from 'reactstrap';
 import Image from 'next/image';
 import { site } from '../../constants/const';
 import { useLocale } from '../../locales/useLocale';
+import { useRouter } from 'next/router';
 
 const Banner2 = () => {
     const { t } = useLocale();
+    const router = useRouter();
 
     const scrollToServices = () => {
         window.scrollTo({
@@ -36,15 +38,16 @@ const Banner2 = () => {
                         >
                             {t.index.banner.getStarted}
                         </a>
-                        <Link href={site.community}>
-                            <a
-                                className="btn btn-md m-t-30  btn-outline-secondary"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {t.index.banner.helpSupport}
-                            </a>
-                        </Link>
+                        <a
+                            onClick={() => {
+                                router.push('/magazine');
+                            }}
+                            className="btn btn-md m-t-30  btn-outline-secondary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {t.index.banner.magazine}
+                        </a>
                     </Col>
                     <Col lg="6" md="6" data-aos="zoom-in">
                         <img src="/banner.gif" alt="Banner img" />

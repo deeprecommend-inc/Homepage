@@ -92,6 +92,16 @@ const Footer = () => {
                                 {t.layout.footer.service.deeplab}
                             </a>
                         </div>
+                        <div>
+                            <a
+                                className="link"
+                                href={site.community}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {t.layout.footer.customerCare.community}
+                            </a>
+                        </div>
                     </Col>
                     <Col lg="3" md="6" className="m-b-30">
                         <h5 className="m-b-20">
@@ -106,14 +116,22 @@ const Footer = () => {
                                 {t.layout.footer.customerCare.aboutUs}
                             </a>
                         </div>
-                        <div>
-                            <a
-                                className="link"
-                                href={site.community}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {t.layout.footer.customerCare.community}
+                        <div
+                            onClick={() => {
+                                routerPush('/contact');
+                            }}
+                        >
+                            <a className="link">
+                                {t.layout.footer.customerCare.contact}
+                            </a>
+                        </div>
+                        <div
+                            onClick={() => {
+                                routerPush('/QnA');
+                            }}
+                        >
+                            <a className="link">
+                                {t.layout.footer.customerCare.QnA}
                             </a>
                         </div>
                         <div
@@ -123,15 +141,6 @@ const Footer = () => {
                         >
                             <a className="link">
                                 {t.layout.footer.customerCare.privacyPolicy}
-                            </a>
-                        </div>
-                        <div
-                            onClick={() => {
-                                routerPush('/contact');
-                            }}
-                        >
-                            <a className="link">
-                                {t.layout.footer.customerCare.contact}
                             </a>
                         </div>
                     </Col>

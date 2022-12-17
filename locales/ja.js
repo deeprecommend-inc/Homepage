@@ -24,8 +24,9 @@ export default {
                 contact: 'お問い合わせ',
                 lab: 'DeepLab',
                 helpSupport: 'ヘルプ & サポート',
-                community: 'Support',
+                community: 'DeepNetwork',
                 aboutUs: '企業概要',
+                QnA: 'Q&A',
             },
             sns: {
                 label: 'ソーシャルメディア',
@@ -49,6 +50,7 @@ export default {
             copy: '次元を捻じ曲げます',
             getStarted: '始める',
             helpSupport: 'ヘルプ & サポート',
+            magazine: 'マガジン',
         },
         portfolio: {
             title: 'サービス',
@@ -106,7 +108,7 @@ export default {
                 section2: {
                     title: 'オススメ',
                     subtitle:
-                        '「おすすめできるか？」と問います。 もしおすすめできないのなら, まだ改善の余地があるということです。そうすることで、我々はより洗練された感覚意識をつくることができます。',
+                        '「おすすめできるか？」と問います。 もしおすすめできないのなら, まだ改善の余地があるということです。そうすることで、我々はより洗練された感覚意識を生み出すことができます。',
                 },
             },
             num2: {
@@ -117,8 +119,8 @@ export default {
                         '我々は「不確実」に果敢に挑戦し続けることで、\n新たな価値を生み出し続けます。',
                 },
                 section2: {
-                    title: '価値を生み出す人の背中を押します。',
-                    subtitle: '参加する',
+                    title: 'DeepMagazineを購読して、クリエイティブになる',
+                    subtitle: '購読する',
                 },
             },
             num3: {
@@ -918,4 +920,31 @@ export default {
             agree: '参加する',
         },
     },
+    seo: {
+        aboutus: {
+            head: {
+                title: '会社概要',
+                description: 'DeepRecommend株式会社について',
+            },
+        },
+        contactus: {
+            head: {
+                title: 'お問い合わせ',
+                description: 'DeepRecommend株式会社へのお問い合わせ',
+            },
+        },
+        QnA: {
+            head: {
+                title: 'Q&A',
+                description: '質問にお答えします',
+            },
+        },
+    },
+    QnA: [
+        {
+            q: '何の会社ですか？',
+            a:
+                'AIと量子コンピュータとブレインテックなどのDeepTechの会社です。サービス以外にも受託開発をしています。',
+        },
+    ],
 };

@@ -70,6 +70,7 @@ export const sugimoto = {
     line: 'https://line.me/ti/p/y7xddvw79c',
     twitter: 'https://twitter.com/Jin__Sugimoto',
     instagram: 'https://www.instagram.com/deep_recommend/',
+    linkedIn: 'https://www.linkedin.com/in/jin-sugimoto-a9171a253/',
 };
 
 export const smtp = {

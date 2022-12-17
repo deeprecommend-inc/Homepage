@@ -1,4 +1,4 @@
-import DeepLog from '../pages/deeplog';
+import DeepLog from '../pages/log';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -28,6 +28,7 @@ export default {
                 lab: 'DeepLab',
                 community: 'DeepNetwork',
                 aboutUs: 'About us',
+                QnA: 'Q&A',
             },
             sns: {
                 label: 'Social',
@@ -51,6 +52,7 @@ export default {
             copy: "We're Here to Twist the Dimensionss.",
             getStarted: 'Services',
             helpSupport: 'Community',
+            magazine: 'Magazine',
         },
         portfolio: {
             title: 'Services',
@@ -118,8 +120,8 @@ export default {
                         'We will continue to create new value by boldly taking on the challenge of "uncertainty".',
                 },
                 section2: {
-                    title: 'Diverse ideas lead to rich creativity.',
-                    subtitle: 'Lets Join',
+                    title: 'Subscribe to DeepMagazine and be creative.',
+                    subtitle: 'Subscribe',
                 },
             },
             num3: {
@@ -392,7 +394,7 @@ export default {
             title: 'DeepMagazine',
             h1: 'DeepTech and Business Magazine',
             h6:
-                'We recommended for the following people.\n\n・Want to use deep tech to solve problems\n・Want to know the latest science and technology\n・Want to share the knowledge and values of deep recommendations.\n\nDeepLab focuses on more practical, technical issues with source code, etc., but DeepMagazine focuses on human issues.\n\nAll for free. ',
+                'We recommended for the following people.\n\n・Want to use deep tech to solve problems\n・Want to know the latest science and technology\n・Want to share the knowledge and values of DeepRecommend.\n\nDeepLab focuses on more practical, technical issues with source code, etc., but DeepMagazine focuses on human issues.\n\nAll for free. ',
             getStarted: 'Subscribe',
             subscribe: {
                 title: 'Subscribe',
@@ -965,15 +967,28 @@ export default {
     seo: {
         aboutus: {
             head: {
-                title: '',
-                description: '',
+                title: 'About us',
+                description: 'About DeepRecommend Inc.',
+            },
+        },
+        contactus: {
+            head: {
+                title: 'Contact us',
+                description: 'Contact DeepRecommend Inc.',
             },
         },
         QnA: {
             head: {
-                title: '',
-                description: '',
+                title: 'Q&A',
+                description: "We're here to answer your questions.",
             },
         },
     },
+    QnA: [
+        {
+            q: 'What company?',
+            a:
+                'AI and Quantum Computers and BrainTech and other DeepTech companies. In addition to our services, we also do contract development.',
+        },
+    ],
 };

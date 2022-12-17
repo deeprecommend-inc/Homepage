@@ -3,16 +3,18 @@ import React from 'react';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 import Image from 'next/image';
 import img1 from '../../../assets/images/features/feature13/img1.jpg';
-import communityImg from '../../../assets/images/features/feature13/discord.png';
+import magazineImg from '../../../assets/images/features/feature13/magazine.png';
 import img2 from '../../../assets/images/features/feature13/img2.jpg';
 import img3 from '../../../assets/images/features/feature13/img3.jpg';
 import img4 from '../../../assets/images/features/feature13/img4.jpg';
 import img5 from '../../../assets/images/features/feature30/deepthink.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
+import { useRouter } from 'next/router';
 
 const FeatureComponent = () => {
     const { t } = useLocale();
+    const router = useRouter();
 
     return (
         <div>
@@ -119,7 +121,7 @@ const FeatureComponent = () => {
                                         <CardBody className="d-flex no-block">
                                             <div className="m-r-20">
                                                 <Image
-                                                    src={communityImg}
+                                                    src={magazineImg}
                                                     height="50"
                                                     width="50"
                                                     className="rounded"
@@ -138,15 +140,15 @@ const FeatureComponent = () => {
                                     </Col>
                                     <Col md="4" className="text-center">
                                         <a
-                                            href={site.community}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
+                                            onClick={() => {
+                                                router.push('magazine');
+                                            }}
                                             className="text-white linking bg-info"
                                         >
                                             {
                                                 t.index.feature.num2.section2
                                                     .subtitle
-                                            }{' '}
+                                            }
                                             <i className="ti-arrow-right"></i>
                                         </a>
                                     </Col>
