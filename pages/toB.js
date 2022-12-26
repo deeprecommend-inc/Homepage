@@ -76,6 +76,16 @@ const ToB = () => {
             制作の流れ
             他社との違い
             お問い合わせボタン */}
+            <div
+                style={{
+                    maxWidth: '750px',
+                    margin: '64px auto',
+                    whiteSpace: 'normal',
+                    padding: '0 24px',
+                }}
+            >
+                <div dangerouslySetInnerHTML={{ __html: t.overview.content }} />
+            </div>
             <Footer />
         </>
     );
