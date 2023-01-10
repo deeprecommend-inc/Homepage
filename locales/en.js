@@ -877,6 +877,14 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">18 years old</td>
+                            <td>Started a service called Driver Iwatani because his best friend got a driver's license, but quit because Uber cabs are not popular in Japan.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18 years old</td>
+                            <td>I called Kenichiro Yoshida at Sony, but of course his secretary turns him down.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18 years old</td>
                             <td>Emailed blueqat CEO Minato for advice." He tells me that I need to "incorporate my company, improve my skills and negotiation skills". </td>
                         </tr>
                         <tr>
@@ -898,6 +906,18 @@ export default {
                         <tr>
                             <td class="py-2 pr-2">19 years old</td>
                             <td>Started an internship in quantum machine learning at blueqat Inc. </td>
+                        </tr>
+                         <tr>
+                            <td class="py-2 pr-2">19 years old</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19 years old</td>
+                            <td>Contracted as a quantum AI engineer, but contract was terminated due to an operational report entry error.</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19 years old</td>
+                            <td>I opened the blog "DeepLab". At the same time, I learned about marketing.</td>
                         </tr>
                     </table>
                 `,

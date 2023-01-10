@@ -765,7 +765,7 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">17歳</td>
-                            <td>プログラミングの成果物。失敗共有SNS『ERRORS』をシフトプラス株式会社に提出し、就職。</td>
+                            <td>プログラミングの成果物。失敗共有SNS『ERRORS』をシフトプラス株式会社に提出し、就職。失敗学の畑村洋太郎氏に許可を得る。</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">17歳</td>
@@ -833,6 +833,14 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">18歳</td>
+                            <td class="py-2 pr-2">親友が免許を取ったのでドライバー岩谷というサービスを始めるも、Uberタクシーが日本で普及していないのを理由に辞める。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
+                            <td class="py-2 pr-2">ソニーの吉田憲一郎氏に電話するも当然ながら秘書に断られる</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
                             <td>blueqat CEO 港氏にメールを送って助言を頂く。"会社法人化とスキルの向上と交渉力"が必要だと教えてもらう。</td>
                         </tr>
                         <tr>
@@ -854,6 +862,14 @@ export default {
                         <tr>
                             <td class="py-2 pr-2">19歳</td>
                             <td>blueqat株式会社で量子機械学習のインターン開始。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19歳</td>
+                            <td>量子AIエンジニアとして受託するも、稼働報告入力ミスで契約終了。</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19歳</td>
+                            <td>ブログ『DeepLab』を開設する。同時にマーケティングについて学ぶ。</td>
                         </tr>
                     </table>
                 `,
