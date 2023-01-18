@@ -18,6 +18,7 @@ import Image from 'next/image';
 import logo from '../../../assets/images/logos/logo.png';
 import { site } from '../../../constants/const';
 import ForumIcon from '@mui/icons-material/Forum';
+import HeadphonesIcon from '@mui/icons-material/Headphones';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -118,6 +119,14 @@ const HeaderComponent = localePath => {
                                         >
                                             <ForumIcon />
                                             {t.index.header.community}
+                                        </DropdownItem>
+                                        <DropdownItem
+                                            href={site.deepRecord}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <HeadphonesIcon />
+                                            {t.index.header.record}
                                         </DropdownItem>
                                         <DropdownItem divider />
                                         <DropdownItem

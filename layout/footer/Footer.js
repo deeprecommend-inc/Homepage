@@ -102,6 +102,16 @@ const Footer = () => {
                                 {t.layout.footer.customerCare.community}
                             </a>
                         </div>
+                        <div>
+                            <a
+                                className="link"
+                                href={site.deepRecord}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {t.layout.footer.service.record}
+                            </a>
+                        </div>
                     </Col>
                     <Col lg="3" md="6" className="m-b-30">
                         <h5 className="m-b-20">

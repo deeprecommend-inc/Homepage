@@ -64,6 +64,7 @@ export const site = {
     deepAi: 'https://github.com/deep-recommend/DeepAi',
     line: 'https://line.me/R/ti/p/@990clvuz',
     email: 'https://share.hsforms.com/1pgUww_kBRZyYq6iJqVcS-wdxi9l',
+    deepRecord: 'https://soundcloud.com/deep-recommend',
 };
 
 export const sugimoto = {

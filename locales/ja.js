@@ -17,6 +17,7 @@ export default {
                 deeplab: 'DeepLab',
                 cmcn: 'DeepConnect',
                 magazine: 'DeepMagazine',
+                record: 'DeepRecord',
             },
             customerCare: {
                 label: 'カスタマーケア',
@@ -40,7 +41,8 @@ export default {
         },
         header: {
             others: 'その他',
-            community: 'コミュニティー',
+            community: 'DeepNetwork',
+            record: 'DeepRecord',
             shop: 'ショップ',
             blog: 'ブログ',
             contact: 'お問い合わせ',
