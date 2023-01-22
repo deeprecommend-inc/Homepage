@@ -118,7 +118,7 @@ export const Chatbot = () => {
                                     options: [
                                         {
                                             value: 1,
-                                            label: 'I want AI on my behalf.',
+                                            label: 'I want creator tools.',
                                             trigger: '4',
                                         },
                                         // {
@@ -149,12 +149,12 @@ export const Chatbot = () => {
                                 },
                                 {
                                     id: '3',
-                                    message: 'We recommend DeepAI.',
+                                    message: 'We recommend Deepia.',
                                     end: true,
                                 },
                                 {
                                     id: '4',
-                                    message: 'We recommend DeepAI.',
+                                    message: 'We recommend Deepia.',
                                     end: true,
                                 },
                                 {
@@ -221,12 +221,12 @@ export const Chatbot = () => {
                                 },
                                 {
                                     id: '3',
-                                    message: 'DeepAIがおすすめです',
+                                    message: 'Deepiaがおすすめです',
                                     end: true,
                                 },
                                 {
                                     id: '4',
-                                    message: 'DeepAIがおすすめです',
+                                    message: 'Deepiaがおすすめです',
                                     end: true,
                                 },
                                 {

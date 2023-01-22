@@ -83,7 +83,7 @@ export const smtp = {
 
 export const imgUrl = {
     deeprecommend:
-        'https://deep-log.s3.ap-northeast-1.amazonaws.com/DeepAI+(7).png',
+        'https://deep-log.s3.ap-northeast-1.amazonaws.com/Deepia+(7).png',
     deeplab: 'https://deep-log.s3.ap-northeast-1.amazonaws.com/DeepLab+(1).png',
 };
 

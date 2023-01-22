@@ -7,7 +7,7 @@ import { imgUrl, site } from '../constants/const';
 import ContactComponent from '../components/custom/sections/contact';
 import Footer from '../layout/footer/Footer';
 
-const DeepAI = () => {
+const Deepia = () => {
     const { t, locale } = useLocale();
 
     return (
@@ -54,4 +54,4 @@ const DeepAI = () => {
     );
 };
 
-export default DeepAI;
+export default Deepia;

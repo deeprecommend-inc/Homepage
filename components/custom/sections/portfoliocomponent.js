@@ -92,7 +92,7 @@ const PortfolioComponent = () => {
                                     <Image
                                         className="card-img-top"
                                         src={aiImg}
-                                        alt="DeepAI"
+                                        alt="Deepia"
                                     />
                                 </a>
                                 <CardBody>

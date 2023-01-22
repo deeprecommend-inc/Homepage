@@ -235,7 +235,7 @@ const Footer = () => {
                 onClose={handleClose}
                 aria-describedby="alert-dialog-slide-description"
             >
-                <DialogTitle>{'DeepAI'}</DialogTitle>
+                <DialogTitle>{'Deepia'}</DialogTitle>
                 <DialogContent>
                     <DialogContentText id="alert-dialog-slide-description">
                         {t.dialog.ai.content}

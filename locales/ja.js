@@ -10,7 +10,7 @@ export default {
             },
             service: {
                 label: 'サービス',
-                deepai: 'DeepAI',
+                deepai: 'Deepia',
                 deepbook: 'DeepBook',
                 deepcircle: 'DeepCircle',
                 deeplog: 'DeepLog',
@@ -84,7 +84,7 @@ export default {
                 description: 'AI代行サービス（コミュニティー）',
             },
             deepai: {
-                title: 'DeepAI｜ディープAI',
+                title: 'Deepia｜ディープAI',
                 description: 'DeepRecommendのAI',
             },
         },
@@ -354,7 +354,7 @@ export default {
             title: 'DeepMagazine',
             h1: 'ディープテック＆ビジネス\nマガジン',
             h6:
-                '以下のような方におすすめです。\n\n・現場の最新の科学技術が知りたい\n・DeepRecommendの裏側が知りたい\n・ディープテックを活用して課題解決がしたい\n\nDeepLabでは技術の課題にフォーカスしますが、\nDeepMagazineでは人の課題にフォーカスします。\n\n無料です。',
+                '以下のような方におすすめです。\n\n・ディープテックを活用した課題解決を実現したい\n・もっと誰も知らないような深い情報を知りたい\n・ディープテックをビジネスに活用したい\n\n無料です。',
             getStarted: '購読する',
             subscribe: {
                 title: '購読する',

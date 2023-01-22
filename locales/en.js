@@ -13,7 +13,7 @@ export default {
             },
             service: {
                 label: 'Services',
-                deepai: 'DeepAI',
+                deepai: 'Deepia',
                 deepbook: 'DeepBook',
                 deepcircle: 'DeepCircle',
                 deeplog: 'DeepLog',
@@ -84,7 +84,7 @@ export default {
                 description: 'AI Agency Services (Community)',
             },
             deepai: {
-                title: 'DeepAI',
+                title: 'Deepia',
                 description: 'AI produced by DeepRecommend',
             },
         },
