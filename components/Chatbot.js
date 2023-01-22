@@ -192,7 +192,8 @@ export const Chatbot = () => {
                                     options: [
                                         {
                                             value: 1,
-                                            label: 'AIを代行してほしい',
+                                            label:
+                                                'クリエイター向け便利ツールが欲しい',
                                             trigger: '4',
                                         },
                                         // {
