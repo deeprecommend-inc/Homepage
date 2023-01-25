@@ -85,14 +85,14 @@ const HeaderComponent = localePath => {
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
                                 <NavItem
                                     onClick={() => {
-                                        routerPush('/thinking');
+                                        routerPush('deepia');
                                     }}
                                 >
                                     <NavLink>Deepia</NavLink>
                                 </NavItem>
                                 <NavItem
                                     onClick={() => {
-                                        routerPush('/magazine');
+                                        routerPush('magazine');
                                     }}
                                 >
                                     <NavLink>DeepMagazine</NavLink>
@@ -173,7 +173,7 @@ const HeaderComponent = localePath => {
                                         <DropdownItem divider />
                                         <DropdownItem
                                             onClick={() => {
-                                                routerPush('/contact');
+                                                routerPush('contact');
                                             }}
                                         >
                                             <EmailIcon />

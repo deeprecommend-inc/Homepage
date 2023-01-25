@@ -43,10 +43,10 @@ export const Chatbot = () => {
         console.log({ value: values[0] });
         switch (values[0]) {
             case 1:
-                router.push('thinking');
+                router.push('deepia');
                 break;
             case 2:
-                router.push('thinking');
+                router.push('deepia');
                 break;
             case 3:
                 windowOpen(site.deepLab);

@@ -66,7 +66,7 @@ const Footer = () => {
                         </h5>
                         <div
                             onClick={() => {
-                                routerPush('/thinking');
+                                routerPush('deepia');
                             }}
                         >
                             <a className="link">
@@ -75,7 +75,7 @@ const Footer = () => {
                         </div>
                         <div
                             onClick={() => {
-                                routerPush('/magazine');
+                                routerPush('magazine');
                             }}
                         >
                             <a className="link">
@@ -119,7 +119,7 @@ const Footer = () => {
                         </h5>
                         <div
                             onClick={() => {
-                                routerPush('/aboutus');
+                                routerPush('aboutus');
                             }}
                         >
                             <a className="link">
@@ -128,7 +128,7 @@ const Footer = () => {
                         </div>
                         <div
                             onClick={() => {
-                                routerPush('/contact');
+                                routerPush('contact');
                             }}
                         >
                             <a className="link">
@@ -137,7 +137,7 @@ const Footer = () => {
                         </div>
                         <div
                             onClick={() => {
-                                routerPush('/QnA');
+                                routerPush('QnA');
                             }}
                         >
                             <a className="link">
@@ -146,7 +146,7 @@ const Footer = () => {
                         </div>
                         <div
                             onClick={() => {
-                                routerPush('/privacypolicy');
+                                routerPush('privacypolicy');
                             }}
                         >
                             <a className="link">

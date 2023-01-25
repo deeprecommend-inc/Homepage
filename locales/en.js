@@ -154,6 +154,11 @@ export default {
             title: 'Contact Us',
             subtitle: 'Please contact us from below.',
         },
+        preRegistration: {
+            title: 'Pre-Registration',
+            subtitle:
+                'Enter your email address to pre-register for the service and receive updates',
+        },
         callToAction: {
             title: 'Did you find the service you wanted?',
             description:

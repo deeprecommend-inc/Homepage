@@ -86,7 +86,7 @@ const PortfolioComponent = () => {
                                     style={normalStyle}
                                     className="img-ho"
                                     onClick={() => {
-                                        routerPush('/thinking');
+                                        routerPush('deepia');
                                     }}
                                 >
                                     <Image

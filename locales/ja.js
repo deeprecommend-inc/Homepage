@@ -153,6 +153,11 @@ export default {
             title: 'お問い合わせ',
             subtitle: '以下のフォームからご気軽にお問い合わせください。',
         },
+        preRegistration: {
+            title: '事前登録',
+            subtitle:
+                'メールアドレスを入力してサービスの事前登録を行い、最新情報を受け取る',
+        },
         callToAction: {
             title: 'お探しのサービスは見つかりましたか？',
             description:
