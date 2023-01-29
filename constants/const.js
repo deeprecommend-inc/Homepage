@@ -72,6 +72,8 @@ export const sugimoto = {
     twitter: 'https://twitter.com/Jin__Sugimoto',
     instagram: 'https://www.instagram.com/deep_recommend/',
     linkedIn: 'https://www.linkedin.com/in/jin-sugimoto-a9171a253/',
+    skillSheet:
+        'https://deeprecommend.s3.ap-northeast-1.amazonaws.com/JinSugimotoSkillSheet.xlsx',
 };
 
 export const smtp = {

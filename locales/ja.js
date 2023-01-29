@@ -150,8 +150,9 @@ export default {
             subtitle: 'DeepRecommendのチームメイトをご紹介します。',
             sugimoto: {
                 name: '杉本 迅',
-                position: 'CEO',
+                position: 'CEO, Neuroengineer',
                 message: 'めちゃくちゃ運が良い人間です。',
+                skillSheet: 'スキルシート',
             },
         },
         contact: {

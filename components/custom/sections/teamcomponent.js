@@ -41,12 +41,15 @@ const TeamComponent = () => {
                             md="6"
                             className="m-b-30"
                             data-aos="fade-up"
-                            onClick={() => {
-                                router.push('/team/sugimoto');
-                            }}
                         >
                             <Row className="no-gutters">
-                                <Col md="12" className="pro-pic t1">
+                                <Col
+                                    md="12"
+                                    className="pro-pic t1"
+                                    onClick={() => {
+                                        router.push('/team/sugimoto');
+                                    }}
+                                >
                                     <div className="card-img-overlay">
                                         <ul className="list-inline">
                                             {/* <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li> */}
@@ -83,6 +86,9 @@ const TeamComponent = () => {
                                             {t.index.team.sugimoto.position}
                                         </h6>
                                         <p>{t.index.team.sugimoto.message}</p>
+                                        <a href={sugimoto.skillSheet}>
+                                            {t.index.team.sugimoto.skillSheet}
+                                        </a>
                                     </div>
                                 </Col>
                             </Row>

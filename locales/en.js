@@ -151,8 +151,9 @@ export default {
             subtitle: 'Here are some of our teammates.',
             sugimoto: {
                 name: 'Jin Sugimoto',
-                position: 'CEO',
+                position: 'CEO, Neuroengineer',
                 message: 'I am a very lucky person.',
+                skillSheet: 'Skill Sheet',
             },
         },
         contact: {
