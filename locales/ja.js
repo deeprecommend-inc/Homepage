@@ -85,8 +85,13 @@ export default {
             },
             deepai: {
                 title: 'Deepia｜ディープAI',
-                description: 'DeepRecommendのAI',
+                description: 'クリエイター向けAIツール',
             },
+        },
+        oneCoinSourceCode: {
+            title: 'ワンコインソースコードお試し',
+            subtitle:
+                '（解説動画付）500円で既に完成されたソースコードをGoogle Colabだけでツールとして使えます。ソースコードではなく「再現性」と「手間」の値段です。※パソコンが無い方、自分でソースコードを書いた方が良いと思う方はお断りしています。',
         },
         work: {
             title: '制作実績',
@@ -154,7 +159,7 @@ export default {
             subtitle: '以下のフォームからご気軽にお問い合わせください。',
         },
         preRegistration: {
-            title: '事前登録',
+            title: 'アプリ事前登録',
             subtitle:
                 'メールアドレスを入力してサービスの事前登録を行い、最新情報を受け取る',
         },
@@ -387,6 +392,14 @@ export default {
             h6:
                 '足りないなら補えば合えば良い。\n・アイデアはあるがスキルがない\n・逆にスキルはあるがアイデアはない\n・片思いかもしれない\nあなたのベストパートナーを探します。今なら無料！',
             getStarted: '無料で始める',
+        },
+        deepia: {
+            title: 'Deepia',
+            h1: 'クリエイター向けAIツール',
+            h6:
+                '以下のような方におすすめです。\n\n・AIを使える側の人材になりたい\n・AIを代行する便利ツールが欲しい\n・AIを使って自己表現や自己実現がしたい\n\n月額980円の予定です。',
+            getStarted: '始める',
+            nowThinking: '考え中...',
         },
     },
     bookCategory: {

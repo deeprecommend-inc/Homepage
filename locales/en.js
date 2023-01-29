@@ -85,8 +85,13 @@ export default {
             },
             deepai: {
                 title: 'Deepia',
-                description: 'AI produced by DeepRecommend',
+                description: 'AI tools for creators',
             },
+        },
+        oneCoinSourceCode: {
+            title: '5$ Source Code Trial',
+            subtitle:
+                '(With explanatory video) For 5$, you can use already completed source code as a tool only with Google Colab. The price is not for the source code, but for "reproducibility" and "effort. *We do not accept those who do not have a computer or who think it is better to write the source code by themselves.',
         },
         work: {
             title: 'Work',
@@ -155,7 +160,7 @@ export default {
             subtitle: 'Please contact us from below.',
         },
         preRegistration: {
-            title: 'Pre-Registration',
+            title: 'App Pre-Registration',
             subtitle:
                 'Enter your email address to pre-register for the service and receive updates',
         },
@@ -401,7 +406,7 @@ export default {
             title: 'DeepMagazine',
             h1: 'DeepTech and Business Magazine',
             h6:
-                'We recommended for the following people.\n\n・Want to use deep tech to solve problems\n・Want to know the latest science and technology\n・Want to share the knowledge and values of DeepRecommend.\n\nDeepLab focuses on more practical, technical issues with source code, etc., but DeepMagazine focuses on human issues.\n\nAll for free. ',
+                'We recommended for the following people.\n\n・Use deep tech to solve problems\n・Know the latest science and technology\n・Share the knowledge and values of DeepRecommend.\n\nDeepLab focuses on more practical, technical issues with source code, etc., but DeepMagazine focuses on human issues.\n\nAll for free. ',
             getStarted: 'Subscribe',
             subscribe: {
                 title: 'Subscribe',
@@ -431,6 +436,14 @@ export default {
             h6:
                 "Looking for a comedy partner?\n・ It's hard to find someone to meet\n・I don't have time for this\n・Training schools are high hurdle\nDeepConnect solves all those problems! An interesting comedian meets an interesting partner! Currently Free!!",
             getStarted: 'Get Started for Free',
+        },
+        deepia: {
+            title: 'Deepia',
+            h1: 'AI Tools for Creators',
+            h6:
+                'We recommend this service to the following people\n\n・Want to be a person who can use AI\n・Want a convenient tool to use AI on their behalf\n・Want to use AI for self-expression and self-realisation\n\nThe monthly fee is 980 yen.',
+            getStarted: 'Get Started',
+            nowThinking: 'Not Thinking...',
         },
     },
     bookCategory: {

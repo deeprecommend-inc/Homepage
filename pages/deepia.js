@@ -7,6 +7,10 @@ import { imgUrl, site } from '../constants/const';
 import PreRegistrationComponent from '../components/custom/sections/PreRegistration';
 import Footer from '../layout/footer/Footer';
 import CallToAction from '../components/call-to-action/CallToAction';
+import BannerComponentForDeepLog from '.';
+import BannerComponentForDeepia from '../components/custom/sections/BannerComponentForDeepia';
+import PortfolioComponent from '../components/custom/sections/portfoliocomponent';
+import OneCoinSourceCodeComponent from '../components/custom/sections/OncClinSourceCodeComponent';
 
 const Deepia = () => {
     const { t, locale } = useLocale();
@@ -49,7 +53,7 @@ const Deepia = () => {
                 }}
             />
             <HeaderComponent />
-            <div style={{ width: '70vw', margin: '0 auto' }}>
+            {/* <div style={{ width: '70vw', margin: '0 auto' }}>
                 {locale === 'en' ? (
                     <>
                         <img src="/now_thinking/en.png" />
@@ -59,7 +63,9 @@ const Deepia = () => {
                         <img src="/now_thinking/ja.png" />
                     </>
                 )}
-            </div>
+            </div> */}
+            <BannerComponentForDeepia />
+            <OneCoinSourceCodeComponent />
             <PreRegistrationComponent />
             <Footer />
         </>
