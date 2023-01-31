@@ -518,7 +518,7 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">ビジョン</td>
-                            <td>人類にとって最高の感覚意識をつくること</td>
+                            <td>次元を捻じ曲げること</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">生誕</td>

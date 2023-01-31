@@ -70,7 +70,11 @@ const HeaderComponent = localePath => {
             <div className="header1 po-relative">
                 <Container>
                     <Navbar className="navbar-expand-lg h1-nav">
-                        <NavbarBrand href="/">
+                        <NavbarBrand
+                            onClick={() => {
+                                routerPush('/');
+                            }}
+                        >
                             <Image
                                 src={logo}
                                 alt="wrapkit"

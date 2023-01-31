@@ -562,7 +562,7 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">Vision</td>
-                            <td>Creating the highest sensory awareness for humanity</td>
+                            <td>Twisting the dimensions.</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">Birth</td>
