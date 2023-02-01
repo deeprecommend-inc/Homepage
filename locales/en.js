@@ -25,7 +25,8 @@ export default {
             customerCare: {
                 label: 'Customer care',
                 privacyPolicy: 'Privacy policy',
-                contact: 'Contact',
+                contact: 'Contact us',
+                request: 'Request',
                 lab: 'DeepLab',
                 community: 'DeepNetwork',
                 aboutUs: 'About us',
@@ -48,6 +49,7 @@ export default {
             shop: 'Shop',
             blog: 'Blog',
             contact: 'Contact us',
+            request: 'Request',
         },
         banner: {
             title: 'DeepRecommend Inc.',
@@ -160,10 +162,14 @@ export default {
             title: 'Contact Us',
             subtitle: 'Please contact us from below.',
         },
+        request: {
+            title: 'Requests',
+            subtitle: 'Please request from below.',
+        },
         preRegistration: {
             title: 'App Pre-Registration',
             subtitle:
-                'Enter your email address to pre-register for the service and receive updates',
+                'Enter your email address to pre-register for the service and receive updates. *No fees will be charged.',
         },
         callToAction: {
             title: 'Did you find the service you wanted?',

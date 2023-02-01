@@ -37,6 +37,7 @@ import Slide from '@mui/material/Slide';
 import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
 import EmailIcon from '@mui/icons-material/Email';
+import SendIcon from '@mui/icons-material/Send';
 
 const HeaderComponent = localePath => {
     const [isOpen, setIsOpen] = useState(false);
@@ -182,6 +183,14 @@ const HeaderComponent = localePath => {
                                         >
                                             <EmailIcon />
                                             {t.index.header.contact}
+                                        </DropdownItem>
+                                        <DropdownItem
+                                            onClick={() => {
+                                                routerPush('request');
+                                            }}
+                                        >
+                                            <SendIcon />
+                                            {t.index.header.request}
                                         </DropdownItem>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>

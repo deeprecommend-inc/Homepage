@@ -14,10 +14,10 @@ const RequestComponent = ({ needsTitle = true }) => {
                         <Row className="justify-content-center">
                             <Col md="7" className="text-center">
                                 <h1 className="title font-bold">
-                                    {t.index.contact.title}
+                                    {t.index.request.title}
                                 </h1>
                                 <h6 className="subtitle">
-                                    {t.index.contact.subtitle}
+                                    {t.index.request.subtitle}
                                 </h6>
                             </Col>
                         </Row>
@@ -29,7 +29,7 @@ const RequestComponent = ({ needsTitle = true }) => {
             <div className="py-5 d-flex align-items-center align-items-center">
                 {locale === 'en' ? (
                     <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSf5s1IQEEmL4dDyz0ADeE-wIMKL9Ne2EdTYc0TPEaat6TXOEA/viewform?embedded=true"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSeH-ym6QBm-fbbdeuuRPMhMpRJOb6q5_Lv-amWNyvzR-w7F9g/viewform?usp=sf_link"
                         width="100%"
                         height="760"
                         frameBorder="0"
@@ -38,7 +38,7 @@ const RequestComponent = ({ needsTitle = true }) => {
                     ></iframe>
                 ) : (
                     <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLScY8KTxYkhgQ20f6_AvrfhijxErVTOYLHo9nt0DHN02OkZ91A/viewform?embedded=true"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSeoDLudEBOKVNYzQcrWtspxSkCULB8xBTB09jsDuQmooW38Ug/viewform?usp=sf_link"
                         width="100%"
                         height="760"
                         frameBorder="0"

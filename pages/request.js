@@ -4,7 +4,7 @@ import { useLocale } from '../locales/useLocale';
 import HeaderComponent from '../components/custom/sections/headercomponent';
 import { NextSeo } from 'next-seo';
 import { imgUrl, site } from '../constants/const';
-import ContactComponent from '../components/custom/sections/contact';
+import RequestComponent from '../components/custom/sections/request';
 import Footer from '../layout/footer/Footer';
 
 const Contact = () => {
@@ -48,7 +48,7 @@ const Contact = () => {
                 }}
             />
             <HeaderComponent />
-            <ContactComponent />
+            <RequestComponent />
             <Footer />
         </>
     );

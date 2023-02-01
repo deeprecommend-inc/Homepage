@@ -137,6 +137,15 @@ const Footer = () => {
                         </div>
                         <div
                             onClick={() => {
+                                routerPush('request');
+                            }}
+                        >
+                            <a className="link">
+                                {t.layout.footer.customerCare.request}
+                            </a>
+                        </div>
+                        <div
+                            onClick={() => {
                                 routerPush('QnA');
                             }}
                         >

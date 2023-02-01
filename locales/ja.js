@@ -23,6 +23,7 @@ export default {
                 label: 'カスタマーケア',
                 privacyPolicy: 'プライバシーポリシー',
                 contact: 'お問い合わせ',
+                request: 'ご要望',
                 lab: 'DeepLab',
                 helpSupport: 'ヘルプ & サポート',
                 community: 'DeepNetwork',
@@ -46,6 +47,7 @@ export default {
             shop: 'ショップ',
             blog: 'ブログ',
             contact: 'お問い合わせ',
+            request: 'ご要望',
         },
         banner: {
             title: 'DeepRecommend株式会社',
@@ -159,10 +161,14 @@ export default {
             title: 'お問い合わせ',
             subtitle: '以下のフォームからご気軽にお問い合わせください。',
         },
+        request: {
+            title: 'ご要望',
+            subtitle: '以下のフォームからご遠慮なくにお申し付けください。',
+        },
         preRegistration: {
             title: 'アプリ事前登録',
             subtitle:
-                'メールアドレスを入力してサービスの事前登録を行い、最新情報を受け取る',
+                'メールアドレスを入力してサービスの事前登録を行い、最新情報を受け取ります。※料金は発生しません',
         },
         callToAction: {
             title: 'お探しのサービスは見つかりましたか？',
