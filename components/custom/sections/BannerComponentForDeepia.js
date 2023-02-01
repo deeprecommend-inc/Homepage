@@ -9,6 +9,13 @@ import { useLocale } from '../../../locales/useLocale';
 const BannerComponentForDeepia = () => {
     const { t, locale } = useLocale();
 
+    const scrollToRegistration = () => {
+        window.scrollTo({
+            top: 2000,
+            behavior: 'smooth',
+        });
+    };
+
     return (
         <div>
             <div className="static-slider10">
@@ -26,8 +33,9 @@ const BannerComponentForDeepia = () => {
                                 href={''}
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                onClick={scrollToRegistration}
                             >
-                                <span>{t.page.deepia.nowThinking}</span>
+                                <span>{t.page.deepia.preRegistration}</span>
                             </div>
                         </Col>
                         <Col md="6">

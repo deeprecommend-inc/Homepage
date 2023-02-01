@@ -444,6 +444,7 @@ export default {
             h6:
                 'We recommend this service to the following people\n\n・Want to be a person who can use AI\n・Want a convenient tool to use AI on their behalf\n・Want to use AI for self-expression and self-realisation\n\nThe monthly fee is 980 yen.',
             getStarted: 'Get Started',
+            preRegistration: 'Pre-Registration',
             nowThinking: 'Not Thinking...',
         },
     },

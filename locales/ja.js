@@ -400,6 +400,7 @@ export default {
             h6:
                 '以下のような方におすすめです。\n\n・AIを使える側の人材になりたい\n・AIを代行する便利ツールが欲しい\n・AIを使って自己表現や自己実現がしたい\n\n月額980円の予定です。',
             getStarted: '始める',
+            preRegistration: '事前登録',
             nowThinking: '考え中...',
         },
     },
