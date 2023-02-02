@@ -43,13 +43,7 @@ const TeamComponent = () => {
                             data-aos="fade-up"
                         >
                             <Row className="no-gutters">
-                                <Col
-                                    md="12"
-                                    className="pro-pic t1"
-                                    onClick={() => {
-                                        router.push('/team/sugimoto');
-                                    }}
-                                >
+                                <Col md="12" className="pro-pic t1">
                                     <div className="card-img-overlay">
                                         <ul className="list-inline">
                                             {/* <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li> */}
