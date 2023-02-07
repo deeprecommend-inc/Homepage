@@ -23,7 +23,7 @@ export default {
                 label: 'カスタマーケア',
                 privacyPolicy: 'プライバシーポリシー',
                 contact: 'お問い合わせ',
-                feedback: 'ご要望',
+                feedback: 'フィードバック',
                 lab: 'DeepLab',
                 helpSupport: 'ヘルプ & サポート',
                 community: 'DeepNetwork',
@@ -47,7 +47,7 @@ export default {
             shop: 'ショップ',
             blog: 'ブログ',
             contact: 'お問い合わせ',
-            feedback: 'ご要望',
+            feedback: 'フィードバック',
         },
         banner: {
             title: 'DeepRecommend株式会社',
