@@ -47,7 +47,7 @@ export const BlochSphare = () => {
             mesh.rotation.y += 0.01;
             renderer.render(scene, camera);
 
-            requestAnimationFrame(tick);
+            feedbackAnimationFrame(tick);
         };
 
         tick();

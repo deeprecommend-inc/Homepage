@@ -26,7 +26,7 @@ export default {
                 label: 'Customer care',
                 privacyPolicy: 'Privacy policy',
                 contact: 'Contact us',
-                request: 'Request',
+                feedback: 'Feedback',
                 lab: 'DeepLab',
                 community: 'DeepNetwork',
                 aboutUs: 'About us',
@@ -49,7 +49,7 @@ export default {
             shop: 'Shop',
             blog: 'Blog',
             contact: 'Contact us',
-            request: 'Request',
+            feedback: 'Feedback',
         },
         banner: {
             title: 'DeepRecommend Inc.',
@@ -162,9 +162,9 @@ export default {
             title: 'Contact Us',
             subtitle: 'Please contact us from below.',
         },
-        request: {
-            title: 'Requests',
-            subtitle: 'Please request from below.',
+        feedback: {
+            title: 'Feedbacks',
+            subtitle: 'Please use the form below to send us your feedback.',
         },
         preRegistration: {
             title: 'App Pre-Registration',
@@ -174,7 +174,7 @@ export default {
         callToAction: {
             title: 'Did you find the service you wanted?',
             description:
-                'If you can\'t find the service you\'re looking for, please make a request in our <a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discord community!</a>',
+                'If you can\'t find the service you\'re looking for, please make a feedback in our <a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discord community!</a>',
             action: 'Find a service',
         },
     },
@@ -311,10 +311,10 @@ export default {
             <div>
               e-mail <br /> deeprecommend@gmail.com
             </div>
-            In this case, we will always confirm that the request is made by the
+            In this case, we will always confirm that the feedback is made by the
             person in question by presenting a &lsquo; license or other method
             designated by the Company. Please note that an administrative fee of
-            1,000 yen will be charged for each request for disclosure of
+            1,000 yen will be charged for each feedback for disclosure of
             information, regardless of whether or not the information is
             disclosed.
           </div>

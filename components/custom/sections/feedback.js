@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import { useLocale } from '../../../locales/useLocale';
 import SimpleBar from 'simplebar-react';
 
-const RequestComponent = ({ needsTitle = true }) => {
+const FeedbackComponent = ({ needsTitle = true }) => {
     const { t, locale } = useLocale();
 
     return (
@@ -14,10 +14,10 @@ const RequestComponent = ({ needsTitle = true }) => {
                         <Row className="justify-content-center">
                             <Col md="7" className="text-center">
                                 <h1 className="title font-bold">
-                                    {t.index.request.title}
+                                    {t.index.feedback.title}
                                 </h1>
                                 <h6 className="subtitle">
-                                    {t.index.request.subtitle}
+                                    {t.index.feedback.subtitle}
                                 </h6>
                             </Col>
                         </Row>
@@ -51,4 +51,4 @@ const RequestComponent = ({ needsTitle = true }) => {
     );
 };
 
-export default RequestComponent;
+export default FeedbackComponent;

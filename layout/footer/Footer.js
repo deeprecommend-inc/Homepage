@@ -137,11 +137,11 @@ const Footer = () => {
                         </div>
                         <div
                             onClick={() => {
-                                routerPush('request');
+                                routerPush('feedback');
                             }}
                         >
                             <a className="link">
-                                {t.layout.footer.customerCare.request}
+                                {t.layout.footer.customerCare.feedback}
                             </a>
                         </div>
                         <div

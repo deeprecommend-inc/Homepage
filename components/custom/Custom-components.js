@@ -40,10 +40,8 @@ const CustomComponents = () => {
 
             <TechnologyUsed />
 
-            {/* 
-            TODO: 信頼
             <WorkComponent />
-            <TestimonialComponent /> */}
+            <TestimonialComponent />
 
             <FeatureComponent />
 

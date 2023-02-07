@@ -38,6 +38,7 @@ import Button from '@mui/material/Button';
 import { useRouter } from 'next/router';
 import EmailIcon from '@mui/icons-material/Email';
 import SendIcon from '@mui/icons-material/Send';
+import FeedbackIcon from '@mui/icons-material/Feedback';
 
 const HeaderComponent = localePath => {
     const [isOpen, setIsOpen] = useState(false);
@@ -186,11 +187,11 @@ const HeaderComponent = localePath => {
                                         </DropdownItem>
                                         <DropdownItem
                                             onClick={() => {
-                                                routerPush('request');
+                                                routerPush('feedback');
                                             }}
                                         >
-                                            <SendIcon />
-                                            {t.index.header.request}
+                                            <FeedbackIcon />
+                                            {t.index.header.feedback}
                                         </DropdownItem>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
