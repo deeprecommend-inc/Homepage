@@ -118,7 +118,8 @@ export const Chatbot = () => {
                                     options: [
                                         {
                                             value: 1,
-                                            label: 'I want creator tools.',
+                                            label:
+                                                'I want brain power enhancer.',
                                             trigger: '4',
                                         },
                                         // {
@@ -192,8 +193,7 @@ export const Chatbot = () => {
                                     options: [
                                         {
                                             value: 1,
-                                            label:
-                                                'クリエイター向け便利ツールが欲しい',
+                                            label: '脳力を解放したい',
                                             trigger: '4',
                                         },
                                         // {
