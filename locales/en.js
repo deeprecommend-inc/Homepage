@@ -87,7 +87,7 @@ export default {
             },
             deepai: {
                 title: 'Deepia',
-                description: 'AI tools for creators',
+                description: 'Brain Power Enhancer',
             },
         },
         oneCoinSourceCode: {
@@ -169,7 +169,7 @@ export default {
         preRegistration: {
             title: 'App Pre-Registration',
             subtitle:
-                'Enter your email address to pre-register for the service and receive updates. *No fees will be charged.',
+                'Enter your email address to pre-register for the service and receive updates.',
         },
         callToAction: {
             title: 'Did you find the service you wanted?',
@@ -446,9 +446,9 @@ export default {
         },
         deepia: {
             title: 'Deepia',
-            h1: 'AI Tools for Creators',
+            h1: 'Brain Power Enhancer',
             h6:
-                'We recommend this service to the following people\n\n・Want to be a person who can use AI\n・Want a convenient tool to use AI on their behalf\n・Want to use AI for self-expression and self-realisation\n\nThe monthly fee is 980 yen.',
+                'We recommend this service to the following people\n\n・Want to be a person who can use AI\n・Want a convenient tool to use AI on their behalf\n・Want to use AI for self-expression and self-realisation\n\nUnleash your brain power.',
             getStarted: 'Get Started',
             preRegistration: 'Pre-Registration',
             nowThinking: 'Not Thinking...',

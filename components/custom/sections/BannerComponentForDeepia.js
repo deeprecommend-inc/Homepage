@@ -11,7 +11,7 @@ const BannerComponentForDeepia = () => {
 
     const scrollToRegistration = () => {
         window.scrollTo({
-            top: 2000,
+            top: 1000,
             behavior: 'smooth',
         });
     };

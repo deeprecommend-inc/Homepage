@@ -65,7 +65,7 @@ const Deepia = () => {
                 )}
             </div> */}
             <BannerComponentForDeepia />
-            <OneCoinSourceCodeComponent />
+            {/* <OneCoinSourceCodeComponent /> */}
             <PreRegistrationComponent />
             <Footer />
         </>
