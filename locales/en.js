@@ -53,7 +53,7 @@ export default {
         },
         banner: {
             title: 'DeepRecommend Inc.',
-            copy: "We're Here to Twist the Dimensionss.",
+            copy: "We're Here to Twist the Dimensions.",
             getStarted: 'Services',
             helpSupport: 'Community',
             magazine: 'Magazine',
@@ -569,7 +569,7 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">Vision</td>
-                            <td>Twisting the dimensions.</td>
+                            <td>Twisting the Dimensions.</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">Birth</td>
