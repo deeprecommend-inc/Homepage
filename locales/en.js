@@ -1026,6 +1026,12 @@ export default {
                 description: 'Contact DeepRecommend Inc.',
             },
         },
+        feedback: {
+            head: {
+                title: 'Feedback',
+                description: 'Feedback DeepRecommend Inc.',
+            },
+        },
         QnA: {
             head: {
                 title: 'Q&A',

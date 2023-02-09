@@ -13,8 +13,8 @@ const Contact = () => {
     return (
         <>
             <NextSeo
-                title={t.seo.contactus.head.title}
-                description={t.seo.contactus.head.description}
+                title={t.seo.feedback.head.title}
+                description={t.seo.feedback.head.description}
                 canonical={site.home + '/contact'}
                 openGraph={{
                     url: site.home,

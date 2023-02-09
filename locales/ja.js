@@ -978,6 +978,12 @@ export default {
                 description: 'DeepRecommend株式会社へのお問い合わせ',
             },
         },
+        feedback: {
+            head: {
+                title: 'フィードバック',
+                description: 'DeepRecommend株式会社へのフィードバック',
+            },
+        },
         QnA: {
             head: {
                 title: 'Q&A',
