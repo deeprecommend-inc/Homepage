@@ -29,6 +29,7 @@ export default {
                 community: 'DeepNetwork',
                 aboutUs: '企業概要',
                 QnA: 'Q&A',
+                entertainment: 'エンタメ',
             },
             sns: {
                 label: 'ソーシャルメディア',

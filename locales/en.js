@@ -31,6 +31,7 @@ export default {
                 community: 'DeepNetwork',
                 aboutUs: 'About us',
                 QnA: 'Q&A',
+                entertainment: 'Entertainment',
             },
             sns: {
                 label: 'Social',

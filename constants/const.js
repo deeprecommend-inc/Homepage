@@ -65,6 +65,7 @@ export const site = {
     line: 'https://line.me/R/ti/p/@990clvuz',
     email: 'https://share.hsforms.com/1pgUww_kBRZyYq6iJqVcS-wdxi9l',
     deepRecord: 'https://soundcloud.com/deep-recommend',
+    entertainment: 'https://www.youtube.com/@deeprecommend.entertainment',
 };
 
 export const sugimoto = {

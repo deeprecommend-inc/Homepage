@@ -162,6 +162,17 @@ const Footer = () => {
                                 {t.layout.footer.customerCare.privacyPolicy}
                             </a>
                         </div>
+                        <div>
+                            <Link href={site.entertainment}>
+                                <a
+                                    className="link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {t.layout.footer.customerCare.entertainment}
+                                </a>
+                            </Link>
+                        </div>
                     </Col>
                     <Col lg="3" md="6">
                         <h5 className="m-b-20">{t.layout.footer.sns.label}</h5>
