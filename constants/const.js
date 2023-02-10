@@ -71,7 +71,7 @@ export const site = {
 export const sugimoto = {
     line: 'https://line.me/ti/p/y7xddvw79c',
     twitter: 'https://twitter.com/Jin__Sugimoto',
-    instagram: 'https://www.instagram.com/deep_recommend/',
+    instagram: 'https://www.instagram.com/jin_sugimoto_333',
     linkedIn: 'https://www.linkedin.com/in/jin-sugimoto-a9171a253/',
     skillSheet:
         'https://deeprecommend.s3.ap-northeast-1.amazonaws.com/JinSugimotoSkillSheet.xlsx',

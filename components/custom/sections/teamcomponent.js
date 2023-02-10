@@ -3,7 +3,7 @@ import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import { sugimoto } from '../../../constants/const';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { useRouter } from 'next/router';
 import { useLocale } from '../../../locales/useLocale';
 
@@ -41,6 +41,9 @@ const TeamComponent = () => {
                             md="6"
                             className="m-b-30"
                             data-aos="fade-up"
+                            onClick={() => {
+                                router.push('/team/sugimoto');
+                            }}
                         >
                             <Row className="no-gutters">
                                 <Col md="12" className="pro-pic t1">
@@ -58,12 +61,12 @@ const TeamComponent = () => {
                                             </li>
                                             <li className="list-inline-item">
                                                 <a
-                                                    href={sugimoto.linkedIn}
+                                                    href={sugimoto.instagram}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
                                                     <FontAwesomeIcon
-                                                        icon={faLinkedinIn}
+                                                        icon={faInstagram}
                                                     />
                                                 </a>
                                             </li>
