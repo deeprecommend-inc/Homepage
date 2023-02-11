@@ -10,7 +10,7 @@ import CallToAction from '../components/call-to-action/CallToAction';
 import BannerComponentForDeepLog from '.';
 import BannerComponentForDeepia from '../components/custom/sections/BannerComponentForDeepia';
 import PortfolioComponent from '../components/custom/sections/portfoliocomponent';
-import OneCoinSourceCodeComponent from '../components/custom/sections/OncClinSourceCodeComponent';
+import OneCoinAIComponent from '../components/custom/sections/OneCoinAIComponent';
 
 const Deepia = () => {
     const { t, locale } = useLocale();
@@ -64,8 +64,10 @@ const Deepia = () => {
                     </>
                 )}
             </div> */}
+
             <BannerComponentForDeepia />
-            {/* <OneCoinSourceCodeComponent /> */}
+            {locale === 'ja' ? <OneCoinAIComponent /> : <></>}
+
             <PreRegistrationComponent />
             <Footer />
         </>

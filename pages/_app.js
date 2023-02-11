@@ -39,10 +39,10 @@ function MyApp({ Component, pageProps }) {
     useEffect(() => {
         $(window).on('load', function() {
             $('#splash')
-                .delay(1500)
+                .delay(200)
                 .fadeOut('slow');
             $('#splash_logo')
-                .delay(1200)
+                .delay(400)
                 .fadeOut('slow');
         });
     }, []);

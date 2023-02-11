@@ -95,6 +95,10 @@ export default {
             title: '5$ Source Code Trial',
             subtitle:
                 '(With explanatory video) For 5$, you can use already completed source code as a tool only with Google Colab. The price is not for the source code, but for "reproducibility" and "effort. *We do not accept those who do not have a computer or who think it is better to write the source code by themselves.',
+            stableDiffusion: {
+                title: 'Stable Diffusion',
+                description: 'Text to Image',
+            },
         },
         work: {
             title: 'Work',
@@ -140,6 +144,10 @@ export default {
                 subtitle:
                     'The sense consciousness we are truly seeking is deeper than we are usually aware of. By thinking deeply, we can find the sense consciousness we have been seeking.',
             },
+        },
+        oneCoinAI: {
+            title: '',
+            subtitle: '',
         },
         technologyUsed: {
             title: 'Technology',

@@ -2,16 +2,17 @@
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import Image from 'next/image';
-import deepia from '../../../assets/images/staticslider/slider/deepia.png';
+import deepia from '../../../assets/images/staticslider/slider/deepia5.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
+import aiImg from '../../../assets/images/portfolio/6.png';
 
 const BannerComponentForDeepia = () => {
     const { t, locale } = useLocale();
 
     const scrollToRegistration = () => {
         window.scrollTo({
-            top: 1000,
+            top: 1700,
             behavior: 'smooth',
         });
     };

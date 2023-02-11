@@ -46,16 +46,10 @@ export const Chatbot = () => {
                 router.push('deepia');
                 break;
             case 2:
-                router.push('deepia');
+                router.push('magazine');
                 break;
             case 3:
                 windowOpen(site.deepLab);
-                break;
-            case 4:
-                windowOpen(site.discord);
-                break;
-            case 5:
-                router.push('magazine');
                 break;
             default:
                 break;
@@ -119,33 +113,21 @@ export const Chatbot = () => {
                                         {
                                             value: 1,
                                             label:
-                                                'I want brain power enhancer.',
+                                                'I want to be able to use AI',
                                             trigger: '4',
                                         },
-                                        // {
-                                        //     value: 2,
-                                        //     label:
-                                        //         'I want AI to act on my behalf.',
-                                        //     trigger: '3',
-                                        // },
                                         {
-                                            value: 5,
+                                            value: 2,
                                             label:
-                                                'I want to know about AI, quantum computing, brain machines, and other DeepTech.',
+                                                'I want to receive exclusive information',
                                             trigger: '5',
                                         },
-                                        // {
-                                        //     value: 3,
-                                        //     label:
-                                        //         'I want to read DeepTech articles.',
-                                        //     trigger: '6',
-                                        // },
-                                        // {
-                                        //     value: 4,
-                                        //     label:
-                                        //         'I want to join the DeepTech community.',
-                                        //     trigger: '7',
-                                        // },
+                                        {
+                                            value: 3,
+                                            label:
+                                                'I want to solve problems with deep technology',
+                                            trigger: '6',
+                                        },
                                     ],
                                 },
                                 {
@@ -193,31 +175,20 @@ export const Chatbot = () => {
                                     options: [
                                         {
                                             value: 1,
-                                            label: '脳力を解放したい',
+                                            label: 'AIを使えるようになりたい',
                                             trigger: '4',
                                         },
-                                        // {
-                                        //     value: 2,
-                                        //     label: 'AIを代行したい',
-                                        //     trigger: '3',
-                                        // },
                                         {
-                                            value: 5,
-                                            label:
-                                                'AI・量子コンピューティング・ブレインマシンなどのDeepTechについて知りたい',
+                                            value: 2,
+                                            label: '限定情報を受け取りたい',
                                             trigger: '5',
                                         },
-                                        // {
-                                        //     value: 3,
-                                        //     label: 'DeepTechの記事を読みたい',
-                                        //     trigger: '6',
-                                        // },
-                                        // {
-                                        //     value: 4,
-                                        //     label:
-                                        //         'DeepTechのコミュニティーに参加したい',
-                                        //     trigger: '7',
-                                        // },
+                                        {
+                                            value: 3,
+                                            label:
+                                                'ディープテックで課題解決したい',
+                                            trigger: '6',
+                                        },
                                     ],
                                 },
                                 {

@@ -716,3 +716,7 @@ export const bookCategories = [
     'statistics',
     'web',
 ];
+
+export const oneCoinAI = {
+    stableDiffusion: 'https://buy.stripe.com/bIYdUm0R603L9GwfZ9',
+};
