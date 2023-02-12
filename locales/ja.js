@@ -26,7 +26,7 @@ export default {
                 feedback: 'フィードバック',
                 lab: 'DeepLab',
                 helpSupport: 'ヘルプ & サポート',
-                community: 'DeepNetwork',
+                community: 'コミュニティ',
                 aboutUs: '企業概要',
                 QnA: 'Q&A',
                 entertainment: 'エンタメ',
@@ -43,7 +43,7 @@ export default {
         },
         header: {
             others: 'その他',
-            community: 'DeepNetwork',
+            community: 'コミュニティ',
             record: 'DeepRecord',
             shop: 'ショップ',
             blog: 'ブログ',
@@ -145,7 +145,7 @@ export default {
             },
         },
         oneCoinAI: {
-            title: '今ならDeepNetworkへの参加で全てのワンコインAIを無料配布',
+            title: '今ならDiscordへの参加で全てのワンコインAIを無料配布',
             subtitle: '無料で受け取る',
         },
         technologyUsed: {
@@ -319,7 +319,7 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">ミッション</td>
-                    <td>心底おすすめできるモノづくりをする</td>
+                    <td>次元を捻じ曲げる</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">事業内容</td>

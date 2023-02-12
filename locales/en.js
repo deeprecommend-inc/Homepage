@@ -28,7 +28,7 @@ export default {
                 contact: 'Contact us',
                 feedback: 'Feedback',
                 lab: 'DeepLab',
-                community: 'DeepNetwork',
+                community: 'Community',
                 aboutUs: 'About us',
                 QnA: 'Q&A',
                 entertainment: 'Entertainment',
@@ -45,7 +45,7 @@ export default {
         },
         header: {
             others: 'Others',
-            community: 'DeepNetwork',
+            community: 'Community',
             record: 'DeepRecord',
             shop: 'Shop',
             blog: 'Blog',
@@ -357,7 +357,7 @@ export default {
                 </tr>
                     <tr>
                     <td class="py-2">Mission</td>
-                <td>Create services that can be deeply recommended</td>
+                <td>Twisting the dimenstions.</td>
                 </tr>
                     <tr>
                     <td class="py-2 pr-2">Business</td>

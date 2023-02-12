@@ -126,14 +126,6 @@ const HeaderComponent = localePath => {
                                             <ForumIcon />
                                             {t.index.header.community}
                                         </DropdownItem>
-                                        <DropdownItem
-                                            href={site.deepRecord}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <HeadphonesIcon />
-                                            {t.index.header.record}
-                                        </DropdownItem>
                                         <DropdownItem divider />
                                         <DropdownItem
                                             href={site.ec}

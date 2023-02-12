@@ -92,17 +92,7 @@ const Footer = () => {
                                 {t.layout.footer.service.deeplab}
                             </a>
                         </div>
-                        <div>
-                            <a
-                                className="link"
-                                href={site.community}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {t.layout.footer.customerCare.community}
-                            </a>
-                        </div>
-                        <div>
+                        {/* <div>
                             <a
                                 className="link"
                                 href={site.deepRecord}
@@ -111,7 +101,7 @@ const Footer = () => {
                             >
                                 {t.layout.footer.service.record}
                             </a>
-                        </div>
+                        </div> */}
                     </Col>
                     <Col lg="3" md="6" className="m-b-30">
                         <h5 className="m-b-20">
@@ -133,6 +123,16 @@ const Footer = () => {
                         >
                             <a className="link">
                                 {t.layout.footer.customerCare.contact}
+                            </a>
+                        </div>
+                        <div>
+                            <a
+                                className="link"
+                                href={site.community}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {t.layout.footer.customerCare.community}
                             </a>
                         </div>
                         <div
