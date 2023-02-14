@@ -92,9 +92,9 @@ export default {
             },
         },
         oneCoinSourceCode: {
-            title: '5$ Source Code Trial',
+            title: 'Quick AI Trial',
             subtitle:
-                '(With explanatory video) For 5$, you can use already completed source code as a tool only with Google Colab. The price is not for the source code, but for "reproducibility" and "effort. *We do not accept those who do not have a computer or who think it is better to write the source code by themselves.',
+                'For $5 you can use AI as a tool by simply rewriting some of the finished source code immediately with Google Colab (with tutorial video). *5$ is the price of "education", "reproducibility" and "effort", not the source code. *In rare cases, a paid version of Google Colab may be required *We do not accept those who do not have a computer, those who think it is better to write the source code themselves, or those who prefer to use other services.',
             stableDiffusion: {
                 title: 'Stable Diffusion',
                 description: 'Text to Image',
@@ -146,7 +146,7 @@ export default {
             },
         },
         oneCoinAI: {
-            title: '',
+            title: 'Quick ',
             subtitle: '',
         },
         technologyUsed: {
