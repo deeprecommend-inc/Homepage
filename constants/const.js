@@ -719,4 +719,5 @@ export const bookCategories = [
 
 export const oneCoinAI = {
     stableDiffusion: 'https://buy.stripe.com/bIYdUm0R603L9GwfZ9',
+    unstableIllusion: 'https://buy.stripe.com/14k4jMeHWg2Jg4UeV6',
 };

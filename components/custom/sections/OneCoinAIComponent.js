@@ -8,7 +8,6 @@ import museumImg from '../../../assets/images/portfolio/1.png';
 import labImg from '../../../assets/images/portfolio/2.png';
 import bookImg from '../../../assets/images/portfolio/5.png';
 import circleImg from '../../../assets/images/portfolio/7.png';
-import stableDiffusionImg from '../../../assets/images/oneCoinAI/stableDiffusion.png';
 import { oneCoinAI, site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
 import { useRouter } from 'next/router';
@@ -19,6 +18,9 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import Button from '@mui/material/Button';
 import magazineImg from '../../../assets/images/features/feature13/magazine.png';
+import stableDiffusionImg from '../../../assets/images/oneCoinAI/stableDiffusion.png';
+import unstableIllusion from '../../../assets/images/oneCoinAI/unstableIllusion.png';
+import { useOneCoinAI } from '../../../hooks/useOneCoinAI';
 
 const normalStyle = { padding: '0', height: '256px' };
 const endStyle = {
@@ -33,6 +35,7 @@ const OneCoinAIComponent = () => {
     const { t, locale } = useLocale();
     const [open, setOpen] = React.useState(false);
     const router = useRouter();
+    const { listOfOneCoinAI } = useOneCoinAI();
 
     useEffect(() => {
         setReady(true);
@@ -59,10 +62,10 @@ const OneCoinAIComponent = () => {
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
                             <h1 className="title font-bold">
-                                {t.index.oneCoinSourceCode.title}
+                                {t.index.oneCoinAI.title}
                             </h1>
                             <h6 className="subtitle">
-                                {t.index.oneCoinSourceCode.subtitle}
+                                {t.index.oneCoinAI.subtitle}
                             </h6>
                         </Col>
                     </Row>
@@ -71,37 +74,35 @@ const OneCoinAIComponent = () => {
             <div className="spacer">
                 <Container>
                     <Row className="m-t-40 justify-content-center">
-                        <Col md="4" data-aos="fade-up">
-                            <Card className="card-shadow">
-                                <a
-                                    style={normalStyle}
-                                    className="img-ho"
-                                    href={oneCoinAI.stableDiffusion}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <Image
-                                        className="card-img-top"
-                                        src={stableDiffusionImg}
-                                        alt="Deepia"
-                                    />
-                                </a>
-                                <CardBody>
-                                    <h5 className="font-medium m-b-0">
-                                        {
-                                            t.index.oneCoinSourceCode
-                                                .stableDiffusion.title
-                                        }
-                                    </h5>
-                                    <p className="m-b-0 font-14">
-                                        {
-                                            t.index.oneCoinSourceCode
-                                                .stableDiffusion.description
-                                        }
-                                    </p>
-                                </CardBody>
-                            </Card>
-                        </Col>
+                        {listOfOneCoinAI.map(ai => {
+                            return (
+                                <Col md="4" data-aos="fade-up">
+                                    <Card className="card-shadow">
+                                        <a
+                                            style={normalStyle}
+                                            className="img-ho"
+                                            href={ai.href}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <Image
+                                                className="card-img-top"
+                                                src={ai.imgSrc}
+                                                alt="Deepia"
+                                            />
+                                        </a>
+                                        <CardBody>
+                                            <h5 className="font-medium m-b-0">
+                                                {ai.title}
+                                            </h5>
+                                            <p className="m-b-0 font-14">
+                                                {ai.description}
+                                            </p>
+                                        </CardBody>
+                                    </Card>
+                                </Col>
+                            );
+                        })}
                     </Row>
                 </Container>
             </div>
@@ -127,7 +128,10 @@ const OneCoinAIComponent = () => {
                                             </div>
                                             <div>
                                                 <h5 className="font-medium">
-                                                    {t.index.oneCoinAI.title}
+                                                    {
+                                                        t.index.oneCoinAI
+                                                            .distribution.title
+                                                    }
                                                 </h5>
                                             </div>
                                         </CardBody>
@@ -139,7 +143,10 @@ const OneCoinAIComponent = () => {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            {t.index.oneCoinAI.subtitle}
+                                            {
+                                                t.index.oneCoinAI.distribution
+                                                    .subtitle
+                                            }
                                             <i className="ti-arrow-right"></i>
                                         </a>
                                     </Col>

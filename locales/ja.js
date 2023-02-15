@@ -91,13 +91,21 @@ export default {
                 description: '脳力拡張機',
             },
         },
-        oneCoinSourceCode: {
+        oneCoinAI: {
             title: 'ワンコインAIお試し',
             subtitle:
                 '500円ですぐに完成されたソースコードをGoogle Colabで一部書き換えるだけでAIをツールとして使えます（解説動画付）。※ワンコインはソースコードではなく「教育」「再現性」「手間」の値段です。※稀にGoogle Colabの有償版が必要な場合があります※パソコンが無い方、自分でソースコードを書いた方が良いと思う方、他のサービスを使ったほうが良いという方はお断りしています。',
+            distribution: {
+                title: '今ならDiscordへの参加で全てのワンコインAIを無料配布',
+                subtitle: '無料で受け取る',
+            },
             stableDiffusion: {
                 title: 'Stable Diffusion',
                 description: 'テキストを画像に変換するAI',
+            },
+            unstableIllusion: {
+                title: 'Unstable Illusion',
+                description: 'テキストを幻覚に変換するAI',
             },
         },
         work: {
@@ -143,10 +151,6 @@ export default {
                 subtitle:
                     '我々が本当に求めているものは普段意識しているより深い場所にあります。深い思考をすることで、本質がわかります。',
             },
-        },
-        oneCoinAI: {
-            title: '今ならDiscordへの参加で全てのワンコインAIを無料配布',
-            subtitle: '無料で受け取る',
         },
         technologyUsed: {
             title: '使用技術',

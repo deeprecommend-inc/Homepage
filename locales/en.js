@@ -91,13 +91,21 @@ export default {
                 description: 'Brain Power Enhancer',
             },
         },
-        oneCoinSourceCode: {
+        oneCoinAI: {
             title: 'Quick AI Trial',
             subtitle:
                 'For $5 you can use AI as a tool by simply rewriting some of the finished source code immediately with Google Colab (with tutorial video). *5$ is the price of "education", "reproducibility" and "effort", not the source code. *In rare cases, a paid version of Google Colab may be required *We do not accept those who do not have a computer, those who think it is better to write the source code themselves, or those who prefer to use other services.',
+            distribution: {
+                title: '',
+                subtitle: '',
+            },
             stableDiffusion: {
                 title: 'Stable Diffusion',
                 description: 'Text to Image',
+            },
+            unstableIllusion: {
+                title: 'Unstable Illusion',
+                description: 'Text to Illusion',
             },
         },
         work: {
@@ -144,10 +152,6 @@ export default {
                 subtitle:
                     'The sense consciousness we are truly seeking is deeper than we are usually aware of. By thinking deeply, we can find the sense consciousness we have been seeking.',
             },
-        },
-        oneCoinAI: {
-            title: 'Quick ',
-            subtitle: '',
         },
         technologyUsed: {
             title: 'Technology',
