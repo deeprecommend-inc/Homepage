@@ -96,8 +96,9 @@ export default {
             subtitle:
                 'For $5 you can use AI as a tool by simply rewriting some of the finished source code immediately with Google Colab (with tutorial video). *5$ is the price of "education", "reproducibility" and "effort", not the source code. *In rare cases, a paid version of Google Colab may be required *We do not accept those who do not have a computer, those who think it is better to write the source code themselves, or those who prefer to use other services.',
             distribution: {
-                title: '',
-                subtitle: '',
+                title:
+                    'Now you can get all one-coin AIs for free when you join Discord!',
+                subtitle: 'Get free',
             },
             stableDiffusion: {
                 title: 'Stable Diffusion',

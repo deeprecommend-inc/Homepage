@@ -627,6 +627,10 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">幼少期</td>
+                            <td>自分の指をカッターで切り、床一面血まみれ</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
                             <td>母親が妊娠悪阻。幼稚園の弁当が寿司</td>
                         </tr>
                         <tr>
@@ -648,6 +652,10 @@ export default {
                         <tr>
                             <td class="py-2 pr-2">幼少期</td>
                             <td>英語と体育教育を受けるも、英語はずっと苦手</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">幼少期</td>
+                            <td>坊さんが来て、なぜか暴れまわり、こけてコタツの角で歯をぶつける</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">少年時代</td>
@@ -875,6 +883,10 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">18歳</td>
+                            <td>DeepLogがスポニチ新聞に掲載される</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">18歳</td>
                             <td>中学の友人と芸人になる約束をしていたので、芸人の相方を探すマッチングアプリ『CmCn』を開始。読売テレビ『上沼・高田のクギズケ！』で紹介したいというメールを見逃し、チャンスを逃す</td>
                         </tr>
                         <tr>
@@ -943,11 +955,7 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">19歳</td>
-                            <td>量子AIエンジニアとして受託するも、稼働報告入力ミスで契約終了</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">19歳</td>
-                            <td>ブログ『DeepLab』を開設する。同時にマーケティングについて学ぶ</td>
+                            <td>量子AIエンジニアとして受託するも、稼働報告入力ミスで契約終了。取引再開</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">19歳</td>
@@ -956,6 +964,10 @@ export default {
                         <tr>
                             <td class="py-2 pr-2">19歳</td>
                             <td>『DeepMagazine』配信</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 pr-2">19歳</td>
+                            <td>『ワンコインAI』開始</td>
                         </tr>
                     </table>
                 `,
