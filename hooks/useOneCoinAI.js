@@ -7,6 +7,7 @@ import React from 'react';
 import { oneCoinAI } from '../constants/const';
 import stableDiffusionImg from '../assets/images/oneCoinAI/stableDiffusion.png';
 import unstableIllusionImg from '../assets/images/oneCoinAI/unstableIllusion.png';
+import deepDreamImg from '../assets/images/oneCoinAI/deepDream.png';
 import { useLocale } from '../locales/useLocale';
 
 export const useOneCoinAI = () => {
@@ -23,6 +24,12 @@ export const useOneCoinAI = () => {
             imgSrc: unstableIllusionImg,
             title: t.index.oneCoinAI.unstableIllusion.title,
             description: t.index.oneCoinAI.unstableIllusion.description,
+        },
+        {
+            href: oneCoinAI.deepDream,
+            imgSrc: deepDreamImg,
+            title: t.index.oneCoinAI.deepDream.title,
+            description: t.index.oneCoinAI.deepDream.description,
         },
     ];
     return { listOfOneCoinAI };

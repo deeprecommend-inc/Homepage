@@ -108,6 +108,10 @@ export default {
                 title: 'Unstable Illusion',
                 description: 'Text to Illusion',
             },
+            deepDream: {
+                title: 'DeepDream',
+                description: 'Image to Illusion',
+            },
         },
         work: {
             title: 'Work',

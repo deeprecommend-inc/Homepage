@@ -107,6 +107,10 @@ export default {
                 title: 'Unstable Illusion',
                 description: 'テキストを幻覚に変換するAI',
             },
+            deepDream: {
+                title: 'DeepDream',
+                description: '画像を幻覚に変換するAI',
+            },
         },
         work: {
             title: '制作実績',
