@@ -8,6 +8,7 @@ import { oneCoinAI } from '../constants/const';
 import stableDiffusionImg from '../assets/images/oneCoinAI/stableDiffusion.png';
 import unstableIllusionImg from '../assets/images/oneCoinAI/unstableIllusion.png';
 import deepDreamImg from '../assets/images/oneCoinAI/deepDream.png';
+import paperSummarizerImg from '../assets/images/oneCoinAI/paperSummarizer.png';
 import { useLocale } from '../locales/useLocale';
 
 export const useOneCoinAI = () => {
@@ -30,6 +31,12 @@ export const useOneCoinAI = () => {
             imgSrc: deepDreamImg,
             title: t.index.oneCoinAI.deepDream.title,
             description: t.index.oneCoinAI.deepDream.description,
+        },
+        {
+            href: oneCoinAI.paperSummarizer,
+            imgSrc: paperSummarizerImg,
+            title: t.index.oneCoinAI.paperSummarizer.title,
+            description: t.index.oneCoinAI.paperSummarizer.description,
         },
     ];
     return { listOfOneCoinAI };

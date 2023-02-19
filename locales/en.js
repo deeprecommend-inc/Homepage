@@ -112,6 +112,10 @@ export default {
                 title: 'DeepDream',
                 description: 'Image to Illusion',
             },
+            paperSummarizer: {
+                title: 'PaperSummarizer',
+                description: 'Summarize the Paper',
+            },
         },
         work: {
             title: 'Work',

@@ -721,4 +721,5 @@ export const oneCoinAI = {
     stableDiffusion: 'https://buy.stripe.com/bIYdUm0R603L9GwfZ9',
     unstableIllusion: 'https://buy.stripe.com/14k4jMeHWg2Jg4UeV6',
     deepDream: 'https://buy.stripe.com/8wMdUm2Ze3fX9GwfZb',
+    paperSummarizer: 'https://buy.stripe.com/5kAcQi8jyg2JdWMbIW',
 };

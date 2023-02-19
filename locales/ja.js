@@ -111,6 +111,10 @@ export default {
                 title: 'DeepDream',
                 description: '画像を幻覚に変換するAI',
             },
+            paperSummarizer: {
+                title: 'PaperSummarizer',
+                description: '論文を要約するAI',
+            },
         },
         work: {
             title: '制作実績',
