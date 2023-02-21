@@ -579,7 +579,7 @@ export default {
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">色</td>
-                            <td>至極色</td>
+                            <td>赤</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">本</td>
