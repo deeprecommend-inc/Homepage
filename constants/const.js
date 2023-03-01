@@ -53,7 +53,8 @@ export const site = {
     tiktok: 'https://www.tiktok.com/@deeprecommend',
     github: 'https://github.com/deep-recommend',
     facebook: 'https://www.facebook.com/recommend.deep/',
-    slack: 'https://join.slack.com/t/deeprecommend-mc58389/shared_invite/zt-wdn6aoli-x56SQa1Vfc97CEFvxcpmBw',
+    slack:
+        'https://join.slack.com/t/deeprecommend-mc58389/shared_invite/zt-wdn6aoli-x56SQa1Vfc97CEFvxcpmBw',
     discord: 'https://discord.com/invite/QjSFUCzDn5',
     pressRelease: 'https://prtimes.jp/main/html/searchrlp/company_id/92063',
     medium: 'https://medium.com/@deeprecommend',
@@ -66,6 +67,7 @@ export const site = {
     deepRecord: 'https://soundcloud.com/deep-recommend',
     entertainment: 'https://www.youtube.com/@deeprecommend.entertainment',
     opensea: 'https://opensea.io/DeepRecommend',
+    telegram: 'https://t.me/+xKB2r7xvrNY1OGZl',
 };
 
 export const sugimoto = {
