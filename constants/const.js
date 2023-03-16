@@ -68,6 +68,7 @@ export const site = {
     entertainment: 'https://www.youtube.com/@deeprecommend.entertainment',
     opensea: 'https://opensea.io/DeepRecommend',
     telegram: 'https://t.me/+xKB2r7xvrNY1OGZl',
+    deepia: 'https://deepia.space',
 };
 
 export const sugimoto = {

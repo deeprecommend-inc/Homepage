@@ -68,7 +68,7 @@ const Deepia = () => {
             <BannerComponentForDeepia />
             {locale === 'ja' ? <OneCoinAIComponent /> : <></>}
 
-            <PreRegistrationComponent />
+            {/* <PreRegistrationComponent /> */}
             <Footer />
         </>
     );
