@@ -41,9 +41,9 @@ const TeamComponent = () => {
                             md="6"
                             className="m-b-30"
                             data-aos="fade-up"
-                            onClick={() => {
-                                router.push('/team/sugimoto');
-                            }}
+                            // onClick={() => {
+                            //     router.push('/team/sugimoto');
+                            // }}
                         >
                             <Row className="no-gutters">
                                 <Col md="12" className="pro-pic t1">
