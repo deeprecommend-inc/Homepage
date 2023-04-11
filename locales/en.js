@@ -50,6 +50,7 @@ export default {
             shop: 'Shop',
             blog: 'Blog',
             contact: 'Contact us',
+            recruiting: 'Recruiting',
             feedback: 'Feedback',
         },
         banner: {
@@ -154,6 +155,14 @@ export default {
                     title: 'Subscribe to DeepMagazine and be creative.',
                     subtitle: 'Subscribe',
                 },
+                section3: {
+                    title: 'Join Discord → Invitation to project members-only room',
+                    subtitle: 'Join',
+                },
+                section4: {
+                    title: 'Join the team members',
+                    subtitle: 'Join',
+                },
             },
             num3: {
                 label: 'Feature 3',
@@ -175,7 +184,7 @@ export default {
             subtitle: 'Here are some of our teammates.',
             sugimoto: {
                 name: 'Jin Sugimoto',
-                position: 'CEO, Neurodesigner',
+                position: 'CEO',
                 message: 'I am a very lucky person.',
                 skillSheet: 'Skill Sheet',
             },
@@ -1067,4 +1076,75 @@ export default {
                 'AI and Quantum Computers and BrainTech and other DeepTech companies. In addition to our services, we also do contract development.',
         },
     ],
+    recruiting: {
+        content: `
+            <div>You have one of the following skills or have a clear idea of your strengths</div>
+            <table style="display: block; overflow-x: scroll; white-space: nowrap; -webkit-overflow-scrolling: touch;">
+                <tr>
+                    <td class="py-2 pr-2">Design</td>
+                    <td>Canva</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>Figma</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Web</td>
+                    <td>TypeScript（Next.js）</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>Python（Django）</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Mobile</td>
+                    <td>Dart（Flutter）</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">AI</td>
+                    <td>TensorFlow</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>OpenAI</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Quantum</td>
+                    <td>Cirq</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>cuQuantum</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>TensorFlow Quantum</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Brain</td>
+                    <td>OpenBCI</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Job Description</td>
+                    <td>Development and research related to web, mobile applications, machine learning, quantum computing, brain-machine interfaces, or related fields.</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Employment Type</td>
+                    <td>To be determined</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Work Location</td>
+                    <td>Full remote</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Working Hours</td>
+                    <td>To be determined based on the job type</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Application Process</td>
+                    <td>Join Discord → Invitation to project members-only room</td>
+                </tr>
+            </table>
+        `,
+    }
 };

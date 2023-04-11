@@ -1,11 +1,13 @@
 /* eslint-disable */
 import React from 'react';
-import { Row, Col, Container } from 'reactstrap';
 import { sugimoto } from '../../../constants/const';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { useRouter } from 'next/router';
 import { useLocale } from '../../../locales/useLocale';
+import { Row, Col, Container, Card, CardBody } from 'reactstrap';
+import Image from 'next/image';
+import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 
 const TeamComponent = () => {
     const router = useRouter();
@@ -155,6 +157,49 @@ const TeamComponent = () => {
                         </Col> */}
                     </Row>
                 </Container>
+                <div className="feature20 up">
+                <Container>
+                    <Row
+                        className="wrap-feature-20 justify-content-center"
+                    >
+                        <Col lg="6">
+                            <Card className="bg-light">
+                                <Row>
+                                    <Col md="8">
+                                        <CardBody className="d-flex no-block">
+                                            <div className="m-r-20">
+                                                <PersonSearchIcon/>
+                                            </div>
+                                            <div>
+                                                <h5 className="font-medium">
+                                                    {
+                                                        t.index.feature.num2
+                                                            .section4.title
+                                                    }
+                                                </h5>
+                                            </div>
+                                        </CardBody>
+                                    </Col>
+                                    <Col md="4" className="text-center">
+                                        <a
+                                            onClick={() => {
+                                                router.push('/recruiting')
+                                            }}
+                                            className="text-white linking bg-info"
+                                        >
+                                            {
+                                                t.index.feature.num2.section4
+                                                    .subtitle
+                                            }
+                                            <i className="ti-arrow-right"></i>
+                                        </a>
+                                    </Col>
+                                </Row>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
             </div>
         </div>
     );
