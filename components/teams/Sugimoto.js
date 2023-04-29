@@ -71,19 +71,13 @@ const Sugimoto = () => {
                     __html: t.teams.sugimoto.JinSugimoto.history,
                 }}
             />
-            <h1 style={{ margin: '35px 0 30px' }}>
-                {t.teams.general.manual.title}
-            </h1>
-            <p>
-                {t.teams.general.manual.content}
-            </p>
             <h1 style={{ margin: '35px 0 30px' }}>{t.teams.general.routine}</h1>
             <span
                 dangerouslySetInnerHTML={{
                     __html: t.teams.sugimoto.JinSugimoto.routine,
                 }}
             />
-            <h1 style={{ margin: '35px 0 30px' }}>Big 5</h1>
+            {/* <h1 style={{ margin: '35px 0 30px' }}>Big 5</h1>
             <Radar
                 options={{
                     scales: {
@@ -149,20 +143,20 @@ const Sugimoto = () => {
             <img src="/intp.png" />
             or ENTJ-A
             <img src="/entj.png" />
-            <h1 style={{ margin: '35px 0 30px' }}>{t.teams.general.strength}</h1>
+            <h1 style={{ margin: '35px 0 30px' }}>
+                {t.teams.general.strength}
+            </h1>
             <ul>
                 {t.teams.sugimoto.JinSugimoto.strengths.map(strength => {
-                    return (
-                        <li key={strength}>{strength}</li>
-                    )
+                    return <li key={strength}>{strength}</li>;
                 })}
             </ul>
-            <h1 style={{ margin: '35px 0 30px' }}>{t.teams.general.weakness}</h1>
+            <h1 style={{ margin: '35px 0 30px' }}>
+                {t.teams.general.weakness}
+            </h1>
             <ul>
                 {t.teams.sugimoto.JinSugimoto.weaknesses.map(weakness => {
-                    return (
-                        <li key={weakness}>{weakness}</li>
-                    )
+                    return <li key={weakness}>{weakness}</li>;
                 })}
             </ul>
             <h1 style={{ margin: '35px 0 30px' }}>
@@ -234,7 +228,7 @@ const Sugimoto = () => {
                         },
                     ],
                 }}
-            />
+            /> */}
         </div>
     );
 };
