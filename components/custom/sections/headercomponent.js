@@ -39,6 +39,7 @@ import { useRouter } from 'next/router';
 import EmailIcon from '@mui/icons-material/Email';
 import SendIcon from '@mui/icons-material/Send';
 import FeedbackIcon from '@mui/icons-material/Feedback';
+import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 
 const HeaderComponent = localePath => {
     const [isOpen, setIsOpen] = useState(false);
@@ -176,6 +177,14 @@ const HeaderComponent = localePath => {
                                         >
                                             <EmailIcon />
                                             {t.index.header.contact}
+                                        </DropdownItem>
+                                        <DropdownItem
+                                            onClick={() => {
+                                                routerPush('recruiting');
+                                            }}
+                                        >
+                                            <PersonSearchIcon />
+                                            {t.index.header.recruiting}
                                         </DropdownItem>
                                         <DropdownItem
                                             onClick={() => {

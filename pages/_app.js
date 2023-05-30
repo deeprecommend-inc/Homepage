@@ -32,17 +32,17 @@ function MyApp({ Component, pageProps }) {
         AOS.init({
             once: true,
             easing: 'ease-out-sine',
-            duration: 600,
+            duration: 300,
         });
     }, []);
 
     useEffect(() => {
         $(window).on('load', function() {
             $('#splash')
-                .delay(200)
+                .delay(50)
                 .fadeOut('slow');
             $('#splash_logo')
-                .delay(400)
+                .delay(100)
                 .fadeOut('slow');
         });
     }, []);

@@ -48,6 +48,7 @@ export default {
             shop: 'ショップ',
             blog: 'ブログ',
             contact: 'お問い合わせ',
+            recruiting: 'リクルート',
             feedback: 'フィードバック',
         },
         banner: {
@@ -152,6 +153,14 @@ export default {
                     title: 'DeepMagazineを購読して、創造性を発揮する',
                     subtitle: '購読する',
                 },
+                section3: {
+                    title: 'Discordに参加 → プロジェクト・メンバー限定ルームに招待',
+                    subtitle: '参加する',
+                },
+                section4: {
+                    title: 'チームメンバーに加わる',
+                    subtitle: '加わる',
+                },
             },
             num3: {
                 label: '特徴 3',
@@ -173,7 +182,7 @@ export default {
             subtitle: 'DeepRecommendのチームメイトをご紹介します。',
             sugimoto: {
                 name: '杉本 迅',
-                position: 'CEO, Neurodesigner',
+                position: 'CEO',
                 message: 'めちゃくちゃ運が良い人間です。',
                 skillSheet: 'スキルシート',
             },
@@ -1075,4 +1084,75 @@ export default {
                 'AIと量子コンピュータとブレインテックなどのDeepTechの会社です。サービス以外にも受託開発をしています。',
         },
     ],
+    recruiting: {
+        content: `
+            <div>以下いずれかのスキルをお持ちの方、あるいはご自身の強みを明確にお持ちの方</div>
+            <table style="display: block; overflow-x: scroll; white-space: nowrap; -webkit-overflow-scrolling: touch;">
+                <tr>
+                    <td class="py-2 pr-2">Design</td>
+                    <td>Canva</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>Figma</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Web</td>
+                    <td>TypeScript（Next.js）</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>Python（Django）</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Mobile</td>
+                    <td>Dart（Flutter）</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">AI</td>
+                    <td>TensorFlow</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>OpenAI</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Quantum</td>
+                    <td>Cirq</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>cuQuantum</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>TensorFlow Quantum</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">Brain</td>
+                    <td>OpenBCI</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">業務内容</td>
+                    <td>Web、モバイルアプリケーション、機械学習、量子コンピュータ、ブレインマシンの開発、及び研究。または、それに関する業務</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">雇用形態</td>
+                    <td>要相談</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">就業場所</td>
+                    <td>フルリモート</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">勤務時間</td>
+                    <td>雇用形態に準ずる</td>
+                </tr>
+                <tr>
+                    <td class="py-2 pr-2">参画方法</td>
+                    <td>Discordに参加 → 案件・プロジェクト・メンバー限定のルームに招待</td>
+                </tr>
+            </table>
+        `,
+    }
 };

@@ -78,6 +78,7 @@ export const sugimoto = {
     linkedIn: 'https://www.linkedin.com/in/jin-sugimoto-a9171a253/',
     skillSheet:
         'https://deeprecommend.s3.ap-northeast-1.amazonaws.com/JinSugimotoSkillSheet.xlsx',
+    meeting: 'https://cal.com/jin-sugimoto/meeting',
 };
 
 export const smtp = {

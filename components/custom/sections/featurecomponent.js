@@ -245,7 +245,7 @@ const FeatureComponent = () => {
                     </Row>
                 </Container>
             </div>
-            <div className="spacer ">
+            <div className="spacer">
                 <Container className="feature30">
                     <Row>
                         <Col lg="10" data-aos="slide-right">
