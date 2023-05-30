@@ -156,7 +156,8 @@ export default {
                     subtitle: 'Subscribe',
                 },
                 section3: {
-                    title: 'Join Discord → Invitation to project members-only room',
+                    title:
+                        'Join Discord → Invitation to project members-only room',
                     subtitle: 'Join',
                 },
                 section4: {
@@ -1078,7 +1079,7 @@ export default {
     ],
     recruiting: {
         content: `
-            <div>You have one of the following skills or have a clear idea of your strengths</div>
+            <div>Those who are willing to collaborate on contracted development, information dissemination, and in-house development in any of the following skill sets</div>
             <table style="display: block; overflow-x: scroll; white-space: nowrap; -webkit-overflow-scrolling: touch;">
                 <tr>
                     <td class="py-2 pr-2">Design</td>
@@ -1109,6 +1110,10 @@ export default {
                     <td>OpenAI</td>
                 </tr>
                 <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>Stable Diffusion</td>
+                </tr>
+                <tr>
                     <td class="py-2 pr-2">Quantum</td>
                     <td>Cirq</td>
                 </tr>
@@ -1126,11 +1131,11 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">Job Description</td>
-                    <td>Development and research related to web, mobile applications, machine learning, quantum computing, brain-machine interfaces, or related fields.</td>
+                    <td>Development and research related to web, mobile applications, machine learning, blockchain,  quantum computing, brain-machine interfaces, or related fields.</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">Employment Type</td>
-                    <td>To be determined</td>
+                    <td>Part-time job, outsourced work (full-time position depending on status)</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">Work Location</td>
@@ -1138,13 +1143,13 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">Working Hours</td>
-                    <td>To be determined based on the job type</td>
+                    <td>2 weeks ~</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">Application Process</td>
-                    <td>Join Discord → Invitation to project members-only room</td>
+                    <td>Join Discord → Contact → Invitation to project members-only room</td>
                 </tr>
             </table>
         `,
-    }
+    },
 };

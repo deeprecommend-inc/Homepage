@@ -154,7 +154,8 @@ export default {
                     subtitle: '購読する',
                 },
                 section3: {
-                    title: 'Discordに参加 → プロジェクト・メンバー限定ルームに招待',
+                    title:
+                        'Discordに参加 → プロジェクト・メンバー限定ルームに招待',
                     subtitle: '参加する',
                 },
                 section4: {
@@ -1086,7 +1087,7 @@ export default {
     ],
     recruiting: {
         content: `
-            <div>以下いずれかのスキルをお持ちの方、あるいはご自身の強みを明確にお持ちの方</div>
+            <div>以下のスキルセットいずれかで受託開発・情報発信・自社開発を協力していただける方</div>
             <table style="display: block; overflow-x: scroll; white-space: nowrap; -webkit-overflow-scrolling: touch;">
                 <tr>
                     <td class="py-2 pr-2">Design</td>
@@ -1117,6 +1118,10 @@ export default {
                     <td>OpenAI</td>
                 </tr>
                 <tr>
+                    <td class="py-2 pr-2"></td>
+                    <td>Stable Diffusion</td>
+                </tr>
+                <tr>
                     <td class="py-2 pr-2">Quantum</td>
                     <td>Cirq</td>
                 </tr>
@@ -1134,11 +1139,11 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">業務内容</td>
-                    <td>Web、モバイルアプリケーション、機械学習、量子コンピュータ、ブレインマシンの開発、及び研究。または、それに関する業務</td>
+                    <td>Web、モバイルアプリケーション、機械学習、ブロックチェーン、量子コンピューティング、ブレインマシンの開発、及び研究。または、それに関する業務</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">雇用形態</td>
-                    <td>要相談</td>
+                    <td>アルバイト・業務委託（状況次第で正社員登用）</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">就業場所</td>
@@ -1146,13 +1151,13 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">勤務時間</td>
-                    <td>雇用形態に準ずる</td>
+                    <td>週2～</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">参画方法</td>
-                    <td>Discordに参加 → 案件・プロジェクト・メンバー限定のルームに招待</td>
+                    <td>Discordに参加 → コンタクト → 案件・プロジェクト・メンバー限定のルームに招待</td>
                 </tr>
             </table>
         `,
-    }
+    },
 };

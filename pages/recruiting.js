@@ -54,9 +54,7 @@ const Recruiting = () => {
             </div>
             <div className="feature20 up">
                 <Container>
-                    <Row
-                        className="wrap-feature-20 justify-content-center"
-                    >
+                    <Row className="wrap-feature-20 justify-content-center">
                         <Col lg="6">
                             <Card className="bg-light">
                                 <Row>
