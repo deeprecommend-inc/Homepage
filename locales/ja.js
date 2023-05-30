@@ -549,7 +549,7 @@ export default {
                         <img src="/sugimoto.jpg" style="width: 360px;" />
                         <tr>
                             <td class="py-2 pr-2">ポジション</td>
-                            <td>CEO, ニューロデザイナー</td>
+                            <td>CEO</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2">ビジョン</td>
@@ -558,78 +558,6 @@ export default {
                         <tr>
                             <td class="py-2 pr-2">生誕</td>
                             <td>2003年8月18日</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">国籍</td>
-                            <td>日本</td>
-                        </tr>
-                         <tr>
-                            <td class="py-2 pr-2">血液型</td>
-                            <td>O型</td>
-                        </tr>
-                       <tr>
-                            <td class="py-2 pr-2">クロノタイプ</td>
-                            <td>朝型</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">利き手</td>
-                            <td>左</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">第二言語</td>
-                            <td>英語</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">プログラミング言語</td>
-                            <td>Python, TypeScript, Dart</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">MBTI</td>
-                            <td>INTP</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">色</td>
-                            <td>赤</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">本</td>
-                            <td>論語</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">映画</td>
-                            <td>Matrix</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">ゲーム</td>
-                            <td>マインクラフト・Detroit Become Human</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">趣味</td>
-                            <td>読書・ギター</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">スポーツ</td>
-                            <td>ハンドボール・野球</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">認知特性</td>
-                            <td>視覚 > 言語 > 聴覚</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">強み</td>
-                            <td>好奇心</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">弱み</td>
-                            <td>愛情</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">得意科目</td>
-                            <td>数学</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 pr-2">苦手科目</td>
-                            <td>国語</td>
                         </tr>
                     </table>
                 `,

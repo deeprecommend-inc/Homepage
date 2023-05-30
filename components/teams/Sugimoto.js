@@ -63,7 +63,7 @@ const Sugimoto = () => {
                     __html: t.teams.sugimoto.JinSugimoto.content,
                 }}
             />
-            <h1 style={{ margin: '35px 0 30px' }}>
+            {/* <h1 style={{ margin: '35px 0 30px' }}>
                 {t.teams.general.upbringing}
             </h1>
             <span
@@ -76,7 +76,7 @@ const Sugimoto = () => {
                 dangerouslySetInnerHTML={{
                     __html: t.teams.sugimoto.JinSugimoto.routine,
                 }}
-            />
+            /> */}
             {/* <h1 style={{ margin: '35px 0 30px' }}>Big 5</h1>
             <Radar
                 options={{
