@@ -11,6 +11,8 @@ import BannerComponentForDeepLog from '.';
 import BannerComponentForDeepia from '../components/custom/sections/BannerComponentForDeepia';
 import PortfolioComponent from '../components/custom/sections/portfoliocomponent';
 import OneCoinAIComponent from '../components/custom/sections/OneCoinAIComponent';
+import { TwitterTweetEmbed } from 'react-twitter-embed';
+import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 
 const Deepia = () => {
     const { t, locale } = useLocale();
@@ -64,10 +66,30 @@ const Deepia = () => {
                     </>
                 )}
             </div> */}
-
             <BannerComponentForDeepia />
-            {locale === 'ja' ? <OneCoinAIComponent /> : <></>}
 
+            <div className="spacer">
+                <Container>
+                    <Row className="justify-content-center">
+                        <Col md="7" className="text-center">
+                            {locale === 'ja' ? (
+                                <TwitterTweetEmbed
+                                    tweetId={'1663619257723420672'}
+                                />
+                            ) : (
+                                <TwitterTweetEmbed
+                                    tweetId={'1663620787734200320'}
+                                />
+                            )}
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+            <div style={{ width: '100vw' }}>
+                <div className=""></div>
+            </div>
+
+            {locale === 'ja' ? <OneCoinAIComponent /> : <></>}
             {/* <PreRegistrationComponent /> */}
             <Footer />
         </>
