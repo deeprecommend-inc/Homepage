@@ -68,6 +68,20 @@ const Deepia = () => {
             </div> */}
             <BannerComponentForDeepia />
 
+            <div className="spacer bg-light">
+                <Container>
+                    <Row className="justify-content-center">
+                        <Col md="7" className="text-center">
+                            <h1 className="title font-bold">
+                                {t.index.campaign.title}
+                            </h1>
+                            <h6 className="subtitle">
+                                {t.index.campaign.subtitle}
+                            </h6>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
             <div className="spacer">
                 <Container>
                     <Row className="justify-content-center">
@@ -84,9 +98,6 @@ const Deepia = () => {
                         </Col>
                     </Row>
                 </Container>
-            </div>
-            <div style={{ width: '100vw' }}>
-                <div className=""></div>
             </div>
 
             {locale === 'ja' ? <OneCoinAIComponent /> : <></>}

@@ -207,6 +207,10 @@ export default {
                 'もし見つかっていないなら<a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discordコミュニティー</a>でご要望承ります！',
             action: 'サービスを探す',
         },
+        campaign: {
+            title: 'キャンペーン',
+            subtitle: 'フォロー&いいね&リツイートで特典',
+        },
     },
     deeplog: {
         head: {

@@ -209,6 +209,10 @@ export default {
                 'If you can\'t find the service you\'re looking for, please make a feedback in our <a href="https://discord.gg/QjSFUCzDn5" target="_blank" rel="noopener noreferrer">Discord community!</a>',
             action: 'Find a service',
         },
+        campaign: {
+            title: 'Campaign',
+            subtitle: 'Follow, Like & Retweet for special offers.',
+        },
     },
     deeplog: {
         head: {

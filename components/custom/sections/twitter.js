@@ -34,7 +34,7 @@ const TwitterEmbedded = () => {
                         href="https://twitter.com/DeepRecommend?ref_src=twsrc%5Etfw"
                     >
                         Tweets by DeepRecommend
-                    </a>{' '}
+                    </a>
                     <Script
                         id="twitter-embdded"
                         async
