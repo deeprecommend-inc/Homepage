@@ -63,8 +63,8 @@
     "remark-html-katex": "^4.0.1",
     "remark-math": "^5.1.1",
     "sass": "^1.48.0",
-    "simplebar": "^5.3.8",
-    "simplebar-react": "^2.4.1",
+    "simplebar": "^6.2.5",
+    "simplebar-react": "^3.2.4",
     "styled-components": "^5.3.3",
     "three": "^0.139.2"
   },

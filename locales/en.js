@@ -1084,7 +1084,7 @@ export default {
     recruiting: {
         content: `
             <div>Those who are willing to collaborate on contracted development, information dissemination, and in-house development in any of the following skill sets or simply interested in</div>
-            <table style="display: block; overflow-x: scroll; white-space: nowrap; -webkit-overflow-scrolling: touch;">
+            <table style="display: block; white-space: nowrap; -webkit-overflow-scrolling: touch;">
                 <tr>
                     <td class="py-2 pr-2">Design</td>
                     <td>Canva</td>

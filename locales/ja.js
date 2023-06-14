@@ -1020,7 +1020,7 @@ export default {
     recruiting: {
         content: `
             <div>以下のスキルセットいずれかで受託開発・情報発信・自社開発を協力していただける方。または、単純にご興味ある方</div>
-            <table style="display: block; overflow-x: scroll; white-space: nowrap; -webkit-overflow-scrolling: touch;">
+            <table style="display: block; white-space: nowrap; -webkit-overflow-scrolling: touch;">
                 <tr>
                     <td class="py-2 pr-2">Design</td>
                     <td>Canva</td>

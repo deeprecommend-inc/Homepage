@@ -630,11 +630,6 @@
     gud "^1.0.0"
     warning "^4.0.3"
 
-"@juggle/resize-observer@^3.3.1":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@juggle/resize-observer/-/resize-observer-3.4.0.tgz#08d6c5e20cf7e4cc02fd181c4b0c225cd31dbb60"
-  integrity sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==
-
 "@mui/base@5.0.0-alpha.64":
   version "5.0.0-alpha.64"
   resolved "https://registry.yarnpkg.com/@mui/base/-/base-5.0.0-alpha.64.tgz#1d108458932a81694efbf49f8b588e0a6bba3ff3"
@@ -915,6 +910,18 @@
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/@types/katex/-/katex-0.11.1.tgz#34de04477dcf79e2ef6c8d23b41a3d81f9ebeaf5"
   integrity sha512-DUlIj2nk0YnJdlWgsFuVKcX27MLW0KbKmGVoUHmFr+74FYYNUDAaj9ZqTADvsbE8rfxuVmSFc7KczYn5Y09ozg==
+
+"@types/lodash-es@^4.17.6":
+  version "4.17.7"
+  resolved "https://registry.yarnpkg.com/@types/lodash-es/-/lodash-es-4.17.7.tgz#22edcae9f44aff08546e71db8925f05b33c7cc40"
+  integrity sha512-z0ptr6UI10VlU6l5MYhGwS4mC8DZyYer2mCoyysZtSF7p26zOX8UpbrV0YpNYLGS8K4PUFIyEr62IMFFjveSiQ==
+  dependencies:
+    "@types/lodash" "*"
+
+"@types/lodash@*":
+  version "4.14.195"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.195.tgz#bafc975b252eb6cea78882ce8a7b6bf22a6de632"
+  integrity sha512-Hwx9EUgdwf2GLarOjQp5ZH8ZmblzcbTBC2wtQWNKARBSxM9ezRIAUpeDTgoQRAFB0+8CNWXVA9+MaSOzOF3nPg==
 
 "@types/mdast@^3.0.0":
   version "3.0.10"
@@ -2347,11 +2354,6 @@ core-js-pure@^3.20.2:
   version "3.20.2"
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.20.2.tgz#5d263565f0e34ceeeccdc4422fae3e84ca6b8c0f"
   integrity sha512-CmWHvSKn2vNL6p6StNp1EmMIfVY/pqn3JLAjfZQ8WZGPOlGoO92EkX9/Mk81i6GxvoPXjUqEQnpM3rJ5QxxIOg==
-
-core-js@^3.0.1:
-  version "3.25.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.25.0.tgz#be71d9e0dd648ffd70c44a7ec2319d039357eceb"
-  integrity sha512-CVU1xvJEfJGhyCpBrzzzU1kjCfgsGUxhEvwUV2e/cOedYWHdmluamx+knDnmhqALddMG16fZvIqvs9aijsHHaA==
 
 core-util-is@~1.0.0:
   version "1.0.3"
@@ -5004,7 +5006,7 @@ lodash-es@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
 
-lodash.debounce@^4.0.6, lodash.debounce@^4.0.8:
+lodash.debounce@^4.0.6:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
@@ -5024,7 +5026,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash.throttle@^4.0.1, lodash.throttle@^4.1.1:
+lodash.throttle@^4.0.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
@@ -7750,25 +7752,30 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-simplebar-react@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/simplebar-react/-/simplebar-react-2.4.1.tgz#f8c37064d1be52e53c1f62e199a02d9104aa290a"
-  integrity sha512-lw0ZPj+80ez2mh1YTOligFUNzDch2sUbOzDp4WUhU5SpS+qMiyyOzNfMbHa0l4FyWox+tnGNO7jybxqIda3roQ==
+simplebar-core@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/simplebar-core/-/simplebar-core-1.2.4.tgz#1fe965716a426f812c1a112ce28d98b9a643797b"
+  integrity sha512-P+Sqshef4fq3++gQ82TgNYcgl3qZFSCP5jS2/8NMmw18oagXOijMzs1G+vm6RUY3oMvpwH3wGoqh9u6SyDjHfQ==
   dependencies:
-    prop-types "^15.6.1"
-    simplebar "^5.3.8"
-
-simplebar@^5.3.8:
-  version "5.3.8"
-  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-5.3.8.tgz#4c133596780756a8170682d7fd8bfd23ea5220ab"
-  integrity sha512-LOHjyOcihx++zFN+vuktoZBGpCarFCtHIVDWXOf2VELbGDknq3Hw/sddafRp1aCg123VNkHWOFHUDHYEXAtufQ==
-  dependencies:
-    "@juggle/resize-observer" "^3.3.1"
+    "@types/lodash-es" "^4.17.6"
     can-use-dom "^0.1.0"
-    core-js "^3.0.1"
-    lodash.debounce "^4.0.8"
-    lodash.memoize "^4.1.2"
-    lodash.throttle "^4.1.1"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
+
+simplebar-react@^3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/simplebar-react/-/simplebar-react-3.2.4.tgz#fa495e50048c497c767fb5591b106658f160b240"
+  integrity sha512-ogLN79e7JUm82wJChD7NSUB+4EHCFvDkjXpiu8hT1Alk7DnCekUWds61NXcsP9jC97KOgF5To/AVjYFbX0olgg==
+  dependencies:
+    simplebar-core "^1.2.4"
+
+simplebar@^6.2.5:
+  version "6.2.5"
+  resolved "https://registry.yarnpkg.com/simplebar/-/simplebar-6.2.5.tgz#9d7cdf9f9a57b28f2497d165caf60f1bc644913e"
+  integrity sha512-vfxKR6KNBsPx7+sZnqO7T8VuCvi4px6OlycrrkNgyjvoHhRW7LIyVkHhUfXxbz33Gw99Wb9UMMsnEZv35wtLSw==
+  dependencies:
+    can-use-dom "^0.1.0"
+    simplebar-core "^1.2.4"
 
 sisteransi@^1.0.5:
   version "1.0.5"

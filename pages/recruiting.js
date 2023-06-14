@@ -33,6 +33,7 @@ import Banner from '../components/banner/Banner';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 import discordImg from '../assets/images/features/feature13/discord.png';
 import Image from 'next/image';
+import SimpleBar from 'simplebar-react';
 
 const Recruiting = () => {
     const { t, locale } = useLocale();
@@ -40,7 +41,7 @@ const Recruiting = () => {
     return (
         <div id="container">
             <HeaderComponent />
-            <div
+            <SimpleBar
                 style={{
                     maxWidth: '750px',
                     margin: '64px auto',
@@ -51,7 +52,7 @@ const Recruiting = () => {
                 <span
                     dangerouslySetInnerHTML={{ __html: t.recruiting.content }}
                 />
-            </div>
+            </SimpleBar>
             <div className="feature20 up">
                 <Container>
                     <Row className="wrap-feature-20 justify-content-center">
