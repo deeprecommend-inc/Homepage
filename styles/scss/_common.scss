@@ -980,7 +980,7 @@ Timeline page
 }
 
 .timeline-badge.info {
-    background-color: $info;
+    background-color: $primary;
 }
 
 .timeline-title {
@@ -1072,8 +1072,8 @@ html body .accordion {
         }
 
         &:hover {
-            background-color: $info;
-            border: 1px solid $info;
+            background-color: $primary;
+            border: 1px solid $primary;
 
             a {
                 color: $white;
@@ -1082,8 +1082,8 @@ html body .accordion {
     }
 
     .card.active .card-header {
-        background-color: $info;
-        border: 1px solid $info;
+        background-color: $primary;
+        border: 1px solid $primary;
 
         a {
             color: $white;
@@ -1154,8 +1154,8 @@ Breadcrumb
 }
 
 .card-info {
-    background: $info;
-    border-color: $info;
+    background: $primary;
+    border-color: $primary;
 }
 
 .card-primary {
@@ -1187,8 +1187,8 @@ Breadcrumb
 }
 
 .card-info {
-    background: $info;
-    border-color: $info;
+    background: $primary;
+    border-color: $primary;
 }
 
 .card-primary {
@@ -1197,11 +1197,11 @@ Breadcrumb
 }
 
 .card-outline-info {
-    border-color: $info;
+    border-color: $primary;
 
     .card-header {
-        background: $info;
-        border-color: $info;
+        background: $primary;
+        border-color: $primary;
     }
 }
 
@@ -1471,7 +1471,7 @@ Footer 4
             color: $bodytext;
 
             &:hover {
-                color: $info;
+                color: $primary;
             }
         }
     }
@@ -1483,7 +1483,7 @@ Footer 4
             line-height: 34px;
 
             &:hover {
-                background: $info;
+                background: $primary;
             }
         }
     }
@@ -1508,3 +1508,4 @@ Modal in center
     -webkit-animation-duration: 0.5s;
     animation-duration: 0.5s;
 }
+

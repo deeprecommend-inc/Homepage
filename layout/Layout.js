@@ -6,16 +6,7 @@ import Header from '../components/blog/Header';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
 
-const buttonStyle = {
-    position: 'fixed',
-    bottom: '24px',
-    right: '24px',
-    borderRadius: '100%',
-    width: '52px',
-    minWidth: '52px',
-    height: '52px',
-    zIndex: 999,
-};
+
 
 const Layout = ({ children }) => {
     const [isMouseOver, setIsMouseOver] = useState(false);
@@ -34,6 +25,20 @@ const Layout = ({ children }) => {
 
     const mouseLeave = () => {
         setIsMouseOver(false);
+    };
+
+    const buttonStyle = {
+        position: 'fixed',
+        bottom: '24px',
+        right: '24px',
+        borderRadius: '100%',
+        width: '52px',
+        minWidth: '52px',
+        height: '52px',
+        zIndex: 999,
+        backgroundColor: isMouseOver ? 'rgb(103, 58, 183)' : 'initial',
+        color: 'rgb(103, 58, 183)',
+        border: '1px solid rgb(103, 58, 183)',
     };
 
     return (

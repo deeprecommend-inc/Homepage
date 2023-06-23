@@ -11,17 +11,17 @@ import { site } from '../constants/const';
 
 const theme = {
     background: '#fafafa',
-    headerBgColor: '#316ce8',
+    headerBgColor: 'rgb(103, 58, 183)',
     headerFontColor: '#ffffff',
     headerFontSize: '16px',
-    botBubbleColor: '#316ce8',
+    botBubbleColor: 'rgb(103, 58, 183)',
     botFontColor: '#fff',
     userBubbleColor: '#fff',
     userFontColor: '#4a4a4a',
 };
 
 const bottomStyle = {
-    background: '#316ce8',
+    background: 'rgb(103, 58, 183)',
     width: '86px',
     minWidth: '86px',
     height: '86x',

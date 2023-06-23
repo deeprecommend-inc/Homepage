@@ -40,7 +40,7 @@ Header 1
             color: $muted;
             font-weight: 400;
             &:hover {
-                color: $info;
+                color: $primary;
             }
         }
         &:last-child {
@@ -61,7 +61,7 @@ Header 2
             color: $white;
             font-weight: 400;
             &:hover {
-                color: $info;
+                color: $primary;
             }
         }
         &:last-child {
