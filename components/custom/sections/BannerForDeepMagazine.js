@@ -11,7 +11,7 @@ const BannerComponentForDeepMagazine = () => {
 
     const scrollToRegisterMagazine = () => {
         window.scrollTo({
-            top: 3700,
+            top: 1000,
             behavior: 'smooth',
         });
     };
