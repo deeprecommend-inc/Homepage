@@ -68,7 +68,7 @@ const Deepia = () => {
             </div> */}
             <BannerComponentForDeepia />
 
-            <div className="spacer bg-light">
+            {/* <div className="spacer bg-light">
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
@@ -98,7 +98,7 @@ const Deepia = () => {
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            </div> */}
 
             {locale === 'ja' ? <OneCoinAIComponent /> : <></>}
             {/* <PreRegistrationComponent /> */}
