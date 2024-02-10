@@ -182,10 +182,73 @@ export default {
             title: 'チーム',
             subtitle: 'DeepRecommendのチームメイトをご紹介します。',
             sugimoto: {
+                twitter: 'https://twitter.com/Jin__Sugimoto',
+                instagram: 'https://www.instagram.com/jin_sugimoto_0818/',
                 name: '杉本 迅',
                 position: 'CEO',
-                message: 'めちゃくちゃ運が良い人間です。',
-                skillSheet: 'スキルシート',
+                role: '経営戦略・エンジニアリング・ファイナンス',
+                message:
+                    '技術のことならお任せ。弊社代表、専門は技術経営。意思決定・開発・ファイナンスを担います。エンジニアリング領域は、システムからAI、量子コンピューティングまで。メインはPython、Rust。長期にかけてBCIやニューロモルフィックコンピューティングに取り組みます。',
+                urlTitle: 'スキルシート',
+                url:
+                    'https://deeprecommend.s3.ap-northeast-1.amazonaws.com/JinSugimotoSkillSheet.xlsx',
+            },
+            miyata: {
+                twitter: 'https://twitter.com/AAI_deracine',
+                instagram: 'https://www.instagram.com/aai_deracine/',
+                name: '宮田亜美',
+                position: '総合マネージャー',
+                role: '総務・経理・営業',
+                message:
+                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+            },
+            tanaka: {
+                instagram: 'https://www.instagram.com/aai_deracine/',
+                name: '田中蒼悟',
+                position: 'リーガルコンサルタント',
+                role: '戦略法務',
+                message:
+                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+            },
+            iwatani: {
+                instagram: 'https://www.instagram.com/aai_deracine/',
+                name: '岩谷家宝',
+                position: 'メディエーター',
+                role: '管理・リサーチ・営業',
+                message:
+                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+            },
+            yoshida: {
+                instagram: 'https://www.instagram.com/aai_deracine/',
+                name: '吉田昂起',
+                position: 'デザイナー',
+                role: 'Webデザイン・AIツール・英語',
+                message:
+                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+            },
+            shishino: {
+                instagram: 'https://www.instagram.com/aai_deracine/',
+                name: '宍野太晟',
+                position: 'アーティスト',
+                role: '絵画・デザイン',
+                message:
+                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+            },
+            yanagisaki: {
+                instagram: 'https://www.instagram.com/aai_deracine/',
+                name: '柳崎伶文',
+                position: 'エンターテイナー',
+                role: 'お笑い・音楽',
+                message:
+                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+            },
+            kajita: {
+                instagram: 'https://www.instagram.com/aai_deracine/',
+                name: '梶田寛太',
+                position: 'アーキテクト',
+                role: '建築・デザイン・ファッション',
+                message:
+                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
             },
         },
         contact: {

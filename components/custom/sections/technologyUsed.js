@@ -77,7 +77,7 @@ export const TechnologyUsed = () => {
                             <Card className="card-shadow" data-aos="fade-up">
                                 <CardBody>
                                     <h6 className="font-light m-b-30 text-center">
-                                        AI / Quantum
+                                        AI / Quantum / Neuron
                                     </h6>
                                     <Container>
                                         <Row className="testi3 m-t-40 justify-content-start">
