@@ -184,6 +184,8 @@ export default {
             title: 'Team',
             subtitle: 'Here are some of our teammates.',
             sugimoto: {
+                twitter: 'https://twitter.com/Jin__Sugimoto',
+                instagram: 'https://www.instagram.com/jin_sugimoto_0818/',
                 name: 'Jin Sugimoto',
                 position: 'CEO',
                 role: 'Strategy, Engineering, Finance',
