@@ -185,7 +185,8 @@ export default {
             subtitle: 'Here are some of our teammates.',
             sugimoto: {
                 name: 'Jin Sugimoto',
-                position: 'Engineer',
+                position: 'CEO',
+                role: 'Strategy, Engineering, Finance',
                 message:
                     'Founder & CEO / MOT (Management of Technology) / Rust, Python, TypeScript. / Neuroenginering.',
                 urlTitle: 'Skill Sheet',
@@ -196,51 +197,58 @@ export default {
                 twitter: 'https://twitter.com/AAI_deracine',
                 instagram: 'https://www.instagram.com/aai_deracine/',
                 name: 'Ami Miyata',
-                position: '',
-                message:
-                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
-            },
-            iwatani: {
-                instagram: 'https://www.instagram.com/aai_deracine/',
-                name: '岩谷家宝',
-                position: '営業・総務・経理',
-                message:
-                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
-            },
-            yoshida: {
-                instagram: 'https://www.instagram.com/aai_deracine/',
-                name: 'Kouki Yoshida',
-                position: '',
-                message:
-                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+                position: 'General Managers',
+                role: 'General Affairs, Accounting, Sales',
+                message: '*Writing',
             },
             tanaka: {
-                instagram: 'https://www.instagram.com/aai_deracine/',
+                twitter: '',
+                instagram:
+                    'https://www.https://www.instagram.com/t_sogo.7/.com/aai_deracine/',
                 name: 'Sogo Tanaka',
-                position: '',
-                message:
-                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+                position: 'Legal consultant',
+                role: 'Strategic Legal Affairs',
+                message: '*Writing',
+            },
+            iwatani: {
+                twitter: 'https://twitter.com/IK_Baka12',
+                instagram: 'https://www.instagram.com/kh._.05k/',
+                name: 'Kahou Iwatani',
+                position: 'Mediator',
+                role: 'Management, Research, Sales',
+                message: '*Writing',
+            },
+            yoshida: {
+                twitter: 'https://twitter.com/gon_ko_gon',
+                instagram: 'https://www.instagram.com/y.k_gon/',
+                name: 'Kouki Yoshida',
+                position: 'Designer',
+                role: 'Web Design, AI tools, English, Sales',
+                message: '*Writing',
             },
             shishino: {
-                instagram: 'https://www.instagram.com/aai_deracine/',
+                twitter: 'https://twitter.com/Shishino_w77449',
+                instagram: 'https://www.instagram.com/s.taisei1007/',
                 name: 'Taisei Shishino',
-                position: '',
-                message:
-                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+                position: 'Artist',
+                role: 'Painting, Design',
+                message: '*Writing',
             },
             yanagisaki: {
-                instagram: 'https://www.instagram.com/aai_deracine/',
+                twitter: '',
+                instagram: 'https://www.instagram.com/lemon0925ohayo/',
                 name: 'Remon Yanagisaki',
-                position: '',
-                message:
-                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+                position: 'Entertainer',
+                role: 'Comedy, Music',
+                message: '*Writing',
             },
             kajita: {
-                instagram: 'https://www.instagram.com/aai_deracine/',
+                twitter: 'https://twitter.com/archikaji03',
+                instagram: 'https://www.instagram.com/kaji_architects/',
                 name: 'Kanta Kajita',
-                position: '',
-                message:
-                    '焼肉職人として働いています。人々に本格的な焼肉体験を提供することに情熱を注いでいます。焼肉の世界に足を踏み入れてから8年が経ち、最高品質の肉を選び出し、完璧な焼き加減で提供する技術を磨き上げてきました。',
+                position: 'Architect',
+                role: 'Architecture, Design, Fashion',
+                message: '*Writing',
             },
         },
         contact: {

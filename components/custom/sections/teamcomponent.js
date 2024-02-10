@@ -131,30 +131,38 @@ const TeamComponent = () => {
                                                 <ul className="list-inline">
                                                     {/* <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li> */}
                                                     <li className="list-inline-item">
-                                                        <a
-                                                            href={
-                                                                member.twitter
-                                                            }
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                        >
-                                                            <i className="fa fa-twitter"></i>
-                                                        </a>
+                                                        {member.twitter ? (
+                                                            <a
+                                                                href={
+                                                                    member.twitter
+                                                                }
+                                                                target="_blank"
+                                                                rel="noopener noreferrer"
+                                                            >
+                                                                <i className="fa fa-twitter"></i>
+                                                            </a>
+                                                        ) : (
+                                                            <></>
+                                                        )}
                                                     </li>
                                                     <li className="list-inline-item">
-                                                        <a
-                                                            href={
-                                                                member.instagram
-                                                            }
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                        >
-                                                            <FontAwesomeIcon
-                                                                icon={
-                                                                    faInstagram
+                                                        {member.instagram ? (
+                                                            <a
+                                                                href={
+                                                                    member.instagram
                                                                 }
-                                                            />
-                                                        </a>
+                                                                target="_blank"
+                                                                rel="noopener noreferrer"
+                                                            >
+                                                                <FontAwesomeIcon
+                                                                    icon={
+                                                                        faInstagram
+                                                                    }
+                                                                />
+                                                            </a>
+                                                        ) : (
+                                                            <></>
+                                                        )}
                                                     </li>
                                                     {/* <li className="list-inline-item"><a href="#"><i className="fa fa-behance"></i></a></li> */}
                                                 </ul>
