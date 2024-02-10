@@ -56,7 +56,7 @@ const CustomComponents = () => {
             {/* <C2aComponent /> */}
             {/* <ContactComponent /> */}
             <Contact />
-            <CallToAction />
+            {/* <CallToAction /> */}
         </div>
     );
 };

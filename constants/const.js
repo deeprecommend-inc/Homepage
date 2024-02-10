@@ -28,7 +28,7 @@ import flickr from '../assets/images/tech/ai/flickr.png';
 import pillow from '../assets/images/tech/ai/pillow.png';
 import selenuim from '../assets/images/tech/ai/selenium.png';
 import sklearn from '../assets/images/tech/ai/sklearn.png';
-import tensorflow from '../assets/images/tech/ai/torch.png';
+import pytorch from '../assets/images/tech/ai/torch.png';
 import sympy from '../assets/images/tech/ai/sympy.png';
 import qiskit from '../assets/images/tech/quantum/qiskit.png';
 import blueqat from '../assets/images/tech/quantum/blueqat.jpg';
@@ -117,7 +117,7 @@ const docs = {
     github: 'https://github.com/',
     flutter: 'https://flutter.dev/',
     docker: 'https://www.docker.com/',
-    tensorflow: 'https://pytorch.org/',
+    pytorch: 'https://pytorch.org/',
     anaconda: 'https://www.anaconda.com/',
     cuda: 'https://developer.nvidia.com/cuda-toolkit',
     cudnn: 'https://developer.nvidia.com/cudnn',
@@ -257,9 +257,9 @@ export const techUsed = {
         //     url: docs.django,
         // },
         {
-            img: tensorflow,
-            name: 'TensorFlow',
-            url: docs.tensorflow,
+            img: pytorch,
+            name: 'PyTorch',
+            url: docs.pytorch,
         },
         // {
         //     img: anaconda,
@@ -329,7 +329,7 @@ export const techUsed = {
         //     url: docs.py,
         // },
         {
-            img: tensorflow,
+            img: pytorch,
             name: 'TensorFlow Quantum',
             url: docs.tensorflowQuantum,
         },

@@ -1105,7 +1105,7 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">AI</td>
-                    <td>TensorFlow</td>
+                    <td>PyTorch</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2"></td>

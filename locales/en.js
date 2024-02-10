@@ -205,8 +205,7 @@ export default {
             },
             tanaka: {
                 twitter: '',
-                instagram:
-                    'https://www.https://www.instagram.com/t_sogo.7/.com/aai_deracine/',
+                instagram: 'https://www.instagram.com/t_sogo.7/',
                 name: 'Sogo Tanaka',
                 position: 'Legal consultant',
                 role: 'Strategic Legal Affairs',
@@ -1170,7 +1169,7 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">AI</td>
-                    <td>TensorFlow</td>
+                    <td>PyTorch</td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2"></td>
