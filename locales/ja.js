@@ -4,9 +4,9 @@ export default {
         footer: {
             access: {
                 label: 'アクセス',
-                phone: '電話番号: 070 1734 7502',
-                email: 'Email: deeprecommend@gmail.com',
-                address: '住所: 日本大阪府大阪市住吉区苅田5-16-3',
+                phone: '電話番号: 050 8886 7799',
+                email: 'Email: contact@deeprecommend.com',
+                address: '住所: 東京都文京区大塚6丁目32-4',
             },
             service: {
                 label: 'サービス',
@@ -385,7 +385,7 @@ export default {
         <article>
           <h2>事業者の住所</h2>
           <div>
-            大阪府大阪市住吉区苅田5-16-3-201
+            東京都文京区大塚6丁目32-4
           </div>
         </article>
         <article>
@@ -419,7 +419,7 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">住所</td>
-                    <td>〒558-0011<br/>大阪府大阪市苅田5-16-3-201</td>
+                    <td>〒558-0011<br/>東京都文京区苅田5-16-3-201</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -427,7 +427,7 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">Tel</td>
-                    <td>070-1734-7502</td>
+                    <td>050-8886-7799</td>
                 <tr>
                     <td class="py-2 pr-2">設立年</td>
                     <td>2022年</td>
@@ -460,7 +460,7 @@ export default {
             },
         },
         detailBox: {
-            address: '大阪府大阪市\n 住吉区苅田5-16-3-201',
+            address: '東京都文京区\n 大塚6丁目32-4',
         },
     },
     page: {

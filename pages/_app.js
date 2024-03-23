@@ -37,14 +37,14 @@ function MyApp({ Component, pageProps }) {
     }, []);
 
     useEffect(() => {
-        $(window).on('load', function() {
-            $('#splash')
-                .delay(50)
-                .fadeOut('slow');
-            $('#splash_logo')
-                .delay(100)
-                .fadeOut('slow');
-        });
+        // $(window).on('load', function() {
+        //     $('#splash')
+        //         .delay(50)
+        //         .fadeOut('slow');
+        //     $('#splash_logo')
+        //         .delay(100)
+        //         .fadeOut('slow');
+        // });
     }, []);
 
     useEffect(() => {
@@ -110,7 +110,7 @@ function MyApp({ Component, pageProps }) {
             </Head>
             <Provider store={store}>
                 <PersistGate persistor={persistor}>
-                    <div id="splash">
+                    {/* <div id="splash">
                         <div id="splash_logo" style={{ width: '100vw' }}>
                             <img
                                 src={'/illusion.gif'}
@@ -118,7 +118,7 @@ function MyApp({ Component, pageProps }) {
                                 className="fadeUp"
                             />
                         </div>
-                    </div>
+                    </div> */}
 
                     <Component {...pageProps} />
                     <Chatbot />

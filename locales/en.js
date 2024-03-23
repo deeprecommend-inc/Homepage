@@ -6,10 +6,10 @@ export default {
         footer: {
             access: {
                 label: 'Access',
-                phone: 'Phone: 070 1734 7502',
-                email: 'Email: deeprecommend@gmail.com',
+                phone: 'Phone: 050 8886 7799',
+                email: 'Email: contact@deeprecommend.com',
                 address:
-                    'Address: 201 Heim Angel Avenue, Karita, Osaka Shi Sumiyoshi Ku, Osaka Fu, 558-0011, Japan',
+                    'Address: Otsuka 6-32-4, Bunkyo Ku, Tokyo To, 112-0012, Japan',
             },
             service: {
                 label: 'Services',
@@ -424,7 +424,7 @@ export default {
         <article>
           <h2> Address of business </h2>
           <div>
-            5-16-3-201 Kanda, Sumiyoshi-ku, Osaka-shi, Osaka
+            Otsuka 6-32-4, Bunkyo Ku, Tokyo To, 112-0012, Japan
           </div>
         </article>
         <article>
@@ -458,15 +458,15 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">Address</td>
-                    <td>〒558-0011<br/> '5-16-3-201 Kanda, Sumiyoshi-ku,\n Osaka-shi, Osaka'</td>
+                    <td>〒112-0012<br/> 'Otsuka 6-32-4, Bunkyo Ku, Tokyo To, 112-0012, Japan'</td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.134293731743!2d135.51242501553048!3d34.60076549607089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dc17c29e2b17%3A0xb03725b81bee4a1!2s5-ch%C5%8Dme-16-3%20Karita%2C%20Sumiyoshi%20Ward%2C%20Osaka%2C%20558-0011!5e0!3m2!1sen!2sjp!4v1650110961105!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+                    <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.134293731743!2d135.51242501553048!3d34.60076549607089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000dc17c29e2b17%3A0xb03725b81bee4a1!2s5-ch%C5%8Dme-16-3%20Karita%2C%20Sumiyoshi%20Ward%2C%20Osaka%2C%20112-0012!5e0!3m2!1sen!2sjp!4v1650110961105!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">Tel</td>
-                    <td>070-1734-7502</td>
+                    <td>050-8886-7799</td>
                 <tr>
                 <tr>
                     <td class="py-2 pr-2">Email</td>
