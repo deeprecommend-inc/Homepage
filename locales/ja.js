@@ -39,7 +39,7 @@ export default {
     index: {
         head: {
             title: 'DeepRecommend株式会社',
-            description: '次元を捻じ曲げます',
+            description: '次元を捻じ曲げろ',
         },
         header: {
             others: 'その他',
@@ -53,7 +53,7 @@ export default {
         },
         banner: {
             title: 'DeepRecommend株式会社',
-            copy: '次元を捻じ曲げます',
+            copy: '次元を捻じ曲げろ',
             getStarted: '始める',
             helpSupport: 'ヘルプ & サポート',
             magazine: 'マガジン',
@@ -188,7 +188,7 @@ export default {
                 position: 'CEO',
                 role: '経営戦略・エンジニアリング・ファイナンス',
                 message:
-                    '技術のことならお任せ。弊社代表、専門は技術経営。意思決定・開発・ファイナンスを担います。エンジニアリング領域は、システムからAI、量子コンピューティングまで。メインはPython、Rust。長期にかけてBCIやニューロモルフィックコンピューティングに取り組みます。',
+                    '多くの人に支えられて、なんとかやってます。少しでも世の中に良い影響を与え、価値を残せるように邁進します。',
                 urlTitle: 'スキルシート',
                 url:
                     'https://deeprecommend.s3.ap-northeast-1.amazonaws.com/JinSugimotoSkillSheet.xlsx',

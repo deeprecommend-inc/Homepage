@@ -8,6 +8,7 @@ import { useLocale } from '../../../locales/useLocale';
 import { Row, Col, Container, Card, CardBody } from 'reactstrap';
 import Image from 'next/image';
 import PersonSearchIcon from '@mui/icons-material/PersonSearch';
+import { site } from '../../../constants/const';
 
 const TeamComponent = () => {
     const router = useRouter();
@@ -286,9 +287,9 @@ const TeamComponent = () => {
                                         </Col>
                                         <Col md="4" className="text-center">
                                             <a
-                                                onClick={() => {
-                                                    router.push('/recruiting');
-                                                }}
+                                                href={site.discord}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
                                                 className="text-white linking bg-info"
                                             >
                                                 {

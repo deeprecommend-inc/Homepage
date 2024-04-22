@@ -5,9 +5,11 @@ import Image from 'next/image';
 import magazine from '../../../assets/images/staticslider/slider/magazine.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
+import { useRouter } from 'next/router';
 
 const BannerComponentForDeepMagazine = () => {
     const { t, locale } = useLocale();
+    const router = useRouter();
 
     const scrollToRegisterMagazine = () => {
         window.scrollTo({
@@ -30,7 +32,9 @@ const BannerComponentForDeepMagazine = () => {
                             <a
                                 className="btn btn-light btn-outline-primary btn-md m-t-20"
                                 data-toggle="collapse"
-                                onClick={scrollToRegisterMagazine}
+                                onClick={() => {
+                                    router.push(site.email);
+                                }}
                             >
                                 <span>{t.page.deepmagazine.getStarted}</span>
                             </a>

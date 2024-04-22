@@ -62,7 +62,42 @@ const RegisterMagazineComponent = () => {
                         </Col>
                     </Row>
                     <Row className="m-t-40">
-                        {magazines.map(magazine => (
+                        <Col
+                            key={'Email'}
+                            md="4"
+                            className="mx-auto pricing-box align-self-center"
+                        >
+                            <Card className="b-all">
+                                <CardBody className="p-30 text-center">
+                                    <h5>{'Email'}</h5>
+                                    <Image
+                                        src={email}
+                                        alt="Picture of the author"
+                                        width={64}
+                                        height={64}
+                                    />
+
+                                    <p className="m-t-40">
+                                        {
+                                            t.page.deepmagazine.subscribe
+                                                .advantage.email
+                                        }
+                                    </p>
+                                </CardBody>
+                                <a
+                                    className="btn p-15 btn-arrow btn-block"
+                                    href={site.email}
+                                    style={{
+                                        backgroundColor: '#8C8076',
+                                    }}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    SUBSCRIBE
+                                </a>
+                            </Card>
+                        </Col>
+                        {/* {magazines.map(magazine => (
                             <Col
                                 key={magazine.title}
                                 md="4"
@@ -96,7 +131,7 @@ const RegisterMagazineComponent = () => {
                                     </a>
                                 </Card>
                             </Col>
-                        ))}
+                        ))} */}
                     </Row>
                 </Container>
             </div>

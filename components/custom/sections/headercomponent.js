@@ -90,12 +90,14 @@ const HeaderComponent = localePath => {
                         </NavbarToggler>
                         <Collapse isOpen={isOpen} navbar id="header1">
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
-                                <NavItem
-                                    onClick={() => {
-                                        routerPush('deepia');
-                                    }}
-                                >
-                                    <NavLink>Deepia</NavLink>
+                                <NavItem>
+                                    <NavLink
+                                        href={site.deepia}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        Deepia
+                                    </NavLink>
                                 </NavItem>
                                 <NavItem
                                     onClick={() => {

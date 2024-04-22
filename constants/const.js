@@ -69,6 +69,7 @@ export const site = {
     opensea: 'https://opensea.io/DeepRecommend',
     telegram: 'https://t.me/+xKB2r7xvrNY1OGZl',
     deepia: 'https://deepia.space',
+    qa: 'https://deep-recommend.blog/category/qa/',
 };
 
 export const sugimoto = {

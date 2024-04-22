@@ -74,7 +74,7 @@ const DeepMagazine = () => {
             {/* <MagazineContentsComponent /> */}
             {/* <FeatureComponent /> */}
             {/* <TestimonialComponent /> */}
-            <RegisterMagazineComponent />
+            {/* <RegisterMagazineComponent /> */}
 
             <Footer />
         </>
