@@ -184,14 +184,14 @@ export default {
             sugimoto: {
                 twitter: 'https://twitter.com/Jin__Sugimoto',
                 instagram: 'https://www.instagram.com/jin_sugimoto_0818/',
-                name: '杉本 迅',
+                name: '杉本迅',
                 position: 'CEO',
                 role: '経営戦略・エンジニアリング・ファイナンス',
                 message:
-                    '多くの人に支えられて、なんとかやってます。少しでも世の中に良い影響を与え、価値を残せるように邁進します。',
-                urlTitle: 'スキルシート',
-                url:
-                    'https://deeprecommend.s3.ap-northeast-1.amazonaws.com/JinSugimotoSkillSheet.xlsx',
+                    '',
+                // urlTitle: 'スキルシート',
+                // url:
+                //     'https://deeprecommend.s3.ap-northeast-1.amazonaws.com/JinSugimotoSkillSheet.xlsx',
             },
             miyata: {
                 twitter: 'https://twitter.com/AAI_deracine',
@@ -203,7 +203,7 @@ export default {
             },
             tanaka: {
                 twitter: '',
-                instagram: 'https://www.instagram.com/t_sogo.7/',
+                instagram: 'https://www.instagram.com/go_so.far_0',
                 name: '田中蒼悟',
                 position: 'リーガルコンサルタント',
                 role: '戦略法務',
@@ -219,7 +219,7 @@ export default {
             },
             yoshida: {
                 twitter: 'https://twitter.com/gon_ko_gon',
-                instagram: 'https://www.instagram.com/y.k_gon/',
+                instagram: 'https://www.instagram.com/y.k_gon',
                 name: '吉田昂起',
                 position: 'デザイナー',
                 role: 'Webデザイン・AIツール・英語・営業',
@@ -227,7 +227,7 @@ export default {
             },
             shishino: {
                 twitter: 'https://twitter.com/Shishino_w77449',
-                instagram: 'https://www.instagram.com/s.taisei1007/',
+                instagram: 'https://www.instagram.com/s.taisei1007',
                 name: '宍野太晟',
                 position: 'アーティスト',
                 role: '絵画・デザイン',
@@ -235,7 +235,7 @@ export default {
             },
             yanagisaki: {
                 twitter: '',
-                instagram: 'https://www.instagram.com/lemon0925ohayo/',
+                instagram: 'https://www.instagram.com/lemon0925.u_u',
                 name: '柳崎伶文',
                 position: 'エンターテイナー',
                 role: 'お笑い・音楽',
