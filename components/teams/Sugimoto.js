@@ -63,14 +63,15 @@ const Sugimoto = () => {
                     __html: t.teams.sugimoto.JinSugimoto.content,
                 }}
             />
-            {/* <h1 style={{ margin: '35px 0 30px' }}>
-                {t.teams.general.upbringing}
-            </h1>
             <span
                 dangerouslySetInnerHTML={{
                     __html: t.teams.sugimoto.JinSugimoto.history,
                 }}
             />
+            {/* <h1 style={{ margin: '35px 0 30px' }}>
+                {t.teams.general.upbringing}
+            </h1>
+            
             <h1 style={{ margin: '35px 0 30px' }}>{t.teams.general.routine}</h1>
             <span
                 dangerouslySetInnerHTML={{
