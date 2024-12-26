@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { site } from '../../constants/const';
 import { useLocale } from '../../locales/useLocale';
 import { useRouter } from 'next/router';
+import brainBanner from '../../assets/images/brain_banner.gif'; // Import the image like in file_context_0
 
 const Banner2 = () => {
     const { t } = useLocale();
@@ -22,7 +23,6 @@ const Banner2 = () => {
         });
     };
 
-
     return (
         <div
             className="static-slider-head banner2"
@@ -36,7 +36,7 @@ const Banner2 = () => {
             }}
         >
             <Image
-                src="/brain_banner.gif" // Replace with your image path
+                src={brainBanner.src} // Use the imported image
                 alt="Banner Background"
                 layout="fill"
                 objectFit="cover"
