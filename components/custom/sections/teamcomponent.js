@@ -92,10 +92,6 @@ const TeamComponent = () => {
                 <Container>
                     <Row className="m-t-30 justify-content-center">
                         {members.map((member, i) => {
-                            if (!member.id) {
-                                return;
-                            }
-
                             return (
                                 <Col
                                     lg="3"
