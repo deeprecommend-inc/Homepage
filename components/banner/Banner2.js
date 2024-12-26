@@ -36,7 +36,7 @@ const Banner2 = () => {
             }}
         >
             <Image
-                src={brainBanner.src} // Use the imported image
+                src={brainBanner} // Use the imported image
                 alt="Banner Background"
                 layout="fill"
                 objectFit="cover"
