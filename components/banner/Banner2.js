@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 import { Container, Row, Col } from 'reactstrap';
-import Image from 'next/image';
 import { site } from '../../constants/const';
 import { useLocale } from '../../locales/useLocale';
 import { useRouter } from 'next/router';
@@ -32,17 +31,12 @@ const Banner2 = () => {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                position: 'relative', // Added for positioning the image
+                position: 'relative',
+                backgroundImage: `url(${brainBanner.src})`, // Set the background image
+                backgroundSize: 'cover', // Ensure the image covers the entire div
+                backgroundPosition: 'center', // Cen。ter the image
             }}
         >
-            <Image
-                src={brainBanner} // Use the imported image
-                alt="Banner Background"
-                layout="fill"
-                objectFit="cover"
-                quality={100}
-                style={{ zIndex: -1 }} // Ensures the image is behind the content
-            />
             <Container>
                 <Row className="justify-content-center text-center">
                     <Col
