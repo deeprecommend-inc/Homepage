@@ -15,7 +15,7 @@ import {
     Collapse,
 } from 'reactstrap';
 import Image from 'next/image';
-import logo from '../../../assets/images/logos/logo.png';
+import logo from '../../../assets/images/logos/logo-white.png';
 import { site } from '../../../constants/const';
 import ForumIcon from '@mui/icons-material/Forum';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
@@ -66,10 +66,23 @@ const HeaderComponent = localePath => {
         router.push(route);
     };
 
+    const scrollToProduct = () => {
+        document.getElementById('product-section').scrollIntoView({
+            behavior: 'smooth',
+        });
+    };
+
+    const scrollToServices = () => {
+        document.getElementById('services-section').scrollIntoView({
+            behavior: 'smooth',
+        });
+    };
+
+
     if (!ready) return <></>;
 
     return (
-        <div id="section h-100">
+        <div id="section h-100" style={{ backgroundColor: '#121212', color: '#ffffff' }}>
             <div className="header1 po-relative">
                 <Container>
                     <Navbar className="navbar-expand-lg h1-nav">
@@ -92,19 +105,17 @@ const HeaderComponent = localePath => {
                             <Nav navbar className="ml-auto mt-2 mt-lg-0">
                                 <NavItem>
                                     <NavLink
-                                        href={site.deepia}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                        onClick={scrollToProduct}
                                     >
                                         Deepia
                                     </NavLink>
                                 </NavItem>
-                                <NavItem
-                                    onClick={() => {
-                                        routerPush('magazine');
-                                    }}
-                                >
-                                    <NavLink>DeepMagazine</NavLink>
+                                <NavItem>
+                                    <NavLink
+                                        onClick={scrollToServices}
+                                    >
+                                        DeepMarketer
+                                    </NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink
@@ -128,15 +139,6 @@ const HeaderComponent = localePath => {
                                         >
                                             <ForumIcon />
                                             {t.index.header.community}
-                                        </DropdownItem>
-                                        <DropdownItem divider />
-                                        <DropdownItem
-                                            href={site.ec}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <ShoppingCartIcon />
-                                            {t.index.header.shop}
                                         </DropdownItem>
                                         <DropdownItem divider />
                                         <DropdownItem
@@ -171,34 +173,9 @@ const HeaderComponent = localePath => {
                                             <YouTubeIcon />
                                             YouTube
                                         </DropdownItem>
-                                        <DropdownItem divider />
-                                        <DropdownItem
-                                            onClick={() => {
-                                                routerPush('contact');
-                                            }}
-                                        >
-                                            <EmailIcon />
-                                            {t.index.header.contact}
-                                        </DropdownItem>
-                                        <DropdownItem
-                                            onClick={() => {
-                                                routerPush('recruiting');
-                                            }}
-                                        >
-                                            <PersonSearchIcon />
-                                            {t.index.header.recruiting}
-                                        </DropdownItem>
-                                        <DropdownItem
-                                            onClick={() => {
-                                                routerPush('feedback');
-                                            }}
-                                        >
-                                            <FeedbackIcon />
-                                            {t.index.header.feedback}
-                                        </DropdownItem>
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
-                                <NavItem>
+                                {/* <NavItem>
                                     <Link
                                         href={localePath}
                                         locale={locale === 'ja' ? 'en' : 'ja'}
@@ -208,7 +185,7 @@ const HeaderComponent = localePath => {
                                             <TranslateIcon />
                                         </NavLink>
                                     </Link>
-                                </NavItem>
+                                </NavItem> */}
                             </Nav>
                         </Collapse>
                     </Navbar>

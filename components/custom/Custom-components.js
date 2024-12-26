@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+    import React, { useEffect, useState } from 'react';
 
 // core components
 import Banner2 from '../banner/Banner2';
@@ -24,6 +24,8 @@ import SDGsComponent from './sections/SDGs';
 import TechnologyUsed from './sections/technologyUsed';
 import BlochSphare from './sections/blochSphare';
 import Contact from './sections/contact';
+import BannerComponentForDeepia from './sections/BannerComponentForDeepia';
+import BannerComponentForDeepMarketer from './sections/BannerComponentForDeepMarketer';
 
 const CustomComponents = () => {
     return (
@@ -32,13 +34,15 @@ const CustomComponents = () => {
             <HeaderComponent localePath={'/'} />
             {/* <Banner /> */}
             <Banner2 />
-            <PortfolioComponent />
+            {/*<PortfolioComponent /> */}
+            <BannerComponentForDeepia/>
+            <BannerComponentForDeepMarketer/>
             {/* 実績 */}
 
             {/* <BannerComponent />
             <FormBannerComponent /> */}
 
-            <TechnologyUsed />
+            {/* <TechnologyUsed /> */}
 
             {/* <WorkComponent />
             <TestimonialComponent /> */}
@@ -55,7 +59,7 @@ const CustomComponents = () => {
             {/* <BlogComponent /> */}
             {/* <C2aComponent /> */}
             {/* <ContactComponent /> */}
-            <Contact />
+            {/* <Contact /> */}
             {/* <CallToAction /> */}
         </div>
     );

@@ -67,27 +67,6 @@ function MyApp({ Component, pageProps }) {
         <Layout>
             <Head>
                 {/* Google Analytics */}
-                {existsGaId && (
-                    <>
-                        <Script
-                            id="gtag"
-                            async
-                            src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-                        />
-                        <Script
-                            id="gtag-content"
-                            dangerouslySetInnerHTML={{
-                                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', '${GA_ID}', {
-                    page_path: window.location.pathname,
-                  });`,
-                            }}
-                        />
-                    </>
-                )}
                 <meta
                     name="google-site-verification"
                     content="Z6Rl8fnfOf9kvou18ZpxZmvW9HXWzt1p5uF_g35TPjw"
@@ -121,7 +100,6 @@ function MyApp({ Component, pageProps }) {
                     </div> */}
 
                     <Component {...pageProps} />
-                    <Chatbot />
 
                     <Script
                         id="jquery"

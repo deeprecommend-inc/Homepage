@@ -6,8 +6,6 @@ import Header from '../components/blog/Header';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
 
-
-
 const Layout = ({ children }) => {
     const [isMouseOver, setIsMouseOver] = useState(false);
     const router = useRouter();
@@ -37,8 +35,12 @@ const Layout = ({ children }) => {
         height: '52px',
         zIndex: 999,
         backgroundColor: isMouseOver ? 'rgb(103, 58, 183)' : 'initial',
-        color: 'rgb(103, 58, 183)',
+        color: '#ffffff',
         border: '1px solid rgb(103, 58, 183)',
+    };
+
+    const iconStyle = {
+        color: '#ffffff',
     };
 
     return (
@@ -47,15 +49,15 @@ const Layout = ({ children }) => {
                 <div className="container-fluid">{children}</div>
                 <Script src="https://smtpjs.com/v3/smtp.js"></Script>
             </div>
-            <Button
+            {/* <Button
                 variant={isMouseOver ? 'contained' : 'outlined'}
                 style={buttonStyle}
                 onMouseOver={mouseOver}
                 onMouseLeave={mouseLeave}
                 onClick={scrollTop}
             >
-                <VerticalAlignTopIcon />
-            </Button>
+                <VerticalAlignTopIcon style={iconStyle} />
+            </Button> */}
         </div>
     );
 };

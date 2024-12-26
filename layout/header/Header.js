@@ -18,12 +18,12 @@ const Header = () => {
     const router = useRouter();
     const toggle = () => setIsOpen(!isOpen);
     return (
-        <div className="topbar" id="top">
+        <div className="topbar" id="top" style={{ backgroundColor: '#121212', color: '#ffffff' }}>
             <div className="header6">
                 <Container className="po-relative">
-                    <Navbar className="navbar-expand-lg h6-nav-bar">
+                    <Navbar className="navbar-expand-lg h6-nav-bar" style={{ backgroundColor: '#121212' }}>
                         <NavbarToggler onClick={toggle}>
-                            <span className="ti-menu"></span>
+                            <span className="ti-menu" style={{ color: '#ffffff' }}></span>
                         </NavbarToggler>
                         <Collapse
                             isOpen={isOpen}
@@ -40,6 +40,7 @@ const Header = () => {
                                                     ? 'text-white nav-link'
                                                     : 'nav-link'
                                             }
+                                            style={{ color: router.pathname == '/' ? '#ffffff' : '#ffffff' }}
                                         >
                                             Custom Components
                                         </a>
@@ -53,6 +54,7 @@ const Header = () => {
                                                     ? 'text-white nav-link'
                                                     : 'nav-link'
                                             }
+                                            style={{ color: router.pathname == '/basic' ? '#ffffff' : '#ffffff' }}
                                         >
                                             Basic-Components
                                         </a>

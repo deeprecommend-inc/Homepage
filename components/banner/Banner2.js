@@ -10,47 +10,61 @@ const Banner2 = () => {
     const { t } = useLocale();
     const router = useRouter();
 
-    const scrollToServices = () => {
-        window.scrollTo({
-            top: 720,
+    const scrollToProduct = () => {
+        document.getElementById('product-section').scrollIntoView({
             behavior: 'smooth',
         });
     };
 
+    const scrollToServices = () => {
+        document.getElementById('services-section').scrollIntoView({
+            behavior: 'smooth',
+        });
+    };
+
+
     return (
         <div
             className="static-slider-head banner2"
-            style={{ overflow: 'hidden' }}
+            style={{
+                overflow: 'hidden',
+                height: '100vh',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                position: 'relative', // Added for positioning the image
+            }}
         >
+            <Image
+                src="/brain_banner.gif" // Replace with your image path
+                alt="Banner Background"
+                layout="fill"
+                objectFit="cover"
+                quality={100}
+                style={{ zIndex: -1 }} // Ensures the image is behind the content
+            />
             <Container>
-                <Row>
+                <Row className="justify-content-center text-center">
                     <Col
-                        lg="6"
-                        md="6"
+                        lg="12"
+                        md="12"
                         className="align-self-center"
                         data-aos="flip-down"
                     >
-                        <h1>{t.index.banner.title}</h1>
-                        <h4>{t.index.banner.copy}</h4>
+                        <h1 style={{ color: '#fff' }}>{t.index.banner.title}</h1>
+                        <h4 style={{ color: '#fff' }}>{t.index.banner.copy}</h4>
                         <a
                             className="btn btn-md m-r-20 btn-outline-primary m-t-30"
-                            onClick={scrollToServices}
+                            onClick={scrollToProduct} 
                         >
-                            {t.index.banner.getStarted}
+                            AI Agent
                         </a>
                         <a
-                            onClick={() => {
-                                router.push('/magazine');
-                            }}
-                            className="btn btn-md m-t-30  btn-outline-secondary"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            className="btn btn-md m-t-30 btn-outline-secondary"
+                            onClick={scrollToServices}
                         >
-                            {t.index.banner.magazine}
+                            Neuromarketing
                         </a>
-                    </Col>
-                    <Col lg="6" md="6" data-aos="zoom-in">
-                        <img src="/banner.gif" alt="Banner img" />
                     </Col>
                 </Row>
             </Container>

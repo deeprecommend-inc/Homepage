@@ -100,7 +100,6 @@ const Deepia = () => {
                 </Container>
             </div> */}
 
-            {locale === 'ja' ? <OneCoinAIComponent /> : <></>}
             {/* <PreRegistrationComponent /> */}
             <Footer />
         </>

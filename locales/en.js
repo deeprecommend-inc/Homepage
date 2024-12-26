@@ -6,7 +6,7 @@ export default {
         footer: {
             access: {
                 label: 'Access',
-                phone: 'Phone: 050 8886 7799',
+                phone: 'Phone: 070 1734 7502',
                 email: 'Email: contact@deeprecommend.com',
                 address:
                     'Address: Otsuka 6-32-4, Bunkyo Ku, Tokyo To, 112-0012, Japan',
@@ -21,6 +21,7 @@ export default {
                 cmcn: 'DeepConnect',
                 magazine: 'DeepMagazine',
                 record: 'DeepRecord',
+                marketing: 'DeepMarketer',
             },
             customerCare: {
                 label: 'Customer care',
@@ -152,8 +153,8 @@ export default {
                         'We will continue to create new value by boldly taking on the challenge of "uncertainty".',
                 },
                 section2: {
-                    title: 'Subscribe to DeepMagazine and be creative.',
-                    subtitle: 'Subscribe',
+                    title: 'Join the DeepRecommend community.',
+                    subtitle: 'Join',
                 },
                 section3: {
                     title:
@@ -161,7 +162,7 @@ export default {
                     subtitle: 'Join',
                 },
                 section4: {
-                    title: 'Join the team members',
+                    title: 'More details will be explained in the Discord community.',
                     subtitle: 'Join',
                 },
             },
@@ -544,12 +545,20 @@ export default {
         },
         deepia: {
             title: 'Deepia',
-            h1: 'Brain Power Enhancer',
+            h1: 'AI Agent',
             h6:
                 'We recommend this service to the following people\n\n・Want to be a person who can use AI\n・Want a convenient tool to use AI on their behalf\n・Want to use AI for self-expression and self-realisation\n\nUnleash your brain power.',
             getStarted: 'Get Started',
             preRegistration: 'Pre-Registration',
             nowThinking: 'Not Thinking...',
+        },
+        deepmarketer: { 
+            title: 'DeepMarketer', 
+            h1: 'Neuromarketing', 
+            h6: 'We recommend this service to the following people\n\n・Want to understand customer behavior at a deeper psychological level\n・Want to leverage neuroscience insights for more effective marketing\n・Want to create emotionally resonant marketing campaigns based on brain science\n\nUnlock the power of the consumer mind.', 
+            getStarted: 'Get Started', 
+            preRegistration: 'Pre-Registration', 
+            nowThinking: 'Not Thinking...', 
         },
     },
     bookCategory: {

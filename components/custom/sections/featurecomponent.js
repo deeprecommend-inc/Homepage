@@ -7,7 +7,7 @@ import magazineImg from '../../../assets/images/features/feature13/magazine.png'
 import img2 from '../../../assets/images/features/feature13/img2.jpg';
 import img3 from '../../../assets/images/features/feature13/img3.jpg';
 import img4 from '../../../assets/images/features/feature13/img4.jpg';
-import img5 from '../../../assets/images/features/feature30/deepthink.png';
+import img5 from '../../../assets/images/features/feature30/thinker.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
 import { useRouter } from 'next/router';
@@ -17,15 +17,15 @@ const FeatureComponent = () => {
     const router = useRouter();
 
     return (
-        <div>
-            <div className="spacer bg-light">
+        <div style={{ backgroundColor: '#121212', color: '#ffffff' }}>
+            <div className="spacer bg-dark">
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                            <h1 className="title font-bold">
+                            <h1 className="title font-bold" style={{ color: '#ffffff' }}>
                                 {t.index.feature.title}
                             </h1>
-                            <h6 className="subtitle">
+                            <h6 className="subtitle" style={{ color: '#ffffff' }}>
                                 {t.index.feature.subtitle}
                             </h6>
                         </Col>
@@ -42,10 +42,10 @@ const FeatureComponent = () => {
                             <span className="label label-info label-rounded">
                                 {t.index.feature.num1.label}
                             </span>
-                            <h2 className="title">
+                            <h2 className="title" style={{ color: '#ffffff' }}>
                                 {t.index.feature.num1.section1.title}
                             </h2>
-                            <h6 className="subtitle">
+                            <h6 className="subtitle" style={{ color: '#ffffff' }}>
                                 {t.index.feature.num1.section1.subtitle}
                             </h6>
                         </Col>
@@ -56,15 +56,15 @@ const FeatureComponent = () => {
                     >
                         <Col md="6" className="wrap-feature4-box text-center">
                             <Card>
-                                <CardBody>
+                                <CardBody style={{ backgroundColor: '#121212', color: '#ffffff' }}>
                                     <div className="icon-round bg-light-info">
                                         {/* <i className="fa fa-star"></i> */}
                                         <i className="fa fa-check-circle"></i>
                                     </div>
-                                    <h5 className="font-medium">
+                                    <h5 className="font-medium" style={{ color: '#ffffff' }}>
                                         {t.index.feature.num1.section2.title}
                                     </h5>
-                                    <p className="m-t-20">
+                                    <p className="m-t-20" style={{ color: '#ffffff' }}>
                                         {t.index.feature.num1.section2.subtitle}
                                     </p>
                                     {/* <a href="#" className="linking text-themecolor">
@@ -73,26 +73,10 @@ const FeatureComponent = () => {
                                 </CardBody>
                             </Card>
                         </Col>
-                        {/* <Col md="6" className="wrap-feature4-box">
-              <Card>
-                <CardBody>
-                  <div className="icon-round bg-light-info">
-                    <i className="fa fa-check-circle"></i>
-                  </div>
-                  <h5 className="font-medium">Be active</h5>
-                  <p className="m-t-20">
-                    
-                  </p>
-                  <a className="linking text-themecolor" href="#">
-                    Explore More <i className="ti-arrow-right"></i>
-                  </a>
-                </CardBody>
-              </Card>
-            </Col> */}
                     </Row>
                 </Container>
             </div>
-            <div className="bg-light spacer feature20 up">
+            <div className="bg-dark spacer feature20 up">
                 <Container>
                     <Row
                         className="justify-content-center"
@@ -102,10 +86,10 @@ const FeatureComponent = () => {
                             <span className="label label-info label-rounded">
                                 {t.index.feature.num2.label}
                             </span>
-                            <h2 className="title">
+                            <h2 className="title" style={{ color: '#ffffff' }}>
                                 {t.index.feature.num2.section1.title}
                             </h2>
-                            <h6 className="subtitle">
+                            <h6 className="subtitle" style={{ color: '#ffffff' }}>
                                 {t.index.feature.num2.section1.subtitle}
                             </h6>
                         </Col>
@@ -116,9 +100,9 @@ const FeatureComponent = () => {
                     >
                         <Col lg="6">
                             <Card>
-                                <Row>
+                                <Row style={{ backgroundColor: '#121212', color: '#ffffff' }}>
                                     <Col md="8">
-                                        <CardBody className="d-flex no-block">
+                                        <CardBody className="d-flex no-block" style={{ backgroundColor: '#121212', color: '#ffffff' }}>
                                             <div className="m-r-20">
                                                 <Image
                                                     src={magazineImg}
@@ -129,7 +113,7 @@ const FeatureComponent = () => {
                                                 />
                                             </div>
                                             <div>
-                                                <h5 className="font-medium">
+                                                <h5 className="font-medium" style={{ color: '#ffffff' }}>
                                                     {
                                                         t.index.feature.num2
                                                             .section2.title
@@ -138,11 +122,11 @@ const FeatureComponent = () => {
                                             </div>
                                         </CardBody>
                                     </Col>
-                                    <Col md="4" className="text-center">
+                                    <Col md="4" className="text-center" style={{ backgroundColor: '#121212', color: '#ffffff' }}>
                                         <a
-                                            onClick={() => {
-                                                router.push('magazine');
-                                            }}
+                                            href={site.discord}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                             className="text-white linking bg-info"
                                         >
                                             {
@@ -155,93 +139,6 @@ const FeatureComponent = () => {
                                 </Row>
                             </Card>
                         </Col>
-                        {/* <Col lg="6">
-              <Card>
-                <Row>
-                  <Col md="8">
-                    <CardBody className="d-flex no-block">
-                      <div className="m-r-20">
-                        <Image
-                          src={img2}
-                          height="70"
-                          width="100"
-                          className="rounded"
-                          alt="img"
-                        />
-                      </div>
-                      <div>
-                        <h5 className="font-medium">
-                          Make your website in no-time with us.
-                        </h5>
-                      </div>
-                    </CardBody>
-                  </Col>
-                  <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-            <Col lg="6">
-              <Card>
-                <Row>
-                  <Col md="8">
-                    <CardBody className="d-flex no-block">
-                      <div className="m-r-20">
-                        <Image
-                          src={img3}
-                          height="70"
-                          width="100"
-                          className="rounded"
-                          alt="img"
-                        />
-                      </div>
-                      <div>
-                        <h5 className="font-medium">
-                          Make your website in no-time with us.
-                        </h5>
-                      </div>
-                    </CardBody>
-                  </Col>
-                  <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card>
-            </Col>
-            <Col lg="6">
-              <Card>
-                <Row>
-                  <Col md="8">
-                    <CardBody className="d-flex no-block">
-                      <div className="m-r-20">
-                        <Image
-                          src={img4}
-                          height="70"
-                          width="100"
-                          className="rounded"
-                          alt="img"
-                        />
-                      </div>
-                      <div>
-                        <h5 className="font-medium">
-                          Make your website in no-time with us.
-                        </h5>
-                      </div>
-                    </CardBody>
-                  </Col>
-                  <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
-                  </Col>
-                </Row>
-              </Card>
-            </Col> */}
                     </Row>
                 </Container>
             </div>
@@ -262,15 +159,15 @@ const FeatureComponent = () => {
                             data-aos="slide-left"
                         >
                             <Card className="card-shadow">
-                                <CardBody>
+                                <CardBody style={{ backgroundColor: '#121212', color: '#ffffff' }}>
                                     <div className="p-20">
                                         <span className="label label-info label-rounded">
                                             {t.index.feature.num3.label}
                                         </span>
-                                        <h3 className="title">
+                                        <h3 className="title" style={{ color: '#ffffff' }}>
                                             {t.index.feature.num3.title}
                                         </h3>
-                                        <p>{t.index.feature.num3.subtitle}</p>
+                                        <p style={{ color: '#ffffff' }}>{t.index.feature.num3.subtitle}</p>
                                         {/* <a
                       className="btn btn-danger btn-md btn-arrow m-t-20"
                       href="#"

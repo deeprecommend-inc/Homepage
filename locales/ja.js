@@ -18,6 +18,7 @@ export default {
                 cmcn: 'DeepConnect',
                 magazine: 'DeepMagazine',
                 record: 'DeepRecord',
+                marketing: 'DeepMarketer',
             },
             customerCare: {
                 label: 'カスタマーケア',
@@ -150,8 +151,8 @@ export default {
                         '我々は「不確実」に果敢に挑戦し続けることで、\n新たな価値を生み出し続けます。',
                 },
                 section2: {
-                    title: 'DeepMagazineを購読して、創造性を発揮する',
-                    subtitle: '購読する',
+                    title: 'DeepRecommendのコミュニティに参画する。',
+                    subtitle: '参加する',
                 },
                 section3: {
                     title:
@@ -499,13 +500,21 @@ export default {
         },
         deepia: {
             title: 'Deepia',
-            h1: '脳力拡張機',
+            h1: 'AI Agent',
             h6:
                 '以下のような方におすすめです。\n\n・AIを使える側の人材になりたい\n・AIを代行する便利ツールが欲しい\n・AIを使って自己表現や自己実現がしたい\n\n脳力を解放します。',
             getStarted: '始める',
             preRegistration: 'アプリ事前登録',
             nowThinking: '考え中...',
         },
+        deepmarketer: { 
+            title: 'DeepMarketer', 
+            h1: 'Neuromarketing', 
+            h6: '以下のような方におすすめのサービスです\n\n・顧客の心理をより深く理解したい方\n・脳科学の知見を活かした効果的なマーケティングを実現したい方\n・脳科学に基づく感情に響くマーケティングキャンペーンを作りたい方\n\n消費者の心を解き明かす。', 
+            getStarted: '始める', 
+            preRegistration: '事前登録', 
+            nowThinking: '思考中ではありません...', 
+        }
     },
     bookCategory: {
         ai: 'AI',

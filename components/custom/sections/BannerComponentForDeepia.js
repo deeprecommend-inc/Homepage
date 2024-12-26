@@ -2,10 +2,10 @@
 import React from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import Image from 'next/image';
-import deepia from '../../../assets/images/staticslider/slider/deepia6.png';
+import deepia from '../../../assets/images/staticslider/slider/alot.png';
 import { site } from '../../../constants/const';
 import { useLocale } from '../../../locales/useLocale';
-import aiImg from '../../../assets/images/portfolio/6.png';
+import aiImg from '../../../assets/images/portfolio/aiimage.png';
 
 const BannerComponentForDeepia = () => {
     const { t, locale } = useLocale();
@@ -18,20 +18,20 @@ const BannerComponentForDeepia = () => {
     };
 
     return (
-        <div>
-            <div className="static-slider10">
+        <div id="product-section">
+            <div className="parallax-banner" style={{ backgroundImage: `url(${deepia.src})`, backgroundAttachment: 'fixed', backgroundSize: 'cover', backgroundPosition: 'center', color: '#ffffff' }}>
                 <Container>
-                    <Row className="">
-                        <Col md="6" className="align-self-center">
-                            <span className="label label-rounded label-inverse">
+                    <Row className="align-items-center" style={{ minHeight: '100vh' }}>
+                        <Col md="6" className="text-white">
+                            <span className="label label-rounded label-inverse" style={{ backgroundColor: "#673AB7" }}>
                                 {t.page.deepia.title}
                             </span>
-                            <h1 className="my-2">{t.page.deepia.h1}</h1>
-                            <h6 className="my-5">{t.page.deepia.h6}</h6>
+                            <h1 className="my-2 text-white">{t.page.deepia.h1}</h1>
+                            <h6 className="my-5 text-white">{t.page.deepia.h6}</h6>
                             <a
                                 className="btn btn-light btn-outline-primary btn-md m-t-20"
                                 data-toggle="collapse"
-                                href={site.deepia}
+                                href={site.discord}
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -39,7 +39,7 @@ const BannerComponentForDeepia = () => {
                             </a>
                         </Col>
                         <Col md="6">
-                            <Image src={deepia} alt="herobanner"></Image>
+                            <Image src={aiImg} alt="herobanner" layout="responsive"></Image>
                         </Col>
                     </Row>
                 </Container>

@@ -73,15 +73,15 @@ const TeamComponent = () => {
     ];
 
     return (
-        <div>
-            <div className="spacer bg-light">
+        <div style={{ backgroundColor: '#121212', color: '#ffffff' }}>
+            <div className="spacer bg-dark">
                 <Container>
                     <Row className="justify-content-center">
                         <Col md="7" className="text-center">
-                            <h1 className="title font-bold">
+                            <h1 className="title font-bold" style={{ color: '#ffffff' }}>
                                 {t.index.team.title}
                             </h1>
-                            <h6 className="subtitle">
+                            <h6 className="subtitle" style={{ color: '#ffffff' }}>
                                 {t.index.team.subtitle}
                             </h6>
                         </Col>
@@ -92,6 +92,10 @@ const TeamComponent = () => {
                 <Container>
                     <Row className="m-t-30 justify-content-center">
                         {members.map((member, i) => {
+                            if (!member.id) {
+                                return;
+                            }
+
                             return (
                                 <Col
                                     lg="3"
@@ -153,21 +157,21 @@ const TeamComponent = () => {
                                         </Col>
                                         <Col md="12">
                                             <div className="p-t-10">
-                                                <h5 className="title font-medium">
+                                                <h5 className="title font-medium" style={{ color: '#ffffff' }}>
                                                     {member.name}
                                                 </h5>
                                                 <h6 className="title"></h6>
-                                                <h6 className="subtitle">
+                                                <h6 className="subtitle" style={{ color: '#ffffff' }}>
                                                     {member.position +
                                                         '\n' +
                                                         member.role}
                                                 </h6>
-                                                <p>{member.message}</p>
                                                 {member.hasUrl ? (
                                                     <a
                                                         href={
                                                             sugimoto.skillSheet
                                                         }
+                                                        style={{ color: '#ffffff' }}
                                                     >
                                                         {member.skillSheet}
                                                     </a>
@@ -180,85 +184,21 @@ const TeamComponent = () => {
                                 </Col>
                             );
                         })}
-
-                        {/* <Col lg="3" md="6" className="m-b-30">
-                            <Row className="no-gutters">
-                                <Col md="12" className="col-md-12 pro-pic t2">
-                                    <div className="card-img-overlay">
-                                        <ul className="list-inline">
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-behance"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </Col>
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Michael Doe</h5>
-                                        <h6 className="subtitle">Property Specialist</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col lg="3" md="6" className="m-b-30">
-                            <Row className="no-gutters">
-                                <Col md="12" className="col-md-12 pro-pic t3">
-                                    <div className="card-img-overlay">
-                                        <ul className="list-inline">
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-behance"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </Col>
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Michael Doe</h5>
-                                        <h6 className="subtitle">Property Specialist</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col lg="3" md="6" className="m-b-30">
-                            <Row className="no-gutters">
-                                <Col md="12" className="col-md-12 pro-pic t4">
-                                    <div className="card-img-overlay">
-                                        <ul className="list-inline">
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-facebook"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                            <li className="list-inline-item"><a href="#"><i className="fa fa-behance"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </Col>
-                                <Col md="12">
-                                    <div className="p-t-10">
-                                        <h5 className="title font-medium">Michael Doe</h5>
-                                        <h6 className="subtitle">Property Specialist</h6>
-                                        <p>You can relay on our amazing features list and also our customer services will be great experience.</p>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col> */}
                     </Row>
                 </Container>
                 <div className="feature20 up">
                     <Container>
                         <Row className="wrap-feature-20 justify-content-center">
                             <Col lg="6">
-                                <Card className="bg-light">
+                                <Card style={{ backgroundColor: '#263238', color: '#ffffff' }}>
                                     <Row>
                                         <Col md="8">
-                                            <CardBody className="d-flex no-block">
+                                            <CardBody className="d-flex no-block" style={{ backgroundColor: '#263238', color: '#ffffff' }}>
                                                 <div className="m-r-20">
-                                                    <PersonSearchIcon />
+                                                    <PersonSearchIcon style={{ backgroundColor: '#263238', color: '#ffffff' }} />
                                                 </div>
                                                 <div>
-                                                    <h5 className="font-medium">
+                                                    <h5 className="font-medium" style={{ backgroundColor: '#263238', color: '#ffffff' }}>
                                                         {
                                                             t.index.feature.num2
                                                                 .section4.title
@@ -267,7 +207,7 @@ const TeamComponent = () => {
                                                 </div>
                                             </CardBody>
                                         </Col>
-                                        <Col md="4" className="text-center">
+                                        <Col md="4" className="text-center" style={{ backgroundColor: '#263238', color: '#ffffff' }}>
                                             <a
                                                 href={site.discord}
                                                 target="_blank"
