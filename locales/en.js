@@ -544,8 +544,8 @@ export default {
             getStarted: 'Get Started for Free',
         },
         deepia: {
-            title: 'Deepia',
-            h1: 'AI Agent',
+            title: 'AI Agent',
+            h1: 'Deepia',
             h6:
                 'We recommend this service to the following people\n\n・Want to be a person who can use AI\n・Want a convenient tool to use AI on their behalf\n・Want to use AI for self-expression and self-realisation\n\nUnleash your brain power.',
             getStarted: 'Get Started',
@@ -553,8 +553,8 @@ export default {
             nowThinking: 'Not Thinking...',
         },
         deepmarketer: { 
-            title: 'DeepMarketer', 
-            h1: 'Neuromarketing', 
+            title: 'Neuromarketing', 
+            h1: 'DeepMarketer', 
             h6: 'We recommend this service to the following people\n\n・Want to understand customer behavior at a deeper psychological level\n・Want to leverage neuroscience insights for more effective marketing\n・Want to create emotionally resonant marketing campaigns based on brain science\n\nUnlock the power of the consumer mind.', 
             getStarted: 'Get Started', 
             preRegistration: 'Pre-Registration', 
