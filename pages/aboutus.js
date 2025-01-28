@@ -93,7 +93,7 @@ const CompanyOverview = () => {
                 <span
                     dangerouslySetInnerHTML={{ __html: t.overview.content }}
                 />
-                <h1 style={{ margin: '35px 0 30px' }}>
+                {/* <h1 style={{ margin: '35px 0 30px' }}>
                     {t.overview.performance}
                 </h1>
                 <Bar data={graphData} />
@@ -103,7 +103,7 @@ const CompanyOverview = () => {
                     download="2022_DeepRecommend_Financial_Report.pdf"
                 >
                     2022
-                </a>
+                </a> */}
             </div>
             <Footer />
         </>
