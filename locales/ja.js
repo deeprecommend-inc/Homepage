@@ -187,7 +187,7 @@ export default {
                 instagram: 'https://www.instagram.com/jin_sugimoto_0818/',
                 name: '杉本迅',
                 position: 'CEO',
-                role: '経営戦略・エンジニアリング・ファイナンス',
+                role: 'セールス/マーケティング',
                 message:
                     '',
                 // urlTitle: 'スキルシート',
