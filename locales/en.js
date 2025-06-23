@@ -189,7 +189,7 @@ export default {
                 instagram: 'https://www.instagram.com/jin_sugimoto_0818/',
                 name: 'Jin Sugimoto',
                 position: 'CEO',
-                role: 'Strategy, Engineering, Finance',
+                role: 'Strategy > Engineering > Finance > Sales/Marketing',
                 message:
                     'Founder & CEO / MOT (Management of Technology) / Rust, Python, TypeScript. / Neuroenginering.',
                 urlTitle: 'Skill Sheet',
@@ -224,7 +224,7 @@ export default {
                 twitter: 'https://twitter.com/gon_ko_gon',
                 instagram: 'https://www.instagram.com/y.k_gon/',
                 name: 'Kouki Yoshida',
-                position: 'Designer',
+                position: 'COO',
                 role: 'Web Design, AI tools, English, Sales',
                 message: '*Writing',
             },
