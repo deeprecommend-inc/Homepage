@@ -123,7 +123,7 @@ const HeaderComponent = localePath => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        DeepLab
+                                        Media
                                     </NavLink>
                                 </NavItem>
                                 <UncontrolledDropdown nav inNavbar>

@@ -69,7 +69,7 @@ function Header({ sections, title, localePath }) {
                                 onClick={routeToHome}
                             />
                             <h1 className="ml-3" onClick={routeToLab}>
-                                DeepLab
+                                Media
                             </h1>
                         </NavbarBrand>
                         <NavbarToggler onClick={toggle}>
