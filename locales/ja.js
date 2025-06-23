@@ -18,7 +18,7 @@ export default {
                 cmcn: 'DeepConnect',
                 magazine: 'DeepMagazine',
                 record: 'DeepRecord',
-                marketing: 'DeepMarketer',
+                marketing: 'Wave',
             },
             customerCare: {
                 label: 'カスタマーケア',
@@ -508,7 +508,7 @@ export default {
             nowThinking: '考え中...',
         },
         deepmarketer: { 
-            title: 'DeepMarketer', 
+            title: 'Wave', 
             h1: 'Neuromarketing', 
             h6: '以下のような方におすすめのサービスです\n\n・顧客の心理をより深く理解したい方\n・脳科学の知見を活かした効果的なマーケティングを実現したい方\n・脳科学に基づく感情に響くマーケティングキャンペーンを作りたい方\n\n消費者の心を解き明かす。', 
             getStarted: '始める', 

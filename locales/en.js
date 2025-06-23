@@ -21,7 +21,7 @@ export default {
                 cmcn: 'DeepConnect',
                 magazine: 'DeepMagazine',
                 record: 'DeepRecord',
-                marketing: 'DeepMarketer',
+                marketing: 'Wave',
             },
             customerCare: {
                 label: 'Customer care',
@@ -554,7 +554,7 @@ export default {
         },
         deepmarketer: { 
             title: 'Neuromarketing', 
-            h1: 'DeepMarketer', 
+            h1: 'Wave', 
             h6: 'We recommend this service to the following people\n\n・Want to understand customer behavior at a deeper psychological level\n・Want to leverage neuroscience insights for more effective marketing\n・Want to create emotionally resonant marketing campaigns based on brain science\n\nUnlock the power of the consumer mind.', 
             getStarted: 'Get Started', 
             preRegistration: 'Pre-Registration', 

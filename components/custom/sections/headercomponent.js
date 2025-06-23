@@ -114,7 +114,7 @@ const HeaderComponent = localePath => {
                                     <NavLink
                                         onClick={scrollToServices}
                                     >
-                                        DeepMarketer
+                                        Wave
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
