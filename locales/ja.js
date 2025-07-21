@@ -6,7 +6,7 @@ export default {
                 label: 'アクセス',
                 phone: '電話番号: 050 8886 7799',
                 email: 'Email: contact@deeprecommend.com',
-                address: '住所: 東京都文京区大塚6丁目32-4',
+                address: '住所: 〒101-0046　東京都千代田区神田多町２丁目８－１１　ブライズ神田1203',
             },
             service: {
                 label: 'サービス',
@@ -386,7 +386,7 @@ export default {
         <article>
           <h2>事業者の住所</h2>
           <div>
-            東京都文京区大塚6丁目32-4
+            〒101-0046　東京都千代田区神田多町２丁目８－１１　ブライズ神田1203
           </div>
         </article>
         <article>
@@ -420,7 +420,7 @@ export default {
                 </tr>
                 <tr>
                     <td class="py-2 pr-2">住所</td>
-                    <td>〒558-0011<br/>東京都文京区苅田5-16-3-201</td>
+                    <td>〒558-0011<br/>〒101-0046　東京都千代田区神田多町２丁目８－１１　ブライズ神田1203</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -461,7 +461,7 @@ export default {
             },
         },
         detailBox: {
-            address: '東京都文京区\n 大塚6丁目32-4',
+            address: '〒101-0046　東京都千代田区\n 神田多町２丁目８－１１　ブライズ神田1203',
         },
     },
     page: {
@@ -624,7 +624,7 @@ export default {
                         <img src="/sugimoto.jpg" style="width: 100%; max-width: 360px;" />
                         <tr>
                             <td class="py-2 pr-2"><h3>杉本迅</h3></td>
-                            <td>男、2003年8月18日生まれ、大阪府大阪市出身、東京都文京区在住、清風高校中退、身長166cm、<br/>体重54kg、血液型O型、三人兄弟の一番上（2歳下の妹と6歳下の弟）、左利き。</td>
+                            <td>男、2003年8月18日生まれ、大阪府大阪市出身、東京都千代田区在住、清風高校中退、身長166cm、<br/>体重54kg、血液型O型、三人兄弟の一番上（2歳下の妹と6歳下の弟）、左利き。</td>
                         </tr>
                         <tr>
                             <td class="py-2 pr-2"><h3>略歴</h3></td>
