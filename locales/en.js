@@ -189,7 +189,7 @@ export default {
                 instagram: 'https://www.instagram.com/jin_sugimoto_0818/',
                 name: 'Jin Sugimoto',
                 position: 'CEO',
-                role: 'Strategy > Engineering > Finance > Sales/Marketing',
+                role: 'Sales / Finance',
                 message:
                     'Founder & CEO / MOT (Management of Technology) / Rust, Python, TypeScript. / Neuroenginering.',
                 urlTitle: 'Skill Sheet',
